@@ -1,0 +1,22 @@
+= Topic Library: All Topics
+:doctype: book
+:toc: left
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 3
+:source-highlighter: rouge
+:icons: font
+:author: IKE Network
+:imagesdir: images
+
+// All-topics preview for HTML authoring. Not used by assemblies.
+// Every topic must be included here so cross-topic xrefs resolve (IKE-INGEST, Step 7).
+//
+// == Domain Heading
+//
+// include::topics/{domain}/{slug}.adoc[leveloffset=+1]
+
+[preface]
+== About This Library
+
+Topics are added here as source documents are ingested.

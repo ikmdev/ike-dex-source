@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.1.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0
+         http://maven.apache.org/xsd/maven-4.1.0.xsd">
+    <modelVersion>4.1.0</modelVersion>
+
+    <parent>
+        <groupId>dev.ikm.dex.source</groupId>
+        <artifactId>sources</artifactId>
+    </parent>
+
+    <artifactId>assemblies</artifactId>
+    <packaging>pom</packaging>
+
+    <name>Assemblies</name>
+    <description>Intermediate aggregator for every assembly module.</description>
+
+    <properties>
+        <!-- Self-contained HTML is the portable deliverable; render it for assemblies only. -->
+        <ike.skip.html-single>false</ike.skip.html-single>
+    </properties>
+
+    <!-- Assembly-specific plugin configuration, if ever needed, goes in <build><pluginManagement> here. -->
+
+    <subprojects>
+        <!-- EVERY INGEST THAT CREATES AN ASSEMBLY MUST ADD ITS DIRECTORY HERE.
+             An assembly missing from this list is silently not built. -->
+        <subproject>compendium</subproject>
+    </subprojects>
+
+</project>

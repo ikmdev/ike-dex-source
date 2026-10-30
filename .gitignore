@@ -1,0 +1,61 @@
+# Tinkar changesets: ignored so they are never committed by accident (they can be multi-GB).
+# Add one on purpose with: git add -f src/main/resources/<file>
+# That includes each hand-written {name}-manifest.mf beside its {name}-ike-cs.zip.
+# Only untracked files are protected; a file already tracked stays tracked and its edits stage normally.
+src/main/resources/
+
+# Maven build output (includes the generated topic-registry.yaml and term-index.yaml)
+target/
+
+# Build standards unpacked by `mvn validate` into every module: build artifacts, never edit or commit
+.claude/
+
+# NOTE: .asciidoctorconfig is deliberately NOT ignored. The build extracts one into each module
+# with src/docs/asciidoc/; commit them so every developer's IDE resolves includes.
+# (Do not copy the scaffold's `**/.asciidoctorconfig` line into this file.)
+
+# AsciiDoctor diagram cache
+.asciidoctor/
+
+# Maven release and tooling leftovers
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.ike-backup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.mvn/local-repo/
+.ike/vcs-state
+
+# ike:* goal reports
+ike꞉*.md
+
+# Python virtual environment and caches (sources/utilities/)
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Scratch space for document conversion output
+work/
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db

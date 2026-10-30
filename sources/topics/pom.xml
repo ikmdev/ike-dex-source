@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.1.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0
+         http://maven.apache.org/xsd/maven-4.1.0.xsd">
+    <modelVersion>4.1.0</modelVersion>
+
+    <parent>
+        <groupId>dev.ikm.dex.source</groupId>
+        <artifactId>sources</artifactId>
+    </parent>
+
+    <!-- Fixed by IKE-INGEST: the topic library is always `topics`. -->
+    <artifactId>topics</artifactId>
+    <packaging>pom</packaging>
+
+    <name>Topics</name>
+    <description>
+        Topic library. Publishes an AsciiDoc source ZIP (classifier adoc) consumed by the assemblies.
+    </description>
+
+    <properties>
+        <ike.skip.prince>true</ike.skip.prince>
+        <ike.skip.html-single>true</ike.skip.html-single>
+        <ike.skip.pdf-default>true</ike.skip.pdf-default>
+    </properties>
+</project>

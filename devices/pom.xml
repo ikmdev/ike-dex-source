@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  devices: one Maven module per device, each rebuilding that device's ingested source documents as an
+  assembly and holding the device's authored DeX records.
+
+  Standalone, like sources/: the parent is ike-parent, NOT the repository's main pom, and root="true" is
+  not set. Every device module has THIS pom as its parent (relativePath ../../../../pom.xml from
+  IVDs/{category}/{gmdn-term}/{primary-DI}/).
+
+  A device module depends on the topic library ZIP (topics:adoc:zip, built in sources/topics), so build it
+  from the repository root with -am, or run `mvn install -pl topics` in sources/ first.
+-->
+<project xmlns="http://maven.apache.org/POM/4.1.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0
+         http://maven.apache.org/xsd/maven-4.1.0.xsd">
+    <modelVersion>4.1.0</modelVersion>
+
+    <parent>
+        <groupId>network.ike.platform</groupId>
+        <artifactId>ike-parent</artifactId>
+        <version>204</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>dev.ikm.dex.source</groupId>
+    <artifactId>devices</artifactId>
+    <!-- Keep equal to the main pom's version (IKE-MAVEN: one version per reactor). -->
+    <version>1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>IKE DeX Source: Devices</name>
+    <description>
+        Per-device assemblies of ingested source documents, with the device's authored DeX records.
+    </description>
+    <inceptionYear>2026</inceptionYear>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:https://github.com/ikmdev/ike-dex-source.git</connection>
+        <developerConnection>scm:git:git@github.com:ikmdev/ike-dex-source.git</developerConnection>
+        <url>https://github.com/ikmdev/ike-dex-source</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <!-- Required by ike-parent's site-url enforcer (ike-issues#383). Placeholder: no site is published. -->
+    <distributionManagement>
+        <site>
+            <id>ike-site</id>
+            <url>https://ike.network/${project.artifactId}/</url>
+        </site>
+    </distributionManagement>
+
+    <properties>
+        <ike.publishToCentral>false</ike.publishToCentral>
+        <!-- ike-parent 204 skips every renderer by default; render HTML. PDF: -Dike.skip.prince=false. -->
+        <ike.skip.html>false</ike.skip.html>
+        <!-- Self-contained HTML is the portable deliverable; render it for assemblies. -->
+        <ike.skip.html-single>false</ike.skip.html-single>
+        <!-- Never deploy device assemblies. -->
+        <maven.deploy.skip>true</maven.deploy.skip>
+    </properties>
+
+    <subprojects>
+        <!-- EVERY NEW DEVICE MUST BE ADDED HERE, by its path from this file, for example:
+             <subproject>IVDs/chemistries/troponin-i-ivd-reagent/10054749000187</subproject>
+             No pom is needed at the category or GMDN levels. A device missing from this list is
+             silently not built. -->
+    </subprojects>
+
+</project>

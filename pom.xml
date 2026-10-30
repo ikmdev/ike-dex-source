@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ike-dex-source: main pom.
+
+  Owns what ships from the repository root: hand-made Tinkar changesets in src/main/resources/ (gitignored),
+  each with a hand-written manifest beside it, named by the same prefix:
+
+      src/main/resources/dex-record-1-ike-cs.zip         -> classifier ike-cs,   extension zip
+      src/main/resources/dex-record-1-manifest.mf        -> classifier manifest, extension mf
+
+  Shipping is MANUAL, one record per command. This pom installs and deploys nothing by itself:
+
+      mvn deploy -pl . -Ddex.record=dex-record-1
+
+  `-Ddex.record` activates the `dex-record` profile below. It checks that both files exist, then
+  installs and deploys ONE artifact, ${project.groupId}:dex-record-1:${project.version}, with the two files
+  as classifiers, using install-file and deploy-file. Nothing else in src/main/resources/ is touched.
+  There is no Java, no scripting and no generated manifest.
+
+  The ingest tree under sources/ is listed as a subproject for root-level aggregation only.
+  sources/pom.xml does NOT have this pom as its parent, so nothing below inherits any of this.
+
+  Packaging must stay `pom`: Maven rejects any other packaging on a project that lists subprojects.
+-->
+<project xmlns="http://maven.apache.org/POM/4.1.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0
+         http://maven.apache.org/xsd/maven-4.1.0.xsd"
+         root="true">
+    <modelVersion>4.1.0</modelVersion>
+
+    <parent>
+        <groupId>network.ike.platform</groupId>
+        <artifactId>ike-parent</artifactId>
+        <version>204</version>
+        <relativePath/>
+    </parent>
+
+    <groupId>dev.ikm.dex.source</groupId>
+    <artifactId>ike-dex-source</artifactId>
+    <version>1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>IKE DeX Source</name>
+    <description>
+        DeX record source documentation: the ingested source document, its topic library and
+        assemblies (sources/), and the Tinkar changesets with their manifest (repository root).
+    </description>
+    <inceptionYear>2026</inceptionYear>
+
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:https://github.com/ikmdev/ike-dex-source.git</connection>
+        <developerConnection>scm:git:git@github.com:ikmdev/ike-dex-source.git</developerConnection>
+        <url>https://github.com/ikmdev/ike-dex-source</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <!-- Required by ike-parent's site-url enforcer (ike-issues#383). Placeholder: no site is published. -->
+    <distributionManagement>
+        <site>
+            <id>ike-site</id>
+            <url>https://ike.network/${project.artifactId}/</url>
+        </site>
+    </distributionManagement>
+
+    <properties>
+        <ike.publishToCentral>false</ike.publishToCentral>
+        <!-- This pom's own artifact is never shipped. Records ship through the dex-record profile, whose
+             install-file and deploy-file goals do not read these two properties. -->
+        <maven.install.skip>true</maven.install.skip>
+        <maven.deploy.skip>true</maven.deploy.skip>
+    </properties>
+
+    <subprojects>
+        <!-- Aggregation only: sources/ and devices/ are standalone and do not inherit from this pom. -->
+        <subproject>sources</subproject>
+        <subproject>devices</subproject>
+    </subprojects>
+
+    <profiles>
+        <!-- Activated by the presence of -Ddex.record=<name> (a pom property cannot activate it). -->
+        <profile>
+            <id>dex-record</id>
+            <activation>
+                <property>
+                    <name>dex.record</name>
+                </property>
+            </activation>
+            <properties>
+                <dex.record.changeset>${project.basedir}/src/main/resources/${dex.record}-ike-cs.zip</dex.record.changeset>
+                <dex.record.manifest>${project.basedir}/src/main/resources/${dex.record}-manifest.mf</dex.record.manifest>
+                <!-- Snapshot repository by default (version 1-SNAPSHOT). For a release version override both:
+                     -Ddex.repo.id=ike-staging -Ddex.repo.url=https://nexus.tinkar.org/repository/ike-staging/ -->
+                <dex.repo.id>${project.distributionManagement.snapshotRepository.id}</dex.repo.id>
+                <dex.repo.url>${project.distributionManagement.snapshotRepository.url}</dex.repo.url>
+            </properties>
+            <build>
+                <plugins>
+                    <!-- Reject a malformed name or a missing file before anything is installed or deployed. -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-enforcer-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>require-dex-record-files</id>
+                                <phase>validate</phase>
+                                <goals><goal>enforce</goal></goals>
+                                <configuration>
+                                    <rules>
+                                        <requireProperty>
+                                            <property>dex.record</property>
+                                            <regex>^(?!.*\.\.)[A-Za-z0-9][A-Za-z0-9._-]*$</regex>
+                                            <regexMessage>dex.record must be a file prefix such as dex-record-1: letters, digits, dot, underscore and hyphen only, no path, no "..".</regexMessage>
+                                        </requireProperty>
+                                        <requireFilesExist>
+                                            <files>${dex.record.changeset},${dex.record.manifest}</files>
+                                            <message>Both files must exist: src/main/resources/${dex.record}-ike-cs.zip and src/main/resources/${dex.record}-manifest.mf</message>
+                                        </requireFilesExist>
+                                    </rules>
+                                    <fail>true</fail>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <!-- Local repository: the changeset with its generated pom, then the manifest. -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-install-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>install-dex-record-changeset</id>
+                                <phase>install</phase>
+                                <goals><goal>install-file</goal></goals>
+                                <configuration>
+                                    <groupId>${project.groupId}</groupId>
+                                    <artifactId>${dex.record}</artifactId>
+                                    <version>${project.version}</version>
+                                    <packaging>zip</packaging>
+                                    <classifier>ike-cs</classifier>
+                                    <file>${dex.record.changeset}</file>
+                                    <generatePom>true</generatePom>
+                                </configuration>
+                            </execution>
+                            <execution>
+                                <id>install-dex-record-manifest</id>
+                                <phase>install</phase>
+                                <goals><goal>install-file</goal></goals>
+                                <configuration>
+                                    <groupId>${project.groupId}</groupId>
+                                    <artifactId>${dex.record}</artifactId>
+                                    <version>${project.version}</version>
+                                    <packaging>mf</packaging>
+                                    <classifier>manifest</classifier>
+                                    <file>${dex.record.manifest}</file>
+                                    <generatePom>false</generatePom>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                    <!-- Remote repository: one deployment, both files, same GAV. -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-deploy-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>deploy-dex-record</id>
+                                <phase>deploy</phase>
+                                <goals><goal>deploy-file</goal></goals>
+                                <configuration>
+                                    <groupId>${project.groupId}</groupId>
+                                    <artifactId>${dex.record}</artifactId>
+                                    <version>${project.version}</version>
+                                    <packaging>zip</packaging>
+                                    <classifier>ike-cs</classifier>
+                                    <file>${dex.record.changeset}</file>
+                                    <files>${dex.record.manifest}</files>
+                                    <classifiers>manifest</classifiers>
+                                    <types>mf</types>
+                                    <generatePom>true</generatePom>
+                                    <repositoryId>${dex.repo.id}</repositoryId>
+                                    <url>${dex.repo.url}</url>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+
+</project>

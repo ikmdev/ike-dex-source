@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  TEMPLATE, not built: it is named pom.xml.template because Maven 4 auto-discovers a pom.xml in a
+  subdirectory when <subprojects> is empty.
+  Copy this folder to devices/IVDs/{category}/{gmdn-term}/{primary-DI}/, rename this file to pom.xml,
+  then replace every {placeholder}.
+  {primary-DI} must be identical in four places: the directory name, <artifactId>, the .adoc file name
+  and pdf.source.document (IKE-ASSEMBLY). Then add the device to devices/pom.xml <subprojects>.
+  The relativePath assumes exactly four levels below devices/.
+-->
+<project xmlns="http://maven.apache.org/POM/4.1.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0
+         http://maven.apache.org/xsd/maven-4.1.0.xsd">
+    <modelVersion>4.1.0</modelVersion>
+
+    <parent>
+        <groupId>dev.ikm.dex.source</groupId>
+        <artifactId>devices</artifactId>
+        <relativePath>../../../../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>{primary-DI}</artifactId>
+    <packaging>pom</packaging>
+
+    <name>{primary-DI}: {device name}</name>
+    <description>Assembly of the ingested source documents for device {primary-DI}.</description>
+
+    <properties>
+        <pdf.source.document>{primary-DI}</pdf.source.document>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>topics</artifactId>
+            <version>${project.version}</version>
+            <classifier>adoc</classifier>
+            <type>zip</type>
+        </dependency>
+    </dependencies>
+</project>

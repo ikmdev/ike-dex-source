@@ -1,0 +1,14 @@
+= Linked Devices: {primary-DI}
+
+// Use the sections that apply: Approved Instruments, Approved IVDs / Assays, Reagents, Calibrators,
+// Controls, Accessories. Link in BOTH directions: the other device's linked-devices.adoc must list this DI.
+//
+// xref path, written from this device's folder to the other device's linked-devices.adoc:
+//   same GMDN folder:      xref:../{other DI}/linked-devices.adoc[Linked Devices]
+//   different GMDN folder: xref:../../{gmdn-term}/{other DI}/linked-devices.adoc[Linked Devices]
+//   different category:    xref:../../../{category}/{gmdn-term}/{other DI}/linked-devices.adoc[Linked Devices]
+
+== Controls
+
+* {other DI} — {device name}
+  xref:../../{gmdn-term}/{other DI}/linked-devices.adoc[Linked Devices]

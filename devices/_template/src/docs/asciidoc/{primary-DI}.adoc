@@ -1,0 +1,34 @@
+= {device name}: Source Documents
+:doctype: book
+:toc: left
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 3
+:source-highlighter: rouge
+:icons: font
+:author: IKE Network
+:device-primary-di: {primary-DI}
+:topics: {generated}/topics-asciidoc
+:imagesdir: {topics}/images
+
+// Reconstruction assembly: rebuilds this device's ingested source documents from the topic library.
+// One chapter per source document, each include in source order. Use leveloffset=+2 under a == chapter.
+// Reconstruction assemblies may include ext/ topics (IKE-ASSEMBLY forbids it for other assemblies).
+// Keep only the chapters this device has.
+//
+// == GUDID Device Record
+//
+// include::{topics}/topics/ext/{domain}/{slug}.adoc[leveloffset=+2]
+//
+// == 510(k) Decision Summary
+//
+// include::{topics}/topics/ext/regulatory/{slug}.adoc[leveloffset=+2]
+//
+// == Package Insert
+//
+// include::{topics}/topics/ext/{domain}/{slug}.adoc[leveloffset=+2]
+
+[preface]
+== About This Document
+
+Source documents for device {primary-DI}, rebuilt from the topic library.

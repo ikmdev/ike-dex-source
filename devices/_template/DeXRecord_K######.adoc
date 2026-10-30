@@ -1,0 +1,21 @@
+// dex-k######
+// Topic: DeXRecord_K######
+// Type: reference
+// Status: draft
+:topic-id: dex-k######
+:topic-type: reference
+:topic-status: draft
+:topic-keywords: 510(k), K######, {analyte}, {device}, {product code}
+:topic-summary: {150-400 characters: the device, regulation and class, intended use, and what this record carries.}
+:topic-related: {ids of the ingested source topics this record draws on, comma-separated}
+:topic-notes: {How this record was authored and from which source documents.}
+:topic-provenance: {external for a verbatim 510(k) ingest; project for a record authored from several sources}
+:topic-license: {license of the content}
+
+[[dex-k######]]
+= DeXRecord_K######
+
+// TEMPLATE. Rename to DeXRecord_{510(k) number}.adoc. Keep the file name, title and topic id in agreement.
+// A verbatim ingest of the FDA decision summary follows IKE-DEX-INGEST (layout mirrors the PDF).
+// The format of an authored record is not yet defined by any IKE standard: see devices/README.md.
+// Devices with no 510(k) number have no K-based name yet: decide with the user before creating one.
