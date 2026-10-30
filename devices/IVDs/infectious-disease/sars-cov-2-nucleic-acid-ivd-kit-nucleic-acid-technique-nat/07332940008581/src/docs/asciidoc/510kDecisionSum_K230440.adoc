@@ -1,0 +1,22 @@
+= 510(k) Decision Summary K230440: Xpert Xpress CoV-2 plus
+:doctype: article
+:toc: left
+:toclevels: 3
+:source-highlighter: rouge
+:icons: font
+:author: IKE Network
+:device-primary-di: 07332940008581
+:device-name: Xpert® Xpress CoV-2 plus (GeneXpert®)
+:device-labeler: CEPHEID
+:device-gmdn-term: SARS-CoV-2 nucleic acid IVD, kit, nucleic acid technique (NAT)
+:document-type: 510(k) Decision Summary
+:source-topic: dex-k230440
+:topics: {generated}/topics-asciidoc
+:imagesdir: {topics}/images
+
+// Reconstruction assembly of one ingested source document (IKE-ASSEMBLY).
+// The file name matches the name the DeX record uses in its :src-*: attributes, so the record's links resolve.
+// The topic carries its own numbering and lettering, so :sectnums: is deliberately not set.
+// Public domain US federal work.
+
+include::{topics}/topics/dex/510kDecisionSum_K230440.adoc[leveloffset=+1]

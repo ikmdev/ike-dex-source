@@ -1,0 +1,182 @@
+// gudid-07332940008581
+// Topic: GUDIDRecord_07332940008581
+// Type: reference
+// Status: review
+// Omitted (per IKE-GUDID-INGEST): government banner, print header timestamp,
+// label-discrepancy notice, AccessGUDID logo.
+:topic-id: gudid-07332940008581
+:topic-type: reference
+:topic-status: review
+:topic-keywords: primary DI, GS1, GMDN, QQX, CEPHEID, SARS-CoV-2, prescription kit, non-sterile
+:topic-summary: Describes the AccessGUDID device record for DI 07332940008581: GeneXpert® \
+  (Xpert® Xpress CoV-2 plus) from CEPHEID, a single-use prescription kit under GMDN term 64747 \
+  for SARS-CoV-2 nucleic acid detection, with product code QQX, storage at 2 to 28 degrees \
+  Celsius, and a non-sterile packaging status.
+:topic-notes: GUDID record — whole document, verbatim after source cleanup, exempt from size \
+  bounds per IKE-GUDID-INGEST. No opening context paragraph is added; the layout mirrors the PDF \
+  and the summary is the abstract. The "ADDITIONAL IDENTIFIERS" subheading is kept as a level-3 \
+  heading; its PDF subsections are titled blocks to hold heading depth. Public domain US federal work.
+:topic-related: dex-k230440, ext-cepheid-xpert-xpress-cov2-plus-ifu-303-0272
+:topic-provenance: external
+:topic-citation: U.S. Food and Drug Administration and U.S. National Library of Medicine. \
+  AccessGUDID, device record for DI 07332940008581: GeneXpert®, CEPHEID. Accessed \
+  October 26, 2026. https://accessgudid.nlm.nih.gov/devices/07332940008581
+:topic-license: Public domain — US federal government work.
+
+[[gudid-07332940008581]]
+= GUDIDRecord_07332940008581
+
+// Editorial: all content below is verbatim from the AccessGUDID device record; layout mirrors the PDF.
+
+[.text-center]
+*DEVICE: GeneXpert® (07332940008581)*
+
+== DEVICE IDENTIFIER (DI) INFORMATION
+
+. *Brand Name:* GeneXpert®
+. *Version or Model:* XPRS-COV2-10
+. *Commercial Distribution Status:* In Commercial Distribution
+. *Catalog Number:* XPRS-COV2-10
+. *Company Name:* CEPHEID
+. *Device Description:* Xpert® Xpress CoV-2 plus
+. *Primary DI Number:* 07332940008581 indexterm:[device identification, primary DI]
+. *Issuing Agency:* GS1 indexterm:[device identification, GS1]
+. *Commercial Distribution End Date:*
+. *Device Count:* 1
+. *Labeler D-U-N-S® Number{asterisk}:* 956711444 indexterm:[device identification, labeler D-U-N-S number] +
+{asterisk}Terms of Use
+
+== DEVICE CHARACTERISTICS
+
+indexterm:[device identification, MRI safety labeling]
+
+[cols="2,1"]
+|===
+| What MRI safety information does the labeling contain?
+| Labeling does not contain MRI Safety Information
+
+| Device required to be labeled as containing natural rubber latex or dry natural rubber (21 CFR 801.437):
+| No
+
+| Device labeled as "Not made with natural rubber latex":
+| No
+
+| For Single-Use:
+| Yes
+
+| Prescription Use (Rx):
+| Yes
+
+| Over the Counter (OTC):
+| No
+
+| Kit:
+| Yes
+
+| Combination Product:
+| No
+
+| Human Cell, Tissue or Cellular or Tissue-Based Product (HCT/P):
+| No
+|===
+
+== GMDN
+
+indexterm:[device identification, GMDN]
+*GMDN©* Term Code,
+Names and Definitions ({asterisk}Terms of Use):
+*GMDN®* is a registered trademark of The GMDN Agency.
+All rights reserved.
+Used under licence from The GMDN Agency Ltd.
+
+[cols="1,2,4,1,1", options="header"]
+|===
+| GMDN Term Code | GMDN Term Name | GMDN Term Definition | GMDN Term Status | Implantable?
+
+| 64747
+| SARS-CoV-2 nucleic acid IVD, kit, nucleic acid technique (NAT)
+| A collection of reagents and other associated materials intended to be used for the qualitative and/or quantitative detection of nucleic acid from severe acute respiratory syndrome-associated coronavirus 2 (SARS-CoV-2) in a clinical specimen, using a nucleic acid technique (NAT). This test is used to aid the diagnosis of coronavirus disease (COVID-19) infection.
+| Active
+| false
+|===
+
+== FDA PRODUCT CODE
+
+indexterm:[device identification, FDA product code]
+
+[cols="1,3", options="header"]
+|===
+| Product Code | Product Code Name
+| QQX | Respiratory Specimen Nucleic Acid Sars-Cov-2 Test
+|===
+
+== FDA PREMARKET SUBMISSION
+
+indexterm:[device identification, premarket submission]
+
+[cols="2,1", options="header"]
+|===
+| FDA Premarket Submission Number | Supplement Number
+| Not Available/Not Released |
+|===
+
+Device Exempt from Premarket Submission:
+No
+
+== STERILIZATION
+
+. *Device Packaged as Sterile:* No indexterm:[device identification, sterilization]
+. *Requires Sterilization Prior to Use:* No
+. *Sterilization Method:* No Sterilization Methods Found
+
+== STORAGE AND HANDLING
+
+. *Storage Environment Temperature:* between 2 and 28 Degrees Celsius
+
+== CLINICALLY RELEVANT SIZE
+
+. *Size Type Text:* No Device Sizes
+
+== DEVICE RECORD STATUS
+
+. *Public Device Record Key:* b91759d4-d4ac-4d67-86e4-1b61322a688c
+. *Public Version Date:* January 30, 2024
+. *Public Version Number:* 1
+. *DI Record Publish Date:* January 22, 2024
+
+== ALTERNATIVE AND ADDITIONAL IDENTIFIERS
+
+=== ADDITIONAL IDENTIFIERS
+
+.PACKAGE DI
+[cols="1,1,1,1,1,1", options="header"]
+|===
+| Package DI Number | Quantity per Package | Contains DI | Package Discontinue Date | Package Status | Package Type
+| No Package DIs found | | | | |
+|===
+
+.SECONDARY DI
+[cols="1,2", options="header"]
+|===
+| Issuing Agency | Secondary DI Number
+| No Secondary DIs found |
+|===
+
+.UNIT OF USE DI
+. *Unit of Use DI Number:* No Unit of Use DI Numbers Found
+
+.DIRECT MARKING (DM)
+. *Device Subject to Direct Marking (DM), but Excepted:* No
+. *DM DI Different from Primary DI:* No
+. *DM DI Number:* None
+
+.PRODUCTION IDENTIFIER(S) IN UDI
+. *Lot or Batch Number:* Yes
+. *Serial Number:* No
+. *Expiration Date:* Yes
+. *Manufacturing Date:* No
+. *Donation Identification Number:* No
+
+.CUSTOMER CONTACT
+. *Phone:* 18888383222
+. *Email:* techsupport@cepheid.com

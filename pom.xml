@@ -5,15 +5,16 @@
   Owns what ships from the repository root: hand-made Tinkar changesets in src/main/resources/ (gitignored),
   each with a hand-written manifest beside it, named by the same prefix:
 
-      src/main/resources/dex-record-1-ike-cs.zip         -> classifier ike-cs,   extension zip
-      src/main/resources/dex-record-1-manifest.mf        -> classifier manifest, extension mf
+      src/main/resources/{dir}/dex-record-1-ike-cs.zip   -> classifier ike-cs,   extension zip
+      src/main/resources/{dir}/dex-record-1-manifest.mf  -> classifier manifest, extension mf
 
-  Shipping is MANUAL, one record per command. This pom installs and deploys nothing by itself:
+  {dir} mirrors the device's folder under devices/ (IVDs/{category}/{gmdn-term}/{primary-DI}). Shipping is
+  MANUAL, one record per command. This pom installs and deploys nothing by itself:
 
-      mvn deploy -pl . -Ddex.record=dex-record-1
+      mvn deploy -pl . -Ddex.record=dex-record-1 -Ddex.record.dir=IVDs/{category}/{gmdn-term}/{primary-DI}
 
   `-Ddex.record` activates the `dex-record` profile below. It checks that both files exist, then
-  installs and deploys ONE artifact, ${project.groupId}:dex-record-1:${project.version}, with the two files
+  installs and deploys ONE artifact, ${project.groupId}:dex-record-1:${project.version} (the prefix is the artifactId, so it must be unique across records), with the two files
   as classifiers, using install-file and deploy-file. Nothing else in src/main/resources/ is touched.
   There is no Java, no scripting and no generated manifest.
 
@@ -95,8 +96,10 @@
                 </property>
             </activation>
             <properties>
-                <dex.record.changeset>${project.basedir}/src/main/resources/${dex.record}-ike-cs.zip</dex.record.changeset>
-                <dex.record.manifest>${project.basedir}/src/main/resources/${dex.record}-manifest.mf</dex.record.manifest>
+                <!-- Folder under src/main/resources/ holding the pair; "." means the folder itself. -->
+                <dex.record.dir>.</dex.record.dir>
+                <dex.record.changeset>${project.basedir}/src/main/resources/${dex.record.dir}/${dex.record}-ike-cs.zip</dex.record.changeset>
+                <dex.record.manifest>${project.basedir}/src/main/resources/${dex.record.dir}/${dex.record}-manifest.mf</dex.record.manifest>
                 <!-- Snapshot repository by default (version 1-SNAPSHOT). For a release version override both:
                      -Ddex.repo.id=ike-staging -Ddex.repo.url=https://nexus.tinkar.org/repository/ike-staging/ -->
                 <dex.repo.id>${project.distributionManagement.snapshotRepository.id}</dex.repo.id>
@@ -120,9 +123,14 @@
                                             <regex>^(?!.*\.\.)[A-Za-z0-9][A-Za-z0-9._-]*$</regex>
                                             <regexMessage>dex.record must be a file prefix such as dex-record-1: letters, digits, dot, underscore and hyphen only, no path, no "..".</regexMessage>
                                         </requireProperty>
+                                        <requireProperty>
+                                            <property>dex.record.dir</property>
+                                            <regex>^(?!.*\.\.)(?!/)[A-Za-z0-9._/-]+$</regex>
+                                            <regexMessage>dex.record.dir must be a relative folder under src/main/resources/ (no "..", no leading slash), for example IVDs/infectious-disease/{gmdn-term}/{primary-DI}.</regexMessage>
+                                        </requireProperty>
                                         <requireFilesExist>
                                             <files>${dex.record.changeset},${dex.record.manifest}</files>
-                                            <message>Both files must exist: src/main/resources/${dex.record}-ike-cs.zip and src/main/resources/${dex.record}-manifest.mf</message>
+                                            <message>Both files must exist: src/main/resources/${dex.record.dir}/${dex.record}-ike-cs.zip and src/main/resources/${dex.record.dir}/${dex.record}-manifest.mf</message>
                                         </requireFilesExist>
                                     </rules>
                                     <fail>true</fail>

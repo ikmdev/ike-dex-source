@@ -1,0 +1,40 @@
+= DeX Record: {device name}
+:toc: left
+:toclevels: 4
+:sectnums:
+:source-highlighter: none
+:record-name: {device name}
+:primary-author: {author}
+:reviewer: {reviewer}
+:review-date: {date}
+:src-gudid: GUDIDRecord_{primary-DI}.adoc
+:src-510k: 510kDecisionSum_{K-number}.adoc
+:src-ifu: {slug}/{slug}-ifu.adoc
+
+// TEMPLATE. Authored by hand; NOT a topic, never ingested into sources/topics. Keep this file name
+// (DeXRecord_{primary-DI}.adoc). Each :src-*: file is a reconstruction assembly in this same folder
+// (see the other files here) whose name matches, so the xref: links in the tables resolve.
+// Copy the structure from a finished record, for example 07332940008581.
+
+[abstract]
+DeX record for {device name}.
+Each table represents a Semantic of the DeX record and lists a data element, its data type, its value in the record for this device, and its source.
+
+[[record-metadata]]
+== Record Metadata
+
+Primary Author::
+{primary-author}
+
+Reviewer::
+{reviewer}
+
+Reviewer Sign-off Date::
+{review-date}
+
+[[sources]]
+== Sources
+
+GUDID::
+{citation}
+Document: xref:{src-gudid}#gudid-{primary-DI}[{src-gudid}]

@@ -1,0 +1,702 @@
+= DeX Record: Xpert Xpress CoV-2 plus (GeneXpert®)
+:toc: left
+:toclevels: 4
+:sectnums:
+:source-highlighter: none
+:source-workbook: october_sample_dex_record.xlsx
+:source-sheet: V2 Working Repo
+:record-name: Xpert Xpress Cov-2 Plus
+:primary-author: Elizabeth Zarrilli
+:reviewer: Amy Altman, PhD
+:review-date: 10/30/2026
+:src-gudid: GUDIDRecord_07332940008581.adoc
+:src-510k: 510kDecisionSum_K230440.adoc
+:src-ifu: xpert-xpress-cov-2-plus/xpert-xpress-cov-2-plus-ifu.adoc
+
+[abstract]
+DeX record for the Cepheid GeneXpert Xpert Xpress CoV-2 plus test.
+Each table represents a Semantic of the DeX record and lists a data element, its data type, its value in the record for this device, and its source.
+
+[[record-metadata]]
+== Record Metadata
+
+Primary Author::
+{primary-author}
+
+Reviewer::
+{reviewer}
+
+Reviewer Sign-off Date::
+{review-date}
+
+== Record Structure
+
+The record has two scopes:
+
+Device Scope::
+The following Semantics reference the device Concept:
++
+* GUDID Device Concept
+** Description Semantic(s)
+** Identifier Semantic(s)
+** Stated Definition(s)
+* Device Company Semantic
+* Indication for Use Semantic
+* Predicate Device Semantic
+* Regulatory Classification Semantic
+* Test Performed Semantic(s)
+
+Test Performed Scope::
+There is a _Test Performed Semantic_ for each test performed by the device, unique at the Specimen/Analyte level.
+Every Semantic in this scope references a test performed, therefore there will be one of each Semantic per test performed by the device as they are dependent on the test performed.
+This device has *two* tests performed,
+so it has two Results Description Semantics, two Limit Metrics Semantics, and so on.
+
+[listing]
+----
+DeX Record: Xpert Xpress CoV-2 plus
+│
+└── DEVICE (Xpert® Xpress Cov-2 Plus [07332940008581])
+    ├── Description Semantic(s)
+    ├── Identifier Semantic(s)
+    ├── Stated Definition Semantic(s)
+    ├── Device Company Semantic
+    ├── Indication for Use Semantic
+    ├── Predicate Device Semantic
+    ├── Regulatory Classification Semantic
+    └── Test Performed Semantic 1
+        ├── Results Description Semantic        
+        ├── Limit Metrics Semantic               
+        └── Device Performance Semantic           
+    └── Test Performed Semantic 2
+        ├── Results Description Semantic        
+        ├── Limit Metrics Semantic               
+        └── Device Performance Semantic              
+----
+
+[[sources]]
+== Sources
+
+Each Source cell in the tables below links to the source document,
+transformed into Asciidoc format,
+which is stored in the same folder as this record.
+LOINC and SNOMED CT values are additionally cited by the terminology release listed below.
+
+GUDID::
+U.S. Food and Drug Administration and U.S. National Library of Medicine.
+AccessGUDID, device record for DI 07332940008581: GeneXpert®, CEPHEID.
+Accessed October 26, 2026.
+https://accessgudid.nlm.nih.gov/devices/07332940008581 +
+Document: xref:{src-gudid}#gudid-07332940008581[{src-gudid}]
+
+510(k) Decision Summary::
+U.S. Food and Drug Administration, Center for Devices and Radiological Health.
+510(k) Substantial Equivalence Determination Decision Summary, Assay and Instrument: K230440, Xpert Xpress CoV-2 plus.
+Applicant: Cepheid.
+https://www.accessdata.fda.gov/cdrh_docs/reviews/K230440.pdf +
+Document: xref:{src-510k}#dex-k230440[{src-510k}]
+
+Package Insert (IFU)::
+Cepheid.
+Xpert® Xpress CoV-2 plus Instructions for Use (Package Insert), 303-0272, Rev. A, February 2023.
+https://web-support.cepheid.com/Package%20Insert%20Files/Xpert%20Xpress%20CoV-2%20plus%20ENGLISH%20Package%20Insert%20303-0272%20Rev%20A1_3.pdf +
+Document: xref:{src-ifu}[{src-ifu}]
+
+LOINC::
+Regenstrief Institute.
+LOINC (Logical Observation Identifiers Names and Codes), Version 2.83, released August 19, 2026.
+Accessed October 29, 2026.
+https://loinc.org/downloads/
+
+SNOMED CT::
+SNOMED International.
+SNOMED CT International Edition, October 2026 Release (effective 20261001; package SnomedCT_InternationalRF2_PRODUCTION_20261001T120000Z).
+Accessed October 29, 2026.
+https://www.nlm.nih.gov/healthit/snomedct/international.html
+
+[[device]]
+== Device
+
+[[device-concept]]
+=== GUDID Device Concept
+
+[[description-semantics]]
+==== Description Semantics
+.Description Semantic 1: Fully Qualified Name
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Language for Description
+| Component Display Field
+| k:uuid=02018e5a-46ba-5297-92f1-6931b9f98a12,06d905ea-c647-3af9-bfe5-2514e135b558,45021920-9567-11e5-8994-feff819cdc9f[English]
+| xref:{src-gudid}#gudid-07332940008581[GUDID]
+
+| Description Text
+| String
+| GeneXpert® XPRS-COV2-10
+| xref:{src-gudid}#gudid-07332940008581[GUDID]
+
+| Description Case Significance
+| Component Display Field
+| k:uuid=ecea41a2-f596-3d98-99d1-771b667e55b8[Insensitive]
+| xref:{src-gudid}#gudid-07332940008581[GUDID]
+
+| Description Type
+| Component Display Field
+| k:uuid=00791270-77c9-32b6-b34f-d932569bd2bf,5e1fe940-8faf-11db-b606-0800200c9a66[Fully Qualified Name]
+| xref:{src-gudid}#gudid-07332940008581[GUDID]
+|===
+
+.Description Semantic 2: Regular Name
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Language for Description
+| Component Display Field
+| k:uuid=02018e5a-46ba-5297-92f1-6931b9f98a12,06d905ea-c647-3af9-bfe5-2514e135b558,45021920-9567-11e5-8994-feff819cdc9f[English]
+| xref:{src-gudid}#gudid-07332940008581[GUDID]
+
+| Description Text
+| String
+| Xpert® Xpress CoV-2 plus
+| xref:{src-gudid}#gudid-07332940008581[GUDID]
+
+| Description Case Significance
+| Component Display Field
+| k:uuid=ecea41a2-f596-3d98-99d1-771b667e55b8[Insensitive]
+| xref:{src-gudid}#gudid-07332940008581[GUDID]
+
+| Description Type
+| Component Display Field
+| k:uuid=8bfba944-3965-3946-9bcb-1e80a5da63a2,d6fad981-7df6-3388-94d8-238cc0465a79[Regular Name Description Type]
+| xref:{src-gudid}#gudid-07332940008581[GUDID]
+|===
+
+[[identifier-semantics]]
+==== Identifier Semantics
+
+.Identifier Semantic 1: GS1 Primary DI
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Identifier Source
+| Component Display Field
+| k:uuid=bd5c11e4-b0eb-4971-b5bf-7d1ccc778a73[GS1]
+| xref:{src-gudid}#gudid-07332940008581[GUDID]
+
+| Identifier Value
+| String
+| 07332940008581
+| xref:{src-gudid}#gudid-07332940008581[GUDID]
+|===
+
+.Identifier Semantic 2: FDA Premarket Submission Number
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Identifier Source
+| Component Display Field
+| k:uuid=8c0fd617-7cd8-4498-8aca-428c5361890b[FDA Premarket Submission Number]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| FDA Submission / Clearance Number
+| String
+| K230440
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+|===
+
+[[device-company-semantic]]
+=== Device Company Semantic
+
+.Device Company Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Device Labeler
+| Component Display Field
+| k:uuid=36d1301b-a1d2-450a-8881-dc9e13022ae3[CEPHEID]
+| xref:{src-gudid}#gudid-07332940008581[GUDID]
+|===
+
+[[indication-for-use-semantic]]
+=== Indication for Use Semantic
+
+.Indication for Use Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Indication for Use
+| String
+| The Xpert Xpress CoV-2 plus test, performed on the GeneXpert Dx and GeneXpert Infinity Systems, is a rapid real-time RT-PCR test intended for the qualitative detection of SARS-CoV-2 RNA in nasopharyngeal and anterior nasal swab specimens collected from individuals with signs and symptoms of respiratory tract infection.
+The Xpert Xpress CoV-2 plus test is intended for use as an aid in the diagnosis of COVID-19 if used in conjunction with other clinical, epidemiologic, and laboratory findings.
+Positive results are indicative of the presence of SARS-CoV-2 RNA.
+Positive results do not rule out bacterial infection or co-infection with other pathogens.
+Negative results do not preclude SARS-CoV-2 infection.
+The results of this test should not be used as the sole basis for diagnosis and patient management decisions.
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+|===
+
+[[predicate-device-semantic]]
+=== Predicate Device Semantic
+
+.Predicate Device Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Predicate Device Name
+| Component Display Field
+| k:uuid=01de4927-09b6-51df-b7f6-a0f8fb581eec[BioFire COVID-19 Test 2 [00851458005235\]]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+|===
+
+[[regulatory-classification-semantic]]
+=== Regulatory Classification Semantic
+
+.Regulatory Classification Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| CLIA Complexity
+| Component Display Field
+| k:uuid=b10b443c-1848-4c4b-9016-60e9bbc7a1c4[Waived Test]
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Prescription Status
+| Component Display Field
+| k:uuid=b424f8ba-81b2-49a4-8907-ddc376d44f29[Prescription Required]
+| xref:{src-gudid}#gudid-07332940008581[GUDID]
+
+| Device Class
+| Component Display Field
+| k:uuid=c6565a03-1223-4f41-902a-837f307c1865[Class II]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+|===
+
+[[tests-performed]]
+== Tests Performed
+
+IMPORTANT: This device has *two* tests performed, one per specimen type for the Sars-CoV-2 analyte.
+Each _Test Performed Semantic_ below is followed by the Semantics that apply to *that* test performed only:
+Associated Devices, Results Description, Limit Metrics, Device Performance, Measuring Range, Population Reference Range, and Reference Limit.
+
+[[test-performed-1]]
+=== Test Performed 1: Sars-CoV-2 / Nasopharyngeal Swab
+
+[[test-performed-1-specimen]]
+==== Test Performed Semantic
+
+.Test Performed Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Test Performed LOINC Code
+| Component ID Display Set
+| k:uuid=3e20aec1-f1ea-55c9-af23-d6cabf79ca6c[SARS-CoV-2 (COVID-19) RNA [Presence\] in Respiratory specimen by NAA with probe detection [LOINC: 94500-6\]]
+| LOINC Version 2.83
+
+| Analyte
+| Component ID Display Set
+| k:uuid=ad37fbc7-0d91-45e9-925f-e64a94f9452e[SARS-CoV-2]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Target
+| Component ID Display Set
+|
+* k:uuid=955b30e7-a4bf-40da-8d3a-0424b48e077c[SARS-CoV-2 Nucleocapsid protein (N) gene]
+* k:uuid=a7fd3318-d994-4206-a56e-423a477bba3b[SARS-CoV-2 Envelope protein (E) gene]
+* k:uuid=fd68ff7c-9562-473f-b4f9-ee5e4310a3c3[SARS-CoV-2 RNA-dependent RNA polymerase protein (RdRP) gene]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Instrument
+| Component ID Display Set
+|
+* k:uuid=c589646b-a580-5510-926f-7221a192875f[GeneXpert Dx System GXXVI-16 (07332940004071)]
+* k:uuid=1a21b936-5321-5579-b8f1-b0757ef42776[GeneXpert Dx System GXVI-2 (07332940003364)]
+* k:uuid=ae88b363-6868-5199-a760-79b8cfbc2783[GeneXpert Dx System GXXVI-4 (07332940006761)]
+* k:uuid=593b3e1f-2ca9-5577-b286-1bf32a294962[GeneXpert Dx System GXXVI-8 (07332940006754)]
+| xref:{src-gudid}#gudid-07332940008581[GUDID]
+
+| Specimen
+| Component ID Display Set
+| k:sctid=258500001[Nasopharyngeal swab]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| ExUCUM Units
+| Component ID Display Set
+| k:sctid=385432009[Not Applicable]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-1-results-description]]
+==== Allowed Results Semantic
+
+.Allowed Results Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Allowed Results Set
+| Component ID Display Set
+|
+* k:sctid=260373001[Detected]
+* k:sctid=260415000[Not Detected]
+* k:sctid=455371000124106[Invalid result]
+* k:sctid=125154007[Specimen unsatisfactory for evaluation]
+* k:sctid=373121007[Test not done]
+| xref:{src-ifu}[Package Insert (IFU)] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-1-limit-metrics]]
+==== Limit Metrics Semantic
+
+.Limit Metrics Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Limit Value
+| Float
+| 403
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=413913003[Copies/mL]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Limit Metric Type
+| Component Display Field
+| k:uuid=651b040d-0155-4089-9589-e31a831f82c7[LoD]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+|===
+
+[[test-performed-1-device-performance]]
+==== Device Performance Semantic
+
+.Device Performance Semantic (Performance Metric 1: Sensitivity)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Performance Metric
+| Component Display Field
+| k:uuid=b4567d03-228f-4508-aaf1-0401d245b6a1[Sensitivity]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Performance Metric Value
+| Float
+| 98.1
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=415067009[Percentage]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Confidence Level
+| Float
+| 95
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Interval Lower Value
+| Float
+| 96.7
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Interval Upper Value
+| Float
+| 98.9
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+|===
+
+.Device Performance Semantic (Performance Metric 2: Specificity)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Performance Metric
+| Component Display Field
+| k:uuid=8990ee0d-14db-4b86-94fd-67f94478353b[Specificity]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Performance Metric Value
+| Float
+| 98.3
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=415067009[Percentage]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Confidence Level
+| Float
+| 95
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Interval Lower Value
+| Float
+| 97.7
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Interval Upper Value
+| Float
+| 98.7
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+|===
+
+// [[test-performed-1-measuring-range]]
+// ==== Measuring Range Semantic
+
+// .Measuring Range Semantic
+// [cols="2,2,5a,2",options="header"]
+// |===
+// | Data Element | Data Type | Value | Source
+
+// | Maximum Value
+// | Float
+// | 5
+// |
+
+// | Minimum Value
+// | Float
+// | 2
+// |
+
+// | Maximum Value Operator
+// | Tinkar Concept
+// | less than or equal to
+// |
+
+// | Minimum Value Operator
+// | Tinkar Concept
+// | greater than or equal to
+// |
+
+// | Units
+// | SNOMED Concept
+// | k:sctid=413913003[Copies/mL]
+// |
+// |===
+
+[[test-performed-2]]
+=== Test Performed 2: Sars-CoV-2 / Anterior Nasal Swab
+
+[[test-performed-2-specimen]]
+==== Test Performed Semantic
+
+.Test Performed Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Test Performed LOINC Code
+| Component ID Display Set
+| k:uuid=3e20aec1-f1ea-55c9-af23-d6cabf79ca6c[SARS-CoV-2 (COVID-19) RNA [Presence\] in Respiratory specimen by NAA with probe detection [LOINC: 94500-6\]]
+| LOINC Version 2.83
+
+| Analyte
+| Component ID Display Set
+| k:uuid=ad37fbc7-0d91-45e9-925f-e64a94f9452e[SARS-CoV-2]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Target
+| Component ID Display Set
+|
+* k:uuid=955b30e7-a4bf-40da-8d3a-0424b48e077c[SARS-CoV-2 Nucleocapsid protein (N) gene]
+* k:uuid=a7fd3318-d994-4206-a56e-423a477bba3b[SARS-CoV-2 Envelope protein (E) gene]
+* k:uuid=fd68ff7c-9562-473f-b4f9-ee5e4310a3c3[SARS-CoV-2 RNA-dependent RNA polymerase protein (RdRP) gene]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Instrument
+| Component ID Display Set
+|
+* k:uuid=c589646b-a580-5510-926f-7221a192875f[GeneXpert Dx System GXXVI-16 (07332940004071)]
+* k:uuid=1a21b936-5321-5579-b8f1-b0757ef42776[GeneXpert Dx System GXVI-2 (07332940003364)]
+* k:uuid=ae88b363-6868-5199-a760-79b8cfbc2783[GeneXpert Dx System GXXVI-4 (07332940006761)]
+* k:uuid=593b3e1f-2ca9-5577-b286-1bf32a294962[GeneXpert Dx System GXXVI-8 (07332940006754)]
+| xref:{src-gudid}#gudid-07332940008581[GUDID]
+
+| Specimen
+| Component ID Display Set
+| k:sctid=697989009[Swab from anterior naris (specimen)]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| ExUCUM Units
+| Component ID Display Set
+| k:sctid=385432009[Not Applicable]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-2-results-description]]
+==== Allowed Results Semantic
+
+.Allowed Results Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Allowed Results Set
+| Component ID Display Set
+|
+* k:sctid=260373001[Detected]
+* k:sctid=260415000[Not Detected]
+* k:sctid=455371000124106[Invalid result]
+* k:sctid=125154007[Specimen unsatisfactory for evaluation]
+* k:sctid=373121007[Test not done]
+| xref:{src-ifu}[Package Insert (IFU)] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-2-limit-metrics]]
+==== Limit Metrics Semantic
+
+.Limit Metrics Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Limit Value
+| Float
+| 462
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=413913003[Copies/mL]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Limit Metric Type
+| Component Display Field
+| k:uuid=651b040d-0155-4089-9589-e31a831f82c7[LoD]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+|===
+
+[[test-performed-2-device-performance]]
+==== Device Performance Semantic
+
+.Device Performance Semantic (Performance Metric 1: Sensitivity)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Performance Metric
+| Component Display Field
+| k:uuid=b4567d03-228f-4508-aaf1-0401d245b6a1[Sensitivity]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Performance Metric Value
+| Float
+| 98.1
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=415067009[Percentage]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Confidence Level
+| Float
+| 95
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Interval Lower Value
+| Float
+| 96.7
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Interval Upper Value
+| Float
+| 98.9
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+|===
+
+.Device Performance Semantic (Performance Metric 2: Specificity)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Performance Metric
+| Component Display Field
+| k:uuid=8990ee0d-14db-4b86-94fd-67f94478353b[Specificity]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Performance Metric Value
+| Float
+| 98.3
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=415067009[Percentage]
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Confidence Level
+| Float
+| 95
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Interval Lower Value
+| Float
+| 97.7
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+
+| Interval Upper Value
+| Float
+| 98.7
+| xref:{src-510k}#dex-k230440[510(k) Decision Summary]
+|===
+
+// [[test-performed-2-measuring-range]]
+// ==== Measuring Range Semantic
+
+// .Measuring Range Semantic
+// [cols="2,2,5a,2",options="header"]
+// |===
+// | Data Element | Data Type | Value | Source
+
+// | Maximum Value
+// | Float
+// | 5
+// |
+
+// | Minimum Value
+// | Float
+// | 2
+// |
+
+// | Maximum Value Operator
+// | Tinkar Concept
+// | less than or equal to
+// |
+
+// | Minimum Value Operator
+// | Tinkar Concept
+// | greater than or equal to
+// |
+
+// | Units
+// | SNOMED Concept
+// | k:sctid=413913003[Copies/mL]
+// |
+// |===

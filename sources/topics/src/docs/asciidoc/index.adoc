@@ -16,6 +16,18 @@
 //
 // include::topics/{domain}/{slug}.adoc[leveloffset=+1]
 
+== DeX Records
+
+include::topics/dex/510kDecisionSum_K230440.adoc[leveloffset=+1]
+
+== GUDID Records
+
+include::topics/gudid/GUDIDRecord_07332940008581.adoc[leveloffset=+1]
+
+== External Sources: Regulatory
+
+include::topics/ext/regulatory/xpert-xpress-cov-2-plus-ifu.adoc[leveloffset=+1]
+
 [preface]
 == About This Library
 

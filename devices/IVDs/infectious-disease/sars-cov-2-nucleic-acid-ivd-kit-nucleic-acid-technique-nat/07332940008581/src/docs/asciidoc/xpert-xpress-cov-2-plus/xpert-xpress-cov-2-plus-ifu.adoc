@@ -1,0 +1,22 @@
+= Xpert® Xpress CoV-2 plus Instructions for Use (303-0272 Rev. A)
+:doctype: article
+:toc: left
+:toclevels: 3
+:source-highlighter: rouge
+:icons: font
+:author: IKE Network
+:device-primary-di: 07332940008581
+:device-name: Xpert® Xpress CoV-2 plus (GeneXpert®)
+:device-labeler: CEPHEID
+:device-gmdn-term: SARS-CoV-2 nucleic acid IVD, kit, nucleic acid technique (NAT)
+:document-type: Package Insert (IFU)
+:source-topic: ext-cepheid-xpert-xpress-cov2-plus-ifu-303-0272
+:topics: {generated}/topics-asciidoc
+:imagesdir: {topics}/images
+
+// Reconstruction assembly of one ingested source document (IKE-ASSEMBLY).
+// The file name matches the name the DeX record uses in its :src-*: attributes, so the record's links resolve.
+// The topic carries its own numbering and lettering, so :sectnums: is deliberately not set.
+// ext/ topic: allowed here because device assemblies are reconstructions. Proprietary, (c) 2023 Cepheid.
+
+include::{topics}/topics/ext/regulatory/xpert-xpress-cov-2-plus-ifu.adoc[leveloffset=+1]

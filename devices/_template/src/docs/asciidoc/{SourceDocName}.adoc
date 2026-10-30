@@ -1,0 +1,23 @@
+= {document title}
+:doctype: article
+:toc: left
+:toclevels: 3
+:source-highlighter: rouge
+:icons: font
+:author: IKE Network
+:device-primary-di: {primary-DI}
+:device-name: {device name}
+:device-labeler: {labeler}
+:device-gmdn-term: {GMDN term name}
+:document-type: {GUDID | 510(k) Decision Summary | Package Insert (IFU)}
+:source-topic: {topic id}
+:topics: {generated}/topics-asciidoc
+:imagesdir: {topics}/images
+
+// TEMPLATE: one reconstruction assembly per ingested source document (IKE-ASSEMBLY). Copy it once per document.
+// Name the file exactly as the DeX record's :src-*: attribute does (a subfolder is fine, for example
+// {slug}/{slug}-ifu.adoc) so the record's links resolve.
+// The topic carries its own numbering and lettering: do not set :sectnums:.
+// ext/ topics may be included here because this is a reconstruction (IKE-ASSEMBLY forbids it elsewhere).
+
+include::{topics}/topics/{domain}/{slug}.adoc[leveloffset=+1]

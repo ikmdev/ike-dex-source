@@ -1,8 +1,8 @@
 # devices
 
 One folder per device. Each device's source documents (GUDID record, 510(k) decision summary, package
-insert) are ingested into the topic library in `../sources/`; the device folder holds an **assembly that
-rebuilds them** and the **DeX records authored for the device**. Adapted from
+insert) are ingested into the topic library in `../sources/`; the device folder holds a **reconstruction
+assembly of each source document** and the device's **authored DeX record**, side by side. Adapted from
 [`MahaKaleem24/test`](https://github.com/MahaKaleem24/test); differences are at the end. The repository
 README covers the ingest workflow, builds and shipping.
 
@@ -17,32 +17,60 @@ devices/
         └── {gmdn-term}/               GMDN term name, slugged (below)
             └── {primary-DI}/          one Maven module per device
                 ├── pom.xml
-                ├── src/docs/asciidoc/{primary-DI}.adoc    assembly of the device's ingested source documents
-                ├── DeXRecord_K######.adoc                 authored DeX record(s)
-                └── linked-devices.adoc                    related devices
+                ├── linked-devices.adoc                      related devices (optional)
+                └── src/docs/asciidoc/
+                    ├── DeXRecord_{primary-DI}.adoc          authored DeX record, never a topic
+                    ├── GUDIDRecord_{primary-DI}.adoc        reconstruction of the GUDID topic
+                    ├── 510kDecisionSum_{K-number}.adoc      reconstruction of the 510(k) topic
+                    └── {slug}/{slug}-ifu.adoc               reconstruction of the IFU topic
 ```
+
+The worked example is
+`IVDs/infectious-disease/sars-cov-2-nucleic-acid-ivd-kit-nucleic-acid-technique-nat/07332940008581/`
+(Cepheid Xpert Xpress CoV-2 plus).
 
 | Level | Folder | Rule |
 | --- | --- | --- |
 | 1 | `IVDs/` | The only name with capitals. |
 | 2 | `{category}/` | Lowercase, hyphens, no spaces. `other` is the catch-all. |
-| 3 | `{gmdn-term}/` | The device's GMDN term name, slugged: lowercase, every run of non-alphanumerics becomes one hyphen, no leading or trailing hyphen. `Troponin I IVD, reagent` becomes `troponin-i-ivd-reagent`. |
+| 3 | `{gmdn-term}/` | The device's GMDN term name, slugged: lowercase, every run of non-alphanumerics becomes one hyphen, no leading or trailing hyphen. `SARS-CoV-2 nucleic acid IVD, kit, nucleic acid technique (NAT)` becomes `sars-cov-2-nucleic-acid-ivd-kit-nucleic-acid-technique-nat`. |
 | 4 | `{primary-DI}/` | The Primary DI exactly as issued (digits, keep leading zeros). Unique per device. |
 
 Category and GMDN folders are created on demand (git does not track empty folders) and need no pom: the
 aggregator lists devices by their full path. Find a device by DI:
 `find devices/IVDs -mindepth 3 -maxdepth 3 -type d -name <DI>`.
 
-## The device assembly
+## Source-document assemblies
 
-A reconstruction assembly: `src/docs/asciidoc/{primary-DI}.adoc` rebuilds the device's source documents from
-the topic library, one chapter per source document, each topic included in source order with
-`include::{topics}/topics/ext/{domain}/{slug}.adoc[leveloffset=+2]`. It is built exactly like any assembly
-(`IKE-ASSEMBLY`): `{primary-DI}` is identical in the directory name, `<artifactId>`, the `.adoc` file name and
-`pdf.source.document`; the pom depends on `topics:adoc:zip`; it has `devices/pom.xml` as parent through
-`<relativePath>../../../../pom.xml</relativePath>` (exactly four levels down).
+Each ingested source document gets a thin assembly file in the device's `src/docs/asciidoc/`: a title, the
+device metadata, and one `include::{topics}/topics/{domain}/{slug}.adoc[leveloffset=+1]`. Its **name must be the
+name the DeX record uses** in its `:src-gudid:`, `:src-510k:` and `:src-ifu:` attributes (a subfolder is
+fine), so the record's `xref:` links resolve in the HTML output unchanged. Metadata attributes
+(`:device-primary-di:`, `:device-name:`, `:device-labeler:`, `:device-gmdn-term:`, `:document-type:`,
+`:source-topic:`) identify the device and the topic it rebuilds. The topic's own numbering is kept, so
+`:sectnums:` is not set.
 
-Reconstruction assemblies may include `ext/` topics (the standard forbids this for other assemblies).
+`ext/` topics may be included here (the standard forbids it in other assemblies), because this is a
+reconstruction. The pom depends on `topics:adoc:zip` and has `devices/pom.xml` as its parent through
+`<relativePath>../../../../pom.xml</relativePath>` (exactly four levels down). `pdf.source.document` names
+the DeX record, since a device module holds several documents.
+
+`devices/pom.xml` sets the asciidoctor plugin's `preserveDirectories`, so the IFU stays in its subfolder in
+the HTML. The single-file HTML (`html-single/{primary-DI}.html`) is the DeX record with its images embedded;
+its links to the other documents need the multi-file `html` output.
+
+## DeX records
+
+`DeXRecord_{primary-DI}.adoc` is **authored by hand and is not a topic**: it has no `:topic-*:` header, is
+never placed in `sources/topics/`, and the registry does not see it. It lives in `src/docs/asciidoc/` so the
+build renders it beside the source-document assemblies. One record per device. Its Source column links to the
+source assemblies (`xref:{src-gudid}#gudid-{primary-DI}[GUDID]`); anchors are the topic ids, so a source
+topic's id must not change once a record links to it.
+
+A verbatim 510(k) decision summary is a different thing: it is ingested as a topic (`dex-k######`, in
+`topics/dex/`, per `IKE-DEX-INGEST`) and rebuilt here by an assembly. The format of the authored record is
+not defined by any IKE standard; copy a finished one. A device with no 510(k) number simply has no
+`510kDecisionSum` file.
 
 ## Linking devices
 
@@ -66,39 +94,24 @@ category. Link **both ways**: when A lists B, B lists A (for example "Approved I
 
 ## Adding a device
 
-1. Ingest each source document into `../sources/` (repository README, Ingest steps 1 to 6). Convert into
-   `sources/work/` first; instrument and system user manuals are linked in the assembly, not reproduced.
+1. **Ingest** each source document into `../sources/` (repository README, Ingest steps 1 to 6), including
+   `slb:reformat`, the registry run and the `index.adoc` entry. Put a document's images in
+   `sources/topics/src/docs/asciidoc/images/{domain}/{doc}/` and reference them relative to `imagesdir`.
 2. Find the device's category, GMDN term name and Primary DI in its GUDID record.
 3. `cp -R devices/_template devices/IVDs/{category}/{gmdn-term}/{primary-DI}`, then in the copy rename
-   `pom.xml.template` to `pom.xml` and `src/docs/asciidoc/{primary-DI}.adoc` to the DI, and replace every
-   `{placeholder}`. Delete files that do not apply.
+   `pom.xml.template` to `pom.xml` and replace every `{placeholder}`. Make one source-document assembly per
+   ingested document from `{SourceDocName}.adoc`, named as the DeX record expects.
 4. **Add the device to `devices/pom.xml`** (`<subproject>IVDs/{category}/{gmdn-term}/{primary-DI}</subproject>`).
    One left out is silently not built.
-5. Write the assembly's includes, then build it (below) until there is no unresolved `include::`.
+5. Put the DeX record in `src/docs/asciidoc/`, unchanged, and build (below).
 6. Fill `linked-devices.adoc` here **and** in every device it names.
-7. Author the DeX record (next section).
 
-## DeX records
+## DeX record changeset
 
-Authored records are stored beside the assembly as `DeXRecord_K######.adoc`, named for the 510(k) number,
-with the `IKE-DEX-INGEST` header block (`:topic-id: dex-k######`, summary, related, notes, provenance,
-license). `_template/DeXRecord_K######.adoc` has the header. The 510(k) number is in the GUDID record's
-**FDA Premarket Submission** table and in section **A** of the decision summary.
-
-- **One record per 510(k) number.** Before creating one, run `find devices -name 'DeXRecord_K######.adoc'`
-  and ask before replacing an existing record. A 510(k) shared by several devices is one record.
-- **Detection gate first** (`IKE-DEX-INGEST`): a verbatim, whole-document 510(k) ingest needs all three of
-  `510(k) SUBSTANTIAL EQUIVALENCE DETERMINATION`, `DECISION SUMMARY` and `A. 510(k) Number: K######` on the
-  first page. A multi-filing history does not pass; handle it under `IKE-INGEST` after the user confirms.
-- **Two kinds of record.** A verbatim ingest of the FDA decision summary still lands in the topic library as
-  `topics/dex/DeXRecord_K######.adoc` (id `dex-k######`), and a device assembly can include it. The record
-  authored here is a separate document. If both exist for one K number they would share a file name and
-  topic id: decide the authored record's name before creating the second.
-- **Not in the topic library.** The standard puts verbatim records in `topics/dex/` and registers them; these
-  live here, so the registry does not see them (`idoc:topic-registry` covers `sources/topics` only).
-  The format of a record authored from several sources, and whether to register it, are open decisions in
-  the repository README. A device with no 510(k) number has no K-based file name yet.
-- The device's assembly may cite `:topic-related:` ids so the record and its source topics link.
+The Tinkar (protobuf) form of the record is not kept here. It lives in the repository's gitignored
+`src/main/resources/`, in a folder that mirrors this device's path
+(`IVDs/{category}/{gmdn-term}/{primary-DI}/`), as `{name}-ike-cs.zip` with its hand-written
+`{name}-manifest.mf`. The repository README's "Ship a record" section covers installing and deploying the pair.
 
 ## Build
 
@@ -107,18 +120,16 @@ license). `_template/DeXRecord_K######.adoc` has the header. The 510(k) number i
 | Repository root | `mvn clean verify -pl devices/IVDs/{category}/{gmdn-term}/{primary-DI} -am` |
 | `devices/` or the device folder | `mvn clean verify`, only after `mvn install -pl topics` was run in `sources/` |
 
-Without the install, `topics:zip:adoc` is unresolved. Assemblies are built with the rest of the reactor by
-a plain `mvn clean verify` at the root, which also builds `sources/`.
+Without the install, `topics:zip:adoc` is unresolved. A plain `mvn clean verify` at the root builds
+everything. Outputs are in the device's `target/generated-docs/html/` (one HTML per document) and
+`html-single/`. Check that every `xref:` in the record resolves: the file exists and the anchor id is in it.
 
 ## Differences from the reference repository
 
-- Source documents are ingested into the topic library and rebuilt as an assembly per device, instead of
-  being kept as converted `gudid.adoc`, `510k-decision-summary.adoc` and `package-insert.adoc` files.
-  Re-ingest the reference repo's files rather than copying them in: they predate the `IKE-DEX-INGEST` shape
-  (no `DeXRecord_K######` title, no `:topic-*:` header, section titles without the source's trailing
-  punctuation).
-- Authored DeX records are stored in the device folder; `package-insert-NOTE.adoc` is replaced by a comment
-  in the assembly saying what is absent and why.
+- Source documents are ingested into the topic library and rebuilt by assemblies per device, instead of being
+  kept as converted `gudid.adoc`, `510k-decision-summary.adoc` and `package-insert.adoc` files.
+- The authored DeX record is stored beside those assemblies; `package-insert-NOTE.adoc` is replaced by a
+  comment in the assembly saying what is absent and why.
 - Standards come from `ike-tooling` (`IKE-Network`) through `mvn validate`, not a personal fork's branch.
 - The `xref:` link convention is documented as the files use it, including the cross-category path, and the
   GMDN slug rule is written down.

@@ -1,6 +1,8 @@
 # Tinkar changesets: ignored so they are never committed by accident (they can be multi-GB).
 # Add one on purpose with: git add -f src/main/resources/<file>
-# That includes each hand-written {name}-manifest.mf beside its {name}-ike-cs.zip.
+# That includes each hand-written {name}-manifest.mf beside its {name}-ike-cs.zip, in a folder that
+# mirrors the device's path under devices/ (IVDs/{category}/{gmdn-term}/{primary-DI}/).
+# Everything under this folder is ignored: any file type, any depth (changesets, manifests, scratch).
 # Only untracked files are protected; a file already tracked stays tracked and its edits stage normally.
 src/main/resources/
 

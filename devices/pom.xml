@@ -68,7 +68,24 @@
         <maven.deploy.skip>true</maven.deploy.skip>
     </properties>
 
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.asciidoctor</groupId>
+                    <artifactId>asciidoctor-maven-plugin</artifactId>
+                    <configuration>
+                        <!-- A device holds several documents, some in subfolders (the IFU). Keep that layout in the
+                             HTML output so the DeX record's links to them resolve. -->
+                        <preserveDirectories>true</preserveDirectories>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
     <subprojects>
+        <subproject>IVDs/infectious-disease/sars-cov-2-nucleic-acid-ivd-kit-nucleic-acid-technique-nat/07332940008581</subproject>
         <!-- EVERY NEW DEVICE MUST BE ADDED HERE, by its path from this file, for example:
              <subproject>IVDs/chemistries/troponin-i-ivd-reagent/10054749000187</subproject>
              No pom is needed at the category or GMDN levels. A device missing from this list is

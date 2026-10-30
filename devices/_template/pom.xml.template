@@ -4,8 +4,9 @@
   subdirectory when <subprojects> is empty.
   Copy this folder to devices/IVDs/{category}/{gmdn-term}/{primary-DI}/, rename this file to pom.xml,
   then replace every {placeholder}.
-  {primary-DI} must be identical in four places: the directory name, <artifactId>, the .adoc file name
-  and pdf.source.document (IKE-ASSEMBLY). Then add the device to devices/pom.xml <subprojects>.
+  {primary-DI} must be identical in the directory name and <artifactId>. pdf.source.document names the
+  DeX record, DeXRecord_{primary-DI} (the module holds several documents; IKE-ASSEMBLY assumes one).
+  Then add the device to devices/pom.xml <subprojects>.
   The relativePath assumes exactly four levels below devices/.
 -->
 <project xmlns="http://maven.apache.org/POM/4.1.0"
@@ -15,8 +16,6 @@
     <modelVersion>4.1.0</modelVersion>
 
     <parent>
-        <groupId>dev.ikm.dex.source</groupId>
-        <artifactId>devices</artifactId>
         <relativePath>../../../../pom.xml</relativePath>
     </parent>
 
@@ -27,7 +26,7 @@
     <description>Assembly of the ingested source documents for device {primary-DI}.</description>
 
     <properties>
-        <pdf.source.document>{primary-DI}</pdf.source.document>
+        <pdf.source.document>DeXRecord_{primary-DI}</pdf.source.document>
     </properties>
 
     <dependencies>

@@ -17,12 +17,23 @@
 // == Domain Heading
 //
 // include::{topics}/topics/{domain}/{slug}.adoc[leveloffset=+2]
+//
+// ext/ topics (for example the Cepheid IFU) are not included here (IKE-INGEST assembly exclusion rule);
+// device assemblies under devices/ include them when they rebuild a source document.
 
 [preface]
 == About This Document
 
 This compendium contains the complete set of topics in the library, organized by domain.
 It is a validation target and reference, not a linear read.
+
+== DeX Records
+
+include::{topics}/topics/dex/510kDecisionSum_K230440.adoc[leveloffset=+2]
+
+== GUDID Records
+
+include::{topics}/topics/gudid/GUDIDRecord_07332940008581.adoc[leveloffset=+2]
 
 [index]
 == Index

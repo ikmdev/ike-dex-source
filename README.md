@@ -18,7 +18,7 @@ ike-dex-source/
 ├── .mvn/, mvnw, mvnw.cmd        Maven 4 wrapper and config (found from every subdirectory)
 ├── .gitignore
 ├── src/
-│   └── main/resources/         {name}-ike-cs.zip + {name}-manifest.mf pairs (GITIGNORED; force-add on purpose)
+│   └── main/resources/         IVDs/{category}/{gmdn-term}/{primary-DI}/{name}-ike-cs.zip + {name}-manifest.mf (GITIGNORED; force-add on purpose)
 ├── sources/                     ingest tree; standalone pom, NOT a child of the main pom
 │   ├── pom.xml                  lists topics and assemblies
 │   ├── <source document, utilities/, work/>   ingest material (conversion scripts, scratch)
@@ -31,8 +31,8 @@ ike-dex-source/
 └── devices/                     per-device assemblies + authored DeX records; standalone pom; see devices/README.md
     ├── pom.xml                  the list of devices (path from this file)
     ├── _template/               copy to start a device (not built)
-    └── IVDs/{category}/{gmdn-term}/{primary-DI}/   pom.xml, src/docs/asciidoc/{primary-DI}.adoc,
-                                                    DeXRecord_K######.adoc, linked-devices.adoc
+    └── IVDs/{category}/{gmdn-term}/{primary-DI}/   pom.xml, linked-devices.adoc, and in src/docs/asciidoc/:
+                                                    DeXRecord_{primary-DI}.adoc + one assembly per source document
 ```
 
 | Req | How it is met |
@@ -41,7 +41,7 @@ ike-dex-source/
 | R2 | `sources/assemblies/pom.xml` lists assemblies and `devices/pom.xml` lists devices. **Add each new assembly or device to its `<subprojects>` on every ingest**; one left out is silently not built. |
 | R3 | `.asciidoctorconfig` is not ignored. The build writes one into each module with `src/docs/asciidoc/`; commit them. |
 | R4 | `src/main/resources/` is gitignored. Add a changeset on purpose with `git add -f src/main/resources/<file>`. This protects untracked files only. |
-| R5 | Shipping is manual, one record per command; see [Ship a record](#ship-a-record). `{name}-ike-cs.zip` and `{name}-manifest.mf` in `src/main/resources/` ship as one artifact `{groupId}:{name}:{version}` with classifiers `ike-cs` and `manifest`. Nothing else in the folder is touched. |
+| R5 | Shipping is manual, one record per command; see [Ship a record](#ship-a-record). `{name}-ike-cs.zip` and `{name}-manifest.mf`, in the folder under `src/main/resources/` that mirrors the device's folder in `devices/`, ship as one artifact `{groupId}:{name}:{version}` with classifiers `ike-cs` and `manifest`. Nothing else in the folder is touched. |
 | R6 | Ingest and topics sit under `sources/`; per-device assemblies sit under `devices/`; there are no other top-level modules. |
 | R7 | `sources/pom.xml` and `devices/pom.xml` have `ike-parent` as parent, not the main pom, so they inherit none of the shipping setup. Both set `maven.deploy.skip=true`; install stays on (see Build). |
 | R8 | Every Maven command works from the root, `sources/`, `sources/topics`, `sources/assemblies/<x>`, `devices/` and a device folder (command forms below; the last two need `topics` installed first). |
@@ -65,8 +65,9 @@ holds the DeX records you author; its [README](devices/README.md) has the folder
 
 1. **Gate: 510(k) check** (`IKE-INGEST` Step 1). A first page with `510(k) SUBSTANTIAL EQUIVALENCE
    DETERMINATION`, `DECISION SUMMARY` and `A. 510(k) Number: K######` is a DeX record: do **not**
-   decompose it; ingest it whole per `IKE-DEX-INGEST` (`topics/dex/DeXRecord_K######.adoc`,
-   id `dex-k######`). Anything else continues below.
+   decompose it; ingest it whole per `IKE-DEX-INGEST` (`topics/dex/`, id `dex-k######`; the supplied
+   converted file is `510kDecisionSum_K######.adoc`). Whole-document GUDID records (`gudid-{DI}`, in
+   `topics/gudid/`) are handled the same way. Anything else continues below.
 2. **Classify** the source (authored, internal, regulatory, standards, literature) and confirm the
    handling with the user. Third-party sources need provenance attributes and `ext-` ids.
 3. **Convert** to AsciiDoc into `sources/work/`, then **normalize** line breaks (below).
@@ -74,12 +75,14 @@ holds the DeX records you author; its [README](devices/README.md) has the folder
    `= Title`, 500-5000 characters, 3-10 index terms, summary of 150-400 characters.
 5. **Place** under `sources/topics/src/docs/asciidoc/topics/{domain}/` and add each topic to `index.adoc`.
 6. **Register**: run the registry goal and fix every finding until it reports `0 findings`.
-7. **Assemble**: add the new topics to the compendium. For a device, create its folder from
-   `devices/_template/`, set `{primary-DI}` identical for directory, `artifactId`, `.adoc` file name and
-   `pdf.source.document`, and **add the device to `devices/pom.xml`**. Other assemblies: clone `compendium/`
-   into `sources/assemblies/{name}/` and **add it to `sources/assemblies/pom.xml`**.
-8. **DeX record**: author it in the device folder (see `devices/README.md`), not in the topic library.
-9. **Manifest**: write `{name}-manifest.mf` by hand beside `{name}-ike-cs.zip` in `src/main/resources/`
+7. **Assemble**: add the new non-`ext/` topics to the compendium. For a device, create its folder from
+   `devices/_template/`, make one assembly file per ingested source document (named as the DeX record's
+   `:src-*:` attributes expect), and **add the device to `devices/pom.xml`**. Other assemblies: clone
+   `compendium/` into `sources/assemblies/{name}/` and **add it to `sources/assemblies/pom.xml`**.
+8. **DeX record**: place the hand-authored `DeXRecord_{primary-DI}.adoc` unchanged in the device's
+   `src/docs/asciidoc/` (see `devices/README.md`). It is never ingested into `sources/topics/`.
+9. **Manifest**: write `{name}-manifest.mf` by hand beside `{name}-ike-cs.zip` in
+   `src/main/resources/IVDs/{category}/{gmdn-term}/{primary-DI}/` (the device's path under `devices/`)
    (DeX record ids, target devices, provenance, copyright). Nothing generates or validates it.
 10. **Validate** and re-normalize any hand-edited file.
 
@@ -114,25 +117,27 @@ reporting `0 of N file(s) had changes` means the files are normalized.
 
 ## Ship a record
 
-A record is two hand-made files with the same prefix in `src/main/resources/`:
+A record is two hand-made files with the same prefix, in a folder under `src/main/resources/` that mirrors the
+device's folder in `devices/` (the worked example is device 07332940008581):
 
 ```
-src/main/resources/dex-record-1-ike-cs.zip      the protobuf changeset
-src/main/resources/dex-record-1-manifest.mf     its manifest, written by hand
+src/main/resources/IVDs/infectious-disease/sars-cov-2-nucleic-acid-ivd-kit-nucleic-acid-technique-nat/07332940008581/
+├── XpertXpressCov2Plus-07332940008581-DeXRecord-ike-cs.zip     the protobuf changeset
+└── XpertXpressCov2Plus-07332940008581-DeXRecord-manifest.mf    its manifest, written by hand
 ```
 
 ```bash
-mvn deploy -pl . -Ddex.record=dex-record-1
+mvn deploy -pl . -Ddex.record=XpertXpressCov2Plus-07332940008581-DeXRecord -Ddex.record.dir=IVDs/infectious-disease/sars-cov-2-nucleic-acid-ivd-kit-nucleic-acid-technique-nat/07332940008581
 ```
 
 | Rule | Detail |
 | --- | --- |
-| Value | The file prefix only: letters, digits, `.`, `_`, `-`; no path, no `..`. |
+| Value | `-Ddex.record` is the file prefix only: letters, digits, `.`, `_`, `-`; no path, no `..`. `-Ddex.record.dir` is the folder under `src/main/resources/` (default `.`): relative, no `..`, no leading slash. |
 | Activation | `-Ddex.record=<name>` activates profile `dex-record`. Without it the root installs and deploys nothing (`maven.install.skip` and `maven.deploy.skip` stay `true`). |
-| Artifact | `dev.ikm.dex.source:<name>:<project version>` (group id is a placeholder): `-ike-cs.zip` (classifier `ike-cs`, type `zip`), `-manifest.mf` (classifier `manifest`, type `mf`) and a generated pom. |
+| Artifact | `dev.ikm.dex.source:<name>:<project version>` (group id is a placeholder; the prefix is the artifactId, so keep it unique across records): `-ike-cs.zip` (classifier `ike-cs`, type `zip`), `-manifest.mf` (classifier `manifest`, type `mf`) and a generated pom. |
 | Fails when | Either file is missing or the name is malformed. `maven-enforcer-plugin` checks this in `validate`, before anything is installed or deployed. |
 | Repository | The version is the root pom's (`1-SNAPSHOT`), so the default is `ike-snapshots` from `ike-parent`. For a release version add `-Ddex.repo.id=ike-staging -Ddex.repo.url=https://nexus.tinkar.org/repository/ike-staging/`. Credentials come from `settings.xml` under that id. |
-| Local only | `mvn install -pl . -Ddex.record=<name>` installs without deploying. `deploy` installs first, as usual. |
+| Local only | `mvn install -pl . -Ddex.record=<name> -Ddex.record.dir=<dir>` installs without deploying. `deploy` installs first, as usual. |
 | Scope | Use `-pl .` so only the root ships. `sources/` and `devices/` never deploy (`maven.deploy.skip=true`). |
 
 The root has no Java and no scripting: `maven-enforcer-plugin` validates, `maven-install-plugin:install-file`
@@ -156,7 +161,7 @@ repository, so a record changes only when the project version does.
 
 ## Manifest
 
-`{name}-manifest.mf` is written by hand, lives beside its changeset in the gitignored `src/main/resources/`
+`{name}-manifest.mf` is written by hand, lives beside its changeset in the device's folder in the gitignored `src/main/resources/`
 (add it with `git add -f`, like the changeset) and is installed and deployed as the `manifest` classifier. No
 IKE standard defines its content (DeX record ids, target devices, provenance, copyright) and the build does
 not read or check it. It is unrelated to the Tinkar changeset's internal `META-INF/MANIFEST.MF`.
@@ -167,11 +172,13 @@ not read or check it. It is unrelated to the Tinkar changeset's internal `META-I
   per-source reconstruction, and device assemblies are reconstructions, so they are allowed here. Confirm.
 - One assembly per device (all of its source documents as chapters) versus one per source document.
   Per document would need unique ids such as `{primary-DI}-package-insert`, and the directory must match.
-- A verbatim 510(k) ingest (`topics/dex/DeXRecord_K######.adoc`) and an authored record in `devices/` for
-  the same K number would share a file name and topic id; the authored record's name is undecided.
-- DeX records live in `devices/`, outside the topic library, so the registry does not see them and
-  `IKE-DEX-INGEST`'s uniqueness check is manual. Whether to register them, and the format of a record
-  authored from several sources (versus a verbatim 510(k) ingest), are undefined by any standard.
+- The local `IKE-DEX-INGEST` (unpacked from `ike-tooling`) names the verbatim 510(k) file
+  `DeXRecord_K######.adoc`; the ingested file is `510kDecisionSum_K230440.adoc` and cites an `IKE-GUDID-INGEST`
+  that is not in the unpacked standards. The files were placed as supplied; check them against the newer standard.
+- Authored DeX records live in `devices/` as `DeXRecord_{primary-DI}.adoc`, are not topics and are not seen by
+  the registry. Their format is not defined by any IKE standard.
+- The Cepheid IFU is proprietary and is reproduced in full by decision (`:topic-license:` says so). Confirm
+  before this repository is shared beyond the team.
 - Whether `sources/` and `devices/` artifacts are ever released: `ike:release-publish` assumes one reactor
   version, and the main pom, `sources/pom.xml` and `devices/pom.xml` each carry `1-SNAPSHOT`. Keep them equal.
 - The content and format of `{name}-manifest.mf`, and whether the build should ever validate it.

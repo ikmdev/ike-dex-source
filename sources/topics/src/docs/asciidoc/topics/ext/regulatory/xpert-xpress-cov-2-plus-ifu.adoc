@@ -1,0 +1,2686 @@
+// ext-cepheid-xpert-xpress-cov2-plus-ifu-303-0272
+// Topic: Xpert® Xpress CoV-2 plus Instructions for Use
+// Type: reference
+// Status: review
+:topic-id: ext-cepheid-xpert-xpress-cov2-plus-ifu-303-0272
+:topic-type: reference
+:topic-status: review
+:topic-keywords: Cepheid, Xpert Xpress CoV-2 plus, GeneXpert, SARS-CoV-2, RT-PCR, instructions for use, XP3SARS-COV2-10, 303-0272
+:topic-summary: Whole-document copy of the Cepheid Instructions for Use for the Xpert® Xpress CoV-2 plus test (catalog XP3SARS-COV2-10), document 303-0272 Rev. A, February 2023: a rapid real-time RT-PCR test for SARS-CoV-2 on GeneXpert Dx and Infinity systems, with specimen collection, procedure, results, limitations and performance data.
+:topic-notes: Whole-document topic, size bounds exempt as for the dex- and gudid- records: the full Instructions for Use text, tables and figures are reproduced as converted from the Cepheid PDF (Cepheid file Xpert Xpress CoV-2 plus ENGLISH Package Insert 303-0272 Rev A1_3.pdf, retrieved October 30, 2026). Full reproduction is a project decision: the document carries no explicit license, use terms are limited to the product-use grant in the insert, and reuse beyond that requires permission from Cepheid. The file name reads Rev A1_3 but the document states Rev. A.
+:topic-related: dex-k230440, gudid-07332940008581
+:topic-provenance: external
+:topic-citation: Cepheid. Xpert® Xpress CoV-2 plus Instructions for Use, 303-0272 Rev. A, February 2023. Sunnyvale, CA: Cepheid. Retrieved October 30, 2026. https://web-support.cepheid.com/Package%20Insert%20Files/Xpert%20Xpress%20CoV-2%20plus%20ENGLISH%20Package%20Insert%20303-0272%20Rev%20A1_3.pdf
+:topic-license: Proprietary. © 2023 Cepheid. Non-transferable right to use the product per the Instructions for Use; no resale rights conveyed. Not an open license.
+
+[[ext-cepheid-xpert-xpress-cov2-plus-ifu-303-0272]]
+= Xpert^®^ Xpress CoV-2 _plus_
+
+// Source: Cepheid Instructions for Use, 303-0272 Rev. A, February 2023.
+// Running page header/footer of the source ("Xpert® Xpress CoV-2 plus / 303-0272, Rev. A / February 2023") is carried by :topic-citation: above.
+
+++++
+<style>
+.caption-text{font-size:0.85em;text-align:left}
+.note-text{font-size:0.8em}
+</style>
+++++
+
+[discrete]
+== Cover
+
+image::ext/xpert-xpress-cov-2-plus/cover-banner.png[GeneXpert Powered By Cepheid Innovation cover banner,align=center]
+
+image:ext/xpert-xpress-cov-2-plus/symbol-ref.png[REF,width=41]
+{nbsp}*Catalog number (REF):* *XP3SARS-COV2-10*
+
+Instructions for Use
+
+For Use with GeneXpert^®^ Dx System or GeneXpert Infinity System
+
+image:ext/xpert-xpress-cov-2-plus/symbol-ivd.png[IVD,width=41]
+{nbsp}*_In vitro_ diagnostic medical device (IVD)*
+
+_The symbols above are explained in Section 24,
+Table of Symbols._
+
+*303-0272,
+Rev. A* +
+*February 2023*
+
+[discrete]
+== Trademark, Patents, and Copyright Statements
+
+Cepheid^®^,
+the Cepheid logo,
+GeneXpert^®^,
+and Xpert^®^ are trademarks of Cepheid,
+registered in the U.S. and other countries.
+All other trademarks are the property of their respective owners.
+
+THE PURCHASE OF THIS PRODUCT CONVEYS TO THE BUYER THE
+NON-TRANSFERABLE RIGHT TO USE IT IN ACCORDANCE WITH THESE
+INSTRUCTIONS FOR USE.
+NO OTHER RIGHTS ARE CONVEYED EXPRESSLY,
+BY IMPLICATION OR BY ESTOPPEL.
+FURTHERMORE,
+NO RIGHTS FOR RESALE ARE CONFERRED WITH THE PURCHASE OF THIS PRODUCT.
+
+*© 2023 Cepheid.*
+
+See Section 25,
+Revision History for a description of changes.
+
+== 1 Proprietary Name
+
+Xpert^®^ Xpress CoV-2 _plus_
+
+== 2 Common or Usual Name
+
+Xpert Xpress CoV-2 _plus_
+
+== 3 Intended Use
+
+indexterm:[test, intended use]
+The Xpert Xpress CoV-2 _plus_ test is a rapid,
+real-time RT-PCR test intended for the qualitative detection of
+nucleic acid from SARS-CoV-2 in nasopharyngeal swab,
+anterior nasal swab,
+mid-turbinate nasal swab,
+oropharyngeal swab or nasal wash/aspirate specimens from
+individuals suspected of COVID-19 by their healthcare provider,
+as well as anterior nasal swab specimens from any individual,
+including from individuals without symptoms or other reasons to
+suspect COVID-19.
+
+Testing of nasopharyngeal swab,
+anterior nasal swab,
+mid-turbinate nasal swab,
+oropharyngeal swab or nasal wash/aspirate specimens using the
+Xpert Xpress CoV-2 _plus_ test run on the GeneXpert Dx and
+GeneXpert Infinity systems is limited to laboratories.
+
+Testing of nasopharyngeal swab,
+anterior nasal swab or mid-turbinate nasal swab specimens using
+the Xpert Xpress CoV-2 _plus_ test run on the GeneXpert Xpress
+System (Tablet and Hub Configurations) is limited to laboratories.
+Testing of these specimens is authorized for use at the Point of Care (POC).
+
+Results are for the detection of SARS-CoV-2 RNA.
+The SARS-CoV-2 RNA is generally detectable in upper respiratory
+specimens during the acute phase of infection.
+
+Positive results are indicative of active infection with SARS-CoV-2;
+clinical correlation with patient history and other diagnostic
+information is necessary to determine patient infection status.
+Positive results do not rule out bacterial infection or
+co-infection with other viruses.
+The agent detected may not be the definite cause of disease.
+
+Negative results do not preclude SARS-CoV-2 infection and
+should not be used as the sole basis for treatment or other
+patient management decisions.
+Negative results must be combined with clinical observations,
+patient history,
+and epidemiological information.
+
+Testing with the Xpert Xpress CoV-2 _plus_ test is intended for
+use by trained operators who are proficient in performing tests
+using either GeneXpert Dx,
+GeneXpert Infinity,
+and/or GeneXpert Xpress systems.
+
+== 4 Summary and Explanation
+
+An outbreak of respiratory illness of unknown etiology in Wuhan City,
+Hubei Province,
+China was initially reported to the World Health Organization
+(WHO) on December 31,
+2019.^1^ Chinese authorities identified a novel coronavirus (2019-nCoV),
+which has resulted in thousands of confirmed human infections
+that have spread globally,
+resulting in a pandemic of coronavirus disease 2019 (COVID-19).
+Cases of severe illness and some deaths have been reported.
+The International Committee on Taxonomy of Viruses (ICTV)
+renamed the virus SARS-CoV-2.^2^ COVID-19 is associated with a
+variety of clinical outcomes,
+including asymptomatic infection,
+mild upper respiratory infection,
+severe lower respiratory disease including pneumonia and
+respiratory failure,
+and in some cases,
+death.
+
+The Xpert Xpress CoV-2 _plus_ is a molecular in vitro
+diagnostic test that aids in the detection and diagnosis of
+SARS-CoV-2 and is based on widely used nucleic acid
+amplification technology.
+The Xpert Xpress CoV-2 _plus_ test contains primers and probes
+and internal controls used in RT-PCR for the in vitro
+qualitative detection of SARS-CoV-2 RNA in nasopharyngeal swab,
+anterior nasal swab,
+mid-turbinate nasal swab,
+oropharyngeal swab or nasal wash/aspirate specimens.
+
+The term "qualified laboratories" refers to laboratories in
+which all users,
+analysts, and any person reporting results from use of this device are
+proficient in performing real-time RT-PCR assays.
+
+== 5 Principle of the Procedure
+
+indexterm:[molecular diagnostics, real-time RT-PCR]
+The Xpert Xpress CoV-2 _plus_ test is an automated in vitro
+diagnostic test for qualitative detection of nucleic acid from
+SARS-CoV-2. The Xpert Xpress CoV-2 _plus_ test is performed on
+GeneXpert Instrument Systems.
+The primers and probes in the Xpert Xpress CoV-2 _plus_ test
+are designed to amplify and detect unique sequences in the
+nucleocapsid (N),
+envelope (E) and RNA-dependent RNA polymerase (RdRP) genes of
+the SARS-CoV-2 virus genome.
+
+The GeneXpert Instrument Systems automate and integrate sample preparation,
+nucleic acid extraction and amplification,
+and detection of the target sequences in simple or complex
+samples using real-time PCR assays.
+The systems consist of an instrument,
+computer, and preloaded software for running tests and viewing the results.
+The systems require the use of single-use disposable cartridges
+that hold the RT-PCR reagents and host the RT-PCR process.
+Because the cartridges are self-contained,cross-contamination
+between samples is minimized.
+For a full description of the systems,
+see the _GeneXpert Dx System Operator Manual_ or the _GeneXpert
+Infinity System Operator Manual_.
+
+The Xpert Xpress CoV-2 _plus_ test includes reagents for the
+detection of RNA from SARS-CoV-2 in nasopharyngeal swab,
+anterior nasal swab,
+mid-turbinate nasal swab,
+oropharyngeal swab or nasal wash/aspirate specimens.
+A Sample Processing Control (SPC) and a Probe Check Control
+(PCC) are also included in the cartridge utilized by the
+GeneXpert instrument.
+The SPC is present to control for adequate processing of the
+sample and to monitor for the presence of potential
+inhibitor(s) in the RT-PCR reaction.
+The SPC also ensures that the RT-PCR reaction conditions
+(temperature and time) are appropriate for the amplification
+reaction and that the RT-PCR reagents are functional.
+The PCC verifies reagent rehydration,
+PCR tube filling,
+and confirms that all reaction components are present in the
+cartridge including monitoring for probe integrity and dye stability.
+The specimen is collected and placed into a viral transport
+tube containing 3 mL viral transport medium,
+3mL saline or 2 mL eNAT^™^.
+The specimen is briefly mixed by rapidly inverting the
+collection tube 5 times.
+Using the supplied transfer pipette,
+the sample is transferred to the sample chamber of the Xpert
+Xpress CoV-2 _plus_ cartridge.
+The GeneXpert cartridge is loaded onto the GeneXpert Instrument System,
+which performs hands-off,
+automated sample processing,
+and real-time RT-PCR for detection of viral RNA.
+
+== 6 Materials Provided
+
+indexterm:[test kit, materials provided]
+The Xpert Xpress CoV-2 _plus_ kit contains sufficient reagents
+to process 10 specimens or quality control samples.
+The kit contains the following:
+
+[cols="2,1"]
+|===
+| *Xpert Xpress CoV-2 _plus_ Cartridges with Integrated Reaction Tubes*
+| *10*
+
+| Bead 1, Bead 2, and Bead 3 (freeze-dried)
+| 1 of each per cartridge
+
+| Lysis Reagent (Guanidinium Thiocyanate)
+| 1.0 mL per cartridge
+
+| Binding Reagent
+| 1.0 mL per cartridge
+
+| Elution Reagent
+| 2.0 mL per cartridge
+
+| Wash Reagent
+| 0.5 mL per cartridge
+
+| *Disposable Transfer Pipettes*
+| *10–12 per kit*
+
+| *Flyer*
+| *1 per kit*
+
+|===
+
+
+* Instructions to locate (and import) the ADF and documentation such as the Product Insert on www.cepheid.com.
+
+[cols="2,1"]
+|===
+| *Quick Reference Instructions*
+| *2 per kit*
+
+|===
+
+
+For use with the GeneXpert Xpress System only software
+
+NOTE: Safety Data Sheets (SDS) are available at www.cepheid.com or www.cepheidinternational.com under the *SUPPORT* tab.
+
+NOTE: The bovine serum albumin (BSA) in the beads within this product was produced and manufactured exclusively from bovine plasma sourced in the United States.
+No ruminant protein or other animal protein was fed to the animals; the animals passed ante- and post-mortem testing.
+During processing, there was no mixing of the material with other animal materials.
+
+== 7 Storage and Handling
+
+* Store the Xpert Xpress CoV-2 _plus_ test cartridges at 2–28 °C.
+* Do not open the cartridge lid until you are ready to perform testing.
+* Do not use a cartridge that is wet or has leaked.
+
+== 8 Materials Required but not Provided
+
+* GeneXpert Dx System or GeneXpert Infinity System (catalog number varies by configuration): GeneXpert instrument, computer, barcode scanner, and appropriate GeneXpert System operator manual.
+* For GeneXpert Dx System: GeneXpert Dx software version 4.7b or higher.
+* For GeneXpert Infinity-80 and Infinity-48s systems: Xpertise software version 6.4b or higher.
+
+== 9 Materials Available but not Provided
+
+ZeptoMetrix^®^ External Controls
+
+* SARS-Related Coronavirus 2 (SARS-CoV-2) External Run Control, Catalog# NATSARS(COV2)-ERC
+* SARS Associated Coronavirus 2 (SARS-CoV-2) Negative Control, Catalog# NATSARS(COV2)-NEG
+
+eNAT Molecular Collection and Preservation Medium from Copan
+Italia S.p.A (Brescia,
+IT)
+
+* eNAT Molecular Collection and Preservation Medium, Copan Catalog # 6U073S01
+* eNAT Molecular Collection and Preservation Medium, Copan Catalog # 6U074S01
+
+== 10 Warnings and Precautions
+
+=== 10.1 General
+
+* For _in vitro_ diagnostic use.
+* For use under emergency use authorization only.
+* For prescription use only
+* This product has been authorized only for the detection of nucleic acid from SARS-CoV-2, not for any other virus or pathogens.
+* Positive results are indicative of presence of SARS-CoV-2-RNA.
+* Performance characteristics of this test have been established with the specimen types listed in the Intended Use Section only.
+The performance of this assay with other specimen types or samples has not been evaluated.
+* Treat all biological specimens, including used cartridges, as if capable of transmitting infectious agents.
+Because it is often impossible to know which might be infectious, all biological specimens should be treated using standard precautions.
+* Follow safety procedures set by your institution for working with chemicals and handling biological specimens.
+* Refer to Copan eNAT^®^ Package Insert for safety and handling information.
+* Avoid direct contact between guanidine thiocyanate and sodium hypochlorite (bleach) or other highly reactive reagents such as acids and bases.
+These mixtures could release noxious gas.
+* Consult your institution's environmental waste personnel on proper disposal of used cartridges, which may contain amplified material.
+This material may exhibit characteristics of federal EPA Resource Conservation and Recovery Act (RCRA) hazardous waste requiring specific disposal requirements.
+Check state and local regulations as they may differ from federal disposal regulations.
+Institutions should check the hazardous waste disposal requirements within their respective countries.
+* Testing of nasopharyngeal swab, anterior nasal swab, nasal wash/aspirate, mid-turbinate nasal swab or oropharyngeal swab specimens using the Xpert Xpress CoV-2 _plus_ test run on the GeneXpert Dx and GeneXpert Infinity systems, is limited to laboratories.
+* Testing of nasopharyngeal swab, mid-turbinate nasal swab or anterior nasal swab specimens using the Xpert Xpress CoV-2 _plus_ test run on the GeneXpert Xpress System (Tablet and Hub Configurations), is authorized for use at the Point of Care (POC).
+
+=== 10.2 Specimens
+
+Maintain proper storage conditions during specimen transport to
+ensure the integrity of the specimen (see Specimen Collection,
+Transport,
+and Storage).
+Specimen stability under shipping conditions other than those
+recommended has not been evaluated.
+
+=== 10.3 Assay/Reagent
+
+* Do not open the Xpert Xpress CoV-2 _plus_ cartridge lid except when adding specimen.
+* Do not use a cartridge that has been dropped after removing it from the packaging.
+* Do not shake the cartridge.
+Shaking or dropping the cartridge after opening the cartridge lid may yield non-determinate results.
+* Do not place the sample ID label on the cartridge lid or on the barcode label on the cartridge.
+* Do not use a cartridge with a damaged barcode label.
+* Do not use a cartridge that has a damaged reaction tube.
+* Do not use reagents beyond their expiry date.
+* Each single-use Xpert Xpress CoV-2 _plus_ cartridge is used to process one test.
+Do not reuse processed cartridges.
+* Each single-use disposable pipette is used to transfer one specimen.
+Do not reuse disposable pipettes.
+* Do not use a cartridge if it appears wet or if the lid seal appears to have been broken.
+* Wear clean lab coats and gloves.
+Change gloves between the handling of each specimen.
+* In the event of a spill of specimens or controls, wear gloves and absorb the spill with paper towels.
+Then, thoroughly clean the contaminated area with a 10% freshly prepared household chlorine bleach.
+Allow a minimum of two minutes of contact time.
+Ensure the work area is dry before using 70% denatured ethanol to remove bleach residue.
+Allow surface to dry completely before proceeding.
+Or, follow your institution's standard procedures for a contamination or spill event.
+For equipment, follow the manufacturer's recommendations for decontamination of equipment.
+* Biological specimens, transfer devices, and used cartridges should be considered capable of transmitting infectious agents requiring standard precautions.
+Follow your institution's environmental waste procedures for proper disposal of used cartridges and unused reagents.
+These materials may exhibit characteristics of chemical hazardous waste requiring specific disposal.
+If country or regional regulations do not provide clear direction on proper disposal, biological specimens and used cartridges should be disposed per WHO [World Health Organization] medical waste handling and disposal guidelines.
+
+== 11 Chemical Hazards^5,6^
+
+* Signal Word: WARNING
+* *UN GHS Hazard Statements*
+** Harmful if swallowed.
+** May be harmful in contact with skin.
+** Causes eye irritation.
+* *UN GHS Precautionary Statements*
+** Prevention
+*** Wash hands thoroughly after handling.
+** Response
+*** Call a POISON CENTER or doctor/physician if you feel unwell.
+*** If skin irritation occurs: Get medical advice/attention.
+*** IF IN EYES: Rinse cautiously with water for several minutes.
+Remove contact lenses, if present and easy to do.
+Continue rinsing.
+*** If eye irritation persists: Get medical advice/attention.
+
+== 12 Specimen Collection, Transport, and Storage
+
+indexterm:[specimen, collection and transport]
+Proper specimen collection,
+storage, and transport are critical to the performance of this test.
+Inadequate specimen collection,
+improper specimen handling and/or transport may yield a false result.
+See Section12.1 for nasopharyngeal swab collection procedure,
+Section 12.2 for oropharyngeal swab collection procedure,
+Section 12.3 for anterior nasal swab collection procedure,
+Section12.4 for mid-turbinate nasal swab collection procedure,
+and Section12.5 for nasal wash/aspirate procedure.
+
+Nasopharyngeal swab,
+anterior nasal swab,
+mid-turbinate nasal swab and nasal wash/aspirate specimens can
+be stored at room temperature (15–30 °C) for up to 48 hours in
+viral transport medium,
+saline or eNAT medium until testing is performed on the
+GeneXpert Instrument Systems.
+Alternatively,
+nasopharyngeal swab,
+anterior nasal swab,
+mid-turbinate nasal swab and nasal wash/aspirate specimens can
+be stored refrigerated (2–8 °C) up to seven days in viral
+transport medium,
+saline or eNAT medium until testing is performed on the
+GeneXpert Instrument Systems.
+
+For oropharyngeal swab specimen transport and storage
+requirements and additional information,
+refer to the CDC Interim Guidelines for Collecting,
+Handling, and Testing Clinical Specimens from Persons Under Investigation
+(PUIs) for Coronavirus Disease 2019 (COVID-19) at
+https://www.cdc.gov/coronavirus/2019-nCoV/lab/guidelines-clinical-specimens.html.
+
+=== 12.1 Nasopharyngeal Swab Collection Procedure
+
+. Insert the swab into either nostril, passing it into the posterior nasopharynx (see Figure 1).
+
+[#fig-1,caption="Figure 1. "]
+.Nasopharyngeal Swab Collection
+image::ext/xpert-xpress-cov-2-plus/figure-1-nasopharyngeal-swab.png[Nasopharyngeal Swab Collection,width=273,align=center]
+
+[start=2]
+. Rotate swab by firmly brushing against the nasopharynx several times.
+. Remove and place the swab into the tube containing 3 mL of viral transport medium, 3 mL of saline or 2 mL eNAT.
+. Break swab at the indicated break line and cap the specimen collection tube tightly.
+
+=== 12.2 Oropharyngeal Swab Collection Procedure
+
+. Swab the posterior pharynx, tonsils, and other inflamed areas.
+Avoid touching the tongue, cheeks, and teeth with the swab when collecting specimens.
+. Remove and place the swab into the tube containing 3 mL of viral transport medium, 3 mL saline or 2 mL of eNAT.
+Break swab at the indicated break line and cap the specimen collection tube tightly.
+
+=== 12.3 Anterior Nasal Swab Collection Procedure
+
+. Insert a nasal swab 1 to 1.5 cm into a nostril.
+Rotate the swab against the inside of the nostril for 3 seconds while applying pressure with a finger to the outside of the nostril (see Figure 2).
+
+[#fig-2,caption="Figure 2. "]
+.Anterior Nasal Swab Collection for First Nostril
+image::ext/xpert-xpress-cov-2-plus/figure-2-anterior-nasal-first.png[Anterior Nasal Swab Collection for First Nostril,width=192,align=center]
+
+[start=2]
+. Repeat on the other nostril with the same swab, using external pressure on the outside of the other nostril (see Figure 3).
+To avoid specimen contamination, do not touch the swab tip to anything other than the inside of the nostril.
+
+[#fig-3,caption="Figure 3. "]
+.Anterior Nasal Swab Collection for Second Nostril
+image::ext/xpert-xpress-cov-2-plus/figure-3-anterior-nasal-second.png[Anterior Nasal Swab Collection for Second Nostril,width=192,align=center]
+
+[start=3]
+. Remove and place the swab into the tube containing 3 mL of viral transport medium, 3 mL saline or 2mL eNAT.
+Break swab at the indicated break line and cap the specimen collection tube tightly.
+
+=== 12.4 Mid-Turbinate Nasal Swab Collection Procedure
+
+. Insert the mid-turbinate nasal swab into either nostril, passing it into the mid-turbinate area (see Figure 4).
+
+[#fig-4,caption="Figure 4. "]
+.Mid-Turbinate Nasal Swab Specimen Collection
+image::ext/xpert-xpress-cov-2-plus/figure-4-mid-turbinate.png[Mid-Turbinate Nasal Swab Specimen Collection,width=274,align=center]
+
+[start=2]
+. Rotate swab by firmly brushing against the mid-turbinate area several times.
+. Remove and place the swab into the tube containing 3 mL of viral transport medium, 3 mL saline or 2mL eNAT.
+. Break swab at the indicated break line and cap the specimen collection tube tightly.
+
+=== 12.5 Nasal Wash/Aspirate Collection Procedure
+
+Using a clean 300 µL transfer pipette (supplied),
+transfer 600 µL of the sample (two draws,
+using the same transfer pipette) into the 3 mL viral transport medium tube,
+3 mL of saline or 2 mL of eNAT and then cap the tube.
+
+== 13 Procedure
+
+=== 13.1 Preparing the Cartridge
+
+NOTE: *Important:* Start the test within 30 minutes of adding the sample to the cartridge.
+
+. Remove a cartridge from the package.
+. Check the specimen transport tube is closed.
+. Mix specimen by rapidly inverting the specimen transport tube 5 times.
+Open the cap on the specimen transport tube.
+. Open the cartridge lid.
+. Remove the transfer pipette from the wrapper.
+. Squeeze the top bulb of the transfer pipette completely and place the pipette tip in the specimen transport tube (see Figure 5).
+
+[#fig-5,caption="Figure 5. "]
+.Transfer Pipette
+image::ext/xpert-xpress-cov-2-plus/figure-5-transfer-pipette.png[Transfer Pipette,width=118,align=center]
+
+[cols="1,3", options="header"]
+|===
+^h| Number
+h| Description
+
+^| 1
+| Squeeze here
+
+^| 2
+| Pipette
+
+^| 3
+| Overflow Reservoir Bulb
+
+^| 4
+| Sample
+
+|===
+
+
+[start=7]
+. Slowly release the top bulb of the pipette to fill the pipette before removing from the tube.
+After filling pipette, excess sample will be seen in the overflow reservoir bulb of the pipette (see Figure 1).
+Check that the pipette does not contain bubbles.
+. To transfer the sample to the cartridge, squeeze the top bulb of the transfer pipette completely again to empty the contents of the pipette into the large opening (Sample Chamber) of the cartridge shown in Figure 2.
+Dispose of the used pipette.
+
+[#fig-6,caption="Figure 6. "]
+.Xpert Xpress CoV-2 _plus_ Cartridge (Top View)
+image::ext/xpert-xpress-cov-2-plus/figure-6-cartridge-top-view.png[Xpert Xpress CoV-2 plus Cartridge (Top View),width=124,align=center]
+
+[.text-center]
+*Sample Chamber (Large Opening)*
+
+NOTE: Dispense the entire volume of liquid into the sample chamber.
+False negative results may occur if insufficient sample volume is added to the cartridge.
+
+[start=9]
+. Close the cartridge lid.
+
+=== 13.2 External Controls
+
+External controls described in Section 9 are available but not
+provided and may be used in accordance with local,
+state, and federal accrediting organizations,
+as applicable.
+
+To run a control using the Xpert Xpress CoV-2 _plus_ test,
+perform the following steps:
+
+. Mix control by rapidly inverting the external control tube 5 times.
+. Open the cap on the external control tube.
+. Open the cartridge lid.
+. Using a clean transfer pipette, transfer one draw of the external control sample into the large opening (Sample Chamber) in the cartridge shown in Figure 6.
+Close the cartridge lid and start the test.
+
+== 14 Running the Test
+
+* For the GeneXpert Dx System, see Section 14.1.
+* For the GeneXpert Infinity System, see Section 14.2.
+
+=== 14.1 GeneXpert Dx System
+
+==== 14.1.1 Starting the Test
+
+[IMPORTANT]
+====
+Before you start the test,
+make sure that:
+
+* The system is running the correct GeneXpert Dx software version shown in section - Materials Required but Not Provided.
+* The correct assay definition file is imported into the software.
+====
+
+This section lists the basic steps for running the test.
+For detailed instructions,
+see the _GeneXpert Dx System Operator Manual_.
+
+NOTE: The steps you follow can be different if the system administrator changed the default workflow of the system.
+
+. Turn on the GeneXpert Dx System, then turn on the computer and log on.
+The GeneXpert software will launch automatically.
+If it does not, double-click the GeneXpert Dx software shortcut icon on the Windows^®^ desktop.
+. Log on using your username and password.
+. In the GeneXpert System window, click *Create Test*.
++
+The *Create Test* window displays.
+The *Scan Patient ID barcode* dialog box displays.
+. Scan or type in the Patient ID.
+If typing the Patient ID, make sure the Patient ID is typed correctly.
++
+The Patient ID is associated with the test results and displays
+in the *View Results* window and all the reports.
+The *Scan Sample ID barcode* dialog box displays.
+. Scan or type in the Sample ID.
+If typing the Sample ID, make sure the Sample ID is typed correctly.
++
+The Sample ID is associated with the test results and displays
+in the *View Results* window and all the reports.
+The *Scan Cartridge Barcode* dialog box displays.
+. Scan the barcode on the cartridge.
+Using the barcode information, the software automatically fills the boxes for the following fields: *Select Assay*, *Reagent Lot ID*, *Cartridge SN*, and *Expiration Date*.
+
+NOTE: If the barcode on the cartridge does not scan, then repeat the test with a new cartridge.
+If you have scanned the cartridge barcode in the software and the assay definition file is not available, a screen displays indicating the assay definition file is not loaded on the system.
+If this screen displays, contact Cepheid Technical Support.
+
+[start=7]
+. Click *Start Test*.
+In the dialog box that displays, type your password, if required.
+. Open the instrument module door with the blinking green light and load the cartridge.
+. Close the door.
+The test starts and the green light stops blinking.
++
+When the test is finished,
+the light turns off.
+. Wait until the system releases the door lock before opening the module door, then remove the cartridge.
+. Dispose of the used cartridges in the appropriate specimen waste containers according to your institution's standard practices.
+
+==== 14.1.2 Viewing and Printing Results
+
+This section lists the basic steps for viewing and printing results.
+For more detailed instructions on how to view and print the results,
+see the _GeneXpert Dx System Operator Manual_.
+
+. Click the *View Results* icon to view results.
+. Upon completion of the test, click the *Report* button of the *View Results* window to view and/or generate a PDF report file.
+
+=== 14.2 GeneXpert Infinity System
+
+==== 14.2.1 Starting the Test
+
+[IMPORTANT]
+====
+Before you start the test,
+make sure that:
+
+* The system is running the correct Xpertise software version shown in section - Materials Required but Not Provided.
+* The correct assay definition file is imported into the software.
+====
+
+This section lists the basic steps for running the test.
+For detailed instructions,
+see the _GeneXpert Infinity System Operator Manual_.
+
+NOTE: The steps you follow can be different if the system administrator changed the default workflow of the system.
+
+. Power up the instrument.
+The Xpertise software will launch automatically.
+If it does not, double-click the Xpertise software shortcut icon on the Windows^®^ desktop.
+. Log on to the computer, then log on to the GeneXpert Xpertise software using your user name and password.
+. In the Xpertise Software *Home* workspace, click *Orders* and in the *Orders* workspace, click *Order Test*.
++
+The *Order Test - Patient ID* workspace displays.
+. Scan or type in the Patient ID.
+If typing the Patient ID, make sure the Patient ID is typed correctly.
++
+The Patient ID is associated with the test results and displays
+in the *View Results* window and all the reports.
+. Enter any additional information required by your institution, and click the *CONTINUE* button.
++
+The *Order Test - Sample ID* workspace displays.
+. Scan or type in the Sample ID.
+If typing the Sample ID, make sure the Sample ID is typed correctly.
++
+The Sample ID is associated with the test results and displays
+in the *View Results* window and all the reports.
+. Click the *CONTINUE* button.
++
+The *Order Test - Assay* workspace displays.
+. Scan the barcode on the cartridge.
+Using the barcode information, the software automatically fills the boxes for the following fields: *Select Assay*, *Reagent Lot ID*, *Cartridge SN*, and *Expiration Date*.
+
+NOTE: If the barcode on the cartridge does not scan, then repeat the test with a new cartridge.
+If you have scanned the cartridge barcode in the software and the assay definition file is not available, a screen displays indicating the assay definition file is not loaded on the system.
+If this screen displays, contact Cepheid Technical Support.
+
+After the cartridge is scanned,
+the *Order Test - Test Information* workspace displays.
+
+[start=9]
+. Verify that the information is correct, and click *Submit*.
+In the dialog box that displays, type your password, if required.
+. Place the cartridge on the conveyor belt.
++
+The cartridge automatically loads,
+the test runs,
+and the used cartridge are placed into the waste container.
+
+==== 14.2.2 Viewing and Printing Results
+
+This section lists the basic steps for viewing and printing results.
+For more detailed instructions on how to view and print the results,
+see the _GeneXpert Infinity System Operator Manual_.
+
+. In the Xpertise Software *Home* workspace, click the *RESULTS* icon.
+The *Results* menu displays.
+. In the *Results* menu, select the *VIEW RESULTS* button.
+The *View Results* workspace displays showing the test results.
+. Click the *REPORT* button to view and/or generate a PDF report file.
+
+== 15 Quality Controls
+
+=== 15.1 Internal Controls
+
+Each cartridge includes a Sample Processing Control (SPC) and
+Probe Check Control (PCC).
+
+*Sample Processing Control (SPC)* – Ensures that the sample was
+processed correctly.
+The SPC verifies that sample processing is adequate.
+Additionally,
+this control detects sample-associated inhibition of the
+real-time PCR assay,
+ensures that the PCR reaction conditions (temperature and time)
+are appropriate for the amplification reaction,
+and that the PCR reagents are functional.
+The SPC should be positive in a negative sample and can be
+negative or positive in a positive sample.
+The SPC passes if it meets the validated acceptance criteria.
+
+*Probe Check Control (PCC)* – Before the start of the PCR reaction,
+the GeneXpert System measures the fluorescence signal from the
+probes to monitor bead rehydration,
+reaction tube filling,
+probe integrity,
+and dye stability.
+The PCC passes if it meets the validated acceptance criteria.
+
+=== 15.2 External Controls
+
+External controls may be used in accordance with local,
+state and federal accrediting organizations as applicable.
+
+NOTE: Cepheid recommends that all laboratories perform external QC with each new lot and shipment of reagents, at a minimum, while running the Xpert Xpress CoV-2 _plus_ test.
+
+== 16 Interpretation of Results
+
+indexterm:[test results, interpretation]
+The results are interpreted automatically by the GeneXpert
+System and are clearly shown in the *View Results* window.
+Xpert Xpress CoV-2 _plus_ test provides test results based on
+the detection of three gene targets according to the algorithms
+shown in Table 1.
+
+[.caption-text]
+*Table 1. Xpert Xpress CoV-2 _plus_ Possible Results*
+
+[cols="3,1,1,1,1", options="header"]
+|===
+h| Result Text
+^h| N2
+^h| E
+^h| RdRP
+^h| SPC
+
+| SARS-CoV-2 POSITIVE
+^| {plus}
+^| {plus}
+^| {plus}
+^| +/-
+
+| SARS-CoV-2 POSITIVE
+^| {plus}
+^| +/-
+^| +/-
+^| +/-
+
+| SARS-CoV-2 POSITIVE
+^| +/-
+^| {plus}
+^| +/-
+^| +/-
+
+| SARS-CoV-2 POSITIVE
+^| +/-
+^| +/-
+^| {plus}
+^| +/-
+
+| SARS-CoV-2 NEGATIVE
+^| -
+^| -
+^| -
+^| {plus}
+
+| INVALID
+^| -
+^| -
+^| -
+^| -
+
+|===
+
+
+See Table 2 to interpret test result statements for the Xpert
+Xpress CoV-2 _plus_ test.
+
+[.caption-text]
+*Table 2. Xpert Xpress CoV-2 _plus_ Test Results and
+Interpretation*
+
+[cols="1,3", options="header"]
+|===
+h| Result
+h| Interpretation
+
+| SARS-CoV-2 POSITIVE
+a| SARS-CoV-2 target RNA is detected.
+
+* The SARS-CoV-2 signal has a Ct within the valid range and endpoint above the minimum setting for one or more nucleic acid targets (N2, E, RdRP).
+* SPC: NA; SPC is ignored because coronavirus target amplification occurred.
+* Probe Check: PASS; all probe check results pass.
+
+| SARS-CoV-2 NEGATIVE
+a| SARS-CoV-2 target RNA is not detected.
+
+* The SARS-CoV-2 signals for nucleic acid targets (N2, E and RdRP) do not have a Ct within the valid range and endpoint above the minimum setting.
+* SPC: PASS; SPC has a Ct within the valid range and endpoint above the minimum setting.
+* Probe Check: PASS; all probe check results pass.
+
+| INVALID
+a| SPC does not meet acceptance criteria. Presence or absence of SARS-CoV-2 nucleic acids cannot be determined. Repeat test according to Section 17.2.
+
+* SPC: FAIL; SPC and SARS-CoV-2 signals do not have a Ct within valid range and endpoint below minimum setting.
+* Probe Check: PASS; all probe check results pass.
+
+| ERROR
+a| Presence or absence of SARS-CoV-2 cannot be determined. Repeat test according to Section 17.2.
+
+* SARS-CoV-2: NO RESULT
+* SPC: NO RESULT
+* Probe Check: FAIL^a^; all or one of the probe check results fail.
+
+| NO RESULT
+a| Presence or absence of SARS-CoV-2 cannot be determined. Repeat test according to Section 17.2. A NO RESULT indicates that insufficient data were collected. For example, the operator stopped a test that was in progress.
+
+* SARS-CoV-2: NO RESULT
+* SPC: NO RESULT
+* Probe Check: NA (not applicable).
+
+|===
+
+
+[.note-text]
+^a^ If the probe check passed,
+the error is caused by the maximum pressure limit exceeding the
+acceptable range or by a system component failure.
+
+The Xpert Xpress CoV-2 _plus_ test includes an Early Assay
+Termination (EAT) function which will provide earlier time to
+results in high titer specimens if the signal from the target
+nucleic acid reaches a predetermined threshold before the PCR
+cycles have been completed.
+When SARS CoV-2 titers are high enough to initiate the EAT function,
+the SPC and/or other target amplification curves may not be
+seen and their results may not be reported.
+
+== 17 Retests
+
+=== 17.1 Reasons to Repeat the Assay
+
+If any of the test results mentioned below occur,
+repeat the test once according to instructions in Section 16.2.
+
+* An INVALID result indicates that the control SPC failed.
+The sample was not properly processed, PCR is inhibited, or the sample was not properly collected.
+* An ERROR result could be due to, but not limited to, Probe Check Control failure, system component failure, or the maximum pressure limits were exceeded.
+* A NO RESULT indicates that insufficient data were collected.
+For example, cartridge failed integrity test, the operator stopped a test that was in progress, or a power failure occurred.
+
+If an External Control fails to perform as expected,
+repeat external control test and/or contact Cepheid for assistance.
+
+=== 17.2 Retest Procedure
+
+To retest a non-determinate result (INVALID,NO RESULT,or
+ERROR),use a new cartridge.
+
+Use the leftover sample from the original specimen transport
+medium tube or new external control tube.
+
+. Put on a clean pair of gloves.
+Obtain a new Xpert Xpress CoV-2 _plus_ cartridge and a new transfer pipette.
+. Check the specimen transport tube or external control tube is closed.
+. Mix the sample by rapidly inverting the specimen transport medium tube or external control tube 5 times.
+Open the cap on the specimen transport tube or external control tube.
+. Open the cartridge lid.
+. Using a clean transfer pipette (supplied), transfer sample (one draw) to the sample chamber with the large opening in the cartridge.
+. Close the cartridge lid.
+
+== 18 Limitations
+
+* Performance of the Xpert Xpress CoV-2 _plus_ for individuals suspected of COVID-19 has only been established in nasopharyngeal swab and anterior nasal swab specimens.
+Specimen types other than nasopharyngeal swab and anterior nasal swab have not been assessed and performance characteristics are unknown.
+* Performance of Xpert Xpress CoV-2 _plus_ for asymptomatic screening population has only been established in anterior nasal swab specimens.
+Specimen types other than anterior nasal swab have not been assessed and performance characteristics are unknown.
+* Nasopharyngeal swab, oropharyngeal swab and anterior nasal swab samples collected into saline should not be frozen.
+* Performance of this test was established based on the evaluation of a limited number of clinical specimens.
+Clinical performance has not been established with all circulating variants but is anticipated to be reflective of the prevalent variants in circulation at the time and location of the clinical evaluation.
+Performance at the time of testing may vary depending on the variants circulating, including newly emerging strains of SARS-CoV-2 and their prevalence, which change over time.
+* The performance of this device has not been assessed in a population vaccinated against COVID-19 or treated with COVID-19 therapies.
+* Negative results do not preclude SARS-CoV-2 and should not be used as the sole basis for treatment or other patient management decisions.
+* Results from the Xpert Xpress CoV-2 _plus_ test should be correlated with the clinical history, epidemiological data, and other data available to the clinician evaluating the patient.
+* As with any molecular test, mutations within the target regions of Xpert Xpress CoV-2 _plus_ could affect primer and/or probe binding and result in failure to detect the presence of virus.
+* This test cannot rule out diseases caused by other bacterial or viral pathogens.
+* The performance of this test was validated using the procedures provided in this package insert only.
+Modifications to these procedures may alter the performance of the test.
+* Erroneous test results might occur from improper specimen collection; failure to follow the recommended sample collection, handling, and storage procedures; technical error; or sample mix-up.
+Careful compliance with the instructions in this insert is necessary to avoid erroneous results.
+* Viral nucleic acid may persist in vivo, independent of virus infectivity.
+Detection of analyte target(s) does not imply that the corresponding virus(es) are infectious or are the causative agents for clinical symptoms.
+* This test has been evaluated for use with human specimen material only.
+* This test is a qualitative test and does not provide the quantitative value of detected organism present.
+* This test has not been evaluated for monitoring treatment of infection.
+* This test has not been evaluated for screening of blood or blood products for the presence of SARS-CoV-2.
+* The effect of interfering substances has only been evaluated for those listed within the labeling.
+Interference by substances other than those described can lead to erroneous results.
+* Performance has not been established with media containing guanidine thiocyanate (GTC) other than eNAT.
+* Cross-reactivity with respiratory tract organisms other than those described herein can lead to erroneous results.
+
+== 19 Clinical Evaluation
+
+=== 19.1 Clinical Evaluation—Performance of Xpert Xpress CoV-2 _plus_ Test on NPS and NS Specimens Collected from Individuals Suspected of COVID-19
+
+indexterm:[clinical performance, evaluation]
+The performance of the Xpert Xpress CoV-2 _plus_ test was
+evaluated using archived clinical nasopharyngeal (NPS) and
+anterior nasal swab (NS) specimens in viral transport medium or
+universal transport medium.
+Archived specimens were selected consecutively by date and
+previously known analyte result.
+A total of 164 NP swab and 111 NS specimens were tested with
+Xpert Xpress CoV-2 _plus_ side by side with an authorized
+SARS-CoV-2 RT-PCR test in a randomized and blinded fashion.
+
+Positive Percent Agreement (PPA),
+Negative Percent Agreement (NPA),
+and non-determinate rate were determined by comparing the
+results of the Xpert Xpress CoV-2 _plus_ test relative to the
+results of a SARS-CoV-2 CE-authorized RT-PCR test for the
+SARS-CoV-2 target.
+
+For the NPS specimens,
+Xpert Xpress CoV-2 _plus_ demonstrated a PPA and NPA of 100.0%
+and 96.5% for SARS-CoV-2,
+respectively (Table 3).
+The initial non-determinate rate for the Xpert Xpress CoV-2
+_plus_ test was 1.8% (3/164).
+On repeat testing,
+all three (3) specimens yielded valid results.
+The final non-determinate rate for the Xpert Xpress CoV-2
+_plus_ test was 0.0% (0/164).
+
+[.caption-text]
+*Table 3. Xpert Xpress CoV-2 _plus_ Performance Results Using NPS Specimens*
+
+[.small]
+[cols="12,12,10,10,10,10,16,16", options="header"]
+|===
+h| Target
+^h| Number of Specimens
+^h| TP
+^h| FP
+^h| TN
+^h| FN
+^h| PPA (95% CI)
+^h| NPA (95% CI)
+
+| SARS-CoV-2
+^| 164
+^| 79
+^| 3
+^| 82
+^| 0
+^| 100.0% +
+(95.4% - 100.0%)
+^| 96.5% +
+(90.1% - 98.8%)
+
+|===
+
+
+[.note-text]
+TP: True Positive;
+FP: False Positive;
+TN: True Negative;
+FN: False Negative;
+CI: Confidence Interval
+
+For the NS specimens,
+Xpert Xpress CoV-2 _plus_ demonstrated a PPA and NPA of 100.0%
+and 100.0% for SARS-CoV-2,
+respectively (Table 2).
+The initial non-determinate rate for the Xpert Xpress CoV-2
+_plus_ test with NS specimens was 2.7% (3/111).
+On repeat testing,
+all three (3) specimens yielded valid results.
+The final non-determinate rate for the Xpert Xpress CoV-2
+_plus_ test was 0.0% (0/111).
+
+[.caption-text]
+*Table 4. Xpert Xpress CoV-2 _plus_ Performance Results Using NS Specimens*
+
+[.small]
+[cols="12,12,10,10,10,10,16,16", options="header"]
+|===
+h| Target
+^h| Number of Specimens
+^h| TP
+^h| FP
+^h| TN
+^h| FN
+^h| PPA (95% CI)
+^h| NPA (95% CI)
+
+| SARS-CoV-2
+^| 111
+^| 46
+^| 0
+^| 65
+^| 0
+^| 100.0% +
+(92.3% - 100.0%)
+^| 100.0% +
+(94.4% - 100.0%)
+
+|===
+
+
+[.note-text]
+TP: True Positive;
+FP: False Positive;
+TN: True Negative;
+FN: False Negative;
+CI: Confidence Interval
+
+=== 19.2 Clinical Evaluation—Performance of Xpert Xpress CoV-2 _plus_ Test on Specimens Collected from Asymptomatic Screening Population
+
+A total of 125 archived frozen de-identified clinical NS
+specimens from individuals without symptoms or other reasons to
+suspect COVID-19 were evaluated.
+These specimens were selected consecutively by date and
+previously known analyte result.
+The specimens from the asymptomatic screening individuals were
+tested with Xpert Xpress CoV-2 _plus_ side by side with an
+authorized SARS-CoV-2 RT-PCR test in a randomized and blinded fashion.
+The Xpert Xpress CoV-2 _plus_ demonstrated a PPA and NPA of
+100.0% and 99.0% for SARS-CoV-2,
+respectively (Section 19.2).
+The non-determinate rate for the Xpert Xpress CoV-2 _plus_ test
+was 0% (0/125).
+
+[.caption-text]
+*Table 5. Xpert Xpress CoV-2 _plus_ Performance Results Using
+NS Specimens from Asymptomatic Screening Individuals*
+
+[.small]
+[cols="12,12,10,10,10,10,16,16", options="header"]
+|===
+h| Target
+^h| Number of Specimens
+^h| TP
+^h| FP
+^h| TN
+^h| FN
+^h| PPA (95% CI)
+^h| NPA (95% CI)
+
+| SARS-CoV-2
+^| 125
+^| 20
+^| 1
+^| 104
+^| 0
+^| 100.0% +
+(83.9% - 100.0%)
+^| 99.0% +
+(94.8% - 99.8%)
+
+|===
+
+
+[.note-text]
+TP: True Positive;
+FP: False Positive;
+TN: True Negative;
+FN: False Negative;
+CI: Confidence Interval
+
+== 20 Analytical Performance
+
+=== 20.1 Analytical Sensitivity (Limit of Detection)
+
+indexterm:[analytical performance, limit of detection]
+The analytical sensitivity of the Xpert Xpress CoV-2 _plus_
+test was first estimated using two reagent lots by testing
+limiting dilutions of one strain of NATtrol SARS-CoV-2 virus
+diluted into pooled negative clinical NPS-UTM/VTM matrix,
+following the guidance in Clinical and Laboratory Standards
+Institute (CLSI) document EP17-A2. LoD was estimated by
+considering each target gene (E,
+N2, and RdRP) in addition to the overall positivity rate for the
+Xpert Xpress CoV-2 _plus_ test.
+The estimated LoD value as determined by Probit regression
+analysis was based on the weakest target gene (N2) and verified
+using two lots of Xpert Xpress CoV-2 _plus_ reagents in
+replicates of 20 for two clinical NPS matrices (UTM/VTM,
+saline, eNAT).
+The concentration level with observed hit rates greater than or
+equal to 95% in the LoD determination study were 403,
+200 and 70 copies/mL for the N2 target,
+RdRP target and E target,
+respectively.
+The claimed LoD is 403 copies/mL (Table 6).
+
+[.caption-text]
+*Table 6. Xpert Xpress CoV-2 _plus_ Limit of Detection in
+NPS-UTM/VTM Matrix*
+
+[.small]
+[cols="14,10,10,10,10,10,10,10,10,10"]
+|===
+.2+h| Concentration (copies/mL)
+3+^h| E gene
+3+^h| N2 gene
+3+^h| RdRP gene
+
+^h| # Positive
+^h| % Positive
+^h| Mean Ct
+^h| # Positive
+^h| % Positive
+^h| Mean Ct
+^h| # Positive
+^h| % Positive
+^h| Mean Ct
+
+^| 10
+^| 4
+^| 20
+^| 39.0
+^| 0
+^| 0
+^| 0.0
+^| 1
+^| 5
+^| 42.7
+
+^| 20^a^
+^| 12
+^| 60
+^| 39.2
+^| 0
+^| 0
+^| 0.0
+^| 10
+^| 50
+^| 41.7
+
+^| 30
+^| 16
+^| 80
+^| 39.2
+^| 0
+^| 0
+^| 0.0
+^| 14
+^| 70
+^| 41.0
+
+^| 40
+^| 16
+^| 80
+^| 37.8
+^| 0
+^| 0
+^| 0.0
+^| 16
+^| 80
+^| 40.8
+
+^| 50
+^| 18
+^| 90
+^| 38.1
+^| 2
+^| 10
+^| 42.3
+^| 18
+^| 90
+^| 40.6
+
+^| 70
+^| 19
+^| 95
+^| 37.9
+^| 2
+^| 10
+^| 43.1
+^| 17
+^| 85
+^| 39.8
+
+^| 100
+^| 20
+^| 100
+^| 36.7
+^| 5
+^| 25
+^| 41.7
+^| 18
+^| 90
+^| 39.5
+
+^| 200
+^| 20
+^| 100
+^| 35.8
+^| 14
+^| 70
+^| 40.6
+^| 19
+^| 95
+^| 38.3
+
+^| 300
+^| 20
+^| 100
+^| 35.3
+^| 19
+^| 95
+^| 39.5
+^| 20
+^| 100
+^| 37.6
+
+^| 400
+^| 20
+^| 100
+^| 34.9
+^| 18
+^| 90
+^| 39.9
+^| 20
+^| 100
+^| 37.2
+
+^| 500
+^| 20
+^| 100
+^| 34.6
+^| 19
+^| 95
+^| 38.2
+^| 20
+^| 100
+^| 37.0
+
+^| 600^b^
+^| 20
+^| 100
+^| 34.1
+^| 20
+^| 100
+^| 38.0
+^| 20
+^| 100
+^| 36.4
+
+^| 700^c^
+^| 20
+^| 100
+^| 34.2
+^| 20
+^| 100
+^| 38.0
+^| 20
+^| 100
+^| 36.5
+
+^| 800^c^
+^| 20
+^| 100
+^| 34.0
+^| 20
+^| 100
+^| 38.0
+^| 20
+^| 100
+^| 36.4
+
+|===
+
+
+[.note-text]
+^a^ One of 20 replicates tested reported INVALID.
+The run was successfully repeated to obtain 20 valid replicates.
+
+[.note-text]
+^b^ One of 20 replicates tested reported ERROR.
+The run was successfully repeated to obtain 20 valid replicates
+
+[.note-text]
+^c^ One of 20 replicates tested reported NO RESULT.
+The run was successfully repeated to obtain 20 valid replicates.
+
+=== 20.2 Analytical Reactivity (Inclusivity)
+
+The inclusivity of Xpert Xpress CoV-2 _plus_ was evaluated on June 30th,
+2022 using in silicoanalysis of the assay amplicons in relation
+to 11,650,640 SARS-CoV-2 sequences available in the GISAID gene
+database for three targets,
+E, N2 and RdRP.
+The 11,650,640 SARS-CoV-2 sequences were separated into the
+lineages of interest based on the Pango Lineage assigned to
+each genome by GISAID.
+Thus, the following inclusivity analyses focuses on the combined
+sequences from the variants of interest and variants of concern
+as of June 30th,
+2022.
+
+For analysis of the E target,
+1,181,028 sequences were excluded due to ambiguous nucleotides,
+which reduced the total to 10,469,612 sequences.
+Of the 10,469,612 GISAID sequences,
+10,420,248 (99.5%) were an exact match to the SARS-CoV-2 E
+target amplicon generated in the Xpert Xpress CoV-2 _plus_ test.
+Single nucleotide mismatches were observed for 48,562 (0.5%)
+sequences and are not expected to impact the performance of the assay.
+Two or more mismatches were observed for 802 (0.01%) sequences.
+
+For analysis of the N2 target,
+1,063,259 sequences were excluded due to ambiguous nucleotides,
+which reduced the total used in the evaluation to 10,587,381 sequences.
+Of the 10,587,381 GISAID sequences,
+10,386,068 (98.1%) were an exact match to the SARS-CoV-2 N2
+target amplicon generated in the Xpert Xpress CoV-2 _plus_ test.
+Single nucleotide mismatches were observed for 196,336 (1.9%)
+sequences and are not expected to impact the assay performance.
+Two or more mismatches were observed for 4,977 (0.05%) sequences.
+
+The RdRP is amplified using a semi-nested primer/probe set;
+only the inner amplicon is used for the in silico analysis.
+For analysis of the RdRP target,
+1,316,984 sequences were excluded due to ambiguous nucleotides,
+which reduced the total to 10,333,656 sequences.
+Of the 10,333,656 GISAID sequences,
+10,247,146 (99.2%) were an exact match to the SARS-CoV-2 RdRP
+target amplicon generated in the Xpert Xpress CoV-2 _plus_ test.
+Single nucleotide mismatches were observed for 85,373 (0.8%)
+sequences and are not expected to impact the performance of the assay.
+Two or more mismatches were observed for 1,137 (0.01%) sequences.
+
+In addition to the in silico analysis of the SARS-CoV-2 primers
+and probes for inclusivity,
+the inclusivity of the Xpert Xpress CoV-2 _plus_ test was
+evaluated by bench testing against multiple strains of
+SARS-CoV-2 at levels near the analytical LoD.
+A total of 25 strains comprised of 5 SARS-CoV-2 virus strains
+and 20 SARS-CoV-2 in vitro RNA transcripts representing variant
+strains were tested in this study with the Xpert Xpress CoV-2 _plus_ test.
+Three (3) replicates were tested for each strain.
+All SARS-CoV-2 strains tested positive in all three replicates.
+Results are shown in Table 3.
+
+[.caption-text]
+*Table 7. Analytical Reactivity (Inclusivity) of the Xpert
+Xpress CoV-2 _plus_ Test*
+
+[cols="30,20,13,10,10,10"]
+|===
+.2+h| SARS-CoV-2 Strain
+.2+h| Tested Titer
+.2+h| Final SARS-CoV-2 Result Call-Out
+3+^h| Number of Positive Results Obtained out of the Total Number of Replicates Tested
+
+^h| E
+^h| N2
+^h| RdRP
+
+| 2019-nCoV/Italy-INMI1^a^
+| 5 TCID~50~/mL
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| England/204820464/2020
+| 0.5 TCID~50~/mL
+^| POS^b^
+^| 3/4
+^| 3/4
+^| 3/4
+
+| Hong Kong/VM20001061/2020
+| 0.25 TCID~50~/mL
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| South Africa/KRISP-K005325/2020
+| 0.25 TCID~50~/mL
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| USA/CA_CDC_5574/2020
+| 0.25 TCID~50~/mL
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| Australia/VIC01/2020^c^
+| 1.2e3 copies/mL
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| Wuhan-Hu-1
+| 1.2e3 copies/mL
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| Japan/Hu_DP_Kng_19-020/2020
+| 1.2e3 copies/mL
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| USA/TX1/2020
+| 1.2e3 copies/mL
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| USA/MN2-MDH2/2020
+| 1.2e3 copies/mL
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| USA/CA9/2020
+| 1.2e3 copies/ml
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| France/HF2393/2020
+| 1.2e3 copies/ml
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| Taiwan/NTU02/2020
+| 1.2e3 copies/ml
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| USA/WA2/2020
+| 1.2e3 copies/ml
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| USA/CA-PC101P/2020
+| 1.2e3 copies/ml
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| Iceland/5/2020
+| 1.2e3 copies/ml
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| England/SHEF-C05B2/2020
+| 1.2e3 copies/ml
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| Belgium/ULG/10004/2020
+| 1.2e3 copies/ml
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| England/205041766/2020
+| 1.2e3 copies/ml
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| England/MILK-9E05B3/2020
+| 1.2e3 copies/ml
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| South Africa/KRISP-EC-K005299/2020
+| 1.2e3 copies/ml
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| Japan/IC-0564/2021
+| 1.2e3 copies/ml
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| India/CT-ILSGS00361/2021
+| 1.2e3 copies/ml
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| India/MH-NCCS-P1162000182735/2021
+| 1.2e3 copies/ml
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+| India/MH-SEQ-221_S66_R1_001/2021
+| 1.2e3 copies/ml
+^| POS
+^| 3/3
+^| 3/3
+^| 3/3
+
+|===
+
+
+[.note-text]
+^a^ Heat-inactivated viral culture fluid (intact viral particles)
+
+[.note-text]
+^b^ One of 3 replicates reported ERROR.
+The run was successfully repeated to obtain 3 valid replicates.
+
+[.note-text]
+^c^ Synthetic,
+in vitro RNA transcript,
+TWIST controls
+
+=== 20.3 Analytical Specificity (Exclusivity)
+
+The analytical specificity/cross-reactivity of the Xpert Xpress
+CoV-2 _plus_ plan included evaluation of the SARS-CoV-2 test
+primer and probes with potentially cross-reactive
+microorganisms by in silico analysis.
+The analysis was conducted by mapping the primers and probes of
+Xpert Xpress CoV-2 _plus_ individually to the microorganism
+sequences downloaded from the GISAID database.
+E primers and probes are not specific for SARS-CoV-2 and will
+detect Human and Bat SARS-coronavirus.
+Other than that,
+no potential unintended cross reactivity with other organisms
+listed in Table 1 is expected based on the in silico analysis.
+
+[.caption-text]
+*Table 8. Microorganisms Analyzed in the in silico Analysis for
+the SARS-CoV-2 Target*
+
+[cols="1,1", options="header"]
+|===
+h| Microorganisms from the Same Genetic Family
+h| High Priority Organisms
+
+| Human coronavirus 229E
+| Adenovirus
+
+| Human coronavirus OC43
+| Human metapneumovirus (hMPV)
+
+| Human coronavirus HKU1
+| Parainfluenza viruses 1–4
+
+| Human coronavirus NL63
+| Influenza A
+
+| SARS-coronavirus
+| Influenza B
+
+| MERS-coronavirus
+| Influenza C
+
+| Bat coronavirus
+| Enterovirus
+
+|
+| Respiratory syncytial virus
+
+|
+| Rhinovirus
+
+|
+| Chlamydia pneumoniae
+
+|
+| Haemophilus influenzae
+
+|
+| Legionella pneumophila
+
+|
+| Mycobacterium tuberculosis
+
+|
+| Streptococcus pneumoniae
+
+|
+| Streptococcus pyogenes
+
+|
+| Bordetella pertussis
+
+|
+| Mycoplasma pneumoniae
+
+|
+| Pneumocystis jirovecii (PJP)
+
+|
+| Parechovirus
+
+|
+| Candida albicans
+
+|
+| Corynebacterium diphtheriae
+
+|
+| Legionella non-pneumophila
+
+|
+| Bacillus anthracis (Anthrax)
+
+|
+| Moraxella catarrhalis
+
+|
+| Neisseria elongata and N. meningitidis
+
+|
+| Pseudomonas aeruginosa
+
+|
+| Staphylococcus epidermidis
+
+|
+| Streptococcus salivarius
+
+|
+| Leptospira
+
+|
+| Chlamydia psittaci
+
+|
+| Coxiella burnetii (Q-Fever)
+
+|
+| Staphylococcus aureus
+
+|===
+
+
+In addition to the in silico analysis of the SARS-CoV-2 primers
+and probes for cross-reactivity,
+the analytical specificity of the Xpert Xpress CoV-2 _plus_
+test was evaluated by bench-testing a panel of 55
+microorganisms comprising 4 human coronaviruses,
+1 MERS-Coronavirus,
+1 SARS-Coronavirus,
+19 other respiratory viruses,
+26 respiratory bacteria,
+2 yeast strains,
+1 fungal strain,
+and 1 human nasal wash fluid representing a diverse microbial
+flora in the human respiratory tract.
+The panel was tested in different pools of microorganisms;
+if a pool produced a positive result,
+then each member of the pool would have been tested individually.
+Three replicates of each pool were tested.
+A sample was considered negative if all three replicates were negative.
+The bacterial and yeast strains were tested at concentrations
+of ≥ 1 x 10^6^ CFU/mL with the exception of Chlamydia
+pneumoniae which was tested at 1.1 x 10^6^ IFU/mL and
+Lactobacillus reuteri which was tested at 1.1x 10^6^ copies/mL
+of genomic DNA.
+Viruses were tested at concentrations of ≥ 1 x 10^5^ TCID~50~/mL.
+The results of the analytical specificity/exclusivity study
+demonstrate that the primer/probe sets included in the Xpert
+Xpress CoV-2 _plus_ does not cross-react with the nucleic acids
+from non-intended respiratory microorganisms and
+phylogenetically related human coronavirus species.
+The one exception was the SARS-coronavirus,
+Urbani which yielded the expected test result of SARS-CoV-2 POSITIVE.
+We expected cross-reactivity for the E gene target with the
+SARS-coronavirus Urbani strain which has the highly conserved E
+gene target shared among coronaviruses in the B lineage
+Betacoronavirus.
+Results are shown in Table 2
+
+[.caption-text]
+*Table 9. Analytical Specificity (Exclusivity) of the Xpert
+Xpress CoV-2 _plus_ Test*
+
+[.small]
+[cols="30,10,15,13,10,10,10"]
+|===
+.2+h| Respiratory Microorganisms
+.2+h| Test Group
+.2+h| Tested Concentration
+.2+h| Final SARS-CoV-2 Result Call-Out
+3+^h| Number of Positive Results Obtained out of the Total Number of Replicates Tested
+
+^h| E
+^h| N2
+^h| RdRP
+
+| Human coronavirus, 229E
+.3+^| 1
+| 1.1e5 TCID~50~/mL
+.3+^| NEG
+.3+^| 0/3
+.3+^| 0/3
+.3+^| 0/3
+
+| Human coronavirus, OC43
+| 1.1e5 TCID~50~/mL
+
+| MERS-coronavirus
+| 1.1e5 TCID~50~/mL
+
+| Human coronavirus, NL63
+^| 2
+| 1.1e5 TCID~50~/mL
+^| NEG
+^| 0/3
+^| 0/3
+^| 0/3
+
+| Human coronavirus, HKU1^a^
+^| 3
+| 1.1e6 genome copies/mL
+^| NEG
+^| 0/3
+^| 0/3
+^| 0/3
+
+| SARS-coronavirus, Urbani
+^| 4
+| 1.1e6 genome copies/mL
+^| POS
+^| 3/3
+^| 0/3
+^| 0/3
+
+| Influenza A H1N1 (pdm2009), Michigan/272/2017
+.3+^| 5
+| 1.1e5 TCID~50~/mL
+.3+^| NEG
+.3+^| 0/3
+.3+^| 0/3
+.3+^| 0/3
+
+| Influenza B (Victoria Lineage), Hawaii/01/2018 (NA D197N)
+| 1.1e5 TCID~50~/mL
+
+| RSV-A, Strain: 4/2015 Isolate #1
+| 1.1e5 TCID50/mL
+
+| Adenovirus Type 1
+.3+^| 6
+| 1.1e5 TCID~50~/mL
+.3+^| NEG
+.3+^| 0/3
+.3+^| 0/3
+.3+^| 0/3
+
+| Adenovirus Type 7A
+| 1.1e5 TCID~50~/mL
+
+| Cytomegalovirus
+| 1.1e5 TCID~50~/mL
+
+| Echovirus
+.7+^| 7
+| 1.1e5 TCID~50~/mL
+.7+^| NEG
+.7+^| 0/3
+.7+^| 0/3
+.7+^| 0/3
+
+| Enterovirus, D68 strain US/KY/14-18953
+| 1.1e5 TCID~50~/mL
+
+| Epstein Barr Virus (Human Herpes Virus 4 [Hhv-4])
+| 1.1e5 TCID~50~/mL
+
+| Herpes Simplex Virus (HSV) type 1
+| 1.1e5 TCID~50~/mL
+
+| Human metapneumovirus (hMPV-5, type B1)
+| 1.1e5 TCID~50~/mL
+
+| Measles
+| 1.1e5 TCID~50~/mL
+
+| Mumps virus
+| 1.1e5 TCID~50~/mL
+
+| Human parainfluenza Type 1
+.5+^| 8
+| 1.1e5 TCID~50~/mL
+.5+^| NEG
+.5+^| 0/3
+.5+^| 0/3
+.5+^| 0/3
+
+| Human parainfluenza Type 2
+| 1.1e5 TCID~50~/mL
+
+| Human parainfluenza Type 3
+| 1.1e5 TCID~50~/mL
+
+| Human parainfluenza Type 4
+| 1.1e5 TCID~50~/mL
+
+| Rhinovirus, Type 1A
+| 1.1e5 TCID~50~/mL
+
+| Acinetobacter baumannii
+.7+^| 9
+| 1.1e6 CFU/mL
+.7+^| NEG
+.7+^| 0/3
+.7+^| 0/3
+.7+^| 0/3
+
+| _Burkholderia cepacia_
+| 1.1e6 CFU/mL
+
+| _Candida albicans_
+| 1.1e6 CFU/mL
+
+| _Candida parapsilosis_
+| 1.1e6 CFU/mL
+
+| _Bordetella pertussis_
+| 1.1e6 CFU/mL
+
+| _Chlamydia pneumoniae_
+| 1.1e6 IFU/mL
+
+| _Citrobacter freundii_
+| 1.1e6 CFU/mL
+
+| _Corynebacterium xerosis_
+.6+^| 10
+| 1.1e6 CFU/mL
+.6+^| NEG
+.6+^| 0/3
+.6+^| 0/3
+.6+^| 0/3
+
+| _Escherichia coli_
+| 1.1e6 CFU/mL
+
+| _Enterococcus faecalis_
+| 1.1e6 CFU/mL
+
+| _Hemophilus influenzae_
+| 1.1e6 CFU/mL
+
+| _Legionella_ spp.
+| 1.1e6 CFU/mL
+
+| _Moraxella catarrhalis_
+| 1.1e6 CFU/mL
+
+| _Mycobacterium tuberculosis_ (avirulent)
+.3+^| 11
+| 1.1e6 CFU/mL
+.3+^| NEG
+.3+^| 0/3
+.3+^| 0/3
+.3+^| 0/3
+
+| _Mycoplasma pneumoniae_
+| 1.1e6 CFU/mL
+
+| _Neisseria mucosa_
+| 1.1e6 CFU/mL
+
+| _Propionibacterium acnes_ (= _Cutibacterium acnes_) Z144
+.11+^| 12
+| 1.1e6 CFU/mL
+.11+^| NEG
+.11+^| 0/3
+.11+^| 0/3
+.11+^| 0/3
+
+| _Pseudomonas aeruginosa_, Z139
+| 1.1e6 CFU/mL
+
+| _Staphylococcus aureus_
+| 1.1e6 CFU/mL
+
+| _Staphylococcus epidermidis_
+| 1.1e6 CFU/mL
+
+| _Staphyloccus haemolyticus_
+| 1.1e6 CFU/mL
+
+| _Streptococcus agalactiae_
+| 1.1e6 CFU/mL
+
+| _Streptococcus pneumoniae_
+| 1.1e6 CFU/mL
+
+| _Streptococcus pyogenes_
+| 1.1e6 CFU/mL
+
+| _Streptococcus salivarius_
+| 1.1e6 CFU/mL
+
+| _Streptococcus sanguinis_
+| 1.1e6 CFU/mL
+
+| Pneumocystis jirovecii (PJP)
+| 1.1e6 CFU/mL
+
+| _Lactobacillus reuteri_, F275^b^
+.2+^| 13
+| 1.1e6 genome copies/mL
+.2+^| NEG
+.2+^| 0/3
+.2+^| 0/3
+.2+^| 0/3
+
+| _Neisseria meningitides_
+| 1.1e6 genome copies/mL
+
+| Pooled human nasal wash
+^| 14
+| n/a
+^| NEG
+^| 0/3
+^| 0/3
+^| 0/3
+
+| Influenza C
+^| 15
+| 1.1e5 TCID~50~/mL
+^| NEG
+^| 0/3
+^| 0/3
+^| 0/3
+
+|===
+
+
+[.note-text]
+^a^ RNA specimens were tested in Tris-EDTA+((NH~4~)~2~)(SO~4~)
+buffer using an ADF without sample preparation.
+
+[.note-text]
+^b^ DNA specimens were tested in simulated NPS/NS background
+matrix using the full sample preparation ADF
+
+=== 20.4 Microbial Interference
+
+Microbial interference of the Xpert Xpress CoV-2 _plus_ test
+caused by the presence of bacterial or viral strains that might
+be encountered in human upper respiratory tract specimens was
+evaluated by testing a panel of 10 commensal microorganisms,
+consisting of 7 viral strains and 3 bacterial strains.
+Contrived samples consisted of SARS-CoV-2 virus seeded at 3x
+LoD into simulated nasopharyngeal swab (NPS)/ anterior nasal
+swab (NS) matrix in the presence of the seven (7) commensal
+virus strains (Adenovirus Type 1C,
+Human Coronavirus OC43,
+Rhinovirus Type 1A,
+Human metapneumovirus,
+Human parainfluenza Types 1,
+2, and 3 spiked at 1x10^5^ units/mL) or three (3) commensal
+bacterial strains (_Haemophilus influenzae_,
+_Staphylococcus aureus_,
+_Staphylococcus epidermidis_) spiked at 1x10^7^ CFU/mL.
+
+Replicates of 8 positive samples were tested with SARS-CoV-2
+virus and each potential microbial interference strain combination.
+All 8 of 8 positive replicate samples were correctly identified
+as SARS-CoV-2 POSITIVE using the Xpert Xpress CoV-2 _plus_ test.
+The one exception was Rhinovirus Type1A for which one of 8
+replicates reported as ERROR.
+The run was successfully repeated to obtain 8 valid replicates.
+No interference by the listed above commensal viral or
+bacterial strains was reported at the concentrations tested.
+
+=== 20.5 Potentially Interfering Substances
+
+Substances that could be present in the nasopharynx (or
+introduced during specimen collection and handling) and
+potentially interfere with accurate detection of SARS-CoV-2
+were evaluated with direct testing on the Xpert Xpress CoV-2 _plus_.
+Potentially interfering substances in the nasal passage and
+nasopharynx may include,
+but are not limited to:
+blood, nasal secretions or mucus,
+and nasal and throat medications used to relieve congestion,
+nasal dryness,
+irritation,
+or asthma and allergy symptoms,
+as well as antibiotics and antivirals.
+
+Positive and negative samples were prepared in simulated
+nasopharyngeal swab (NPS)/ anterior nasal swab (NS) matrix.
+Negative samples (N = 8) were tested in the presence of each
+substance to determine the effect on the performance of the
+sample processing control (SPC).
+Positive samples (N = 8) were tested per substance with
+SARS-CoV-2 virus spiked at 3x the LoD.
+The controls were samples with SARS-CoV-2 virus spiked at 3x
+LoD into simulated NPS/ NS matrix containing no potentially
+interfering substance.
+The substances,
+with active ingredients,
+that were evaluated are listed in Table 1. For substances that
+resulted in an INVALID test result,
+the concentration of the substance was reduced by half and re-tested.
+The results for the negative and positive samples are presented
+in Table 2 and Table 3 respectively.
+
+[.caption-text]
+*Table 10. Potentially Interfering Substances Tested*
+
+[cols="2,2,2,2", options="header"]
+|===
+h| Substance ID
+h| Substance/Class
+h| Substance/Active Ingredient
+h| Concentrations Tested
+
+| No substance
+| Control
+| Simulated NPS/NS Matrix
+| 100% (v/v)
+
+| Afrin
+| Nasal Spray
+| Oxymetazoline (0.05%)
+| 15% (v/v)
+
+| Albuterol Sulfate
+| Beta-adrenergic bronchodilator
+| Albuterol Sulfate (5mg/ mL)
+| 0.83 mg/mL (equivalent to 1 dose per day)
+
+| BD Universal Transport Medium
+| Transport Media
+| BD Universal Transport Medium
+| 100% (v/v)
+
+| Blood
+| Blood
+| Blood (Human)
+| 2% (v/v)
+
+| Copan Swab M
+| Transport Media
+| Copan Swab M
+| 100% (v/v)
+
+| FluMist
+| FluMist^®^
+| Live intranasal influenza virus vaccine
+| 6.7% (v/v)
+
+| Fluticasone Propionate Nasal Spray
+| Nasal corticosteroid
+| Fluticasone Propionate
+| 5 µg/mL; 2.5 µg/mL
+
+| Ibuprofen
+| Analgesic (nonsteroidal anti-inflammatory drugs (NSAID))
+| Ibuprofen
+| 21.9 mg/dL
+
+| Menthol
+| Throat lozenges, oral anesthetic and analgesic
+| Benzocaine, Menthol
+| 1.7 mg/mL
+
+| Mucin (Type II)
+| Mucin
+| Purified Mucin protein (Porcine submaxillary gland, type II)
+| 0.1% (w/v); 0.05% (w/v)
+
+| Mucin (Type I-S)
+| Mucin
+| Purified Mucin protein (Bovine submaxillary gland, type I-S)
+| 2.5 mg/mL; 1.25 mg/mL
+
+| Mupirocin
+| Antibiotic, nasal ointment
+| Mupirocin (2%)
+| 10 mg/mL
+
+| Human peripheral blood mononuclear cells (PBMC)
+| Human peripheral blood mononuclear cells (PBMC)
+| Human peripheral blood mononuclear cells (PBMC)
+| 1x10^3^ cells/µL
+
+| PHNY
+| Nasal Drops
+| Phenylephrine (1%)
+| 15% (v/v)
+
+| Remel M4RT
+| Transport Media
+| Remel M4RT
+| 100% (v/v)
+
+| Remel M5
+| Transport Media
+| Remel M5
+| 100% (v/v)
+
+| Saline
+| Saline Nasal Spray
+| Sodium Chloride (0.65%)
+| 15% (v/v)
+
+| Snuff
+| Tobacco
+| Nicotine
+| 1% (w/v); 0.5% (w/v)
+
+| Tamiflu
+| Anti-viral drugs
+| Zanamivir
+| 7.5 mg/mL
+
+| Tobramycin
+| Antibacterial, systemic
+| Tobramycin
+| 4 µg/mL
+
+| Zicam
+| Nasal Gel
+| Luffa opperculata, Galphimia glauca, Histaminum hydrochloricum Sulfur (0.05%)
+| 15% (w/v)
+
+| Zinc
+| Zinc supplement
+| Zinc Gluconate
+| 0.1 µg/mL
+
+|===
+
+
+The results from the study (Table 2) show that all 22 of the
+potentially interfering substances at the concentrations tested
+showed no clinically significant interference on assay performance.
+For substances that reported an INVALID test result
+(fluticasone propionate (positive and negative),
+mucin type II (negative only),
+mucin type I-S (negative only),
+Snuff (negative only),
+the concentration of the substance was reduced by half and no
+interference was observed.
+
+[.caption-text]
+*Table 11. SARS-CoV-2 Negative Samples Tested in the Presence
+of Potentially Interfering Substances*
+
+[cols="20,15,15", options="header"]
+|===
+^h| Substance
+^h| Concentration Tested
+^h| Number of Correct Results / Number Tested
+
+^h| *Simulated NPS/NS Matrix (No substance)*
+^| *100% (v/v)*
+^| *8/8*
+
+^| Afrin
+^| 15% (v/v)
+^| 8/8
+
+^| Albuterol Sulfate
+^| 0.83 mg/mL
+^| 8/8
+
+^| BD Universal Transport Medium
+^| N/A
+^| 8/8
+
+^| Blood
+^| 2% (v/v)
+^| 8/8
+
+^| Copan Swab M
+^| N/A
+^| 8/8
+
+^| FluMist^®^
+^| 6.7% (v/v)
+^| 8/8
+
+.2+^| Fluticasone Propionate Nasal Spray
+^| 5 µg/mL
+^| 7/8^a^
+
+^| 2.5 µg/mL
+^| 8/8^b^
+
+^| Ibuprofen
+^| 21.9 mg/dL
+^| 8/8
+
+^| Menthol
+^| 1.7 mg/mL
+^| 8/8
+
+.2+^| Mucin (Type II)
+^| 0.1% (w/v)
+^| 7/8
+
+^| 0.05% (w/v)
+^| 8/8
+
+.2+^| Mucin (Type I-S)
+^| 2.5 mg/mL
+^| 7/8
+
+^| 1.25 mg/mL
+^| 8/8
+
+^| Mupirocin
+^| 10 mg/mL
+^| 8/8
+
+^| Human Peripheral Blood Mononuclear Cells (PBMC)
+^| 1x10^3^ cells/µL
+^| 8/8
+
+^| PHNY
+^| 15% (v/v)
+^| 8/8
+
+^| Remel M4RT
+^| N/A
+^| 8/8
+
+^| Remel M5
+^| N/A
+^| 8/8
+
+^| Saline
+^| 15% (v/v)
+^| 8/8
+
+.2+^| Snuff
+^| 1% (w/v)
+^| 7/8
+
+^| 0.5% (w/v)
+^| 8/8
+
+^| Tamiflu
+^| 7.5 mg/mL
+^| 8/8
+
+^| Tobramycin
+^| 4 µg/mL
+^| 8/8
+
+^| Zicam
+^| 15% (w/v)
+^| 8/8
+
+^| Zinc
+^| 0.1 µg/mL
+^| 7/8
+
+|===
+
+
+[.note-text]
+^a^ One of 8 replicates reported INVALID for fluticasone
+propionate nasal spray,
+mucin type II,
+mucin type I-S,
+and Snuff.
+
+[.note-text]
+^b^ For each of the four substances that reported INVALID
+(fluticasone propionate nasal spray,
+mucin type II,
+mucin type I-S,
+and Snuff),
+the concentration of each substance was decreased by half and
+tested with n=8 cartridges such that 8/8 replicates reported
+valid test results of "*SARS-CoV-2 NEGATIVE*".
+
+[.caption-text]
+*Table 12. SARS-CoV-2 Positive Samples Tested in the Presence
+of Potentially Interfering Substances*
+
+[cols="30,20,15,10,10,10"]
+|===
+.2+h| Substance
+.2+h| Concentration Tested
+4+^h| Number of Correct Results/Number Tested
+
+^h| SARS-CoV-2(USA/WA/1/2020)
+^h| E
+^h| N2
+^h| RdRP
+
+| Control Simulated NPS/NS Matrix (No substance)
+^| 100% (v/v)
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+| Afrin
+^| 15% (v/v)
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+| Albuterol Sulfate
+^| 0.83 mg/mL
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+| BD Universal Transport Medium
+^| N/A
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+| Blood
+^| 2% (v/v)
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+| Copan 3U045N.PH (Cepheid Swab/M)
+^| N/A
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+| FluMist
+^| 6.7% (v/v)
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+.2+| Fluticasone Propionate Nasal Spray
+^| 5 µg/mL
+^| 7/8^a^
+^| 7/8
+^| 7/8
+^| 7/8
+
+^| 2.5 µg/mL
+^| 8/8^b^
+^| 8/8
+^| 8/8
+^| 8/8
+
+| Ibuprofen
+^| 21.9 mg/dL
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+| Menthol
+^| 1.7 mg/mL
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+| Mucin (Type II)
+^| 0.1 % (w/v)
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+| Mucin (Type I-S)
+^| 2.5mg/mL
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+| Mupirocin
+^| 10 mg/mL
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+| Human peripheral blood mononuclear cells (PBMC)
+^| 1x10^3^ cells/µL
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+| PHNY
+^| 15% (v/v)
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+| Remel M4RT
+^| N/A
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+| Remel M5
+^| N/A
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+| Saline
+^| 15% (v/v)
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+| Snuff
+^| 1% (w/v)
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+| Tamiflu
+^| 7.5 mg/mL
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+| Tobramycin
+^| 4 µg/mL
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+| Zicam
+^| 15% (w/v)
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+| Zinc
+^| 0.1 µg/mL
+^| 8/8
+^| 8/8
+^| 8/8
+^| 8/8
+
+|===
+
+
+[.note-text]
+^a^ With 5 µg/mL of Fluticasone propionate nasal spray,
+one of 8 replicates reported *INVALID*.
+The target genes were assigned a Ct of 45 for statistical analysis.
+No clinically significant difference was observed between the
+control mean Ct for each target gene and the test mean Ct for
+each target gene.
+
+[.note-text]
+^b^ For the substance that reported INVALID (fluticasone
+propionate nasal spray),
+the concentration was decreased by half and no interference was observed.
+
+=== 20.6 Carry-Over Contamination
+
+A study was conducted to assess whether the single-use,
+self-contained Xpert Xpress CoV-2 _plus_ cartridge prevents
+specimen and amplicon carryover by testing a negative sample
+immediately after testing of a very high positive sample in the
+same GeneXpert module.
+The negative sample used in this study consisted of simulated
+NPS/NS matrix and the positive sample consisted of high
+SARS-CoV-2 virus concentration (inactivated SARS-CoV-2
+USA-WA1/2020 at 5e4 copies/mL) seeded into simulated negative NPS/NS matrix.
+The negative sample was tested in a GeneXpert module at the
+start of the study.
+Following the initial testing of the negative sample,
+the high positive sample was processed in the same GeneXpert
+module immediately followed by another negative sample.
+This was repeated 20 times in the same module,
+resulting in 20 positives and 21 negatives for the module.
+The study was repeated using a second GeneXpert module for a
+total of 40 positive and 42 negative samples.
+All 40 positive samples were correctly reported as *SARS-CoV-2
+POSITIVE* and all 42 negative samples were correctly reported
+as *SARS-CoV-2 NEGATIVE* with the Xpert Xpress CoV-2 _plus_ test.
+No specimen or amplicon carry-over contamination was observed in this study.
+
+== 21 References
+
+. Centers for Disease Control and Prevention. https://www.cdc.gov/coronavirus/2019-ncov/index.html. Accessed February 9, 2020.
+. bioRxiv. (https://www.biorxiv.org/content/10.1101/2020.02.07.937862v1). Accessed March 3, 2020.
+. Centers for Disease Control and Prevention. Biosafety in Microbiological and Biomedical laboratories (refer to latest edition). http://www.cdc.gov/biosafety/publications/
+. Clinical and Laboratory Standards Institute. Protection of Laboratory Workers from Occupationally Acquired Infections; Approved Guideline. Document M29 (refer to latest edition).
+. REGULATION (EC) No 1272/2008 OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL of 16 December 2008 on the classification labeling and packaging of substances and mixtures amending and repealing, List of Precautionary Statements, Directives 67/548/EEC and 1999/45/EC (amending Regulation (EC) No 1907/2007).
+. Occupational Safety and Health Standards, Hazard Communication, Toxic and Hazard Substances (March 26, 2012) (29 C.F.R., pt. 1910, subpt. Z).
+
+== 22 Cepheid Headquarters Locations
+
+*Corporate Headquarters* +
+Cepheid +
+904 Caribbean Drive +
+Sunnyvale,
+CA 94089 +
+USA +
+Telephone:
++ 1 408 541 4191 +
+Fax: + 1 408 541 4192 +
+www.cepheid.com
+
+*European Headquarters* +
+Cepheid Europe SAS +
+Vira Solelh +
+81470 Maurens-Scopont +
+France +
+Telephone:
++ 33 563 825 300 +
+Fax: + 33 563 825 301 +
+www.cepheidinternational.com
+
+== 23 Technical Assistance
+
+*Before Contacting Us*
+
+Collect the following information before contacting Cepheid
+Technical Support:
+
+* Product name
+* Lot number
+* Serial number of the instrument
+* Error messages (if any)
+* Software version and, if applicable, Computer Service Tag Number
+
+*United States* +
+Telephone:
++ 1 888 838 3222 +
+Email: techsupport@cepheid.com
+
+*France* +
+Telephone:
++ 33 563 825 319 +
+Email: support@cepheideurope.com
+
+Contact information for all Cepheid Technical Support offices
+is available on our website:
+www.cepheid.com/en_US/support/contact-us
+
+== 24 Table of Symbols
+
+[cols="1,6",frame=none,grid=none,stripes=none]
+|===
+^.^| image:ext/xpert-xpress-cov-2-plus/symbol-ref.png[REF,width=41]
+.^| Catalog number
+
+^.^| image:ext/xpert-xpress-cov-2-plus/symbol-ivd.png[IVD,width=41]
+.^| _In vitro_ diagnostic medical device
+
+^.^| image:ext/xpert-xpress-cov-2-plus/symbol-do-not-reuse.png[Do not reuse,width=24]
+.^| Do not reuse
+
+^.^| image:ext/xpert-xpress-cov-2-plus/symbol-lot.png[LOT,width=41]
+.^| Batch code
+
+^.^| image:ext/xpert-xpress-cov-2-plus/symbol-consult-ifu.png[Consult instructions for use,width=36]
+.^| Consult instructions for use
+
+^.^| image:ext/xpert-xpress-cov-2-plus/symbol-caution.png[Caution,width=21]
+.^| Caution
+
+^.^| image:ext/xpert-xpress-cov-2-plus/symbol-manufacturer.png[Manufacturer,width=27]
+.^| Manufacturer
+
+^.^| image:ext/xpert-xpress-cov-2-plus/symbol-country-of-manufacture.png[Country of manufacture,width=22]
+.^| Country of manufacture
+
+^.^| image:ext/xpert-xpress-cov-2-plus/symbol-contains-n-tests.png[Contains sufficient for n tests,width=29]
+.^| Contains sufficient for _n_ tests
+
+^.^| image:ext/xpert-xpress-cov-2-plus/symbol-control.png[CONTROL,width=66]
+.^| Control
+
+^.^| image:ext/xpert-xpress-cov-2-plus/symbol-expiration.png[Expiration date,width=17]
+.^| Expiration date
+
+^.^| image:ext/xpert-xpress-cov-2-plus/symbol-temperature-limit.png[Temperature limitation,width=17]
+.^| Temperature limitation
+
+^.^| image:ext/xpert-xpress-cov-2-plus/symbol-biological-risks.png[Biological risks,width=24]
+.^| Biological risks
+
+^.^| image:ext/xpert-xpress-cov-2-plus/symbol-rx-only.png[Rx only,width=37]
+.^| For prescription use only
+
+|===
+
+image::ext/xpert-xpress-cov-2-plus/manufacturer-icon.png[Manufacturer,width=27]
+
+Cepheid +
+904 Caribbean Drive +
+Sunnyvale,
+CA 94089 +
+USA
+
+Phone: + 1 408 541 4191
+
+Fax: + 1 408 541 4192
+
+image::ext/xpert-xpress-cov-2-plus/ivd-rx-only-icons.png[IVD and Rx only,width=80]
+
+== 25 Revision History
+
+*Description of Changes*:
+Initial Release of 303-0272 Rev A
