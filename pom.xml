@@ -14,8 +14,10 @@
       mvn deploy -pl . -Ddex.record=dex-record-1 -Ddex.record.dir=IVDs/{category}/{gmdn-term}/{primary-DI}
 
   `-Ddex.record` activates the `dex-record` profile below. It checks that both files exist, then
-  installs and deploys ONE artifact, ${project.groupId}:dex-record-1:${project.version} (the prefix is the artifactId, so it must be unique across records), with the two files
-  as classifiers, using install-file and deploy-file. Nothing else in src/main/resources/ is touched.
+  installs and deploys ONE artifact, ${project.groupId}:dex-record-1:${project.version}, with the two files
+  as classifiers. The artifactId is the prefix in lower case; the file names keep their case. Prefixes
+  must therefore be unique ignoring case, or two records would share one artifactId. The goals used are
+  install-file and deploy-file. Nothing else in src/main/resources/ is touched.
   There is no Java, no scripting and no generated manifest.
 
   The ingest tree under sources/ is listed as a subproject for root-level aggregation only.
@@ -107,6 +109,28 @@
             </properties>
             <build>
                 <plugins>
+                    <!-- The artifactId is the record prefix in lower case, so the files keep their readable case
+                         while the artifact follows the Maven convention. Declared before the enforcer so it runs
+                         first in the same phase. Override with -Ddex.record.artifactId=... if ever needed. -->
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>build-helper-maven-plugin</artifactId>
+                        <executions>
+                            <execution>
+                                <id>derive-dex-record-artifact-id</id>
+                                <phase>validate</phase>
+                                <goals><goal>regex-property</goal></goals>
+                                <configuration>
+                                    <name>dex.record.artifactId</name>
+                                    <value>${dex.record}</value>
+                                    <regex>^(.*)$</regex>
+                                    <replacement>$1</replacement>
+                                    <toLowerCase>true</toLowerCase>
+                                    <failIfNoMatch>true</failIfNoMatch>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
                     <!-- Reject a malformed name or a missing file before anything is installed or deployed. -->
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
@@ -149,7 +173,7 @@
                                 <goals><goal>install-file</goal></goals>
                                 <configuration>
                                     <groupId>${project.groupId}</groupId>
-                                    <artifactId>${dex.record}</artifactId>
+                                    <artifactId>${dex.record.artifactId}</artifactId>
                                     <version>${project.version}</version>
                                     <packaging>zip</packaging>
                                     <classifier>ike-cs</classifier>
@@ -163,7 +187,7 @@
                                 <goals><goal>install-file</goal></goals>
                                 <configuration>
                                     <groupId>${project.groupId}</groupId>
-                                    <artifactId>${dex.record}</artifactId>
+                                    <artifactId>${dex.record.artifactId}</artifactId>
                                     <version>${project.version}</version>
                                     <packaging>mf</packaging>
                                     <classifier>manifest</classifier>
@@ -184,7 +208,7 @@
                                 <goals><goal>deploy-file</goal></goals>
                                 <configuration>
                                     <groupId>${project.groupId}</groupId>
-                                    <artifactId>${dex.record}</artifactId>
+                                    <artifactId>${dex.record.artifactId}</artifactId>
                                     <version>${project.version}</version>
                                     <packaging>zip</packaging>
                                     <classifier>ike-cs</classifier>
