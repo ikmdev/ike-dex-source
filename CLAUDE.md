@@ -2,6 +2,8 @@
 
 [README.md](README.md) is the source of truth for layout, ingest steps, commands and pass criteria.
 
+To ingest a document, use the `ingest-document` skill (`.claude/skills/ingest-document/`).
+
 ## First
 
 Run `mvn validate` at the repository root; it unpacks the IKE standards into `.claude/standards/` (never
