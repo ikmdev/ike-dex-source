@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.1.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0
+         http://maven.apache.org/xsd/maven-4.1.0.xsd">
+    <modelVersion>4.1.0</modelVersion>
+
+    <parent>
+        <relativePath>../../../../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>07332940008604</artifactId>
+    <packaging>pom</packaging>
+
+    <name>07332940008604: Xpert Xpress CoV-2/Flu/RSV plus (GeneXpert)</name>
+    <description>Source documents for Cepheid Xpert Xpress CoV-2/Flu/RSV plus (GUDID, 510(k) K231481 decision summary and 510(k) summary, IFU 302-8057 Rev. C), rebuilt from the topic library, with the device's DeX record.</description>
+
+    <properties>
+        <pdf.source.document>DeXRecord_07332940008604</pdf.source.document>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>topics</artifactId>
+            <version>${project.version}</version>
+            <classifier>adoc</classifier>
+            <type>zip</type>
+        </dependency>
+    </dependencies>
+</project>

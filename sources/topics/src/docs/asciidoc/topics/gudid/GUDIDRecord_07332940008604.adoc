@@ -1,0 +1,232 @@
+// gudid-07332940008604
+// Topic: GUDIDRecord_07332940008604
+// Type: reference
+// Status: review
+:topic-id: gudid-07332940008604
+:topic-type: reference
+:topic-status: review
+:topic-keywords: primary DI, GS1, GMDN, QOF, CEPHEID, GeneXpert, SARS-CoV-2 influenza RSV, prescription kit
+:topic-summary: Describes the AccessGUDID device record for DI 07332940008604: GeneXpert® (Xpert® Xpress CoV-2/Flu/RSV plus) from CEPHEID, catalog XPRS4PLEX-10, a single-use prescription kit under GMDN term 61527 for multiple-type respiratory pathogen nucleic acid detection, product code QOF, stored at 2 to 28 degrees Celsius, non-sterile.
+:topic-notes: GUDID record — whole document, as converted from the PDF, exempt from size bounds as for the 07332940008581 record. The page-1 banner picture and the label-discrepancy notice are kept as converted. The record states no copyright for itself; its GMDN trademark notice is quoted in :topic-license:. The record links a '*Terms of Use' for the D-U-N-S number and GMDN terms, but the PDF does not reproduce them. Seven index terms.
+:topic-related: dex-k231481, ext-fda-k231481-510k-summary, ext-cepheid-xpert-xpress-cov2-flu-rsv-plus-ifu-302-8057
+:topic-provenance: external
+:topic-citation: U.S. Food and Drug Administration and U.S. National Library of Medicine. AccessGUDID, device record for DI 07332940008604: GeneXpert®, CEPHEID. Public Version Number 1, Public Version Date October 3, 2023, DI Record Publish Date September 25, 2023. Accessed November 2, 2026. https://accessgudid.nlm.nih.gov/devices/07332940008604
+:topic-license: No copyright notice for the record itself is stated. GMDN notice quoted from the record: "GMDN® is a registered trademark of The GMDN Agency. All rights reserved. Used under licence from The GMDN Agency Ltd." The record refers to Terms of Use for the D-U-N-S number and GMDN terms; their text is not in the document, and no other use terms are stated.
+
+[[gudid-07332940008604]]
+= GUDIDRecord_07332940008604
+
+An official website of the United States government Here’s how you know
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::gudid/07332940008604/accessgudid-device-genexpert-07332940008604-image-01.png["Picture on page 1",width=200]
+
+== DEVICE: GeneXpert® (07332940008604)
+
+[NOTE,caption="Notice"]
+Any discrepancies with this record compared to the label? If so, send a picture of the label to mailto:GUDIDSupport@fda.hhs.gov[{empty}GUDIDSupport@fda.hhs.gov].
+
+=== DEVICE IDENTIFIER (DI) INFORMATION
+
+indexterm:[device identification, primary DI]
+
+[.underline]##Brand Name:## GeneXpert®
+
+[.underline]##Version or Model:## XPRS4PLEX-10
+
+[.underline]##Commercial Distribution Status:## In Commercial Distribution
+
+Catalog Number:
+XPRS4PLEX-10
+
+Company Name:
+CEPHEID
+
+[.underline]##Primary DI Number:## 07332940008604
+
+[.underline]##Issuing Agency:## GS1
+
+Commercial Distribution End Date:
+
+[.underline]##Device Count:## 1
+
+{empty}[.underline]##Labeler D-U-N-S® Number++*++:## 956711444
+++*++link:https://accessgudid.nlm.nih.gov/terms[Terms of Use]
+
+Device Description:
+Xpert Xpress CoV-2/Flu/RSV plus
+
+=== DEVICE CHARACTERISTICS
+
+[cols="<61,<39",width=100%,options=noheader]
+|===
+|[.underline]##What MRI safety information does the labeling contain?## |Labeling does not contain MRI Safety Information
+
+|[.underline]##Device required to be labeled as containing natural rubber latex or dry natural rubber (21 CFR 801.437):## |No
+
+|[.underline]##Device labeled as "Not made with natural rubber latex":## |No
+
+|[.underline]##For Single-Use:## |Yes
+
+|Prescription Use (Rx): |Yes
+
+|Over the Counter (OTC): |No
+
+|[.underline]##Kit:## |Yes
+
+|[.underline]##Combination Product:## |No
+
+|[.underline]##Human Cell, Tissue or Cellular or Tissue-Based Product (HCT/P):## |No
+|===
+
+=== GMDN
+
+indexterm:[device identification, GMDN]
+
+*GMDN©* Term Code,
+Names and Definitions
+(++*++link:https://accessgudid.nlm.nih.gov/terms[Terms of Use]):
+*GMDN®* is a registered trademark of The GMDN Agency.
+All rights reserved.
+Used under licence from The GMDN Agency Ltd.
+
+[cols="<12,<18,<47,<12,<12",width=100%,options=header]
+|===
+|GMDN Term Code |GMDN Term Name |GMDN Term Deﬁnition |GMDN Term Status |Implantable ?
+
+|61527 |Multiple-type respiratory pathogen nucleic acid IVD, kit, nucleic acid technique (NAT) |A collection of reagents and other associated materials intended to be used for the qualitative and/or quantitative detection of nucleic acid from multiple types of microorganisms (bacteria, fungi and/or viruses) associated with respiratory disease in a clinical specimen, using a nucleic acid technique (NAT). Organisms detected may include (but are not limited to) Streptococcus pneumoniae, influenza A, respiratory syncytial viruses A and B, rhinovirus, Haemophilus influenzae, Mycoplasma pneumoniae, Staphylococcus aureus, and/or enterovirus. |Active |false
+|===
+
+=== FDA PRODUCT CODE
+
+indexterm:[device identification, FDA product code]
+
+[cols="<13,<87",width=100%,options=header]
+|===
+|Product Code |Product Code Name
+
+|QOF |Multi-Target Respiratory Specimen Nucleic Acid Test Including Sars-Cov-2 And Other Microbial Agents
+|===
+
+=== FDA PREMARKET SUBMISSION
+
+indexterm:[device identification, premarket submission]
+
+[cols="<62,<38",width=64%,options=header]
+|===
+|FDA Premarket Submission Number |Supplement Number
+
+2+|Premarket Submission Number Not Available/Not Released
+|===
+
+[.underline]##Device Exempt from Premarket Submission:## No
+
+=== STERILIZATION
+
+indexterm:[device identification, sterilization]
+
+[.underline]##Device Packaged as Sterile:## No
+
+[.underline]##Requires Sterilization Prior to Use:## No
+
+[cols="<100",width=64%,options=header]
+|===
+|Sterilization Method
+
+|No Sterilization Methods Found
+|===
+
+=== STORAGE AND HANDLING
+
+indexterm:[device identification, storage and handling]
+
+[cols="<100",width=64%,options=header]
+|===
+|Storage and Handling
+
+|Storage Environment Temperature: between 2 and 28 Degrees Celsius
+|===
+
+=== CLINICALLY RELEVANT SIZE
+
+[cols="<100",width=64%,options=header]
+|===
+|Size Type Text
+
+|No Device Sizes
+|===
+
+=== DEVICE RECORD STATUS
+
+indexterm:[device identification, record status and public version]
+
+[.underline]##Public Device Record Key:##
+a00441fa-261c-4fe8-bc20-ec395ab0e272
+
+[.underline]##Public Version Date:## October 03,
+2023
+
+[.underline]##Public Version Number:## 1
+
+[.underline]##DI Record Publish Date:## September 25,
+2023
+
+=== ALTERNATIVE AND ADDITIONAL IDENTIFIERS ADDITIONAL IDENTIFIERS
+
+=== PACKAGE DI
+
+[cols="<17,<18,<18,<22,<14,<12",width=100%,options=header]
+|===
+|Package DI Number |Quantity per Package |Contains DI Package |Package Discontinue Date |Package Status |Package Type
+
+6+|No Package DIs found
+|===
+
+=== SECONDARY DI
+
+[cols="<42,<58",width=64%,options=header]
+|===
+|Issuing Agency |Secondary DI Number
+
+2+|No Secondary DIs found
+|===
+
+=== UNIT OF USE DI
+
+Unit of Use DI Number:
+No Unit of Use DI Numbers Found
+
+=== DIRECT MARKING (DM)
+
+Device Subject to Direct Marking (DM),
+but Excepted:
+No
+
+DM DI Different from Primary DI:
+No
+
+DM DI Number:
+None
+
+=== PRODUCTION IDENTIFIER(S) IN UDI
+
+Lot or Batch Number:
+Yes
+
+Serial Number:
+No
+
+Expiration Date:
+Yes
+
+Manufacturing Date:
+No
+
+[.underline]##Donation Identiﬁcation Number:## No
+
+=== CUSTOMER CONTACT
+
+Phone: 18888383222
+
+Email: techsupport@cepheid.com

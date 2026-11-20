@@ -1,0 +1,2431 @@
+// ext-fda-k231481-510k-summary
+// Topic: Xpert Xpress CoV-2/Flu/RSV plus 510(k) Summary K231481
+// Type: reference
+// Status: review
+:topic-id: ext-fda-k231481-510k-summary
+:topic-type: reference
+:topic-status: review
+:topic-keywords: 510(k) summary, K231481, clearance letter, Cepheid, GeneXpert, SARS-CoV-2 influenza RSV, predicate DEN200031, performance studies
+:topic-summary: Reproduces the FDA clearance letter of August 17, 2023, the Indications for Use form and Cepheid's 510(k) Summary for K231481, Xpert Xpress CoV-2/Flu/RSV plus on GeneXpert Dx and Infinity systems: device description, intended use, comparison with the BioFire Respiratory Panel 2.1 predicate (DEN200031), analytical and clinical performance and the conclusion.
+:topic-notes: Whole-document topic, size bounds exempt as for the dex- and gudid- records: the 37-page PDF (FDA clearance letter, FDA Form 3881 Indications for Use, and Cepheid's 34-page 510(k) Summary) is reproduced as converted. Whole-document handling is a project decision; the standard default for external sources is decomposition. Not a DeX record: page 1 is a clearance letter, not a Decision Summary, and IKE-DEX-INGEST says not to apply the DeX shape to 510(k) summaries. The PDF has no tags, so the layout engine converted it. Left as converted by decision: spurious spacer columns in most tables, a garbled signature overlay ('JJoseoph Bsrigegs, Pph.D.h Briggs -S'), mangled Doc ID text, the DICE@fda.hhs.gov address not made a link, the Table 5 caption not made a block title, and under-detected bold. No copyright notice is stated; the text uses registered-trademark marks (Xpert®, GeneXpert®, I-CORE®, eNAT®, UTM®, BioFire®, FilmArray®) without ownership statements. The summary part was written by Cepheid, so reuse beyond FDA's public release may need Cepheid's permission. Seven index terms.
+:topic-related: gudid-07332940008604, dex-k231481, ext-cepheid-xpert-xpress-cov2-flu-rsv-plus-ifu-302-8057
+:topic-provenance: external
+:topic-citation: U.S. Food and Drug Administration, Center for Devices and Radiological Health, and Cepheid. 510(k) clearance letter, Indications for Use and 510(k) Summary: K231481, Xpert Xpress CoV-2/Flu/RSV plus. Applicant: Cepheid. FDA letter dated August 17, 2023 (Doc ID 04017.06.03); Cepheid 510(k) Summary, Date of Preparation May 22, 2023; 37 pages. Accessed November 19, 2026. https://www.accessdata.fda.gov/cdrh_docs/pdf23/K231481.pdf
+:topic-license: No copyright notice is stated in the document, and no license or use terms are stated.
+
+[[ext-fda-k231481-510k-summary]]
+= Xpert Xpress CoV-2/Flu/RSV plus 510(k) Summary K231481
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/xpert-xpress-cov-2-flu-rsv-plus-510k-summary/k231481-summary-image-01.jpg["Picture on page 1",width=256]
+
+indexterm:[regulatory decision, FDA clearance letter]
+
+Date: August 17,
+2023
+
+Cepheid ℅ Yen Nguyen Senior Manager,
+Regulatory Affairs Cepheid 904 Caribbean Drive Sunnyvale,
+California 94089
+
+Re: K231481 Trade/Device Name:
+Xpert Xpress CoV-2/Flu/RSV _plus_ Regulation Number:
+21 CFR 866.3981 Regulation Name:
+Device To Detect And Identify Nucleic Acid Targets In
+Respiratory Specimens From Microbial Agents That Cause The
+SARS-Cov-2 Respiratory Infection And Other Microbial Agents
+When In A Multi-Target Test Regulatory Class:
+Class II Product Code:
+QOF, OOI Dated:
+May 22, 2023 Received:
+May 23, 2023
+
+Dear Yen Nguyen:
+
+We have reviewed your Section 510(k) premarket notification of
+intent to market the device referenced above and have
+determined the device is substantially equivalent (for the
+indications for use stated in the enclosure) to legally
+marketed predicate devices marketed in interstate commerce
+prior to May 28,
+1976, the enactment date of the Medical Device Amendments,
+or to devices that have been reclassified in accordance with
+the provisions of the Federal Food,
+Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA).
+You may, therefore,
+market the device,
+subject to the general controls provisions of the Act.
+Although this letter refers to your product as a device,
+please be aware that some cleared products may instead be
+combination products.
+The 510(k) Premarket Notification Database located at
+link:https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm[{empty}https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm]
+identifies combination product submissions.
+The general controls provisions of the Act include requirements
+for annual registration,
+listing of devices,
+good manufacturing practice,
+labeling, and prohibitions against misbranding and adulteration.
+Please note:
+CDRH does not evaluate information related to contract
+liability warranties.
+We remind you,
+however, that device labeling must be truthful and not misleading.
+
+If your device is classified (see above) into either class II
+(Special Controls) or class III (PMA),
+it may be subject to additional controls.
+Existing major regulations affecting your device can be found
+in the Code of Federal Regulations,
+Title 21, Parts 800 to 898. In addition,
+FDA may publish further announcements concerning your device in
+the Federal Register.
+
+U.S. Food & Drug Administration 10903 New Hampshire Avenue D o
+c I D ++#++ 0 4017 . 0 6 .0 3 Silver Spring,
+MD 20993 link:http://www.fda.gov/[{empty}www.fda.gov]
+
+K231481 - Yen Nguyen Page 2
+
+Please be advised that FDA's issuance of a substantial
+equivalence determination does not mean that FDA has made a
+determination that your device complies with other requirements
+of the Act or any Federal statutes and regulations administered
+by other Federal agencies.
+You must comply with all the Act's requirements,
+including,
+but not limited to:
+registration and listing (21 CFR Part 807);
+labeling (21 CFR Part 801 and Part 809);
+medical device reporting (reporting of medical device-related
+adverse events) (21 CFR 803) for devices or postmarketing
+safety reporting (21 CFR 4,
+Subpart B) for combination products (see
+link:https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reporting-combination-products[{empty}https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reporting-combination-products)];
+good manufacturing practice requirements as set forth in the
+quality systems (QS) regulation (21 CFR Part 820) for devices
+or current good manufacturing practices (21 CFR 4,
+Subpart A) for combination products;
+and, if applicable,
+the electronic product radiation control provisions (Sections
+531-542 of the Act);
+21 CFR 1000-1050.
+
+Also, please note the regulation entitled,
+"Misbranding by reference to premarket notification" (21 CFR Part 807.97).
+For questions regarding the reporting of adverse events under
+the MDR regulation (21 CFR Part 803),
+please go to
+link:https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reporting-mdr-how-report-medical-device-problems[{empty}https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reporting-mdr-how-report-medical-device-problems.]
+
+For comprehensive regulatory information about medical devices
+and radiation-emitting products,
+including information about labeling regulations,
+please see Device Advice
+link:https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatory-assistance[{empty}(https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatory-assistance)]
+and CDRH Learn
+link:https://www.fda.gov/training-and-continuing-education/cdrh-learn[{empty}(https://www.fda.gov/training-and-continuing-education/cdrh-learn)].
+Additionally,
+you may contact the Division of Industry and Consumer Education
+(DICE) to ask a question about a specific regulatory topic.
+See the DICE website
+link:https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatory-assistance/contact-us-division-industry-and-consumer-education-dice[{empty}(https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatory-assistance/contact-us-division-industry-and-consumer-education-dice)]
+for more information or contact DICE by email
+mailto:%20DICE@fda.hhs.gov[{empty}(DICE@fda.hhs.gov)] or phone
+(1-800-638-2041 or 301-796-7100).
+
+[.text-center]
+Sincerely,
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/xpert-xpress-cov-2-flu-rsv-plus-510k-summary/k231481-summary-image-02.png["Picture on page 2",width=207]
+
+JJoseoph Bsrigegs,
+Pph.D.h Briggs -S
+
+Deputy Branch Chief Division of Microbiology Devices OHT7:
+Office of In Vitro Diagnostics Office of Product Evaluation and
+Quality Center for Devices and Radiological Health
+
+Enclosure
+
+DEPARTMENT OF HEALTH AND HUMAN SERVICES Form Approved:
+OMB No. 0910-0120 Food and Drug Administration Expiration Date:
+06/30/2023
+
+*Indications for Use*
+
+_See PRA Statement below._
+
+510(k) Number _(if known)_
+
+K231481
+
+Device Name
+
+Xpert Xpress CoV-2/Flu/RSV _plus_
+
+Indications for Use _(Describe)_
+
+The Xpert Xpress CoV-2/Flu/RSV _plus_ test,
+performed on the GeneXpert Dx and GeneXpert Infinity Systems,
+is an automated multiplexed real-time reverse transcriptase
+polymerase chain reaction (RT-PCR) test intended for use in the
+simultaneous _in vitro_ qualitative detection and
+differentiation of severe acute respiratory syndrome
+coronavirus (SARS-CoV-2),
+influenza A,
+influenza B,
+and/or respiratory syncytial virus (RSV) viral RNA in
+nasopharyngeal swab and anterior nasal swab specimens collected
+from individuals with signs and symptoms of respiratory tract infection.
+Clinical signs and symptoms of respiratory tract infection due to SARS-CoV-2,
+influenza A,
+influenza B,
+and RSV can be similar.
+
+The Xpert Xpress CoV-2/Flu/RSV _plus_ is intended for use in
+the differential detection of SARS-CoV-2,
+influenza A,
+influenza B and/or RSV RNA and aids in the diagnosis of COVID-19,
+influenza and/or RSV infections if used in conjunction with
+other clinical and epidemiological information,
+and laboratory findings.
+SARS-CoV-2,
+influenza A,
+influenza B,
+and RSV viral RNA are generally detectable in nasopharyngeal
+swab and anterior nasal swab specimens during the acute phase of infection.
+
+Positive results are indicative of the presence of the
+identified virus,
+but do not rule out bacterial infection or co-infection with
+other pathogens not detected by the test.
+The agent(s) detected by the Xpert Xpress CoV-2/Flu/RSV _plus_
+test may not be the definite cause of disease.
+
+Negative results do not preclude SARS-CoV-2,
+influenza A,
+influenza B,
+and/or RSV infection.
+The results of this test should not be used as the sole basis for diagnosis,
+treatment,
+or other patient management decisions.
+
+Type of Use _(Select one or both,
+as applicable)_
+
+Prescription Use (Part 21 CFR 801 Subpart D) Over-The-Counter
+Use (21 CFR 801 Subpart C)
+
+[.text-center]
+*CONTINUE ON A SEPARATE PAGE IF NEEDED.* +
+This section applies only to requirements of the Paperwork
+Reduction Act of 1995. +
+*++*++DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL
+ADDRESS BELOW.++*++*
+
+The burden time for this collection of information is estimated
+to average 79 hours per response,
+including the time to review instructions,
+search existing data sources,
+gather and maintain the data needed and complete and review the
+collection of information.
+Send comments regarding this burden estimate or any other
+aspect of this information collection,
+including suggestions for reducing this burden,
+to:
+
+Department of Health and Human Services Food and Drug
+Administration Office of Chief Information Officer Paperwork
+Reduction Act (PRA) Staff _PRAStaff@fda.hhs.gov_
+
+[.text-center]
+_“An agency may not conduct or sponsor,
+and a person is not required to respond to,
+a collection of information unless it displays a currently
+valid OMB number.”_
+
+*FORM FDA 3881 (6/20)*
+
+[.text-center]
+Page 1 of 1
+
+PSC Publishing Services (301) 443-6740 EF
+
+*510(k) Summary for*
+
+*Xpert*^®^ *Xpress CoV-2/Flu/RSV* *_plus_*
+
+*TABLE OF CONTENTS*
+
+[start=5]
+. 510(K) SUMMARY ++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++3 5.1. DEVICE DESCRIPTION ++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++4 5.2. DEVICE INTENDED USE ++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++.5 5.3. SUBSTANTIAL EQUIVALENCE ++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++.6 5.4. PERFORMANCE STUDIES ++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++..9 5.4.1. ANALYTICAL PERFORMANCE ++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++9 5.4.2. CLINICAL PERFORMANCE ++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++.28 5.5. CONCLUSIONS ++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++++...++.34
+
+== 5. 510(k) Summary
+
+indexterm:[510(k) summary, 21 CFR 807.92(c)]
+
+As required by 21 CFR Section 807.92(c).
+
+Submitted by:
+
+Cepheid 904 Caribbean Drive Sunnyvale,
+CA 94089 P hone number:
+(669) 246-2271
+
+Contact:
+
+Yen H. Nguyen,
+Ph.D.
+
+Date of Preparation:
+
+May 22, 2023
+
+Device:
+
+Trade name:
+
+Xpert^®^ Xpress CoV-2/Flu/RSV _plus_
+
+Common name:
+
+Xpert Xpress CoV-2/Flu/RSV _plus_
+
+Type of Test:
+
+Qualitative real-time reverse transcription polymerase chain
+reaction (RT-PCR) and detection test
+
+Regulation number:
+
+21 CFR 866.3981
+
+Classification name:
+
+Multi-Target Respiratory Specimen Nucleic Acid Test Including
+SARS-CoV-2 and Other Microbial Agents
+
+Primary Product code:
+QOF Secondary Product code:
+
+OOI
+
+Classification Microbiology (83) Advisory Panel:
+
+P rescription Use:
+
+Yes
+
+Predicate Device B ioFire Respiratory Panel 2.1 (DEN200031) A ssay:
+
+=== 5.1. Device Description
+
+indexterm:[GeneXpert, instrument systems and cartridge]
+
+The Xpert Xpress CoV-2/Flu/RSV _plus_ test is an automated _in
+vitro_ diagnostic test for the simultaneous qualitative
+detection and differentiation of SARS-CoV-2,
+Flu A, Flu B,
+and RSV viral RNA in nasopharyngeal swab (NPS) and anterior
+nasal swab (NS) specimens collected from individuals showing
+signs and symptoms of respiratory viral infection.
+
+The Xpert Xpress CoV-2/Flu/RSV _plus_ test is performed on
+GeneXpert Instrument Systems (GeneXpert Dx,
+GeneXpert Infinity-48s and GeneXpert Infinity-80 systems),
+which consist of an instrument,
+computer, and preloaded software for running tests and viewing the results.
+The GeneXpert Instrument Systems automate and integrate sample preparation,
+nucleic acid extraction and amplification,
+and detection of the target sequences in simple or complex
+samples using real-time reverse transcription (RT)-polymerase
+chain reaction (PCR) and PCR assays.
+Depending on the instrument,
+the GeneXpert Instrument Systems can have from 1 and up to 80
+randomly accessible modules,
+each capable of performing separate sample preparation and
+real-time RT-PCR and PCR tests.
+Each module contains a syringe drive for dispensing fluids
+(_i.e.,_ the syringe drive activates the plunger that works in
+concert with the rotary valve in the cartridge to move fluids
+between chambers),
+an ultrasonic horn for lysing cells or spores,
+and a proprietary I-CORE^®^ thermocycler for performing
+real-time RT-PCR and PCR as well as detection.
+The systems require the use of single-use disposable cartridges
+that hold the RT-PCR reagents and host sample purification,
+nucleic acid amplification,
+and detection of the target sequences.
+Because the cartridges are self-contained,
+cross-contamination between samples is minimized.
+
+The Xpert Xpress CoV-2/Flu/RSV _plus_ test includes reagents
+for the detection of SARS-CoV-2,
+Flu A, Flu B and RSV viral RNA from NPS and NS specimens.
+The primers and probes in the Xpert Xpress CoV-2/Flu/RSV _plus_
+test are designed to amplify and detect unique sequences in the
+genes that encode the following proteins:
+SARS-CoV-2 nucleocapsid (N),
+SARS-CoV-2 envelope (E),
+SARS-CoV-2 RNA-dependent RNA polymerase (RdRP),
+influenza A matrix (M),
+influenza A basic polymerase (PB2),
+influenza A acidic protein (PA),
+influenza B matrix (M),
+influenza B non-structural protein (NS),
+and the RSV A and RSV B nucleocapsid.
+A Sample Processing Control (SPC) and a Probe Check Control
+(PCC) are also included in the cartridge utilized by the
+GeneXpert instrument.
+The SPC is present to control for adequate processing of the
+sample and to monitor for the presence of potential
+inhibitor(s) in the RT-PCR reaction.
+The SPC also ensures that the RT-PCR reaction conditions
+(temperature and time) are appropriate for the amplification
+reaction and that the RT-PCR reagents are functional.
+The PCC verifies reagent rehydration,
+PCR tube filling,
+and confirms that all reaction components are present in the
+cartridge including monitoring for probe integrity and dye stability.
+
+The Xpert Xpress CoV-2/Flu/RSV _plus_ test is designed for use
+with NPS or NS specimens collected with nylon flocked swabs and
+placed into viral transport medium (VTM),
+Universal Transport Medium (UTM),
+or eNAT^®^.
+The ancillary specimen collection kits,
+swabs and transport media validated for use with the Xpert
+Xpress CoV-2/Flu/RSV _plus_ test included:
+
+* *Nasopharyngeal Sample Collection Kit for Viruses*
++
+o Copan UTM^®^ 3C057N (Flexible Minitip Flocked Swab with
+UTM^®^ Medium without Beads) o Copan eNAT^®^ Molecular
+Collection and Preservation Medium P/N 6U074S01 (Flexible
+Minitip Flocked Swab with eNAT^®^ Medium) o Becton Dickinson
+Universal Viral Transport Kit P/N 220531 (Flexible Minitip
+Flocked Swab with UVT Medium)
+
+* *Nasal Sample Collection Kit for Viruses*
++
+o Copan UTM^®^ 3C064N (Regular Flocked Swab with UTM^®^ Medium
+without Beads) o Copan eNAT^®^ Molecular Collection and
+Preservation Medium P/N 6U073S01 (Regular Flocked Swab with
+eNAT^®^ Medium)
+
+* *Alternatively, swabs and transport media can be obtained separately:*
++
+o Nylon flocked swab (Copan P/N 502CS01,
+503CS01) o Viral transport medium,
+3 mL (Copan P/N 330C,
+3C047N, BD Universal Transport Medium,
+Remel M4RT or Remel M5)
+
+These ancillary reagents allow NPS and NS specimens from
+patients to be collected,
+preserved and transported to laboratory prior to analysis with
+the Xpert Xpress CoV-2/Flu/RSV _plus_ test.
+
+=== 5.2. Device Intended Use
+
+indexterm:[intended use, differential detection of SARS-CoV-2 influenza and RSV]
+
+The Xpert^®^ Xpress CoV-2/Flu/RSV _plus_ test,
+performed on the GeneXpert^®^ Dx and GeneXpert^®^ Infinity Systems,
+is an automated multiplexed real-time reverse transcriptase
+polymerase chain reaction (RT-PCR) test intended for use in the
+simultaneous _in vitro_ qualitative detection and
+differentiation of severe acute respiratory syndrome
+coronavirus (SARS-CoV-2),
+influenza A,
+influenza B,
+and/or respiratory syncytial virus (RSV) viral RNA in
+nasopharyngeal swab and anterior nasal swab specimens collected
+from individuals with signs and symptoms of respiratory tract infection.
+Clinical signs and symptoms of respiratory tract infection due to SARS-CoV-2,
+influenza A,
+influenza B,
+and RSV can be similar.
+
+The Xpert Xpress CoV-2/Flu/RSV _plus_ is intended for use in
+the differential detection of SARS-CoV-2,
+influenza A,
+influenza B and/or RSV RNA and aids in the diagnosis of COVID-19,
+influenza and/or RSV infections if used in conjunction with
+other clinical and epidemiological information,
+and laboratory findings.
+SARS-CoV-2,
+influenza A,
+influenza B,
+and RSV viral RNA are generally detectable in nasopharyngeal
+swab and anterior nasal swab specimens during the acute phase of infection.
+
+Positive results are indicative of the presence of the
+identified virus,
+but do not rule out bacterial infection or co-infection with
+other pathogens not detected by the test.
+The agent(s) detected by the Xpert Xpress CoV-2/Flu/RSV _plus_
+test may not be the definite cause of disease.
+
+Negative results do not preclude SARS-CoV-2,
+influenza A,
+influenza B,
+and/or RSV infection.
+The results of this test should not be used as the sole basis for diagnosis,
+treatment,
+or other patient management decisions.
+
+=== 5.3. Substantial Equivalence
+
+indexterm:[predicate device, BioFire Respiratory Panel 2.1 (DEN200031)]
+
+*Table 5-1* shows the similarities and differences between
+Xpert Xpress CoV-2/Flu/RSV _plus_ and the predicate device,
+BioFire Respiratory Panel 2.1 (DEN20031).
+
+[[table-5-1]]
+.Table 5-1: Comparison of Similarities and Differences Between Xpert Xpress CoV-2/Flu/RSV plus and the Predicate Device
+[cols="^17,<1,^39,<1,<1,^39,<1",width=95%,options=noheader]
+|===
+.2+h|Attribute | h|Investigational Device | | h|Predicate Device – DEN200031 |
+
+<| ^h|Cepheid Xpert^®^ Xpress CoV-2/Flu/RSV _plus_ <| | ^h|BioFire Diagnostics, LLC BioFire Respiratory Panel 2.1 <|
+
+h|Regulation 3+^|Same 3+|*21 CFR 866.3981* Devices to detect and identify nucleic acid targets in respiratory samples from microbial agents that cause the SARS-CoV-2 respiratory infection and other microbial agents when in a multi-analyte test
+
+h|Product Code/ Classification Name 3+^|Same 3+^|QOF Multi-target respiratory specimen nucleic acid test including SARS-CoV-2 and other microbial agents
+
+h|Device Class 3+^|Same 3+^|II (Special Controls)
+
+h|Technology/ Detection 3+^|Real-time reverse transcription polymerase chain reaction (RT-qPCR) 3+^|Nested multiplex RT-PCR followed by high resolution melting analysis to confirm identity of amp lified product
+
+h|Intended Use 3+|The Xpert^®^ Xpress CoV-2/Flu/RSV _plus_ test, performed on the GeneXpert^®^ Dx and GeneXpert^®^ Infinity Systems, is an automated multiplexed real-time reverse transcriptase polymerase chain reaction (RT-PCR) test intended for use in the simultaneous _in vitro_ qualitative detection and differentiation of severe acute respiratory syndrome coronavirus (SARS-CoV-2), influenza A, influenza B, and/or respiratory syncytial virus (RSV) viral RNA in nasopharyngeal swab and anterior nasal swab specimens collected from individuals with signs and symptoms of respiratory tract infection. Clinical signs and symptoms of respiratory tract 3+|The BioFire Respiratory Panel 2.1 (RP2.1) is a PCR-based multiplexed nucleic acid test intended for use with the BioFire^®^ FilmArray^®^ 2.0 or BioFire^®^ FilmArray^®^ Torch Systems for the simultaneous qualitative detection and identification of multiple respiratory viral and bacterial nucleic acids in nasopharyngeal swabs (NPS) obtained from individuals suspected of respiratory tract infections, including COVID-19. Nucleic acids from the respiratory viral and bacterial organisms identified by this test are generally detectable in NPS specimens during the acute phase of infection. The detection and identification of specific viral
+|===
+
+[cols="^17,<1,^39,<1,<1,^39,<1",width=95%,options=noheader]
+|===
+.2+h|Attribute h| h|Investigational Device h| h| h|Predicate Device – DEN200031 h|
+
+<| ^h|Cepheid Xpert^®^ Xpress CoV-2/Flu/RSV _plus_ <| | ^h|BioFire Diagnostics, LLC BioFire Respiratory Panel 2.1 <|
+
+<|
+3+|infection due to SARS-CoV-2, influenza A, influenza B, and RSV can be similar. The Xpert Xpress CoV-2/Flu/RSV _plus_ is intended for use in the differential detection of SARS-CoV-2, influenza A, influenza B and/or RSV RNA and aids in the diagnosis of COVID-19, influenza and/or RSV infections if used in conjunction with other clinical and epidemiological information, and laboratory findings. SARS-CoV-2, influenza A, influenza B, and RSV viral RNA are generally detectable in nasopharyngeal swab and anterior nasal swab specimens during the acute phase of infection. Positive results are indicative of the presence of the identified virus, but do not rule out bacterial infection or co-infection with other pathogens not detected by the test. The agent(s) detected by the Xpert Xpress CoV-2/Flu/RSV _plus_ test may not be the definite cause of disease. Negative results do not preclude SARS-CoV-2, influenza A, influenza B and/or RSV infection. The results of this test should not be used as the sole basis for diagnosis, treatment, or other patient management decisions.
+3+a|and bacterial nucleic acids from individuals exhibiting signs and/or symptoms of respiratory infection is indicative of the presence of the identified microorganism and aids in the diagnosis of respiratory infection if used in conjunction with other clinical and epidemiological information. The results of this test should not be used as the sole basis for diagnosis, treatment, or other patient management decisions. The following organism types and subtypes are identified using the BioFire RP2.1:
+
+* Adenovirus
+* Coronavirus 229E
+* Coronavirus HKU1
+* Coronavirus NL63
+* Coronavirus OC43
+* Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2)
+* Human Metapneumovirus
+* Human Rhinovirus/Enterovirus
+* Influenza A, including subtypes
+* H1, H3 and H1-2009
+* Influenza B
+* Parainfluenza Virus 1
+* Parainfluenza Virus 2
+* Parainfluenza Virus 3
+* Parainfluenza Virus 4
+* Respiratory Syncytial Virus
+* _Bordetella parapertussis_
+* _Bordetella pertussis_
+* _Chlamydia pneumoniae_
+* _Mycoplasma pneumoniae_ Negative results in the setting of a respiratory illness may be due to infection with pathogens that are not detected by this test, or lower respiratory tract infection that may not be detected by an NPS specimen. Positive results do not rule out co-infection with other organisms. The agent(s) detected by the BioFire RP2.1 may not be the definite cause of disease. Additional laboratory testing (e.g., bacterial and viral culture, immunofluorescence, and radiography) may be necessary when evaluating a patient with possible respiratory tract infection.
+
+.2+h|Attribute h| h|Investigational Device h| h| h|Predicate Device – DEN200031 h|
+
+<| ^h|Cepheid Xpert^®^ Xpress CoV-2/Flu/RSV _plus_ <| | ^h|BioFire Diagnostics, LLC BioFire Respiratory Panel 2.1 <|
+
+h|Assay Targets
+3+^|SARS-CoV-2, Influenza A, Influenza B, RSV viral RNA
+3+a|* Adenovirus
+* Coronavirus 229E
+* Coronavirus HKU1
+* Coronavirus NL63
+* Coronavirus OC43
+* Severe Acute Respiratory Syndrome Coronavirus 2 (SARS-CoV-2)
+* Human Metapneumovirus
+* Human Rhinovirus/Enterovirus
+* Influenza A, including subtypes
+* H1, H3 and H1-2009
+* Influenza B
+* Parainfluenza Virus 1
+* Parainfluenza Virus 2
+* Parainfluenza Virus 3
+* Parainfluenza Virus 4
+* Respiratory Syncytial Virus
+* _Bordetella parapertussis_
+* _Bordetella pertussis_
+* _Chlamydia pneumoniae_
+* _Mycoplasma pneumoniae_
+
+h|Specimen Type
+3+a|* Nasopharyngeal swab (NPS)
+* Anterior nasal swab (NS)
+3+a|* Nasopharyngeal swab (NPS)
+
+h|Transport Media
+3+a|* Universal Transport Medium (UTM) / Viral Transport Medium (VTM)
+* eNAT
+3+a|* Universal Transport Medium (UTM)/ Viral Transport Medium (VTM)
+* Saline
+
+h|Test Format 3+^|Same 3+^|Single Use
+
+h|Automation 3+^|Same 3+^|Automated Nucleic Acid Extraction, Detection and Results Interpretation
+
+h|Assay Results 3+^|Same 3+^|Qualitative
+
+h|Internal Control 3+^|Sample Processing Control (SPC) Probe Check Control (PCC) 3+|Sample Processing Control PCR and Melt Analysis Control
+
+h|Instrument Systems 3+^|Cepheid GeneXpert^®^ Instrument Systems 3+^|BioFire^®^ FilmArray^®^ 2.0 or BioFire^®^ FilmArray^®^ Torch Systems
+
+h|Time to Result 3+^|++~++ 36 min for sample preparation and RT-PCR 3+^|++~++ 45 minutes
+|===
+
+The following performance data (analytical and clinical) were
+provided in support of the substantial equivalence determination.
+
+=== 5.4. Performance Studies 5.4.1. Analytical Performance
+
+*_Analytical Sensitivity – Clinical Nasopharyngeal Swab (NPS) Matrix_*
+
+The analytical sensitivity of the Xpert Xpress CoV-2/Flu/RSV
+_plus_ test was first estimated by using 2 reagent lots and
+testing limiting dilutions of viruses (NATtrol SARS-CoV-2,
+1^st^ World Health Organization (WHO) International Standard
+for SARS-CoV-2,
+Flu A H1, Flu A H3 ,
+Flu B Victoria linage,
+Flu B Yamagata lineage,
+RSV A and RSV B) in pooled negative clinical NPS-UTM/VTM matrix,
+following the guidance in Clinical and Laboratory Standards
+Institute (CLSI) document EP17-A2. The LoD is defined as the
+lowest concentration for each strain at which 95% (19/20) of
+replicates yield a positive result.
+The estimated LoD values as determined by Probit regression
+analysis were verified using 2 lots of Xpert Xpress
+CoV-2/Flu/RSV _plus_ reagents,
+by testing 20 replicates per virus/lot combination.
+The highest (least sensitive) LoD value for the two lots was
+reported as the final,
+verified LoD.
+The verified LoD values for the viruses tested are summarized
+in *Table 5-2*.
+
+[[table-5-2]]
+.Table 5-2. Xpert Xpress CoV-2/Flu/RSV _plus_ Limit of Detection in Clinical NPS-UTM/VTM Matrix
+[cols="<2,^47,<2,<2,^47,<2",width=72%,options=noheader]
+|===
+| h|Virus/Strain | | h|LoD Concentration |
+
+3+^|USA-WA1/2020 (NATtrol) 3+^|138 copies/mL
+
+3+^|1^st^ WHO International Standard 3+^|94 IU/mL
+
+3+^|Flu A/Idaho/07/2018 3+^|0.007 TCID50/mL
+
+3+^|Flu A/California/07/2009 3+^|0.0022 TCID50/mL
+
+3+^|Flu A/Hong Kong/45/2019 3+^|0.44 FFU/mL
+
+3+^|Flu A/Victoria/361/2011 3+^|0.05 TCID50/mL
+
+3+^|Flu B/Washington/2/2019 3+^|12.9 CEID50/mL
+
+3+^|Flu B/Wisconsin/10/2016 3+^|2.4 TCID50/mL
+
+3+^|RSV A/2/Australia/61 3+^|0.33 TCID50/mL
+
+3+^|RSV A/Long/MD/56 3+^|0.17 TCID50/mL
+
+3+^|RSV B/9320/MA/77 3+^|0.37 TCID50/mL
+
+3+^|RSV B/Wash/18537/62 3+^|0.2 TCID50/mL
+|===
+
+*_Analytical Sensitivity – Clinical Anterior Nasal Swab (NS) Matrix_*
+
+The analytical sensitivity of the Xpert Xpress CoV-2/Flu/RSV
+_plus_ test in clinical anterior nasal swab (NS) matrix was
+first estimated by using 2 lots and testing limiting dilutions
+of viruses (NATtrol SARS-CoV-2,
+1^st^ World Health Organization (WHO) International Standard
+for SARS-CoV-2,
+Flu A H1, Flu A H3,
+Flu B Victoria linage,
+Flu B Yamagata lineage,
+RSV A and RSV B) in pooled negative clinical NS UTM/VTM matrix,
+following the guidance in Clinical and Laboratory Standards
+Institute (CLSI) document EP17-A2. The estimated LoD values as
+determined by Probit regression analysis were verified using 2
+lots of Xpert Xpress CoV-2/Flu/RSV _plus_ reagents,
+by testing 20 replicates per virus/lot combination.
+The highest (least sensitive) LoD value for the two lots was
+reported as the final,
+verified LoD.
+The verified LoD values for the viruses tested are summarized in *Table*
+
+*5-3.*
+
+[[table-5-3]]
+.Table 5-3. Xpert Xpress CoV-2/Flu/RSV _plus_ Limit of Detection in Clinical NS-UTM/VTM Matrix
+[cols="<2,^48,<2,<2,^46,<2",width=77%,options=noheader]
+|===
+| h|Virus/Strain | | h|LoD Concentration |
+
+3+^|USA-WA1/2020 (NATtrol) 3+^|64 copies/mL
+
+3+^|1^st^ WHO International Standard 3+^|143 IU/mL
+
+3+^|Flu A/Idaho/07/2018 3+^|0.012 TCID50/mL
+
+3+^|Flu A/California/07/2009 3+^|0.0028 TCID50/mL
+
+3+^|Flu A/Hong Kong/45/2019 3+^|0.49 FFU/mL
+
+3+^|Flu A/Victoria/361/2011 3+^|0.065 TCID50/mL
+
+3+^|Flu B/Washington/2/2019 3+^|26.3 CEID50/mL
+
+3+^|Flu B/Wisconsin/10/2016 3+^|2.41 TCID50/mL
+
+3+^|RSV A/2/Australia/61 3+^|0.28 TCID50/mL
+
+3+^|RSV A/Long/MD/56 3+^|0.22 TCID50/mL
+
+3+^|RSV B/9320/MA/77 3+^|0.27 TCID50/mL
+
+3+^|RSV B/Wash/18537/62 3+^|0.4 TCID50/mL
+|===
+
+*_Analytical Reactivity (Inclusivity)_*
+
+_SARS-CoV-2 in silico Analyses_
+
+The inclusivity of Xpert Xpress CoV-2/Flu/RSV _plus_ was
+evaluated using _in silico_ analysis of the assay amplicons in
+relation to SARS-CoV-2 sequences available in the GISAID gene
+database as of June 15,
+2022. The sequences were separated into the lineages of
+interest based on the Pango Lineage assigned to each genome by GISAID,
+and those with ambiguous nucleotides were removed.
+Thus, the following inclusivity analyses focus on the combined,
+non-ambiguous sequences from the variants of interest and
+variants of concern as of June 15,
+2022. These constituted 10,310,839 sequences for the E target,
+10,428,014 sequences for the N2 target,
+and 10,178,602 sequences for the RdRP target. *Table 5-4*
+summarizes the effective predicted inclusivity for E,
+N2 and RdRP amplicons for the variants of interests and concern.
+
+[[table-5-4]]
+.Table 5-4. Predicted Inclusivity for E, N2 and RdRP Amplicons for SARS-CoV-2 Variants of Interests and Concern
+[cols="^19,^33,^16,<1,^13,<1,<1,^13,<1",width=95%,options=noheader]
+|===
+h|Amplicon h|Exact Match h|1 Mismatch | h|2 or More Mismatches | | h|% Total ++<++2 Mismatches |
+
+|CEP-COV-E-PLUS |10,262,080 of 10,310,839 (99.5%) |47,959 (0.5%) 3+^|800 (0.01%) 3+^|100%
+
+|CEP-COV-N2 |10,228,739 of 10,428,014 (98.1%) |194,319 (1.9%) 3+^|4,956 (0.05%) 3+^|99.9%
+
+|CEP-COV-RDRP |10,092,873 of 10,178,602 (99.2%) |84,595 (0.8%) 3+^|1,134 (0.01%) 3+^|100%
+|===
+
+a&#46; Single-nucleotide mismatches are predicted to not impact the
+performance of the test.
+
+Based on the built-in redundancy of the Xpert Xpress
+CoV-2/Flu/RSV _plus_ test’s SARS-CoV-2 amplification system (i.e.,
+3 independent targets,
+only 1 of 3 must be detected to assign a positive result),
+it is not anticipated that any of the evaluated SARS-CoV-2
+sequences would be missed by the Xpert Xpress CoV-2/Flu/RSV _plus_ test.
+
+_SARS-CoV-2,
+Flu A, Flu B,
+and RSV Inclusivity Wet-Testing_
+
+In addition to the _in silico_ analysis of the SARS-CoV-2
+primers and probes for inclusivity,
+the inclusivity of the Xpert Xpress CoV-2/Flu/RSV _plus_ test
+was evaluated by bench testing against multiple strains of SARS-CoV-2,
+influenza A H1N1 (seasonal pre-2009),
+influenza A H1N1 (pandemic 2009),
+influenza A H3N2 (seasonal),
+avian influenza A (H5N1,
+H5N2, H6N2,
+H7N2, H7N3,
+H2N2, H7N9,
+and H9N2),
+influenza B (representing strains from both Victoria and
+Yamagata lineages),
+and respiratory syncytial virus subgroups A and B (RSV A and
+RSV B) at concentrations of ++~++3x LoD in simulated matrix.
+A total of 102 respiratory viral strains comprised of 18
+SARS-CoV-2 strains,
+69 influenza viruses (48 influenza A and 21 influenza B) and 15
+RSV strains were evaluated for analytical reactivity
+(inclusivity) with the Xpert Xpress CoV-2/Flu/RSV _plus_ test.
+Three replicates were tested for each strain.
+All SARS-CoV-2,
+Flu and RSV strains tested positive in all 3 replicates.
+Results are shown in *Table 5-5*.
+
+[[table-5-5]]
+.Table 5-5. Analytical Reactivity (Inclusivity) of the Xpert Xpress CoV-2/Flu/RSV _plus_ Test
+[cols="<16,<33,<18,<1,<7,<1,<7,<7,<8,<1",width=100%,options=noheader]
+|===
+.2+h|Virus .2+h|Strain .2+h|Target Conc. | 5+h|Result |
+
+| h|SARS-CoV-2 | h|Flu A h|Flu B 2+h|RSV
+
+.14+|SARS-CoV-2 |NATtrol SARS-CoV-2 USA-WA1/2020 |412 copies/mL 3+|POS |NEG |NEG 2+|NEG
+
+|SARS-CoV-2/HongKong/VM20001061/2020 |0.03 TCID50/mL 3+|POS^a^ |NEG |NEG 2+|NEG
+
+|SARS-CoV-2/Italy-INMl1 |1 TCID50/mL 3+|POS |NEG |NEG 2+|NEG
+
+|SARS-CoV-2/Africa/KRISPK005325/ 2020 (Beta) |0.025 TCID50/mL 3+|POS |NEG |NEG 2+|NEG
+
+|SARS-CoV-2/England/204820464/2020 |0.05 TCID50/mL 3+|POS |NEG |NEG 2+|NEG
+
+|SARS-CoV-2 (NY-Wadsworth-21033899-01/2021) ++P1_2021++ (Gamma) |0.01 TCID50/mL 3+|POS |NEG |NEG 2+|NEG
+
+|SARS-CoV-2 (NY-Wadsworth-21006055-01/2021) ++P2_2021++ (Zeta) |0.03 TCID50/mL 3+|POS |NEG |NEG 2+|NEG
+
+|SARS-CoV-2 (NYWadsworth-21025952-01/2021) ++B.1.526_2021++ (Iota) |0.1 TCID50/mL 3+|POS |NEG |NEG 2+|NEG
+
+|SARS-CoV-2 (NY-Wadsworth-103677-01/2020) ++B.1_2020++ |0.003 TCID50/mL 3+|POS |NEG |NEG 2+|NEG
+
+|SARS-CoV-2 (NY-Wadsworth-33126-01/2020) ++B.1.595_2020++ |0.0015 TCID50/mL 3+|POS |NEG |NEG 2+|NEG
+
+|SARS-CoV-2 ++(USA/CA-Stanford-15_S02/2021)++ B.1.617.1 (Kappa) |1.7 TCID50/mL 3+|POS |NEG |NEG 2+|NEG
+
+|SARS-CoV-2 (USA/PHC658/2021) B.1.617.2 (Delta) |0.01 TCID50/mL 3+|POS |NEG |NEG 2+|NEG
+
+|SARS-CoV-2 (USA/MDHP01542/ 2021) B.1.351 (Beta) |100 (genome equivalents/mL) 3+|POS |NEG |NEG 2+|NEG
+
+|SARS-CoV-2 (USA/GA-EHC-2811C/20221) B.1.1.529 (Omicron) |100 (genome equivalents/mL) 3+|POS |NEG |NEG 2+|NEG
+|===
+
+[cols="<1,<13,<1,<1,<31,<1,<1,<16,<1,<1,<7,<1,<1,<5,<1,<1,<5,<1,<1,<7,<1",width=100%,options=noheader]
+|===
+3.6+h|Virus 3.2+h|Strain 3.2+h|Target Conc. h| 10+h|Result h|
+
+| h|SARS-CoV-2 | 3+h|Flu A 3+h|Flu B 3+h|RSV
+
+3+|SARS-CoV-2 RNA, USA/WA2/2020 (C09)^b^ 3+|100 copies/mL 3+|POS 3+|NEG 3+|NEG 3+|NEG
+
+3+|SARS-CoV-2 RNA,England/205041766/2020 (C14) (alpha)^b^ 3+|100 copies/mL 3+|POS 3+|NEG 3+|NEG 3+|NEG
+
+3+|SARS-CoV-2 RNA, England/MILK-9E05B3/2020 (C15) (alpha)^b^ 3+|200 copies/mL 3+|POS 3+|NEG 3+|NEG 3+|NEG
+
+3+|SARS-CoV-2 RNA /Japan (Brazil)/IC-0564/2021 (C17) (gamma)^b^ 3+|100 copies/mL 3+|POS 3+|NEG 3+|NEG 3+|NEG
+
+| 19+| |
+
+3.12+|Flu A H1N1 (pre-2009) 3+|A/swine/Iowa/15/30 3+|10 TCID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/WS/33 3+|0.6 CEID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/PR/8/34 3+|1.25 CEID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Mal/302/54 3+|0.156 CEID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Denver/1/57 3+|1.5 CEID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/New Jersey/8/76 3+|5 CEID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/New Caledonia/20/1999 3+|0.10 TCID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/New York/55/2004 3+|9 TCID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Solomon Island/3/2006 3+|0.0159TCID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Taiwan/42/06 3+|0.002 TCID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Brisbane/59/2007 3+|0.008 TCID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Swine/NY/02/2009 3+|3.2 TCID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+| | | | | | | | | | | | | | | | | | | | |
+
+3.8+|Flu A H1N1 (pdm 2009) 3+|A/Colorado/14/2012 3+|0.04 TCID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Michigan/45/2015 3+|15 CEID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Iowa/53/2015 3+|6 CEID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Michigan/272/2017 3+|0.07 TCID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Idaho/07/2018 3+|0.0159TCID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Wisconsin/505/2018 3+|0.08 TCID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Hawaii/66/2019 3+|100 CEID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Indiana/02/2020 3+|NA^c^ 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+| | | | | | | | | | | | | | | | | | | | |
+
+3.16+|Flu A H3N2 3+|A/Aichi/2/68 3+|2 CEID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Hong Kong/8/68 3+|0.25 CEID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Port Chalmers/1/73 3+|8 CEID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Hawaii/15/2001 3+|33 CEID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Wisconsin/67/05c 3+|0.22 TCID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Brisbane/10/2007 3+|0.003 TCID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Minnesota/11/2010 3+|2.4 CEID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Indiana/08/2011 3+|0.02 TCID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Texas/50/2012 3+|0.008 TCID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Alaska/232/2015 3+|2 CEID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Singapore/INFIMH-16-0019/2016 3+|2.5 CEID50/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Texas/71/2017 3+|1 FFU/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Kansas/14/2017 3+|0.15 FFU/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Wisconsin/04/2018^d^ 3+|0.15 FFU/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Arizona/45/2018 3+|2 FFU/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Hong Kong/45/2019 3+|0.8 FFU/mL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+| 19+| |
+
+3.4+|Avian Flu A^e^ 3+|A/Mallard/NY/6750/78 (H2N2) 3+|++<++ 1 pg/uL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/duck/Hunan/795/2002 (H5N1) 3+|++<++ 1 pg/uL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Vietnam/1194/2004 (H5N1) 3+|++<++ 1 pg/uL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Anhui/01/2005 (H5N1) 3+|++<++ 1 pg/uL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3.10+h|Virus 3.2+h|Strain 3.2+h|Target Conc. h| 10+h|Result h|
+
+| h|SARS-CoV-2 | 3+h|Flu A 3+h|Flu B 3+h|RSV
+
+3+|A/Japanese white eye/Hong Kong/1038/2006 (H5N1) 3+|++<++ 1 pg/uL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/mallard/WI/34/75 (H5N2) 3+|++<++ 1 pg/uL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/turkey/Massachusetts/3740/ 1965 (H6N2) 3+|0.1 fg/uL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/duck/LTC-10-82743 (H7N2) 3+|5 fg/uL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/chicken/New Jersey/15086/3 (H7N3) 3+|4 fg/uL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Anhui/1/2013 (H7N9) 3+|0.612 ng/uL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/Shanghai/1/2013 (H7N9) 3+|NA^f^ 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+3+|A/chicken/New Jersey/12220/1997 (H9N2) 3+|0.05 pg/uL 3+|NEG 3+|POS 3+|NEG 3+|NEG
+
+| | | | | | | | | | | | | | | | | | | | |
+
+3.6+|Flu B 3+|B/Lee/40 3+|0.08 PFU/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+3+|B/Allen/45 3+|0.25 CEID50/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+3+|B/GL/1739/54 3+|0.50 CEID50/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+3+|B/Maryland/1/59 3+|0.2 CEID50/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+3+|B/Taiwan/2/62 3+|0.7 CEID50/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+3+|B/Hong Kong/5/72 3+|1 CEID50/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+| 19+| |
+
+3.9+|Flu B (Victoria Lineage) 3+|B/Panama/45/90 3+|0.125 TCID50/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+3+|B/Malaysia/2506/04 3+|0.001 TCID50/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+3+|B/Florida/02/06 3+|0.004 TCID50/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+3+|B/Brisbane/60/2008 3+|0.005 TCID50/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+3+|B/Maryland/15/2016 3+|0.06 TCID50/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+3+|B/Colorado/6/2017 3+|0.01 TCID50/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+3+|B/Hawaii/01/2018 3+|1 TCID50/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+3+|B/Missouri/12/2018 (NA D197E) 3+|1.2 TCID50/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+3+|B/Washington/02/2019 3+|60 TCID50/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+| 19+| |
+
+3.6+|Flu B (Yamagata Lineage) 3+|B/Florida/07/2004 3+|0.03 TCID50/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+3+|B/Florida/04/06 3+|0.03 TCID50/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+3+|B/Wisconsin/01/2010 3+|0.025 CEID50/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+3+|B/Wisconsin/10/2016 3+|2 TCID50/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+3+|B/Indiana/17/2017 3+|0.5 TCID50/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+3+|B/Oklahoma/10/2018 3+|1 TCID50/mL 3+|NEG 3+|NEG 3+|POS 3+|NEG
+
+| 19+| |
+
+3.11+|RSV A 3+|RSV-A/NY 3+|0.386 TCID50/mL 3+|NEG 3+|NEG 3+|NEG 3+|POS
+
+3+|RSV-A/WI-629.8.2/2007 3+|0.50 TCID50/mL 3+|NEG 3+|NEG 3+|NEG 3+|POS
+
+3+|++RSV-A/WI/629-11-1_2008++ 3+|0.50 TCID50/mL 3+|NEG 3+|NEG 3+|NEG 3+|POS
+
+3+|RSV-A, Strain: 4/2015 Isolate ++#++1 3+|0.03 TCID50/mL 3+|NEG 3+|NEG 3+|NEG 3+|POS
+
+3+|RSV-A (2014, Isolate 342) 3+|0.38 IU/mL 3+|NEG 3+|NEG 3+|NEG 3+|POS
+
+3+|RSV-A (A2 cpts-248 mutant) 3+|1600 copies/mL 3+|NEG 3+|NEG 3+|NEG 3+|POS
+
+3+|RSV-A (2000/3-4) 3+|0.0015TCID50/mL 3+|NEG 3+|NEG 3+|NEG 3+|POS
+
+3+|RSV-A (2001/3-12) 3+|0.28 TCID50/mL 3+|NEG 3+|NEG 3+|NEG 3+|POS
+
+3+|RSV-A (1997/12-35) 3+|0.5 TCID50/mL 3+|NEG 3+|NEG 3+|NEG 3+|POS
+
+3+|RSV-A (_Homo sapiens_/ARG/177/2006) 3+|0.089 TCID50/mL 3+|NEG 3+|NEG 3+|NEG 3+|POS
+
+3+|RSV-A (1998/3-2) 3+|0.0089TCID50/mL 3+|NEG 3+|NEG 3+|NEG 3+|POS
+
+| 19+| |
+
+3.3+|RSV B 3+|RSV-B/WV14617/85 3+|0.04 TCID50/mL 3+|NEG 3+|NEG 3+|NEG 3+|POS
+
+3+|RSV-B-CH93(18)-18-01 3+|0.004 TCID50/mL 3+|NEG 3+|NEG 3+|NEG 3+|POS
+
+3+|RSV-B (12/2014, Isolate ++#++1) 3+|0.008 TCID50/mL 3+|NEG 3+|NEG 3+|NEG 3+|POS
+|===
+
+[cols="<16,<33,<18,<1,<7,<1,<7,<7,<8,<1",width=100%,options=noheader]
+|===
+.3+h|Virus .2+h|Strain .2+h|Target Conc. | 5+h|Result |
+
+| h|SARS-CoV-2 | h|Flu A h|Flu B 2+h|RSV
+
+|RSV-B (cp23 Clone 1A2) |4200 copies/mL 3+|NEG |NEG |NEG 2+|POS
+|===
+
+a&#46; One of three replicates was Invalid.
+The run was successfully repeated to obtain three valid replicates.
+
+b&#46; _In vitro_ transcripts from Twist Biosciences.
+
+c&#46; Influenza A/Indiana/02/2020 virus was without titer and the
+stock was diluted 48,000-fold in simulated matrix for testing.
+
+d&#46; One of three replicates yielded an ERROR result.
+The run was successfully repeated to obtain three valid replicates.
+
+e&#46; Purified viral RNA in TE and diluted in simulated matrix was
+tested due to biosafety regulations.
+
+f&#46; Inactivated avian influenza A (H7N9) viral RNA without viral
+titer was diluted 100,000-fold in simulated matrix for testing
+due to biosafety regulations.
+
+*_Analytical Specificity (Exclusivity)_*
+
+_In silico Analyses_
+
+An _in silico_ analysis for possible cross-reactions with all
+the organisms listed in *Table 5-6* was conducted by mapping
+the SARS-CoV-2 oligonucleotides and amplicons in the Xpert
+Xpress CoV-2/Flu/RSV _plus_ test individually to the sequences
+downloaded from the GISAID database.
+E gene primers and probes are not specific for SARS-CoV-2 and
+will detect Human and Bat SARS-coronavirus.
+
+_In silico_ exclusivity analysis using Flu A,
+Flu B and RSV B primer and probe oligonucleotides against the
+GenBank database (which encompasses essentially all species)
+did not identify matches,
+with at least 80% similarity to each oligonucleotide,
+for any non-target organism expected to be found in a human
+respiratory tract sample.
+RSV A primer and probe oligonucleotides exhibited ++>++80%
+homology with two Pangolin RSV A isolates.
+Therefore,
+the RSV A primer and probe may cross-react with Pangolin RSV A
+if the strain is circulating in a human population and present
+in a sample tested with the Xpert Xpress CoV-2/Flu/RSV _plus_ test.
+While there was some homology ≥80% to human genomic DNA,
+the matches were to different chromosomal regions,
+and there were no cases where a forward and reverse primer for
+a specific target matched to the same human genomic DNA fragment.
+
+_In silico_ exclusivity analysis using the five Flu amplicons (Flu A MP,
+Flu A PB2,
+Flu A PA, Flu B MP and Flu B NS) against the GenBank database produced no
+significant matches to non-influenza-related sequences.
+Similarly,
+no matches to RSV isolates from other species or to genomic
+sequences from non-RSV species were observed with the RSV B amplicon.
+While no matches of the RSV A amplicon to genomic sequences
+from non-RSV species of ++>++80% homology were observed,
+the RSV A amplicon shared a 95% identity with two Pangolin RSV A isolates.
+
+No cross reactivity with non-SARS-CoV-2,
+non-influenza and non-RSV viruses listed in *Table 5-6* is
+expected based on the _in silico_ analysis.
+
+[[table-5-6]]
+.Table 5-6. Microorganisms Analyzed in the _in silico_ Analysis for the SARS-CoV-2 Target
+[cols="<57,<43",width=81%,options=header]
+|===
+|Microorganisms from the Same Genetic Family |High Priority Organisms
+
+|Human coronavirus 229E h|Viruses
+
+|Human coronavirus OC43 |Adenovirus (e.g., C1 Ad. 71)
+
+|Human coronavirus HKU1 |Cytomegalovirus
+
+|Human coronavirus NL63 |Enterovirus (e.g., EV68)
+
+|SARS-coronavirus |Epstein-Barr virus
+
+|MERS-coronavirus >|Human Metapneumovirus (hMPV)
+
+|Bat coronavirus |Influenza A & B
+
+| |Measles
+
+| |Mumps
+
+| |Parainfluenza virus 1-4
+
+| |Parechovirus
+
+| |Respiratory syncytial virus
+
+| |Rhinovirus
+
+| h|Bacteria
+
+| |_Bacillus anthracis_
+
+| |_Bordetella pertussis_
+
+| |_Bordetella parapertussis_
+
+| |_Candida albicans_
+
+| |_Chlamydia pneumoniae_
+
+| |_Chlamydia psittaci_
+
+| |_Corynebacterium diphtheriae_
+
+| |_Coxiella burnetii_ (Q-Fever)
+
+| |_Escherichia coli_
+
+| |_Fusobacterium necrophorum_
+
+| |_Haemophilus influenzae_
+
+| |_Lactobacillus_ sp.
+
+| |_Legionella_ non-_pneumophila_
+
+| |_Legionella pneumophila_
+
+| |_Leptospira_
+
+| |_Moraxella catarrhalis_
+
+| |_Mycobacterium tuberculosis_
+
+| |_Mycoplasma genitalium_
+
+| |_Mycoplasma pneumoniae_
+
+| |_Neisseria elongata_
+
+| |_Neisseria meningitidis_
+
+| |_Pneumocystis jirovecii_ (PJP)
+
+| |_Pseudomonas aeruginosa_
+
+| |_Staphylococcus aureus_
+
+| |_Staphylococcus epidermidis_
+
+| |_Staphylococcus salivarius_
+
+| |_Streptococcus pneumoniae_
+
+| |_Streptococcus pyogenes_
+
+| h|Fungi
+
+| |_Aspergillus_ sp
+|===
+
+_Wet Testing_
+
+In addition to the _in silico_ analysis of the SARS-CoV-2,
+influenza A,
+influenza B,
+and RSV oligonucleotides and amplicons for cross-reactivity,
+the analytical specificity of the Xpert Xpress CoV-2/Flu/RSV
+_plus_ test was evaluated by bench testing a panel of 48
+microorganisms,
+comprising 4 human coronaviruses,
+1 MERS coronavirus and 43 common respiratory pathogens or those
+potentially encountered in the nasopharynx.
+The panel was tested in different pools of microorganisms in
+simulated matrix;
+if a pool produced a positive result,
+then each member of the pool would have been tested individually.
+Three replicates of each pool were tested.
+A sample was considered negative if all three replicates were negative.
+The bacterial and yeast strains were tested at concentrations
+of ≥ 1 x 10^6^ CFU/mL except for _Chlamydia pneumoniae_ which
+was tested at 1.2 x 10^6^ IFU/mL and _Lactobacillus reuteri_
+which was tested at 5 x 10^7^ copies/mL of genomic DNA.
+Viruses were tested at concentrations of ≥ 1 x 10^5^ TCID50/mL.
+The analytical specificity was 100%.
+Results are shown in *Table 5-7*.
+
+[[table-5-7]]
+.Table 5-7. Respiratory Microorganisms and Human Coronavirus Tested, Concentrations and Xpert Xpress CoV-2/Flu/RSV _plus_ Test Results
+[cols="^10,<33,^19,^12,^9,^9,^9",width=99%,options=header]
+|===
+|Count |Strain |[.underline]##Tested Concentration## |[.underline]##SARS-CoV-2## |Flu A |Flu B |RSV
+
+|0 |Negative Control |NA |NEG |NEG |NEG |NEG
+
+|00 |Positive Control (NATFRC-6C) |NA |POS |POS |POS |POS
+
+|1 |Human coronavirus NL63 |1.17e5 TCID50/mL |NEG |NEG |NEG |NEG
+
+|2 |MERS-coronavirus |1.17e5 TCID50/mL |NEG |NEG |NEG |NEG
+
+|3 |Human coronavirus 229E |1.21e5 TCID50/mL |NEG |NEG |NEG |NEG
+
+|4 |Human coronavirus OC43 |1.02e5 TCID50/mL |NEG |NEG |NEG |NEG
+
+|5 |Human coronavirus HKU1^a^ |1.23e6 copies/mL |NEG |NEG |NEG |NEG
+
+|6 |Adenovirus Type 1 |4.07e5 TCID50/mL |NEG |NEG |NEG |NEG
+
+|7 |Adenovirus Type 7 |1.15e5 TCID50/mL |NEG |NEG |NEG |NEG
+
+|8 |Cytomegalovirus |1.0e5 TCID50/mL |NEG |NEG |NEG |NEG
+
+|9 |Echovirus |1.14e5 TCID50/mL |NEG |NEG |NEG |NEG
+
+|10 |Enterovirus |2.80e5 TCID50/mL |NEG |NEG |NEG |NEG
+
+|11 |Epstein Barr Virus |5.60e6 TCID50/mL |NEG |NEG |NEG |NEG
+
+|12 |HSV |1.97e5 TCID50/mL |NEG |NEG |NEG |NEG
+
+|13 |Human metapneumovirus |4.07e5 TCID50/mL |NEG |NEG |NEG |NEG
+
+|14 |Human parainfluenza Type 1 |1.0e5 TCID50/mL |NEG |NEG |NEG |NEG
+
+|15 |Human parainfluenza Type 2 |1.2e5 TCID50/mL |NEG |NEG |NEG |NEG
+
+|16 |Human parainfluenza Type 3 |1.2e5 TCID50/mL |NEG |NEG |NEG |NEG
+
+|17 |Human parainfluenza Type 4 |1.19e6 TCID50/mL |NEG |NEG |NEG |NEG
+
+|18 |Measles |1.2e5 TCID50/mL |NEG |NEG |NEG |NEG
+
+|19 |Mumps virus |1.2e5 TCID50/mL |NEG |NEG |NEG |NEG
+
+|20 |Rhinovirus Type 1A |1.0e5 TCID50/mL |NEG |NEG |NEG |NEG
+
+|21 |_Acinetobacter baumannii_ |1.30e7 CFU/mL |NEG |NEG |NEG |NEG
+
+|22 |_Bordetella pertussis_ |6.40e7 CFU/mL |NEG |NEG |NEG |NEG
+
+|23 |_Burkholderia cepacia_ |1.90e8 CFU/mL |NEG |NEG |NEG |NEG
+
+|24 |_Candida albicans_ |6.30e6 CFU/mL |NEG |NEG |NEG |NEG
+
+|25 |_Candida parapsilosis_ |1.45e6 CFU/mL |NEG |NEG |NEG |NEG
+
+|26 |_Citrobacter freundii_ |1.73e8 CFU/mL |NEG |NEG |NEG |NEG
+
+|27 |_Corynebacterium sp._ |1.27e7 CFU/mL |NEG |NEG |NEG |NEG
+
+|28 |_Enterococcus faecalis_ |5.87e7CFU/mL |NEG |NEG |NEG |NEG
+
+|29 |_Escherichia coli_ |1.55e8 CFU/mL |NEG |NEG |NEG |NEG
+
+|30 |_Hemophilus influenzae_ |6.62e6 CFU/mL |NEG |NEG |NEG |NEG
+
+|31 |_Lactobacillus reuteri_ ^b^ |5.0e7 copies/mL |NEG |NEG |NEG |NEG
+
+|32 |_Legionella pneumophila_ |1.42e8 CFU/mL |NEG |NEG |NEG |NEG
+
+|33 |_Moraxella catarrhalis_ |2.46e6 CFU/mL |NEG |NEG |NEG |NEG
+
+|34 |_Mycoplasma pneumoniae_ |2.7e6 CFU/mL |NEG |NEG |NEG |NEG
+
+|35 |_Neisseria meningitides_ |4.2e6 CFU/mL |NEG |NEG |NEG |NEG
+
+|36 |_Neisseria mucosa_ |1.0e8 CFU/mL |NEG |NEG |NEG |NEG
+
+|37 |_Propionibacterium acnes_ |8.25e7 CFU/mL |NEG |NEG |NEG |NEG
+
+|38 |_Pseudomonas aeruginosa_ |1.05e7 CFU/mL |NEG |NEG |NEG |NEG
+
+|39 |_Staphylococcus haemolyticus_ |2.66e6 CFU/mL |NEG |NEG |NEG |NEG
+
+|40 |_Staphylococcus aureus_ |5.87e7 CFU/mL |NEG |NEG |NEG |NEG
+
+|41 |_Staphylococcus epidermidis_ |2.47e7 CFU/mL |NEG |NEG |NEG |NEG
+
+|42 |_Streptococcus agalactiae_ |1.75e7 CFU/mL |NEG |NEG |NEG |NEG
+
+|43 |_Streptococcus pneumoniae_ |2.26e7 CFU/mL |NEG |NEG |NEG |NEG
+
+|44 |_Streptococcus pyogenes_ |9.0e6 CFU/mL |NEG |NEG |NEG |NEG
+
+|45 |_Streptococcus salivarius_ |4.19e6 CFU/mL |NEG |NEG |NEG |NEG
+
+|46 |_Streptococcus sanguinis_ |8.67e6 CFU/mL |NEG |NEG |NEG |NEG
+
+|47 |_Chlamydia pneumoniae_ |1.20e6 CFU/mL |NEG |NEG |NEG |NEG
+
+|48 |_Mycobacterium tuberculosis_ (avirulent) |1.20e6 CFU/mL |NEG |NEG |NEG |NEG
+|===
+
+NA – Not Applicable
+
+^a^Live virus was not available.
+Synthetic RNA was used.
+
+^b^Live organism was not available.
+Genomic DNA was used.
+
+*_Microbial Interference_*
+
+Microbial interference of the Xpert Xpress CoV-2/Flu/RSV _plus_
+test caused by the presence of bacterial or viral strains that
+might be encountered in human upper respiratory tract specimens,
+was evaluated by testing a panel of 10 potentially interfering
+microorganisms,
+consisting of 7 viral strains and 3 bacterial strains.
+Contrived samples consisted of SARS-CoV-2,
+Flu A, Flu B,
+RSV A, or RSV B viruses seeded at 3x the Limit of Detection (LoD) into
+simulated nasopharyngeal swab (NPS)/nasal swab (NS) matrix in
+the presence of Adenovirus Type 1C,
+Human Coronavirus OC43,
+Rhinovirus Type 1A,
+Human metapneumovirus,
+Human parainfluenza Types 1,
+2, and 3 (each seeded at 1x10^5^ TCID50/mL),
+_Hemophilus influenzae_ (seeded at 1x10^6^ CFU/mL)_,
+Staphylococcus aureus_ or _Staphylococcus epidermidis_ (each
+seeded at 1x10^7^ CFU/mL).
+
+Eight (8) replicates of positive samples were tested for each
+target virus (SARS-CoV-2,
+Flu A, Flu B,
+RSV A, or RSV B) and each potential microbial interference strain combination.
+For each target,
+all 8 of 8 replicate samples were correctly identified using
+the Xpert Xpress CoV-2/Flu/RSV _plus_ test.
+No microbial interference by the viral or bacterial strains was reported.
+
+*_Competitive Interference_*
+
+Competitive interference of the Xpert Xpress CoV-2/Flu/RSV
+_plus_ caused by co-infections were evaluated by testing
+contrived samples of individual SARS-CoV-2,
+Flu A, Flu B or RSV strains at 3x LoD in the presence of different
+target strains at a higher concentration in a simulated
+background matrix.
+The concentration at 3x LoD was 414 copies/mL for SARS-CoV-2
+(inactivated USA-WA1/2020);
+0.021 TCID50/mL for Flu A/Idaho/072018,
+38.7 CEID50/mL for Flu B/Washington/2/2019;
+0.99 TCID50/mL for RSV A/2/Australia/61),
+and 1.11 TCID50/mL for RSV B/9320/MA/77. The competitive
+strains were evaluated at ++>++10^5^ RNA copies/mL,
+as determined by droplet digital PCR (ddPCR).
+
+Replicates of 3 were tested for each target strain and each
+competitive strain combination.
+
+[cols="<47,<53",width=93%,options=noheader]
+|===
+2+|The virus at high concentration shows no competitive inhibitory effects if 3 of 3 replicates
+
+|for the target strain report positive results. |
+|===
+
+If the results reported less than 3 of 3 positive
+
+replicates,
+the concentration of the competing virus was reduced by 10-fold
+increments until no interference was observed.
+The results for competitive interference study are presented in
+*Tables 5-8* through *5-12* for high concentration of Flu A,
+Flu B, RSV A,
+RSV B and SARS-CoV-2,
+respectively.
+
+[[table-5-8]]
+.Table 5-8. Summary of Competitive Interference Study with Flu A at High Concentration
+[cols="^18,^16,<1,^13,<1,<1,^15,<1,<1,^13,<1,<1,^13,<1",width=84%,options=noheader]
+|===
+.2+h|Test Viruses at 3X LoD .2+h|Interferent Virus | 10+h|Correct Calls (n/3) |
+
+<| h|at 1.7e8 RNA copies/mL | <| ^h|at 1.7e7 RNA copies/mL | <| ^h|at 1.7e6 RNA copies/mL | <| ^h|at 1.7e5 RNA copies/mL |
+
+|Flu B .4+|Flu A 3+^|0/3 3+^|0/3 3+^|2/3 3+^|3/3
+
+|RSV A 3+|0/3 3+^|0/3 3+^|3/3 | ^|Not tested <|
+
+|RSV B 3+|3/3 | ^|Not tested <| | ^|Not tested <| | ^|Not tested <|
+
+|SARS-CoV-2 3+|3/3 | ^|Not tested <| | ^|Not tested <| | ^|Not tested <|
+|===
+
+[[table-5-9]]
+.Table 5-9. Summary of Competitive Interference Study with Flu B at High Concentration
+[cols="^33,^31,<3,^31,<3",width=44%,options=noheader]
+|===
+h|Test Viruses at 3X LoD h|Interferent Virus | h|Correct Calls (n/3) at 1.4e5 RNA copies/mL |
+
+|Flu A .4+|Flu B 3+^|3/3
+
+|RSV A 3+|3/3
+
+|RSV B 3+|3/3
+
+|SARS-CoV-2 3+|3/3
+|===
+
+[[table-5-10]]
+.Table 5-10. Summary of Competitive Interference Study with RSV A at High Concentration
+[cols="^33,^28,<2,^34,<3",width=44%,options=noheader]
+|===
+h|Test Viruses at 3X LoD h|Interferent Virus | h|Correct Calls (n/3) at 4.6e6 RNA copies/mL |
+
+|Flu A .3+|RSV A 3+^|3/3
+
+|Flu B 3+|3/3
+
+|SARS-CoV-2 3+|3/3
+|===
+
+[[table-5-11]]
+.Table 5-11. Summary of Competitive Interference Study with RSV B at High Concentration
+[cols="^33,^28,<3,^34,<3",width=45%,options=noheader]
+|===
+h|Test Viruses at 3X LoD h|Interferent Virus | h|Correct Calls (n/3) at 1.9e5 RNA copies/mL |
+
+|Flu A .3+|RSV B 3+^|3/3
+
+|Flu B 3+|3/3
+
+|SARS-CoV-2 3+|3/3
+|===
+
+[[table-5-12]]
+.Table 5-12. Summary of Competitive Interference Study with SARS-CoV-2 at High Concentration
+[cols="^22,^24,<2,^23,<2,<2,^23,<2",width=65%,options=noheader]
+|===
+.2+h|Test Viruses at 3X LoD .2+h|Interferent Virus | 4+h|Correct Calls (n/3) |
+
+<| h|at 1e6 RNA copies/mL | <| ^h|at 1e5 RNA copies/mL |
+
+|Flu A .4+|SARS-CoV-2 3+^|3/3 | |Not tested |
+
+|Flu B 3+|1/3 3+^|3/3
+
+|RSV A 3+|3/3 | ^|Not tested <|
+
+|RSV B 3+|3/3 | ^|Not tested <|
+|===
+
+The study showed that Flu A/Idaho/07/2018 at concentrations
+above 1.7e5 RNA copies/mL inhibited detection of Flu B at 3x LoD,
+and at concentrations above 1.7e6 RNA copies/mL inhibited
+detection of RSV A at 3x LoD (*Table 5-8*).
+In addition,
+SARS-CoV-2 at concentrations above 1e5 RNA copies/mL inhibited
+detection of Flu B at 3x LoD (*Table 5-12*).
+No other competitive interference was observed for the
+potential co-infections evaluated in the study at the
+concentrations tested.
+
+*_Potentially Interfering Substances_*
+
+Substances that are normally found in or may be introduced into
+clinical NPS or NS matrix that could potentially interfere with
+accurate detection of SARS-CoV-2,
+Flu A, Flu B and RSV were evaluated with direct testing on the Xpert
+Xpress CoV-2/Flu/RSV _plus_.
+
+Potentially interfering substances in the nasal passage and
+nasopharynx may include,
+but are not limited to:
+blood, nasal secretions or mucus,
+and nasal and throat medications used to relieve congestion,
+nasal dryness,
+irritation,
+or asthma and allergy symptoms,
+as well as antibiotics and antivirals.
+Positive and negative samples were prepared in simulated
+nasopharyngeal swab (NPS)/ nasal swab (NS) matrix.
+Negative samples (N = 8) were tested in the presence of each
+substance to determine the effect on the performance of the
+sample processing control (SPC).
+Positive samples (N = 8) were tested per substance with viruses
+spiked at 3x the LoD determined for each strain.
+Positive samples tested with the Xpert Xpress CoV-2/Flu/RSV
+_plus_ included one SARS-CoV-2,
+two influenza A H1N1,
+two influenza A H3N2,
+two influenza B and two RSV (RSV A and RSV B) strains.
+The substances,
+with active ingredients and test concentrations,
+that were evaluated are listed in
+
+*Table 5-13*.
+
+[[table-5-13]]
+.Table 5-13. Potentially Interfering Substances Tested
+[cols="<1,<19,<1,<1,^22,<1,<1,<28,<1,<1,<22,<1",width=99%,options=noheader]
+|===
+| h|Substance ID | | h|Substance/Class | | h|Substance/Active Ingredient | | h|Concentrations Tested |
+
+3+|No substance 3+^|Control 3+^|Simulated NPS/NS Matrix 3+^|100% (v/v)
+
+3+|Albuterol Sulfate 3+^|Beta-adrenergic bronchodilator 3+^|Albuterol Sulfate (5mg/mL) 3+^|0.83 mg/mL (equivalent to 1 dose per day)
+
+3+|Afrin 3+^|Nasal Spray 3+^|Oxymetazoline, 0.05% 3+^|15% (v/v)
+
+3+|BD Universal Transport Medium 3+^|Transport Media 3+^|N/A 3+^|100% (v/v)
+
+3+|Blood 3+^|Blood 3+^|Blood (Human) 3+^|2% (v/v)
+
+3+|Copan Swab M 3+^|Transport Media 3+^|N/A 3+^|100% (v/v)
+
+3.3+|FluMist Quadrivalent 3.3+^|Vaccine 3.3+^|Live attenuated influenza viruses 3+^|6.7e-4% (v/v)
+
+3+^|6.7e-6% (v/v)
+
+3+^|6.7e-7% (v/v)
+
+3+|Fluticasone Propionate Nasal Spray 3+^|Nasal corticosteroid 3+^|Fluticasone Propionate 3+^|5 µg/mL
+
+3.3+|Human peripheral blood mononuclear cells 3.3+^|Human cells 3.3+^|PBMC 3+^|1 x 10^6^ cells/mL
+
+3+^|0.5 x 10^6^ cells/mL
+
+3+^|0.25 x 10^6^ cells/mL
+
+3+|Ibuprofen 3+^|Nonsteroidal anti-inflammatory drug 3+^|Ibuprofen 200 mg/tablet 3+^|5% w/v
+
+3+|Menthol 3+^|Throat lozenges, oral anesthetic and analgesic 3+^|Benzocaine, Menthol 3+^|1.7 mg/mL
+
+3+|Mucin 3+^|Mucin 3+^|Purified Mucin protein (Bovine or porcine submaxillary gland) 3+^|0.1 (w/v)
+
+3+|Mupirocin 3+^|Antibiotic, nasal ointment 3+^|Mupirocin (20 mg/g = 2%) 3+^|10 mg/mL
+
+3+|PHNY 3+^|Nasal Drops 3+^|Phenylephrine, 1% 3+^|15% (v/v)
+
+3+|Remel M4RT 3+^|Transport Media 3+^|N/A 3+^|100% (v/v)
+
+3+|Remel M5 3+^|Transport Media 3+^|N/A 3+^|100% (v/v)
+
+3+|Saline 3+^|Saline Nasal Spray 3+^|Sodium Chloride (0.65%) 3+^|15% (v/v)
+
+3.4+|Snuff 3.4+^|Tobacco product 3.4+^|Nicotine 3+^|1% (w/v)
+
+3+^|0.5% (w/v)
+
+3+^|0.25% (w/v)
+
+3+^|0.1% (w/v)
+
+3+|Tamiflu 3+^|Anti-viral drugs 3+^|Zanamivir 3+^|7.5 mg/mL
+
+3+|Tobramycin 3+^|Antibacterial, systemic 3+^|Tobramycin 3+^|4 µg/mL
+
+3.2+|Zicam 3.2+^|Nasal Gel 3.2+^|Luffa opperculata, Galphimia glauca, Histaminum hydrochloricum Sulfur (0.05%) 3+^|15% (w/v)
+
+3+^|7.5% (w/v)
+
+3+|Zinc 3+^|Zinc supplement 3+^|Zinc Gluconate 3+^|0.1 µg/mL
+|===
+
+The results from the study (*Table 5-14*) show that for most cases,
+8 out of 8 replicates reported positive results for each
+combination of virus and substance tested and no interference was observed.
+In the presence of FluMist at 6.7e-4% (v/v),
+interfering effects were observed when testing SARS-CoV-2,
+RSV A and RSV B strains.
+Inhibitory effects were not observed when testing these viruses
+in the presence of FluMist at 6.7e-6% (v/v) except for RSV
+A/Long/MD/56. For RSV A/Long/MD/56,
+the inhibitory effect was not observed when FluMist
+concentration was further reduced to 6.7e-7% (v/v).
+In the presence of human PBMC at 1 x 10^6^ cells/mL,
+interfering effects were observed when testing Flu B/Washington
+/2/2019. Inhibitory effects were not observed when the PBMC
+concentration was reduced to 2.5 x 10^5^ cells/mL.
+In the presence of snuff at 1% (w/v),
+interfering effects were observed when testing Flu A
+/California/07/2009 and Flu B/Washington/2/2019. Inhibitory
+effects were not observed when testing the viruses at a snuff
+concentration of 0.1% (w/v).
+In the presence of Zicam at 15% (w/v),
+interfering effects were observed when testing Flu A,
+Flu B and RSV A strains.
+Inhibitory effects were not observed when testing the viruses
+in the presence of Zicam at 7.5% (w/v).
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/xpert-xpress-cov-2-flu-rsv-plus-510k-summary/k231481-summary-image-03.png["Picture on page 25",width=93]
+
+[[table-5-14]]
+.Table 5-14. Number of Correct Results for Xpert Xpress CoV-2/Flu/RSV _plus_ Targets Tested in the Presence of Potentially Interfering Substances
+[cols="<12,^11,<1,<2,<2,<2,<1,<2,<2,<1,<1,<2,<2,<1,<2,<2,<2,<1,<2,<2,<1,<1,<2,<2,<1,<1,<2,<2,<1,<1,<2,<2,<1,<1,<2,<2,<1,<1,<2,<2,<1,<1,<2,<2,<1,<2,<2,<2,<1,<1",width=100%,options=noheader]
+|===
+.2+h|Substance .2+h|Concentration Tested | 46+^h|[.underline]##Number of## Correct Results/Number Tes[.underline]##ted for Each## Virus and the No [.underline]##Virus Control## |
+
+2+| h|No Virus Control | | h|SARS-CoV-2 h|USA-WA-1 | | h|Flu A h|California/7/2009 | | h|Flu A Idaho/07/2018 | | h|Flu A h|Hong Kong/ 45/2019 | | h|Flu A/ h|Victoria/361/2011 | | h|Flu B h|Wisconsin/10/2016 | | h|Flu B h|Washington/02/2019 | | h|RSV A h|2/Australia/61 | | h|RSV A h|Long/MD/56 | | h|RSV B h|9320/MA/77 | | h|RSV B h|WA/18537/62 2+|
+
+|Control Simulated NPS/NS Matrix (No substance) |100% (v/v) 4+^|32/32^a^ 4+^|24/24 4+^|24/24 3+^|16/16 4+^|16/16 4+^|24/24^b^ 4+^|24/24 4+^|32/32 4+^|32/32^b^ 4+^|32/32 4+^|24/24 5+^|24/24
+
+|Albuterol Sulfate |0.83 mg/mL 4+^|16/16 4+^|8/8 4+^|8/8 3+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 5+^|8/8
+
+|Afrin |15% (v/v) 4+^|16/16 4+^|8/8 4+^|8/8^b^ 3+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/9^c^ 4+^|8/8 4+^|8/8 4+^|8/8 5+^|8/8
+
+|BD Universal Transport Medium |100% v/v 4+^|16/16 4+^|8/8 4+^|8/8 3+^|8/8 4+^|8/8 4+^|8/8^b^ 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 5+^|8/8
+
+|Blood |2% (v/v) 4+^|16/16 4+^|8/8 4+^|8/8 3+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8^a^ 4+^|8/8 4+^|8/8^b^ 4+^|8/8^b^ 4+^|8/8 5+^|8/8
+
+|Copan Swab M |100% (v/v) 4+^|16/16 4+^|8/8 4+^|8/8 3+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 5+^|8/8
+
+.4+|FluMist |6.7% (v/v) 4+^|8/8 4+^|N/A 4+^|N/A 3+^|N/A 4+^|N/A 4+^|N/A 4+^|N/A 4+^|N/A 4+^|N/A 4+^|N/A 4+^|N/A 5+^|N/A
+
+^|6.7e-4% (v/v) 4+|N/A 4+^h|7/8 4+^|N/A 3+^|N/A 4+^|N/A 4+^|N/A 4+^|N/A 4+^|N/A 4+^h|0/8 4+^h|0/8 4+^h|2/8 5+^h|0/8
+
+^|6.7e-6% (v/v) 4+|N/A 4+^|8/8 4+^|N/A 3+^|N/A 4+^|N/A 4+^|N/A 4+^|N/A 4+^|N/A 4+^|8/8 4+^h|7/8 4+^|8/8^b^ 5+^|8/8
+
+^|6.7e-7% (v/v) 4+|N/A 4+^|N/A 4+^|N/A 3+^|N/A 4+^|N/A 4+^|N/A 4+^|N/A 4+^|N/A 4+^|N/A 4+^|8/8^a^ 4+^|N/A 5+^|N/A
+
+|Fluticasone Propionate Nasal Spray |5 µg/mL 4+^|16/16 4+^|8/8 4+^|8/8 3+^|8/8 4+^|8/8 4+^|8/8 4+|8/8a, b 4+^|8/8 4+^|8/8^d^ 4+^|8/8 4+^|8/8^a^ 5+^|8/8
+
+.3+|Human peripheral blood mononuclear cells |1e6 cells/mL 4+^|8/8 4+^|8/8 4+^|8/8^b^ 3+^|8/8^b^ 4+^|8/8 4+^|8/8 4+^|8/8 4+^h|6/8 4+^|8/8^b^ 4+^|8/8 4+^|8/8^b^ 5+^|8/8^b^
+
+^|0.5e6 cells/mL 4+|N/A 4+^|N/A 4+^|N/A 3+^|N/A 4+^|N/A 4+^|N/A 4+^|N/A 4+^h|7/8 4+^|N/A 4+^|N/A 4+^|N/A 5+^|N/A
+
+^|0.25e6 cells/mL 4+|N/A 4+^|N/A 4+^|N/A 3+^|N/A 4+^|N/A 4+^|N/A 4+^|N/A 4+^|8/8 4+^|N/A 4+^|N/A 4+^|N/A 5+^|N/A
+
+|Ibuprofen |5% (w/v) 4+^|8/8 4+^|8/8 4+^|8/8 3+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 5+^|8/8
+|===
+
+510(k) Summary Page 22 of 34
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/xpert-xpress-cov-2-flu-rsv-plus-510k-summary/k231481-summary-image-04.png["Picture on page 26",width=93]
+
+[cols="<12,^11,<1,<2,<2,<2,<1,<2,<2,<1,<1,<2,<2,<1,<2,<2,<2,<1,<2,<2,<1,<1,<2,<2,<1,<1,<2,<2,<1,<1,<2,<2,<1,<1,<2,<2,<1,<1,<2,<2,<1,<1,<2,<2,<1,<2,<2,<2,<1,<1",width=100%,options=noheader]
+|===
+.2+h|Substance .2+h|Concentration Tested | 46+^h|[.underline]##Number of## Correct Results/Number Tes[.underline]##ted for Each## Virus and the No [.underline]##Virus Control## |
+
+2+| h|No Virus Control | | h|SARS-CoV-2 h|USA-WA-1 | | h|Flu A h|California/7/2009 | | h|Flu A Idaho/07/2018 | | h|Flu A h|Hong Kong/ 45/2019 | | h|Flu A/ h|Victoria/361/2011 | | h|Flu B h|Wisconsin/10/2016 | | h|Flu B h|Washington/02/2019 | | h|RSV A h|2/Australia/61 | | h|RSV A h|Long/MD/56 | | h|RSV B h|9320/MA/77 | | h|RSV B h|WA/18537/62 2+|
+
+|Menthol |1.7 mg/mL 4+^|16/16^a^ 4+^|8/8 4+^|8/8 3+^|8/8 4+^|8/8^a^ 4+^|8/8 4+^|8/8^b^ 4+^|8/8 4+^|8/8 4+^|8/8^b^ 4+^|8/8 5+^|8/8
+
+|Mucin |0.1% (w/v) 4+^|16/16 4+^|8/8 4+^|8/8 3+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+|8/8a, b 4+^|8/8 5+^|8/8
+
+|Mupirocin |10 mg/mL 4+^|16/16 4+^|8/8 4+^|8/8 3+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 5+^|8/8
+
+|PHNY |15% (v/v) 4+^|16/16 4+^|8/8 4+^|8/8 3+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 5+^|8/8
+
+|Remel M4RT |100% (v/v) 4+|16/16^a^ 4+^|8/8 4+^|8/8 3+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 5+^|8/8
+
+|Remel M5 |100% (v/v) 4+^|16/16 4+^|8/8 4+^|8/8 3+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 5+^|8/8
+
+|Saline |15% (v/v) 4+^|16/16 4+^|8/8 4+^|8/8^a^ 3+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 5+^|8/8^a^
+
+.4+|Snuff |1% (w/v) 4+^|8/8 4+^|8/8 4+^h|6/8 3+^|8/8 4+^|8/8^b^ 4+^|8/8 4+^|8/8 4+^|**4/8**^b^ 4+^|8/8 4+^|8/8 4+^|8/8 5+^|8/8^e^
+
+^|0.5% (w/v) 4+|N/A 4+^|N/A 4+^h|7/8 3+^|N/A 4+^|N/A 4+^|N/A 4+^|N/A 4+^h|3/8 4+^|N/A 4+^|N/A 4+^|N/A 5+^|N/A
+
+^|0.25 % (w/v) 4+|N/A 4+^|N/A 4+^|8/8 3+^|N/A 4+^|N/A 4+^|N/A 4+^|N/A 4+^h|7/8 4+^|N/A 4+^|N/A 4+^|N/A 5+^|N/A
+
+^|0.1 % (w/v) 4+|N/A 4+^|N/A 4+^|N/A 3+^|N/A 4+^|N/A 4+^|N/A 4+^|N/A 4+^|8/8 4+^|N/A 4+^|N/A 4+^|N/A 5+^|N/A
+
+|Tamiflu |7.5 mg/mL 4+|16/16^a^ 4+^|8/8 4+^|8/8 3+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 5+^|8/8
+
+|Tobramycin |4 µg/mL 4+^|16/16 4+^|8/8 4+^|8/8 3+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 5+^|8/8
+
+.2+|Zicam |15% (w/v) 4+^|16/16 4+^|8/8 4+^h|7/8 3+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8^a^ 4+^h|5/8 4+^h|7/8 4+^|8/8 4+^|8/8 5+^|8/8
+
+^|7.5% (w/v) 4+|N/A 4+^|N/A 4+^|8/8 3+^|N/A 4+^|N/A 4+^|N/A 4+^|N/A 4+^|8/8 4+^|8/8 4+^|N/A 4+^|N/A 5+^|N/A
+
+|Zinc |0.1µg/mL 4+^|16/16 4+^|8/8 4+^|8/8 3+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 4+^|8/8 5+^|8/8
+|===
+
+*BOLD:* False negative or INVALID results indicating
+interference from the substance a.
+One replicate reported NO RESULT.
+The run was successfully repeated to obtain the required number
+of valid replicates.
+
+b&#46; One replicate reported ERROR.
+The run was successfully repeated to obtain the required number
+of valid replicates
+
+c&#46; One of 8 replicates reported a Flu B NEGATIVE result.
+The Flu B Probe check signals were reduced in this sample
+suggesting an issue with the EZR bead.
+The test was repeated and gave a Flu B positive result.
+
+d&#46; One of 8 replicates reported INVALID.
+The run was successfully repeated to obtain 8 valid replicates
+
+e&#46; Two of 8 replicates reported ERROR.
+The 2 runs were successfully repeated to obtain 8 valid replicates.
+
+510(k) Summary Page 23 of 34
+
+*_Carryover Contamination_*
+
+A study was conducted to assess whether the single-use,
+self-contained Xpert Xpress CoV-2/Flu/RSV _plus_ cartridge
+prevents specimen and amplicon carryover by testing a negative
+sample immediately after testing of a very high positive sample
+in the same GeneXpert module.
+The negative sample used in this study consisted of simulated
+NPS/NS matrix and the positive sample consisted of high Flu B
+and high SARS-CoV-2 virus concentrations (Flu
+B/Wisconsin/10/2016 at 1.0e6 TCID50/mL and inactivated
+SARS-CoV-2 USA-WA1/2020 at 1e4 copies/mL) seeded into simulated NPS/NS matrix.
+The negative sample was tested in a GeneXpert module at the
+start of the study.
+Following the initial testing of the negative sample,
+the high positive sample was processed in the same GeneXpert
+module immediately followed by another negative sample.
+This was repeated 20 times in the same module,
+resulting in 20 positives and 21 negatives for the module.
+The study was repeated using a second GeneXpert module for a
+total of 40 positive and 42 negative samples.
+All 40 positive samples were correctly reported as *SARS-CoV-2 POSITIVE;
+Flu A NEGATIVE;
+Flu B POSITIVE;
+RSV NEGATIVE.* All 42 negative samples were correctly reported
+as *SARS-CoV-2 NEGATIVE*;
+Flu A NEGATIVE;
+*Flu B NEGATIVE;
+RSV NEGATIVE* with the Xpert Xpress CoV-2/Flu/RSV _plus_ test.
+No specimen or amplicon carry-over contamination was observed in this study.
+
+*_Single-Site Precision_*
+
+The precision of the Xpert Xpress CoV-2/Flu/RSV _plus_ test was
+established at a single site using a 9-member panel including
+one negative sample,
+4 low positive (++~++1.5x LoD) samples and 4 moderate positive
+(++~++3x LoD) samples.
+The negative sample consisted of simulated matrix without
+target microorganism or target RNA.
+The positive samples were contrived using inactivated NATtrol
+SARS-CoV-2 (ZeptoMetrix,
+Buffalo, NY,
+catalog number NATSARS(COV2)-ST),
+and cultured viruses Influenza A/Idaho/07/2018,
+Influenza B/Wisconsin/10/2016,
+and RSV B/Wash/18537/62 in a simulated NPS/NS matrix.
+
+Testing was conducted over 20 days,
+using 1 lot of Xpert Xpress CoV-2/Flu/RSV _plus_ cartridges at
+a single site and with 1 operator to yield a total of 80
+observations per panel member (1 Site x 1 Operator x 1 Lot x 20
+Days x 2 Runs x 2 Replicates = 80 observations/panel member).
+The results from the study are summarized in *Table 5-15*.
+
+[[table-5-15]]
+.Table 5-15. Summary of the Precision Results by Panel Member – % Agreement
+[cols="^45,^22,^33",width=81%,options=header]
+|===
+|Panel Member |Agreement |% Agreement (95% CI)
+
+<| <| .2+|100%
+
+.2+h|Negative .2+|80/80
+
+.2+|(95.4%-100%)
+
+<| <|
+
+.2+h|SARS-CoV-2 <| .2+|98.8%
+
+.2+|79/80
+
+.2+h|Low Positive (++~++1.5x LoD) .2+|(93.3%-99.8%)
+
+<|
+
+.2+h|SARS-CoV-2 <| .2+|100%
+
+.2+|80/80
+
+.2+h|Moderate Positive (++~++3x LoD) .2+|(95.4%-100%)
+
+<|
+
+.2+h|Flu A <| .2+|97.5%
+
+.2+|78/80
+
+.2+h|Low Positive (++~++1.5x LoD) .2+|(91.3%-99.3%)
+
+<|
+
+.2+h|Flu A <| .2+|100%
+
+.2+|80/80
+
+.2+h|Moderate Positive (++~++3x LoD) .2+|(95.4%-100%)
+
+<|
+
+.2+h|Flu B <| .2+|96.3%
+
+.2+|77/80
+
+.2+h|Low Positive (++~++1.5x LoD) .2+|(89.5%-98.7%)
+
+<|
+
+.2+h|Flu B <| .2+|100%
+
+.2+|80/80
+
+.2+h|Moderate Positive (++~++3x LoD) .2+|(95.4%-100%)
+
+<|
+
+.2+h|RSV <| .2+|97.5%
+
+.2+|78/80
+
+.2+h|Low Positive (++~++1.5x LoD) .2+|(91.3%-99.3%)
+
+<|
+
+.2+h|RSV <| .2+|100%
+
+.2+|80/80
+
+.2+h|Moderate Positive (++~++3x LoD) .2+|(95.4%-100%)
+
+<|
+|===
+
+*_Reproducibility_*
+
+The reproducibility of the Xpert Xpress CoV-2/Flu/RSV _plus_
+test was established at 3 sites (2 external and 1 internal)
+using a 9-member panel including 1 negative sample,
+4 low positive (++~++1.5x LoD) and 4 moderate positive (++~++3x LoD) samples.
+The negative sample consisted of simulated matrix without
+target microorganism or target RNA.
+The positive samples were contrived using inactivated NATtrol
+SARS-CoV-2 (ZeptoMetrix),
+cultured viruses Influenza A/ Idaho/07/2018,
+Influenza B/Wisconsin/ 10/2016,
+and RSV B/Wash/18537/62 in a simulated NPS/NS matrix.
+Testing was conducted over 6 days,
+using 3 lots of Xpert Xpress CoV-2/Flu/RSV _plus_ cartridges at
+3 participating sites each with 2 operators to yield a total of
+144 observations per panel member (3 Sites x 2 Operators x 3
+Lots x 2 Days/Lot x 2 Runs x 2 Replicates = 144
+observations/panel member).
+The results from the study are summarized in *Tables 5-16* and *5-17*.
+
+The percent agreement of the correct results compared to the
+expected results analyzed by each of the 6 operators and each
+site is shown in *Table 5-17*.
+In addition,
+the overall percent agreement for each sample (% total
+agreement) and the two-sided Wilson Score confidence intervals
+(CI) are presented in the last column.
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/xpert-xpress-cov-2-flu-rsv-plus-510k-summary/k231481-summary-image-05.png["Picture on page 29",width=93]
+
+[[table-5-16]]
+.Table 5-16. Summary of the Reproducibility Results – % Agreement
+[cols="^14,^9,^8,^8,^8,^8,^8,^8,^8,^8,^13",width=92%,options=noheader]
+|===
+.2+h|Sample 3+<h|Site 1 3+<h|Site 2 3+<h|Site 3 .2+h|% Total Agreement ++[++95% CI++]++
+
+h|Op 1 h|Op 2 h|Site h|Op 1 h|Op 2 h|Site h|Op 1 h|Op 2 h|Site
+
+|Negative
+|100%
+
+24/24
+|100%
+
+24/24
+|100%
+
+48/48
+|100%
+
+24/24
+|100%
+
+24/24
+|100%
+
+48/48
+|100%
+
+24/24
+|100%
+
+24/24
+|100%
+
+48/48
+|100% (144/144) ++[++97.4-100.0++]++
+
+|SARS-CoV-2 Low Pos |100% 24/24 |100% 24/24 |100% 48/48 |100% 24/24 |100% 24/24 |100% 48/48 |100% 24/24 |100% 24/24 |100% 48/48 |100% (144/144) ++[++97.4-100.0++]++
+
+|SARS-CoV-2 Mod Pos |100% 24/24 |100% 24/24 |100% 48/48 |100% 24/24 |100% 24/24 |100% 48/48 |100% 24/24 |100% 24/24 |100% 48/48 |100% (144/144) ++[++97.4-100.0++]++
+
+|Flu A Low Pos |100% 24/24 |100% 24/24 |100% 48/48 |100% 24/24 |100% 24/24 |100% 48/48 |100% 24/24 |100% 24/24 |100% 48/48 |100% (144/144) ++[++97.4-100.0++]++
+
+|Flu A Mod Pos |100% 24/24 |100% 24/24 |100% 48/48 |100% 24/24 |100% 24/24 |100% 48/48 |100% 24/24 |100% 24/24 |100% 48/48 |100% (144/144) ++[++97.4-100.0++]++
+
+|Flu B Low Pos |100% 24/24 |100% 24/24 |100% 48/48 |95.8% 23/24 |95.8% 23/24 |95.8% 46/48 |100% 24/24 |100% 24/24 |100% 48/48 |98.6% (142/144) ++[++95.1-99.6++]++
+
+|Flu B Mod Pos |100% 24/24 |100% 24/24 |100% 48/48 |100% 24/24 |100% 24/24 |100% 48/48 |100% 23/23 |95.8% 23/24 |97.9% 46/47 |99.3% (142/143^a^) ++[++96.1-99.9++]++
+
+|RSV Low Pos |100% 24/24 |100% 24/24 |100% 48/48 |95.8% 23/24 |100% 24/24 |97.9% 47/48 |100% 24/24 |100% 24/24 |100% 48/48 |99.3% (143/144) ++[++96.2-99.9++]++
+
+|RSV Mod Pos |100% 24/24 |100% 24/24 |100% 48/48 |100% 24/24 |100% 24/24 |100% 48/48 |100% 24/24 |100% 24/24 |100% 48/48 |100% (144/144) ++[++97.4-100.0++]++
+|===
+
+a&#46; One replicate was excluded because it was run on a day when an
+external positive control produced an incorrect result but was
+inadvertently not retested.
+
+The evaluation of reproducibility and within-laboratory
+precision of the underlying analyte Ct values for the Xpert
+Xpress CoV-2/Flu/RSV _plus_ test was analyzed using nested
+Analysis of Variance (ANOVA).
+The mean Ct,
+standard deviation (SD),
+and coefficient of variation (%CV) between-sites,
+between-operators,
+between-lots,
+between-days,
+between-runs and within-run for each panel member are presented
+in *Table 5-17*.
+
+510(k) Summary Page 26 of 34
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/xpert-xpress-cov-2-flu-rsv-plus-510k-summary/k231481-summary-image-06.png["Picture on page 30",width=93]
+
+[[table-5-17]]
+.Table 5-17. Summary of Nested ANOVA by Coefficient of Variation
+[cols="<1,^9,<1,<1,^8,<1,<1,^5,<1,<1,^7,<1,<1,<3,<1,<1,<3,<1,<1,<3,<1,<1,<3,<1,<1,<3,<1,<1,<3,<1,<1,<3,<1,<1,<3,<1,<1,<3,<1,<1,<3,<1,<1,<3,<1,<1,<3,<1,<1,<3,<1,<1,<3,<1",width=97%,options=noheader]
+|===
+3.3+^h|Sample 3.3+^h|Analyte 3.3+^h|N 3.3+^h|Mean Ct | 40+^h|Variance Source |
+
+6+^h|Site 6+^h|OP 6+^h|Lot 6+^h|Day 6+^h|Run | 4+^h|Within-Run | 6+^h|Total
+
+3+^|SD | <|CV (%) | 3+^|SD | <|CV (%) | 3+^|SD | |CV (%) | 3+^|SD | |CV (%) | 3+^|SD | |CV (%) | 3+^|SD | |CV (%) | 3+^|SD | |CV (%) |
+
+3+^|Negative 3+^|SPC 3+^|144 3+^|30.8 3+^|0.1 3+^|0.4 3+^|0.0 3+^|0.0 3+^|0.9 3+^|2.9 3+^|0.5 3+^|1.5 3+^|0.0 3+^|0.0 3+^|1.3 3+^|4.2 3+^|1.6 3+^|5.3
+
+| |SARS-CoV-2 Low Pos | 3+|SARS-CoV-2 3+^|144 3+^|37.4 3+^|0.0 3+^|0.0 3+^|0.2 3+^|0.5 3+^|0.1 3+^|0.2 3+^|0.0 3+^|0.0 3+^|0.3 3+^|0.7 3+^|0.4 3+^|1.1 3+^|0.5 3+^|1.4
+
+| |SARS-CoV-2 Mod Pos | 3+|SARS-CoV-2 3+^|144 3+^|36.2 3+^|0.0 3+^|0.1 3+^|0.1 3+^|0.3 3+^|0.0 3+^|0.0 3+^|0.1 3+^|0.3 3+^|0.2 3+^|0.4 3+^|0.4 3+^|1.0 3+^|0.4 3+^|1.2
+
+3.2+^|Flu A Low Pos | |Flu A1 | | |144 | | |35.7 | | |0.2 | | |0.6 | | |0.0 | | |0.0 | | |0.1 | | |0.2 | | |0.0 | | |0.0 | | |0.0 | | |0.0 | | |0.6 | | |1.6 | | |0.6 | | |1.7 |
+
+| |Flu A2 | | |135^b^ | | |37.9 | | <|0.3 | | |0.8 | | |0.0 | | |0.0 | | |0.2 | | |0.5 | | |0.0 | | |0.0 | | |0.4 | | |1.1 | | |0.9 | | |2.5 | | |1.1 | | |2.9 |
+
+3.2+^|Flu A Mod Pos^a^ | |Flu A1 | | |144 | | |34.7 | | |0.0 | | |0.0 | | |0.1 | | |0.2 | | |0.0 | | |0.0 | | |0.1 | | |0.3 | | |0.0 | | |0.0 | | |0.4 | | |1.2 | | |0.4 | | |1.3 |
+
+| |Flu A2 | | |144 | | |36.6 | | <|0.0 | | |0.1 | | |0.0 | | |0.0 | | |0.2 | | |0.4 | | |0.0 | | |0.0 | | |0.0 | | |0.0 | | |0.5 | | |1.5 | | |0.6 | | |1.5 |
+
+| |Flu B Low Pos | 3+^|Flu B 3+^|144 3+^|36.3 3+^|0.3 3+^|0.8 3+^|0.0 3+^|0.1 3+^|0.0 3+^|0.0 3+^|0.1 3+^|0.2 3+^|0.3 3+^|0.7 3+^|0.7 3+^|2.1 3+^|0.8 3+^|2.3
+
+| |Flu B Mod pos | 3+^|Flu B 3+^|142^c^ 3+^|35.1 3+^|0.0 3+^|0.0 3+^|0.1 3+^|0.4 3+^|0.1 3+^|0.3 3+^|0.3 3+^|0.8 3+^|0.0 3+^|0.0 3+^|0.7 3+^|2.0 3+^|0.8 3+^|2.2
+
+| |RSV Low Pos | 3+^|RSV 3+^|144 3+^|35.8 3+^|0.1 3+^|0.2 3+^|0.0 3+^|0.0 3+^|0.2 3+^|0.4 3+^|0.0 3+^|0.0 3+^|0.0 3+^|0.0 3+^|0.6 3+^|1.7 3+^|0.6 3+^|1.8
+
+| |RSV Mod Pos | 3+^|RSV 3+^|144 3+^|34.8 3+^|0.1 3+^|0.2 3+^|0.0 3+^|0.0 3+^|0.1 3+^|0.4 3+^|0.0 3+^|0.0 3+^|0.2 3+^|0.5 3+^|0.5 3+^|1.4 3+^|0.5 3+^|1.5
+
+| 52+<|a. One replicate from Site 2 used the reagent lot 102 instead of the intended reagent lot 401. In the nested ANOVA analysis, this replicate was calculated under the intended lot 401 following the principle of “analyze as intended”. b. Nine replicates were excluded due to zero Flu A2 Ct values. c. One replicate was excluded due to the zero Flu B Ct value; one replicate was excluded due to the incorrect external positive control result preceding the retest. |
+|===
+
+510(k) Summary Page 27 of 34
+
+==== 5.4.2. Clinical Performance
+
+indexterm:[clinical performance, prospective specimen study]
+
+The clinical performance of the Xpert Xpress CoV-2/Flu/RSV
+_plus_ test was evaluated in a multi-site,
+observational and method comparison study that included 33
+geographically diverse sites in the United States (US) using
+specimens collected from individuals showing signs and symptoms
+of respiratory infection.
+Of the 33 sites,
+5 sites participated in specimen collection only,
+27 performed Xpert testing and specimen collection,
+and 1 site performed Xpert testing as well as comparator and
+discrepant testing.
+
+Specimens tested included prospective clinical NPS and NS
+specimens collected in UTM/VTM.
+Prospectively collected fresh clinical specimens (Category I)
+tested in the study were from a larger US specimen collection protocol.
+Fresh (98.9%) and frozen (1.1%) specimens meeting the
+eligibility criteria were prospectively collected and tested in
+2022. Due to low prevalence of Flu/RSV in 2022,
+archived prospectively collected frozen clinical specimens
+(Category II) collected during the 2016-2017 influenza season
+were used to supplement the sample size.
+These specimens represent contemporary Flu/RSV strains.
+Since these specimens were collected prior to the COVID-19 pandemic,
+they were expected to be negative for SARS-CoV-2 and therefore
+tested only for the Flu A,
+Flu B, and RSV targets.
+Available demographic data from the individuals from whom
+Category I and Category II specimens were collected are
+presented in *Table 5-18*.
+
+[[table-5-18]]
+.Table 5-18. Demographic Summary for Category I and II Specimens
+[cols="<1,^32,<1,^22,^21,^22",width=91%,options=noheader]
+|===
+| h|Prospectively Collected Fresh and Frozen Specimens from 2022 (Category I and Category II) | h|NP Swab (N=2672) h|NS (N=2659) h|Overall (N=5331)
+
+3+h|Gender <| <| <|
+
+3+|Female |1568 (58.7%) |1634 (61.5%) |3202 (60.1%)
+
+3+|Male |1104 (4 1.3%) |1025 (3 8.5%) |2129 ( 39.9%)
+
+3+h|Age Group (Years) <| <| <|
+
+3+|≤5 |9 (0.3%) |183 (6.9%) |192 (3.6%)
+
+3+|6-21 |623 (23.3%) |562 (21.1%) |1185 (22.2%)
+
+3+|22-59 |1676 (62.7%) |1553 (58.4%) |3229 (60.6%)
+
+3+|≥60 |364 (1 3.6%) |361 (1 3.6%) |725 (1 3.6%)
+
+3+h|Race <| <| <|
+
+3+|American Indian or Alaska Native |5 (0.2%) |6 (0.2%) |11 (0.2%)
+
+3+|Asian |73 (2.7%) |80 (3.0%) |153 (2.9%)
+
+3+|Asian, White |8 (0.3%) |1 (0.0%) |9 (0.2%)
+
+3+|Black or African American |734 (27.5%) |730 (27.5%) |1464 (27.5%)
+
+3+|Black or African American, White |10 (0.4%) |12 (0.5%) |22 (0.4%)
+
+3+|Native Hawaiian or Other Pacific Islander |6 (0.2%) |2 (0.1%) |8 (0.2%)
+
+3+|Other Mixed (N ≤ 3) |4 (0.1%) |5 (0.2%) |9 (0.2%)
+|===
+
+[cols="<1,^32,<1,^22,^21,^22",width=91%,options=noheader]
+|===
+| h|Prospectively Collected Fresh and Frozen Specimens from 2022 (Category I and Category II) | h|NP Swab (N=2672) h|NS (N=2659) h|Overall (N=5331)
+
+3+|White |1685 (63.1%) |1641 (61.7%) |3326 (62.4%)
+
+3+|Participant Declined to Answer, or Unknown |147 (5.5%) |182 (6.8%) |329 (6.2%)
+
+3+h|Ethnicity <| <| <|
+
+3+|Hispanic |228 (8.5%) |213 (8.0%) |441 (8.3%)
+
+3+|Non-Hispanic |2333 (87.3%) |2323 (87.4%) |4656 (87.3%)
+
+3+|Participant Declined to Answer, or Unknown |111 (4.2%) |123 (4.6%) |234 (4.4%)
+
+3+h|Specimen Testing <| <| <|
+
+3+|Fresh |2641 (98.8%) |2631 (98.9%) |5272 (98.9%)
+
+3+|Frozen |31 (1 .2%) |28 (1 .1%) |59 (1 .1%)
+
+3+h|COVID-19 Vaccination Status <| <| <|
+
+3+|Vaccinated |1969 (73.7%) |1865 (70.1%) |3834 (71.9%)
+
+3+|Not Vaccinated |665 (24.9%) |764 (28.7%) |1429 (26.8%)
+
+3+|Unknown |38 (1 .4%) |30 (1 .1%) |68 (1 .3%)
+
+3+h|Testing Environment <| <| <|
+
+3+|CLIA Waiver |1603 (60.0%) |1619 (60.9%) |3222 (60.4%)
+
+3+|Laboratory/NPT |1069 (40.0%) |1040 (39.1%) |2109 (39.6%)
+
+| h|Prospectively Collected Frozen Specimens from 2016-2017 Influenza Season (Category II) | h|NPS (N=422) h|NS (N=368) h|Overall (N=790)
+
+3+h|Gender <| <| <|
+
+3+|Female |211 (50.0%) |223 (60.6%) |434 (54.9%)
+
+3+|Male |211 (50.0%) |145 (39.4%) |356 (45.1%)
+
+3+h|Age Group (Years) <| <| <|
+
+3+|≤5 |164 (38.9%) |144 (39.1%) |308 (39.0%)
+
+3+|6-21 |85 (20.1%) |72 (19.6%) |157 (19.9%)
+
+3+|22-59 |134 (31.8%) |111 (30.2%) |245 (31.0%)
+
+3+|≥60 |39 (9.2%) |41 (11.1%) |80 (10.1%)
+|===
+
+Specimens were tested using Xpert Xpress CoV-2/Flu/RSV _plus_
+side-by-side with a U.S.FDA-cleared molecular respiratory panel
+that includes SARS-CoV-2 and a U.S. FDA-cleared molecular Flu A/B/RSV assay,
+in a randomized and blinded fashion.
+
+Positive Percent Agreement (PPA) and Negative Percent Agreement (NPA),
+and non-determinate rate were determined by comparing the
+results of the Xpert Xpress CoV-2/Flu/RSV _plus_ test relative
+to the results of a U.S. FDA-cleared molecular respiratory
+panel for the SARS-CoV-2 target,
+and a U.S.FDA-cleared molecular Flu A/B/RSV assay for the Flu A,
+Flu B, and RSV targets,
+respectively.
+
+Discrepant results between Xpert Xpress CoV-2/Flu/RSV _plus_
+and the comparator for the SARS-CoV-2 target were investigated
+using a U.S. FDA EUA SARS-CoV-2 molecular test.
+Discrepant results between the Xpert Xpress CoV-2/Flu/RSV
+_plus_ and the comparator for the Flu A/B/RSV targets were
+investigated using a U.S. FDA-cleared molecular respiratory panel.
+
+A total of 5051 specimens,
+including 2536 NPS and 2515 NS specimens that yielded valid
+results by both the Xpert Xpress CoV-2/Flu/RSV _plus_ and the
+U.S. FDA-cleared molecular respiratory panel were included in
+the performance evaluation for SARS-CoV-2. A total of 5954 specimens,
+including 3011 NPS and 2943 NS (specimens that yielded valid
+results by both the Xpert Xpress CoV-2/Flu/RSV _plus_ and the
+U.S. FDA-cleared molecular Flu A/B/RSV assay were included in
+the performance evaluation for Flu A,
+Flu B, and RSV targets.
+
+For the NPS specimens (both fresh and frozen specimens,
+combined),
+Xpert Xpress CoV-2/Flu/RSV _plus_ demonstrated a PPA and NPA of
+97.1% and 98.2% for SARS-CoV-2,
+respectively;
+99.0% and 99.1% for Flu A,
+respectively;
+96.6% and 100.0% for Flu B,
+respectively;
+98.6% and 100.0% for RSV,
+respectively (*Table 5-19*).
+The initial non-determinate rate for the Xpert Xpress
+CoV-2/Flu/RSV _plus_ test was 2.4% (74/3094).
+On repeat testing,
+66 specimens yielded valid results.
+The final non-determinate rate for the Xpert Xpress
+CoV-2/Flu/RSV _plus_ test was 0.3% (8/3094).
+
+[[table-5-19]]
+.Table 5-19. Xpert Xpress CoV-2/Flu/RSV _plus_ Performance Results for NPS Specimens
+[cols="^9,<1,^10,<1,<1,^10,<1,<1,<4,<1,<1,<4,<1,<1,<5,<1,<1,<4,<1,<1,<5,<1,<1,<11,<1,<1,<5,<1,<1,<11,<1",width=97%,options=noheader]
+|===
+h|Target | h|Specimen Collection | | h|Numbers of Specimens | 3+h|TP 3+h|FP 3+^h|TN 3+h|FN | h|PPA (%) | 3+^h|95%CI | h|NPA (%) | 3+^h|95%CI
+
+.3+|SARS-CoV-2 3+^|Fresh 3+^|2505 3+|454 3+|37^a^ 3+|2000 3+|14^b^ 3+^|97 3+^|95.0 - 98.2 3+|98.2 3+^|97.5 - 98.7
+
+3+|Frozen 3+^|31 3+^|8 3+^|0 3+^|23 3+^|0 3+^|100 3+^|67.6 - 100.0 3+^|100 3+^|85.7 - 100.0
+
+<| ^|Overall <| | ^|2536 <| | |462 | | |37 | | |2023 | | |14 | | |97.1 | | |95.1 - 98.2 | | |98.2 | | |97.5 - 98.7 |
+
+.3+|Flu A 3+^|Fresh 3+^|2562 3+^|98 3+|11^c^ 3+|2451 3+^|2^d^ 3+^|98 3+^|93.0 - 99.5 3+|99.6 3+^|99.2 - 99.8
+
+3+|Frozen 3+^|449 3+^|93 3+|13^e^ 3+^|343 3+^|0 3+^|100 3+^|96.0 - 100.0 3+|96.3 3+^|93.9 - 97.9
+
+<| ^|Overall <| | ^|3011 <| | |191 | | |24 | | |2794 | | |2 | | |99.0 | | |96.3 - 99.7 | | |99.1 | | |98.7 - 99.4 |
+
+.3+|Flu B 3+^|Fresh 3+^|2562 3+^|0 3+^|0 3+|2562 3+^|0 3+^|NA 3+^|NA 3+^|100 3+^|99.9 - 100.0
+
+3+|Frozen 3+^|449 3+^|57 3+^|0 3+^|390 3+^|2^f^ 3+|96.6 3+^|88.5 - 99.1 3+^|100 3+^|99.0 - 100.0
+
+<| ^|Overall <| | ^|3011 <| | |57 | | |0 | | |2952 | | |2 | | |96.6 | | |88.5 - 99.1 | | |100 | | |99.9 - 100.0 |
+
+.3+|RSV 3+^|Fresh 3+^|2562 3+^|12 3+^|0 3+|2550 3+^|0 3+^|100 3+^|75.8 - 100.0 3+^|100 3+^|99.8 - 100.0
+
+3+|Frozen 3+^|449 3+^|59 3+^|0 3+^|389 3+^|1^g^ 3+|98.3 3+^|91.1 - 99.7 3+^|100 3+^|99.0 - 100.0
+
+<| ^|Overall <| | ^|3011 <| | |71 | | |0 | | |2939 | | |1 | | |98.6 | | |92.5 - 99.8 | | |100 | | |99.9 - 100.0 |
+
+31+|TP: True Positive; FP: False Positive; TN: True Negative; FN: False Negative; CI: 95% two-sided Confidence Interval
+|===
+
+a&#46; Discrepant test results based on a U.S. FDA EUA SARS-CoV-2
+molecular test:
+15/37 SARS-CoV-2 positive;
+22/37 SARS-CoV-2 negative
+
+b&#46; Discrepant test results based on a U.S. FDA EUA SARS-CoV-2
+molecular test:
+3/14 SARS-CoV-2 positive;
+10/14 SARS-CoV-2 negative;
+1/14 invalid result
+
+c&#46; Discrepant test results based on a U.S. FDA-cleared molecular
+respiratory panel:
+8/11 Flu A positive;
+3/11 Flu A negative
+
+d&#46; Discrepant test results based on a U.S. FDA-cleared molecular
+respiratory panel:
+1/2 Flu A positive;
+1/2 Flu A negative
+
+e&#46; Discrepant test results based on a U.S. FDA-cleared molecular
+respiratory panel:
+13/13 tests not performed due to specimens being stored for a
+longer duration than recommended per the package insert
+
+f&#46; Discrepant test results based on a U.S. FDA-cleared molecular
+respiratory panel:
+2/2 test not performed due to specimens being stored for a
+longer duration than recommended per the package insert
+
+g&#46; Discrepant test results based on a U.S. FDA-cleared molecular
+respiratory panel:
+1/1 test not performed due to specimens being stored for a
+longer duration than recommended per the package insert
+
+For the NS specimens (both fresh and frozen specimens,
+combined),
+Xpert Xpress CoV-2/Flu/RSV _plus_ demonstrated a PPA and NPA of
+98.2% and 98.8% for SARS CoV-2,
+respectively;
+98.0% and 99.3% for Flu A,
+respectively;
+100.0% and 99.9% for Flu B,
+respectively;
+95.8% and 100.0% for RSV,
+respectively (*Table 5-20*).
+The initial non-determinate rate for the Xpert Xpress
+CoV-2/Flu/RSV _plus_ test was 2.4% (74/3027).
+On repeat testing,
+57 specimens gave valid results upon retest.
+The final non-determinate rate for the Xpert Xpress
+CoV-2/Flu/RSV _plus_ test was 0.6% (17/3027).
+
+[[table-5-20]]
+.Table 5-20. Xpert Xpress CoV-2/Flu/RSV _plus_ Performance Results for NS Specimens
+[cols="^9,<1,^10,<1,<1,^10,<1,<1,<4,<1,<1,<4,<1,<1,<5,<1,<1,<4,<1,<1,<5,<1,<1,<11,<1,<1,<5,<1,<1,<11,<1",width=97%,options=noheader]
+|===
+h|Target | h|Specimen Collection | | h|Numbers of Specimens | 3+h|TP 3+h|FP 3+^h|TN 3+h|FN | h|PPA (%) | 3+^h|95%CI | h|NPA (%) | 3+^h|95%CI
+
+.3+|SARS-CoV-2 3+^|Fresh 3+^|2489 3+|442 3+|23^a^ 3+|2017 3+^|7^b^ 3+|98.4 3+^|96.8 - 99.2 3+|98.9 3+^|98.3 - 99.2
+
+3+|Frozen 3+^|26 3+^|6 3+^|1^c^ 3+^|18 3+^|1^d^ 3+|85.7 3+^|48.7 - 97.4 3+|94.7 3+^|75.4 - 99.1
+
+<| ^|Overall <| | ^|2515 <| | |448 | | |24 | | |2035 | | |8 | | |98.2 | | |96.6 - 99.1 | | |98.8 | | |98.3 - 99.2 |
+
+.3+|Flu A 3+^|Fresh 3+^|2553 3+|130 3+^|6^e^ 3+|2413 3+^|4^f^ 3+|97.0 3+^|92.6 - 98.8 3+|99.8 3+^|99.5 - 99.9
+
+3+|Frozen 3+^|390 3+^|66 3+|12^g^ 3+^|312 3+^|0 3+^|100 3+^|94.5 - 100.0 3+|96.3 3+^|93.6 - 97.9
+
+<| ^|Overall <| | ^|2943 <| | |196 | | |18 | | |2725 | | |4 | | |98.0 | | |95.0 - 99.2 | | |99.3 | | |99.0 - 99.6 |
+
+.3+|Flu B 3+^|Fresh 3+^|2553 3+^|0 3+^|0 3+|2553 3+^|0 3+^|NA 3+^|NA 3+^|100 3+^|99.8 - 100.0
+
+3+|Frozen 3+^|390 3+^|34 3+^|3^h^ 3+^|353 3+^|0 3+^|100 3+^|89.8 - 100.0 3+|99.2 3+^|97.6 - 99.7
+
+<| ^|Overall <| | ^|2943 <| | |34 | | |3 | | |2906 | | |0 | | |100 | | |89.8 - 100.0 | | |99.9 | | |99.7 - 100.0 |
+
+.3+|RSV 3+^|Fresh 3+^|2553 3+^|14 3+^|0 3+|2538 3+^|1^i^ 3+|93.3 3+^|70.2 - 98.8 3+^|100 3+^|99.8 - 100.0
+
+3+|Frozen 3+^|390 3+^|55 3+^|0 3+^|333 3+^|2^j^ 3+|96.5 3+^|88.1 - 99.0 3+^|100 3+^|98.9 - 100.0
+
+<| ^|Overall <| | ^|2943 <| | |69 | | |0 | | |2871 | | |3 | | |95.8 | | |88.5 - 98.6 | | |100 | | |99.9 - 100.0 |
+
+31+|TP: True Positive; FP: False Positive; TN: True Negative; FN: False Negative; CI: 95% two-sided Confidence Interval
+|===
+
+a&#46; Discrepant test results based on a U.S. FDA EUA SARS-CoV-2
+molecular test:
+6/23 SARS-CoV-2 positive;
+14/23 SARS-CoV-2 negative;
+2/23 invalid result;
+1/23 discrepant testing was inadvertently not performed
+
+b&#46; Discrepant test results based on a U.S. FDA EUA SARS-CoV-2
+molecular test:
+2/7 SARS-CoV-2 positive;
+5/7 SARS-CoV-2 negative
+
+c&#46; Discrepant test results based on a U.S. FDA EUA SARS-CoV-2
+molecular test:
+1/1 SARS-CoV-2 positive
+
+d&#46; Discrepant test results based on a U.S. FDA EUA SARS-CoV-2
+molecular test:
+1/1 SARS-CoV-2 negative
+
+e&#46; Discrepant test results based on a U.S. FDA-cleared molecular
+respiratory panel:
+5/6 Flu A positive;
+1/6 Flu A negative
+
+f&#46; Discrepant test results based on a U.S. FDA-cleared molecular
+respiratory panel:
+2/4 Flu A positive;
+2/4 Flu A negative
+
+g&#46; Discrepant test results based on a U.S. FDA-cleared molecular
+respiratory panel:
+12/12 tests not performed due to specimens being stored for a
+longer duration than recommended per the package insert
+
+h&#46; Discrepant test results based on a U.S. FDA-cleared molecular
+respiratory panel:
+3/3 tests not performed due to specimens being stored for a
+longer duration than recommended per the package insert
+
+i&#46; Discrepant test results based on a U.S. FDA-cleared molecular
+respiratory panel:
+1/1 RSV positive
+
+j&#46; Discrepant test results based on a U.S. FDA-cleared molecular
+respiratory panel:
+2/2 test not performed due to specimens being stored for a
+longer duration than recommended per the package insert
+
+The number of specimens with positive results for more than one
+target as detected by Xpert Xpress CoV-2/Flu/RSV _plus_ is
+presented in *Table 5-21* and *Table 5-22*,
+where bolded values indicate concordant results.
+
+[[table-5-21]]
+.Table 5-21. Multi-Target Detection by Xpert Xpress CoV-2/Flu/RSV _plus_ for Specimens Collected in 2022
+[cols="<1,<3,<2,<2,<1,^18,<1,<1,^8,<1,<1,^9,<1,<1,^9,<1,<1,^8,<1,<1,^8,<2,^7,<9,<1",width=100%,options=noheader]
+|===
+7.2+^h|Infection | 16+h|Co[.underline]##mparator Results## |
+
+3+^|SARS-CoV-2 only 3+^|SARS-CoV-2 and Flu A 3+|Flu A only 3+|RSV only 2+|Negative 2+|Total 2+^|Co-Infection Rate (%)
+
+.7+| .7+h|Xpert Xpress CoV- .7+h|2/Flu/RSV _plus_ .7+| 3+^|SARS-CoV-2 only | h|876 | 3+^|1 3+^|0 3+^|0 2+^|57 | |934 2.7+^|0.3
+
+3+^|SARS-CoV-2 and Flu A 3+^|0 3+^h|2 3+^|1 3+^|0 2+^|0 2+|3
+
+3+^|Flu A only 3+^|0 3+^|0 | ^h|220 <| 3+^|0 2+^|17 <| ^|237
+
+3+^|RSV only 3+^|0 3+^|0 3+^|0 | ^h|26 <| 2+^|0 <| ^|26
+
+3+^|Negative 3+^|22 3+^|0 3+^|5 3+^|1 | ^h|3693 <| |3721
+
+| ^|Total | | ^|898 <| | ^|3 <| | ^|226 <| | ^|27 <| | ^|3767 <| |4921
+
+3+|Co-Infection Rate (%) 16+^|0.3
+|===
+
+As presented in *Table 5-21*,
+a total of 4921 Category I specimens collected in 2022 yielded
+valid results for SARS-CoV-2,
+Flu A, and RSV targets for both the Xpert Xpress CoV-2/Flu/RSV _plus_
+test and the comparator test.
+The co-infection rate for Xpert Xpress CoV-2/Flu/RSV _plus_ was
+0.3% (3/1200) and the rate of co-infection by the comparator
+was 0.3% (3/1154).
+
+[[table-5-22]]
+.Table 5-22. Flu A, Flu B, and RSV Multi-Target Detection by Xpert Xpress CoV-2/Flu/RSV _plus_ for Specimens Collected in 2016-2017 and 2022
+[cols="<1,<3,<1,<1,^10,<1,<1,<5,<1,<1,^7,<1,<1,^6,<1,<1,^7,<1,<1,^6,<1,<1,^6,<1,<1,^8,<2,^9,<9,<1",width=100%,options=noheader]
+|===
+6.2+^h|Infection | 22+^h|Comparator |
+
+3+^|Flu A only 3+^|Flu B Only 3+^|RSV Only 3+^|Flu A and Flu B 3+^|Flu A and RSV 3+^|Flu B and RSV 3+^|Negative ^|Total 2+<|Co-Infection Rate (%)
+
+.9+| .9+h|Xpert Xpress CoV-2/Flu/RSV _plus_ .9+| 3+^|Flu A only | h|381 | 3+^|0 3+^|0 3+^|1 3+^|1 3+^|0 3+^|36 |419 2.8+^|1.7
+
+3+^|Flu B Only 3+^|0 | ^h|85 | 3+^|0 3+^|0 3+^|0 3+^|0 3+^|2 ^|87
+
+3+^|RSV Only 3+^|0 3+^|0 | h|135 | 3+^|0 3+^|0 3+^|0 3+^|0 ^|135
+
+3+^|Flu A and Flu B 3+^|0 3+^|4 3+^|0 3+^h|1 3+^|0 3+^|0 3+^|1 ^|6
+
+3+^|Flu A and RSV 3+^|0 3+^|0 3+^|1 3+^|0 3+^h|3 3+^|0 3+^|0 ^|4
+
+3+^|Flu B and RSV 3+^|0 3+^|0 3+^|0 3+^|0 3+^|0 3+^h|1 3+^|0 ^|1
+
+3+^|Negative 3+^|6 3+^|1 3+^|3 3+^|0 3+^|0 3+^|0 | h|5292 | ^|5302
+
+| ^|Total | | <|387 | | ^|90 | | |139 | | |2 | | |4 | | |1 | | |5331 | ^|5954
+
+3+^|Co-Infection Rate (%) 22+^|1.1 2+<|
+|===
+
+As presented in *Table 5-22*,
+of the 5954 Category I and II specimens evaluated for Flu A,
+Flu B and RSV targets,
+the co-infection rate for Xpert Xpress CoV-2/Flu/RSV _plus_ was
+1.7% (11/652) and the rate of co-infection by the comparator
+was 1.1% (7/623).
+
+=== 5.5. Conclusions
+
+indexterm:[regulatory decision, substantial equivalence]
+
+The results of the analytical and clinical performance studies
+summarized above demonstrated that the Xpert Xpress
+CoV-2/Flu/RSV _plus_ test is substantially equivalent to the
+predicate device.

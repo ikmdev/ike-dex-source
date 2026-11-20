@@ -9,6 +9,9 @@
 :author: IKE Network
 :topics: {generated}/topics-asciidoc
 :imagesdir: {topics}/images
+// Topics such as dex-k231481 keep "Table N." in their block titles, as converted.
+:table-caption!:
+:figure-caption!:
 
 // Master assembly: every published topic must appear here (IKE-ASSEMBLY).
 // Topic includes under a == chapter use leveloffset=+2.
@@ -31,9 +34,13 @@ It is a validation target and reference, not a linear read.
 
 include::{topics}/topics/dex/510kDecisionSum_K230440.adoc[leveloffset=+2]
 
+include::{topics}/topics/dex/510kDecisionSum_K231481.adoc[leveloffset=+2]
+
 == GUDID Records
 
 include::{topics}/topics/gudid/GUDIDRecord_07332940008581.adoc[leveloffset=+2]
+
+include::{topics}/topics/gudid/GUDIDRecord_07332940008604.adoc[leveloffset=+2]
 
 [index]
 == Index
