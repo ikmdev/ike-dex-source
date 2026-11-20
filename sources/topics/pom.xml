@@ -24,4 +24,30 @@
         <ike.skip.html-single>true</ike.skip.html-single>
         <ike.skip.pdf-default>true</ike.skip.pdf-default>
     </properties>
+
+    <build>
+        <plugins>
+            <!--
+              Topic fragments reference images relative to imagesdir (for example ext/{doc}/x.png) and may not
+              set :imagesdir: themselves (IKE-ASCIIDOC-FRAGMENT). index.adoc and the assemblies set it, but the
+              per-topic HTML that Prince renders does not, so its <img> paths lacked the images/ prefix and
+              Prince could not open them. The trailing @ makes this a default that a document can still override.
+              A .asciidoctorconfig cannot do this: the build ignores it and overwrites it on every run.
+            -->
+            <plugin>
+                <groupId>org.asciidoctor</groupId>
+                <artifactId>asciidoctor-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>generate-print-html-prince</id>
+                        <configuration>
+                            <attributes>
+                                <imagesdir>images@</imagesdir>
+                            </attributes>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>
