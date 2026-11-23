@@ -1,0 +1,25 @@
+= 510(k) Summary K063591: VITROS CREA Slides and VITROS Calibrator Kit 1
+:doctype: article
+:toc: left
+:toclevels: 3
+:source-highlighter: rouge
+:icons: font
+:author: IKE Network
+:table-caption!:
+:figure-caption!:
+:device-primary-di: 10758750002849
+:device-name: VITROS Chemistry Products CREA Slides
+:device-labeler: ORTHO-CLINICAL DIAGNOSTICS, INC.
+:device-gmdn-term: Creatinine IVD, reagent
+:document-type: 510(k) Summary
+:source-topic: ext-fda-k063591-510k-summary
+:topics: {generated}/topics-asciidoc
+:imagesdir: {topics}/images
+
+// Reconstruction assembly of one ingested source document (IKE-ASSEMBLY).
+// Name the DeX record's :src-*: attribute for this document to match this file name.
+// The topic carries its own numbering, so :sectnums: is deliberately not set.
+// ext/ topic: allowed here because device assemblies are reconstructions. Ortho-Clinical Diagnostics' 510(k) Summary, FDA clearance letter and
+// Indications for Use form, scanned; no copyright notice is stated in the document.
+
+include::{topics}/topics/ext/regulatory/vitros-crea-slides-510k-summary-k063591.adoc[leveloffset=+1]

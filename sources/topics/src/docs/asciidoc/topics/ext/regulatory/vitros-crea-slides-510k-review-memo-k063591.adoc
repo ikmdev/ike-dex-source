@@ -1,0 +1,76 @@
+// ext-fda-k063591-review-memo
+// Topic: VITROS CREA Slides 510(k) Review Memorandum K063591
+// Type: reference
+// Status: review
+:topic-id: ext-fda-k063591-review-memo
+:topic-type: reference
+:topic-status: review
+:topic-keywords: Special 510(k), review memorandum, K063591, Ortho-Clinical Diagnostics, VITROS CREA Slides, Calibrator Kit 1, creatinine, GC-IDMS traceability, device modification, substantial equivalence, predicate K001310
+:topic-summary: Reproduces the FDA ODE Review Memorandum for Special 510(k) K063591, a device modification of VITROS Chemistry Products CREA Slides and Calibrator Kit 1: checklist of required items, the change in traceability of creatinine value assignment to the GC-IDMS reference method, and the reviewer's recommendation of substantial equivalence to predicate K001310.
+:topic-notes: Whole-document topic, 2-page PDF reproduced as converted, no decomposition needed. Not a DeX record: page 1 is a 'SPECIAL 510(k): Device Modification, ODE Review Memorandum' (Decision Making Document is Attached), not the DECISION SUMMARY template. The file was named K063591_summary.pdf, but FDA's K063591 page lists this PDF (reviews/K063591.pdf) as 'Decision Summary'; the file names of this document and the 510(k) summary scan are swapped relative to FDA's labels. The memo prints no date, no reviewer name and no signature. PDF metadata (author Diane Marie Perticone, title 'Helps you design a customized memo', created 2006-12-15) is Word template residue and is not part of the content; the converter's level-1 title from that metadata was replaced by the topic title. Page 2 is blank apart from the page number. The PDF is tagged (Acrobat PDFMaker from Word), so the tagged engine converted it; OCR was on by default but not needed (no pictures, no scanned pages). The 'Decision Making Document' the memo says is attached is not part of this PDF. Left as converted: the checklist item 3 sentence 'This change was for' is a list continuation, the nested alpha and roman sub-lists (items 5a-5c, i-ii) are not nested under item 5 and the 'Truthful and Accurate Statement' item is numbered 1 inside the roman list, and the phrase 'Indications for Use Enclosure' is split by a list continuation. No copyright notice is stated. Zero '// Check' and zero '// REVIEW' comments. Seven index terms.
+:topic-related: gudid-10758750002849, ext-ortho-vitros-crea-slides-ifu-j27323, ext-fda-k063591-510k-summary, dex-k182063, ext-fda-k182063-510k-summary
+:topic-provenance: external
+:topic-citation: U.S. Food and Drug Administration, Center for Devices and Radiological Health. Special 510(k): Device Modification, ODE Review Memorandum (Decision Summary): K063591, VITROS Chemistry Products CREA Slides and VITROS Chemistry Products Calibrator Kit 1. Applicant: Ortho-Clinical Diagnostics, Inc. Document K063591, 2 pages, PDF created December 15, 2006. Retrieved November 22, 2026. https://www.accessdata.fda.gov/cdrh_docs/reviews/K063591.pdf
+:topic-license: No copyright notice is stated in the document, and no license or use terms are stated.
+
+[[ext-fda-k063591-review-memo]]
+= VITROS CREA Slides 510(k) Review Memorandum K063591
+
+indexterm:[regulatory decision, special 510(k)]
+
+*SPECIAL 510(k):
+Device Modification*
+
+*ODE Review Memorandum (Decision Making Document is Attached)*
+
+*To:* THE FILE *RE:* DOCUMENT NUMBER [.underline]##K063591##
+
+indexterm:[regulatory decision, device modification]
+
+This 510(k) submission contains information/data on
+modifications made to the SUBMITTER’S own Class II,
+Class III or Class I devices requiring 510(k).
+The following items are present and acceptable (delete/add
+items as necessary):
+
+. The name and 510(k) number of the SUBMITTER’S previously cleared device. (For a preamendments device, a statement to this effect has been provided.) k001310
+. Submitter’s statement that the *INDICATION/INTENDED USE* of the modified device as described in its labeling *HAS NOT CHANGED* along with the proposed labeling which includes instructions for use, package labeling, and, if available, advertisements or promotional materials (labeling changes are permitted as long as they do not affect the intended use).
+. A description of the device *MODIFICATION(S),* including clearly labeled diagrams, engineering drawings, photographs, user’s and/or service manuals in sufficient detail to demonstrate that the *FUNDAMENTAL SCIENTIFIC TECHNOLOGY* of the modified device *has not changed*_._
++
+indexterm:[traceability, GC-IDMS reference method]
+indexterm:[calibration, creatinine value assignment in Calibrator Kit 1]
+*This change was for* a change in the traceability method to
+the GC-IDMS (Gas Chromatography-Isotope Dilution Mass
+Spectrometry) reference method for the value assignment of
+creatinine in Vitros Chemistry Products Calibrator Kit 1.
+
+. *Comparison Information* (similarities and differences) to applicant’s legally marketed predicate device including, labeling, intended use, physical characteristics. Labeling changes were made in association with the above modification in the calibration section, expected value section and performance characteristics.
+. A *Design Control Activities Summary* which includes:
+
+[loweralpha]
+.. Identification of Risk Analysis method(s) used to assess the impact of the modification on the device and its components, and the results of the analysis
+.. Based on the Risk Analysis, an identification of the verification and/or validation activities required, including methods or tests used and acceptance criteria to be applied
+.. A declaration of conformity with design controls. The declaration of conformity should include:
+
+[lowerroman]
+... A statement signed by the individual responsible, that, as required by the risk analysis, all verification and validation activities were performed by the designated individual(s) and the results demonstrated that the predetermined acceptance criteria were met, and
+... A statement signed by the individual responsible, that the manufacturing facility is in conformance with design control procedure requirements as specified in 21 CFR 820.30 and the records are available for review.
+. A *Truthful and Accurate Statement*, a *510(k) Summary or Statement* and the *Indications for*
++
+*Use Enclosure (and Class III Summary for Class III devices).*
+
+indexterm:[design control, design control information]
+indexterm:[regulatory decision, predicate device]
+indexterm:[regulatory decision, substantial equivalence]
+The labeling for this modified subject device has been reviewed
+to verify that the indication/intended use for the device is
+unaffected by the modification.
+In addition,
+the submitter’s description of the particular modification(s)
+and the comparative information between the modified and
+unmodified devices demonstrate that the fundamental scientific
+technology has not changed.
+The submitter has provided the design control information as
+specified in The New 510(k) Paradigm and on this basis,
+I recommend the device be determined substantially equivalent
+to the previously cleared (or their preamendment) device.

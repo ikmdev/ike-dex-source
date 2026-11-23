@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.1.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0
+         http://maven.apache.org/xsd/maven-4.1.0.xsd">
+    <modelVersion>4.1.0</modelVersion>
+
+    <parent>
+        <relativePath>../../../../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>10758750002849</artifactId>
+    <packaging>pom</packaging>
+
+    <name>10758750002849: VITROS Chemistry Products CREA Slides</name>
+    <description>Source documents for Ortho-Clinical Diagnostics VITROS Chemistry Products CREA Slides (GUDID, 510(k) K063591 summary and review memorandum, 510(k) K182063 decision summary and summary, IFU J27323 Version 14.0), rebuilt from the topic library.</description>
+
+    <properties>
+        <pdf.source.document>DeXRecord_10758750002849</pdf.source.document>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>topics</artifactId>
+            <version>${project.version}</version>
+            <classifier>adoc</classifier>
+            <type>zip</type>
+        </dependency>
+    </dependencies>
+</project>

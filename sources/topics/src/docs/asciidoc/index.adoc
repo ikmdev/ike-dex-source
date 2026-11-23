@@ -25,11 +25,15 @@ include::topics/dex/510kDecisionSum_K230440.adoc[leveloffset=+1]
 
 include::topics/dex/510kDecisionSum_K231481.adoc[leveloffset=+1]
 
+include::topics/dex/510kDecisionSum_K182063.adoc[leveloffset=+1]
+
 == GUDID Records
 
 include::topics/gudid/GUDIDRecord_07332940008581.adoc[leveloffset=+1]
 
 include::topics/gudid/GUDIDRecord_07332940008604.adoc[leveloffset=+1]
+
+include::topics/gudid/GUDIDRecord_10758750002849.adoc[leveloffset=+1]
 
 == External Sources: Regulatory
 
@@ -38,6 +42,14 @@ include::topics/ext/regulatory/xpert-xpress-cov-2-plus-ifu.adoc[leveloffset=+1]
 include::topics/ext/regulatory/xpert-xpress-cov-2-flu-rsv-plus-510k-summary.adoc[leveloffset=+1]
 
 include::topics/ext/regulatory/xpert-xpress-cov-2-flu-rsv-plus-ifu.adoc[leveloffset=+1]
+
+include::topics/ext/regulatory/vitros-crea-slides-510k-summary-k063591.adoc[leveloffset=+1]
+
+include::topics/ext/regulatory/vitros-crea-slides-510k-review-memo-k063591.adoc[leveloffset=+1]
+
+include::topics/ext/regulatory/vitros-xt-7600-slides-510k-summary-k182063.adoc[leveloffset=+1]
+
+include::topics/ext/regulatory/vitros-crea-slides-ifu.adoc[leveloffset=+1]
 
 [preface]
 == About This Library

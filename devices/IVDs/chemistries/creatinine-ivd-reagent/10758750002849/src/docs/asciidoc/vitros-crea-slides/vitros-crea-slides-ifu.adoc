@@ -1,0 +1,24 @@
+= VITROS Chemistry Products CREA Slides Instructions for Use (J27323 Version 14.0)
+:doctype: article
+:toc: left
+:toclevels: 3
+:source-highlighter: rouge
+:icons: font
+:author: IKE Network
+:table-caption!:
+:figure-caption!:
+:device-primary-di: 10758750002849
+:device-name: VITROS Chemistry Products CREA Slides
+:device-labeler: ORTHO-CLINICAL DIAGNOSTICS, INC.
+:device-gmdn-term: Creatinine IVD, reagent
+:document-type: Package Insert (IFU)
+:source-topic: ext-ortho-vitros-crea-slides-ifu-j27323
+:topics: {generated}/topics-asciidoc
+:imagesdir: {topics}/images
+
+// Reconstruction assembly of one ingested source document (IKE-ASSEMBLY).
+// Name the DeX record's :src-*: attribute for this document to match this file name.
+// The topic carries its own numbering, so :sectnums: is deliberately not set.
+// ext/ topic: allowed here because device assemblies are reconstructions. Proprietary, (c) Ortho Clinical Diagnostics, 2007-2026.
+
+include::{topics}/topics/ext/regulatory/vitros-crea-slides-ifu.adoc[leveloffset=+1]

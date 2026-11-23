@@ -1,0 +1,1265 @@
+// ext-ortho-vitros-crea-slides-ifu-j27323
+// Topic: VITROS CREA Slides Instructions for Use
+// Type: reference
+// Status: review
+:topic-id: ext-ortho-vitros-crea-slides-ifu-j27323
+:topic-type: reference
+:topic-status: review
+:topic-keywords: Ortho Clinical Diagnostics, VITROS, CREA slides, creatinine, instructions for use, dry-slide chemistry, 680 2584, J27323
+:topic-summary: Whole-document copy of the Ortho Clinical Diagnostics Instructions for Use for VITROS Chemistry Products CREA Slides (creatinine), catalog 680 2584, Pub. No. J27323_US_EN, Version 14.0, 2026-02-02: intended use, test principle, reagents, specimens, calibration, quality control, limitations, expected values and performance data.
+:topic-notes: Whole-document topic, size bounds exempt as for the dex- and gudid- records and the Cepheid IFU: the full Instructions for Use text and tables are reproduced as converted from the Ortho PDF (file J27323_EN_2026-02-02.PDF, retrieved November 22, 2026). Full reproduction is a project decision, confirmed for this document; the standard's default for copyrighted material is a fair-use summary, and reuse beyond this repository needs the holder's permission. The document asserts "VITROS is a registered trademark of Ortho Clinical Diagnostics." No durable URL for the PDF could be established (searched; the document is not linked from the FDA or GUDID pages). The user opened it from the QuidelOrtho technical documents site, but the address supplied was a browser-local blob: URL that cannot be retrieved, so the citation gives the site root https://techdocs.quidelortho.com/ and the file name; the exact document address remains unconfirmed. The PDF has no tags, so the layout engine converted it (default engine selection); OCR was on but found no ruled picture table to read, so there are no // Check comments. Left as converted, to be fixed or accepted by the reviewer: 25 // REVIEW picture comments (plus 3 pictures inside table cells) and 2 comments that table cell spans need comparing with the page. The converter found no headings (section titles are plain paragraphs), lost most bold and italic emphasis and the change bars, garbled the slide diagram and the scatter-plot axis text on pages 2, 8 and 9 into small junk tables, and ran the running page headers into the text. The title above replaces the converter's first-line title "INSTRUCTIONS FOR USE CREA", which came from the page-1 banner. Fifteen index terms.
+:topic-related: gudid-10758750002849, dex-k182063, ext-fda-k063591-510k-summary, ext-fda-k063591-review-memo, ext-fda-k182063-510k-summary
+:topic-provenance: external
+:topic-citation: Ortho-Clinical Diagnostics, Inc. VITROS Chemistry Products CREA Slides Creatinine, Instructions for Use, Pub. No. J27323_US_EN, Version 14.0, revision date 2026-02-02, catalog number 680 2584, 15 pages, "Intended for Use in the United States". Retrieved November 22, 2026, from the QuidelOrtho technical documents site as file J27323_EN_2026-02-02.PDF. https://techdocs.quidelortho.com/
+:topic-license: © Ortho Clinical Diagnostics, 2007–2026. Proprietary; not an open license. No redistribution or use terms are stated in the document. Reuse beyond this repository needs the holder's permission.
+
+[[ext-ortho-vitros-crea-slides-ifu-j27323]]
+= VITROS CREA Slides Instructions for Use
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-01.png["Picture on page 1",width=122]
+
+Intended for Use in the United States
+
+VITROS Chemistry Products CREA Slides
+
+Creatinine
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-02.png["Picture on page 1",width=36]
+
+680 2584
+
+Rx ONLY
+
+Intended Use
+
+For in vitro diagnostic use only.
+
+indexterm:[intended use, creatinine measurement in serum, plasma and urine]
+VITROS Chemistry Products CREA Slides quantitatively measure
+creatinine (CREA) concentration in serum,
+plasma, and urine using VITROS 250/350/4600/XT 3400 Chemistry Systems
+and the VITROS 5600/XT 7600 Integrated Systems.
+Creatinine measurements are used in the diagnosis and treatment
+of renal diseases,
+in monitoring renal dialysis,
+and as a calculation basis for measuring other urine analytes.
+
+Summary and Explanation of the Test
+
+indexterm:[clinical significance, creatinine and glomerular filtration rate]
+Serum creatinine and urinary creatinine excretion is a function
+of lean body mass in normal persons and shows little or no
+response to dietary changes.
+The serum creatinine concentration is higher in men than in women.
+Since urinary creatinine is excreted mainly by glomerular filtration,
+with only small amounts due to tubular secretion,
+serum creatinine and a 24-hour urine creatinine excretion can
+be used to estimate the glomerular filtration rate.
+
+Serum creatinine is increased in acute or chronic renal failure,
+urinary tract obstruction,
+reduced renal blood flow,
+shock, dehydration,
+and rhabdomyolysis.
+Causes of low serum creatinine concentration include
+debilitation and decreased muscle mass.
+Exercise may cause an increased creatinine clearance.
+The creatinine clearance rate is unreliable if the urine flow is low.
+
+Principles of the Procedure
+
+The VITROS CREA Slide is a multilayered,
+analytical element coated on a polyester support.
+
+A drop of patient sample is deposited on the slide and is
+evenly distributed by the spreading layer to the underlying layers.
+Creatinine diffuses to the reagent layer,
+where it is hydrolyzed to creatine in the rate-determining step.
+The creatine is converted to sarcosine and urea by creatine
+amidinohydrolase.
+The sarcosine,
+in the presence of sarcosine oxidase,
+is oxidized to glycine,
+formaldehyde,
+and hydrogen peroxide.
+The final reaction involves the peroxidase-catalyzed oxidation
+of a leuco dye to produce a colored product.
+
+indexterm:[test principle, two-point rate]
+Following addition of the sample,
+the slide is incubated.
+During the initial reaction phase,
+endogenous creatine in the sample is oxidized.
+The resulting change in reflection density is measured at 2 time points.
+
+[.text-center]
+The difference in reflection density is proportional to the
+concentration of creatinine present in the sample.
+
+Test Type and Conditions
+
+[cols="^16,^19,^16,^16,^16,^17",width=99%,options=noheader]
+|===
+|Test Type |VITROS System |Approximate Incubation Time |Temperature |Wavelength |Reaction Sample Volume
+
+|Two-point rate |5600, 4600, 250/350, XT 7600, XT 3400 |5 minutes |37 °C (98.6 °F) |670 nm |6 μL
+|===
+
+Not all products and systems are available in all countries.
+
+Reaction Scheme
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-03.png["Picture on page 1. Text in the picture: creatinine amidohydrolase",width=154]
+
+creatinine + H2O creatine
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-04.png["Picture on page 1. Text in the picture: creatine amidinohydrolase",width=154]
+
+creatine {plus} H2O sarcosine {plus} urea
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-05.png["Picture on page 1. Text in the picture: sarcosine oxidase",width=154]
+
+sarcosine {plus} O2 {plus} H2O glycine {plus} formaldehyde {plus} H2O2
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-06.png["Picture on page 1. Text in the picture: peroxidase",width=154]
+
+H2O2 {plus} leuco dye dye {plus} 2H2O
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-07.png["Picture on page 2",width=122]
+
+Warnings and Precautions
+
+Warnings and Precautions
+
+For in vitro diagnostic use only.
+
+{empty}WARNING:
+
+Take care when handling materials and samples of human origin.
+Since no test method can offer complete assurance that
+infectious agents are absent,
+consider all clinical specimens,
+controls, and calibrators potentially infectious.
+Handle specimens,
+solid and liquid waste,
+and test components in accordance with local regulations and
+CLSI Guideline M29 ^1^ or other published biohazard safety guidelines.
+
+For specific warnings and precautions for calibrators,
+quality control materials,
+and other components,
+refer to the Instructions for Use for the appropriate VITROS product,
+or to other manufacturer’s product literature.
+
+Reagents
+
+Slide Diagram
+
+Slide Ingredients
+
+^1^2^.^. ^U^Sp^p^r^p^e^e^a^r^d ^s^in^lid^g^e^ l a^m^ye^o^ru n(T^t^iO2)
+
+Reactive Ingredients per cm^2^
+
+^3&#46;^ •^R^c^e^r^a^e^g^a^e^ti^n^ni^t^n ^l^ea
+ya^e^m^r^idohydrolase
+
+[cols="<82,<18",width=97%,options=noheader,frame=none,grid=none]
+|===
+|Creatinine amidohydrolase (Flavobacterium sp.) 0.20 U; creatine a|* creatine amidinohydrolase
+
+|amidinohydrolase (Alcaligenes sp.) 3.6 U; sarcosine oxidase a|* sarcosine oxidase
+
+|(Bacillus sp.) 0.55 U; peroxidase (horseradish root) 1.6 U and 2- a|* leuco dye
+
+|(3,5-dimethoxy-4-hydroxyphenyl)-4,5-bis(4-dimethylaminophenyl) imidazole (leuco dye) 32 µg.
+
+image:ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-08.png["Picture on page 2",width=101]
+a|* buffer, pH 7.0
+|===
+
+^4^5^.^. ^S^Lo^u^w^pp^e^o^r ^r^s^t^l i^l^d^a^ey em^r^ ount
+
+Other Ingredients
+
+Pigment, binders,
+surfactants,
+stabilizer,
+scavenger,
+chelator, buffer,
+dye solubilizer and cross-linking agent.
+
+Reagent Handling
+
+Caution:
+
+Do not use slide cartridges with damaged or incompletely sealed packaging.
+
+* Inspect the packaging for signs of damage.
+* Be careful when opening the outer packaging with a sharp instrument so as to avoid damage to the individual product packaging.
+
+Reagent Preparation
+
+{empty}IMPORTANT:
+
+The slide cartridge must reach room temperature,
+18–28 °C (64–82 °F),
+before it is unwrapped and loaded into the slide supply.
+
+. Remove the slide cartridges from storage.
+. Warm the wrapped cartridge at room temperature for 30 minutes when taken from the refrigerator or 60 minutes from the freezer.
+. Unwrap and load the cartridge into the slide supply.
+
+Note:
+
+Load the cartridges within 24 hours after they reach room temperature,
+18–28 °C (64–82 °F).
+
+Reagent Storage and Stability
+
+indexterm:[reagent, storage and stability]
+VITROS CREA Slides are stable until the expiration date on the
+carton when they are stored and handled as specified.
+Do not use beyond the expiration date.
+
+[cols="<21,<53,<26",width=73%,options=header]
+|===
+|Reagent ^|Storage Condition |Stability
+
+.2+|Unopened |Refrigerated 2–8 °C (36–46 °F) |≤ 4 weeks
+
+|Frozen ≤-18 °C (≤0 °F) |Until expiration date
+
+.2+|Opened |On-analyzer System turned on |≤ 2 weeks
+
+|On-analyzer System turned off |≤ 2 hours
+|===
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-09.png["Picture on page 3",width=122]
+
+Specimen Collection,
+Preparation and Storage
+
+Verify performance with quality control materials:
+
+* If the system is turned off for more than 2 hours.
+* After reloading cartridges that have been removed from the slide supply and stored for later use.
+
+Specimen Collection,
+Preparation and Storage
+
+Specimens Recommended
+
+* Serum
+* Plasma ^2^: Li Heparin
+* Urine
+
+{empty}IMPORTANT:
+
+Certain collection devices have been reported to affect other
+analytes and tests. ^3^ Owing to the variety of specimen
+collection devices available,
+Ortho Clinical Diagnostics is unable to provide a definitive
+statement on the performance of its products with these devices.
+Confirm that your collection devices are compatible with this test.
+
+Specimens Not Recommended
+
+Do not use specimens obtained through catheters used to infuse
+hyperalimentation fluid.
+Refer to “Limitations of the Procedure.”
+
+Serum and Plasma
+
+Specimen Collection and Preparation
+
+Collect specimens using standard laboratory procedures. 4,
+5
+
+Note:
+
+For details on minimum fill volume requirements,
+refer to the operating instructions for your system.
+
+Patient Preparation No special patient preparation is necessary.
+
+Special Precautions Centrifuge specimens and remove the serum
+or plasma from the cellular material within 4 hours of
+collection. ^6^
+
+Specimen Handling and Storage
+
+* Handle and store specimens in stoppered containers to avoid contamination and evaporation.
+* Mix samples by gentle inversion and bring to room temperature, 18–28 °C (64–82 °F), prior to analysis.
+
+indexterm:[specimen, storage and stability]
+Specimen Storage and Stability:
+Serum and Plasma ^6^
+
+[cols="<33,^33,<33",width=84%,options=header]
+|===
+^|Storage |Temperature |Stability
+
+|Room temperature |18–28 °C (64–82 °F) |≤ 5 days
+
+|Refrigerated |2–8 °C (36–46 °F) |≤ 30 days
+
+|Frozen |≤-18 °C (≤0 °F) |Indefinite
+|===
+
+Urine
+
+Specimen Collection and Preparation
+
+* Collect specimens using standard laboratory procedures. ^7^
+* Keep refrigerated until analysis.
+
+Note:
+
+For details on minimum fill volume requirements,
+refer to the operating instructions for your system.
+
+Patient Preparation No special patient preparation is necessary.
+
+Special Precautions Urine specimens must be pretreated prior to processing.
+Refer to “Specimen Pretreatment” for instructions.
+
+Specimen Handling and Storage
+
+* Handle and store specimens in stoppered containers to avoid contamination and evaporation.
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
++
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-10.png["Picture on page 4",width=122]
++
+Specimen Pretreatment
+
+* Mix samples by gentle inversion and bring to room temperature, 18–28 °C (64–82 °F), prior to analysis.
+
+Specimen Storage and Stability:
+Urine ^6^
+
+[cols="<33,^33,<33",width=84%,options=header]
+|===
+^|Storage |Temperature |Stability
+
+|Room temperature |18–28 °C (64–82 °F) |≤ 3 days
+
+|Refrigerated |2–8 °C (36–46 °F) |≤ 5 days
+
+|Frozen |≤-18 °C (≤0 °F) |Indefinite
+|===
+
+Specimen Pretreatment
+
+Urine
+
+Predilution
+
+Pretreatment is managed by the analyzer,
+no operator intervention is required.
+
+Testing Procedure
+
+Materials Provided
+
+VITROS Chemistry Products CREA Slides
+
+Materials Required but Not Provided
+
+* VITROS Chemistry Products Calibrator Kit 1
+* Quality control materials, such as VITROS Chemistry Products Performance Verifier I and II for serum and plasma
+* VITROS Chemistry Products 7% BSA
+* Reagent-grade water
+* VITROS Chemistry Products FS Diluent Pack 2 (BSA/Saline) (for on-analyzer dilution of serum and plasma samples)
+* VITROS Chemistry Products FS Diluent Pack 3 (Specialty Diluent/Water) (for on-analyzer dilution of urine samples)
+
+Operating Instructions
+
+* Check reagent inventories at least daily to ensure that quantities are sufficient for the planned workload.
+* For additional information, refer to the operating instructions for your system.
+
+{empty}IMPORTANT:
+
+Bring all fluids and samples to room temperature,
+18–28 °C (64–82 °F),
+prior to analysis.
+
+Sample Dilution
+
+Serum and Plasma
+
+indexterm:[sample dilution, on-analyzer and manual]
+If creatinine concentrations exceed the system’s measuring
+(reportable or dynamic) range or if the analyzer displays a DP
+code (indicating high background density,
+usually due to an elevated creatine concentration):
+
+On-Analyzer Sample Dilution (VITROS 5600/XT 7600 Integrated and
+VITROS 250/350/4600/XT 3400 Chemistry Systems only) Refer to
+the operating instructions for your system for more information
+on the On-Analyzer Dilution Procedure.
+For VITROS 5600/XT 7600 Integrated and VITROS 4600 Chemistry Systems,
+use VITROS Chemistry Products FS Diluent Pack 2 for the dilution.
+
+For VITROS 250/350 and XT 3400 Chemistry Systems,
+use VITROS 7% BSA for the dilution.
+
+Manual Sample Dilution
+
+. Dilute the sample with VITROS 7% BSA.
+. Reanalyze.
+. Multiply the results by the dilution factor to obtain an estimate of the original sample’s creatinine concentration.
+
+Urine
+
+If creatinine concentrations exceed the system’s measuring
+(reportable or dynamic) range:
+
+On-Analyzer Sample Dilution (VITROS 5600/XT 7600 Integrated and
+VITROS 250/350/4600/XT 3400 Chemistry Systems only) Refer to
+the operating instructions for your system for more information
+on the On-Analyzer Dilution Procedure.
+For VITROS 5600/XT 7600 Integrated and VITROS 4600,
+use VITROS Chemistry Products FS Diluent Pack 3 for the dilution.
+For VITROS 250/350 and VITROS XT 3400 Chemistry Systems,
+use reagent-grade water for the dilution.
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-11.png["Picture on page 5",width=122]
+
+Calibration
+
+Manual Sample Dilution
+
+. Mix 1 part prediluted sample with 1 part reagent-grade water.
+. Reanalyze.
+. Multiply the results by the dilution factor to obtain an estimate of the creatinine concentration in the original sample.
+
+Calibration
+
+Required Calibrators
+
+indexterm:[calibration, VITROS Chemistry Products Calibrator Kit 1]
+VITROS Chemistry Products Calibrator Kit 1
+
+Note:
+
+The same VITROS Calibrator Kit is used to calibrate serum,
+plasma, and urine creatinine.
+However, specific supplementary assigned values (SAVs) are applied for
+each body fluid.
+
+Calibrator Preparation,
+Handling, and Storage
+
+Refer to the Instructions for Use for VITROS Calibrator Kit 1.
+
+Calibration Procedure
+
+Refer to the operating instructions for your system.
+
+When to Calibrate
+
+Calibrate:
+
+* When the slide lot number changes.
+* When critical system parts are replaced due to service or maintenance.
+* When government regulations require.
+
+For example,
+in the USA,
+CLIA regulations require calibration or calibration
+verification at least once every six months.
+The VITROS CREA test may also need to be calibrated:
+
+* If quality control results are consistently outside acceptable range.
+* After certain service procedures have been performed.
+
+For additional information,
+refer to the operating instructions for your system.
+
+Calculations
+
+Reflectance from the slide is read at 670 nm at two fixed time
+points during the incubation period,
+and the change in reflectance between these two readings is calculated.
+Once a calibration has been performed for each slide lot,
+creatinine concentration in unknown samples can be determined
+using the software-resident two-point rate math model and the
+change in reflectance calculated for each unknown test slide.
+
+Validity of a Calibration
+
+Calibration parameters are automatically assessed by the system
+against a set of quality parameters detailed in the
+Coefficients and Limits screen on VITROS 250/350 Systems (on
+the VITROS 5600/XT 7600 Integrated and VITROS 4600/XT 3400
+Chemistry Systems,
+see the Review Assay Data screen).
+Failure to meet any of the pre-defined quality parameters
+results in a failed calibration.
+The calibration report should be used in conjunction with
+quality control results to determine the validity of a calibration.
+
+indexterm:[measuring range, reportable or dynamic]
+Measuring (Reportable or Dynamic) Range
+
+[cols="^24,^22,^23,^31",width=99%,options=header]
+|===
+<| |Conventional Units (mg/dL) |SI Units (μmol/L) |Alternate Units (mg/L)
+
+|Serum/Plasma |0.15–14.0 |13–1238 |1.5–140
+
+|Urine |3.2–346.5^++*++^ |283–30631^++*++^ |32.0–3465^++*++^
+|===
+
+^++*++^ After multiplying by a dilution factor of 21.
+
+For out-of-range samples,
+refer to “Sample Dilution.”
+
+Traceability of Calibration
+
+indexterm:[calibration, traceability to GC/IDMS and NIST SRM 914]
+The values assigned to the VITROS Chemistry Products Calibrator
+Kit 1 for Creatinine are traceable to a Gas Chromatography
+Isotope Dilution Mass Spectrometry (GC/IDMS) method ^8^ and
+National Institute of Standards and Technology (NIST) SRM^®^
+914 creatinine standard reference material.
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-12.png["Picture on page 6",width=122]
+
+Quality Control
+
+Quality Control
+
+indexterm:[quality control, material selection]
+Quality Control Material Selection
+
+{empty}IMPORTANT:
+
+VITROS Performance Verifiers are recommended for use with
+VITROS Chemistry and Integrated Systems.
+Evaluate the performance of other commercial control fluids for
+compatibility with this test before using for quality control.
+
+* Controls that are reconstituted with deionized water should perform acceptably.
+* Control materials other than VITROS Performance Verifiers may show a difference when compared with other creatinine methods if they:
+** Depart from a true human matrix.
+** Contain high concentrations of preservatives, stabilizers, or other nonphysiological additives.
+* Liquid serum and urine controls often contain high creatine levels and may give DP codes.
+* Do not use control materials stabilized with ethylene glycol.
+
+Urine
+
+For urine specimens,
+use commercially available urine control materials.
+
+{empty}IMPORTANT:
+
+If using a VITROS 250/350 or 4600/XT 3400 Chemistry Systems or
+VITROS 5600/XT 7600 Integrated Systems in On-Analyzer Dilution Mode,
+do not manually dilute samples for analysis and do not multiply
+by a dilution factor after analysis.
+
+Refer to the operating instructions for your system for more
+information on the On-Analyzer Dilution Procedure.
+
+Quality Control Procedure Recommendations
+
+* Choose control levels that check the clinically relevant range.
+* Analyze quality control materials in the same manner as patient samples, before or during patient sample processing.
+* To verify system performance, analyze control materials:
+** After calibration.
+** According to local regulations or at least once each day that the test is being performed.
+** After specified service procedures are performed. Refer to the operating instructions for your system.
+* If control results fall outside your acceptable range, investigate the cause before deciding whether to report patient results.
+* For general quality control recommendations, refer to Statistical Quality Control for Quantitative Measurements: Principles and Definitions; Approved Guideline-Third Edition ^9^ or other published guidelines.
+* For additional information, refer to the operating instructions for your system.
+
+Quality Control Material Preparation,
+Handling, and Storage
+
+Refer to the Instructions for Use for VITROS Chemistry Products
+Performance Verifier I and II or to other manufacturer's
+product literature.
+
+Results
+
+Reporting Units and Unit Conversion
+
+The VITROS Chemistry and Integrated Systems may be programmed
+to report creatinine results in conventional,
+SI, and alternate units.
+
+[cols="^29,^38,^33",width=72%,options=noheader]
+|===
+|Conventional Units |SI Units |Alternate Units
+
+|mg/dL |µmol/L (mg/dL x 88.4) |mg/L (mg/dL x 10)
+|===
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-13.png["Picture on page 7",width=122]
+
+Limitations of the Procedure
+
+Limitations of the Procedure
+
+indexterm:[interference, known interferents]
+Known Interferences
+
+Serum and Plasma
+
+* Creatine: At a creatinine concentration of 1.5 mg/dL (133 µmol/L), creatine greater than 8 mg/dL (707 µmol/L) will be flagged with a DP code (because highly elevated creatine concentrations may cause excessive background density). For unflagged samples, residual bias because of creatine will be less than 0.15 mg/dL (13 µmol/L). At a creatinine concentration of 14 mg/dL (1237 µmol/L), creatine greater than 1 mg/dL (88 µmol/L) will be flagged with a DP code. Residual bias for unflagged samples will be less than 2%. Refer to “Sample Dilution” for dilution instructions.
+* Proline: Patients receiving hyperalimentation fluids containing proline may show an increase of 0.2 mg/dL (18 μmol/L). Do not collect specimens from intravenous fluid lines contaminated with hyperalimentation fluid.
+* Lidocaine: Patients on long-term lidocaine therapy may show an increase of up to 1.0 mg/dL (88 µmol/L) due to a metabolite of lidocaine, N-ethyl glycine (NEG). ^10^ The VITROS CREA Slide method was screened for interfering substances following CLSI Protocol EP07. 11, 12 The substances listed in the table, when tested at the concentrations indicated, caused the bias shown.
+
+For substances that were tested and did not interfere,
+refer to “Specificity.”
+
+[cols="^17,^27,^19,<18,^18",width=94%,options=noheader]
+|===
+.2+h|Interferent^++*++^ .2+h|Interferent Concentration .2+h|Comments ^h|Creatinine Concentration h|Bias^++*++++*++^
+
+<h|Conv. SI (mg/dL) (μmol/L) <h|Conv. SI (mg/dL) [.underline]##(μmol/L)##
+
+.2+|Dipyrone (Metamizol) .2+<|18.0 mg/dL 510 μmol/L .2+|3X IV Therapeutic^†^ |1.2 106 |-0.24 -21
+
+<|4.2 371 |-0.73 -64
+
+|Tolazamide |4.5 mg/dL 145 μmol/L |3X Oral Therapeutic^††^ |3.5 309 |-0.39 -34
+|===
+
+^++*++^ It is possible that other interfering substances may be encountered.
+These results are representative;
+however, your results may differ somewhat due to test-to-test variation.
+The degree of interference at concentrations other than those
+listed might not be predictable.
+
+^++*++++*++^ The bias is an estimate of the maximum difference observed.
+
+^†^ Based on 1000 mg intravenous dose. ^13^
+
+^††^ Based on CLSI EP37. ^14^
+
+Other Limitations
+
+Certain drugs and clinical conditions are known to alter
+creatinine concentration in vivo.
+For additional information,
+refer to one of the published summaries. 15,
+16
+
+Expected Values
+
+{empty}IMPORTANT:
+
+If using results to calculate an estimated glomerular
+filtration rate (eGFR),
+confirm that you are using the appropriate MDRD (Modification
+of Diet in Renal Disease) equation. ^17^
+
+indexterm:[expected values, reference interval]
+Reference Interval
+
+The serum reference intervals are the central 95% of results
+from an external study of apparently healthy adults (serum:
+180 males and 180 females).
+
+The urine reference intervals are based on a separate external study. ^18^
+
+[cols="<22,^29,^25,^25",width=78%,options=header]
+|===
+| |Conventional Units |SI Units |Alternate Units
+
+4+h|Serum
+
+|Male |0.66–1.25 mg/dL |58–110 µmol/L |6.6–12.5 mg/L
+
+|Female |0.52–1.04 mg/dL |46–92 µmol/L |5.2–10.4 mg/L
+
+4+|Urine
+
+|Male |1000–2000 mg/day^++*++^ |8840–17680 µmol/day^++*++++*++^ |1000–2000 mg/day^++*++++*++++*++^
+
+|Female |800–1800 mg/day^++*++^ |7072–15912 µmol/day^++*++++*++^ |800–1800 mg/day^++*++++*++++*++^
+|===
+
+^++*++^Creatinine concentration (mg/dL) x 24-hour volume (dL) = mg/day.
+
+^++*++++*++^Creatinine concentration (µmol/L) x 24-hour volume
+(L) = µmol/day.
+
+^++*++++*++++*++^Creatinine concentration (mg/L) x 24-hour
+volume (L) = mg/day.
+
+Each laboratory should confirm the validity of these intervals
+for the population it serves.
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-14.png["Picture on page 8",width=122]
+
+Performance Characteristics
+
+Performance Characteristics
+
+indexterm:[analytical performance, limit of quantitation]
+Detection Capability
+
+The Limit of Quantitation (LoQ) is 0.15 mg/dL for serum/plasma
+and 3.2 mg/dL for urine.
+The total number of LoQ determinations was 144. The LoQ was
+established consistent with CLSI EP17. ^19^
+
+[cols="^34,^34,^32",width=99%,options=noheader]
+|===
+.2+h|Fluid Type 2+h|LoQ^++*++^
+
+h|mg/dL h|μmol/L
+
+|Serum/Plasma |0.15 |13
+
+|Urine |3.2 |283
+|===
+
+^++*++^ The Total Error goal used to accept the LoQ was ≤ 0.06
+mg/dL ( 5 μmol/L) for serum and ≤ 1.2 mg/dL ( 106 μmol/L) for urine.
+
+Method Comparison
+
+indexterm:[analytical performance, method comparison]
+The plots and tables below show the results of a method
+comparison study with serum samples and urine samples analyzed
+on the VITROS 950 Chemistry System,
+and with the Ortho Clinical Diagnostics,
+comparative method (an HPLC method),
+^20^ which has demonstrated equivalence to the Gas
+Chromatography Isotope Dilution Mass Spectometry (GC/ IDMS)
+reference method.
+
+The tables also show the results of comparisons with serum and
+urine samples between the VITROS 5,1 FS and the VITROS 950
+Chemistry Systems and between the VITROS 250/350 and the VITROS
+950 Chemistry Systems.
+In addition,
+the tables show the results of comparisons with serum,
+plasma and urine samples between the VITROS 5600 Integrated
+System and the VITROS 5,1 FS Chemistry System.
+Testing followed NCCLS protocol EP9. ^21^
+
+Serum
+
+Conventional Units SI Units
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-15.png["Picture on page 8",width=285]
+
+// Cell spans were placed by where cells start; compare with the page.
+[cols="<50,<50",width=56%,options=noheader]
+|===
+|) |)
+
+|L |L
+
+|d |l/
+
+|/ |o
+
+|mg |µm
+
+|( |(
+
+|m |m
+
+|e |e
+
+|t |t
+
+|s |s
+
+|y |y
+
+|S |S
+
+|0 |0
+
+|5 |5
+
+|9 |9
+
+|S
+
+image:ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-16.png["Picture on page 8",width=277]
+|S
+
+|O |O
+
+|R |R
+
+|T |T
+
+|I |I
+
+|V |V
+|===
+
+Comparative Method:
+HPLC Comparative Method:
+HPLC (mg/dL) (μmol/L)
+
+[cols="<23,^23,^27,<26",width=97%,options=noheader]
+|===
+.2+h| .2+<h|Correlati on Coefficie n Slope nt h|Conventional Units (mg/dL) ^h|SI Units (µmol/L)
+
+h|Range of Sample Conc. Intercept Sy.x <h|Range of Sample Conc. [.underline]##Intercept## Sy.x
+
+|950 vs. Comparative Method^++*++^ |82 1.03 0.998 <|0.29–14.18 -0.03 0.16 |26–1254 -2.87 14.52
+
+|250/350 vs. 950 <|108 1.00 0.9998 |0.2–13.6 -0.01 0.12 |18–1205 -0.64 10.19
+
+|5,1 FS^†^ vs. 950 |123 1.06 0.999 |0.2–13.6 -0.03 0.16 |18–1205 -2.60 13.93
+
+|5600^††^ vs. 5,1 FS^†^ |100 1.00 1.000 |0.3–12.8 -0.01 0.08 ^|27–1132 -0.88 7.07
+|===
+
+^++*++^ In accordance with the recommendation by the NKDEP to
+standardize serum creatinine measurements across IVD manufacturers,
+the HPLC method has demonstrated equivalence to the IDMS method.
+
+^†^ Performance characteristics for the VITROS 5,1 FS System
+are applicable to the VITROS 4600 System.
+
+^††^ Performance characteristics for the VITROS 5600 System are
+applicable to the VITROS XT 3400 and XT 7600 Systems.
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-17.png["Picture on page 9",width=122]
+
+Performance Characteristics
+
+Urine
+
+Conventional Units SI Units
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-18.png["Picture on page 9",width=287]
+
+// Cell spans were placed by where cells start; compare with the page.
+[cols="<50,<50",width=56%,options=noheader]
+|===
+|) |)
+
+|L |L
+
+|d |l/
+
+|/ |o
+
+|mg |µm
+
+|( |(
+
+|m |m
+
+|e |e
+
+|t |t
+
+|s |s
+
+|y |y
+
+|S |S
+
+|0 |0
+
+|5 |5
+
+|9 |9
+
+|S
+
+image:ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-19.png["Picture on page 9",width=293]
+|S
+
+|O |O
+
+|R |R
+
+|T |T
+
+|I |I
+
+|V |V
+|===
+
+Comparative Method:
+HPLC Comparative Method:
+HPLC (mg/dL) (μmol/L)
+
+[cols="<21,<24,<26,^29",width=94%,options=noheader]
+|===
+.2+h| .2+h|Correlati on Coeffici n Slope ent h|Conventional Units (mg/dL) h|SI Units (µmol/L)
+
+h|Range of Sample Interce Conc. pt Sy.x h|Range of Sample Conc. Intercept Sy.x
+
+|950 vs. Comparative Method |75 0.96 0.999 |3.67–331.81 -0.29 3.55 |325–29332 -26.00 314.00
+
+|250/350 vs. 950 |166 0.97 0.9998 |5.2–339.0 +1.32 1.89 |456–29967 +116.25 [.underline]##167.27##
+
+|5,1 FS^†^ vs. 950 |166 0.99 0.9998 |5.2–339.0 +0.19 2.58 |456–29967 +16.82 [.underline]##228.32##
+
+|5600^††^ vs. 5,1 FS^†^ |102 1.00 0.9997 |9.6–335.5 +0.48 2.35 |849–29658 +42.42 [.underline]##207.79##
+|===
+
+^†^ Performance characteristics for the VITROS 5,1 FS System
+are applicable to the VITROS 4600 System.
+
+^††^ Performance characteristics for the VITROS 5600 System are
+applicable to the VITROS XT 3400 and XT 7600 Systems.
+
+Precision
+
+indexterm:[analytical performance, precision]
+Precision was evaluated with quality control materials on
+VITROS 250/350 and 5,1 FS Systems following NCCLS Protocol EP5.
+^22^ Precision was also evaluated with quality control
+materials on the VITROS 5600 Integrated System following NCCLS
+Protocol EP5. ^23^ These results are guidelines.
+Variables such as sample handling and storage,
+reagent handling and storage,
+laboratory environment,
+and system maintenance can affect reproducibility of test results.
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-20.png["Picture on page 10",width=122]
+
+Performance Characteristics
+
+Serum
+
+[cols="<15,>28,<28,<28",width=100%,options=noheader]
+|===
+.2+h| ^h|Conventional Units (mg/dL) ^h|SI Units (µmol/L) .2+h|Within Lab No. CV%^++*++++*++^ Observ. No. Days
+
+h|Mean Within Within Lab Conc. Day SD^++*++^ SD^++*++++*++^ <h|Mean Within Within Lab Conc. Day SD^++*++^ SD^++*++++*++^
+
+.4+|250/350 |0.37 0.006 0.010 |33 0.5 0.9 |2.6 88 22
+
+>|0.95 0.009 0.013 <|84 0.8 1.1 |1.3 88 22
+
+>|5.01 0.049 0.085 <|443 4.4 7.5 |1.7 88 22
+
+>|13.05 0.109 0.203 <|1153 9.6 18.0 |1.6 88 22
+
+.4+|5,1 FS^†^ |0.41 0.012 0.020 |36 1.0 1.8 |4.8 84 22
+
+>|0.92 0.015 0.020 <|82 1.3 1.8 |2.1 88 22
+
+>|5.46 0.071 0.085 <|483 6.2 7.5 |1.6 88 22
+
+>|13.58 0.098 0.133 <|1200 8.7 11.7 |1.0 84 22
+
+.2+|5600^††^ |0.87 0.012 0.025 |77 1.1 2.2 |2.9 88 22
+
+>|5.32 0.053 0.074 <|470 4.7 6.5 |1.4 88 22
+|===
+
+^++*++^ Within Day precision was determined using two runs/day
+with two to three replications.
+
+^++*++++*++^ Within Lab precision was determined using a single
+lot of slides and calibrating weekly.
+
+^†^ Performance characteristics for the VITROS 5,1 FS System
+are applicable to the VITROS 4600 System.
+
+^††^ Performance characteristics for the VITROS 5600 System are
+applicable to the VITROS XT 3400 and XT 7600 Systems.
+
+Urine
+
+[cols="<15,<28,<28,<28",width=100%,options=noheader]
+|===
+.2+h| ^h|Conventional Units (mg/dL) ^h|SI Units (µmol/L) .2+h|Within Lab No. CV%^++*++++*++^ Observ. No. Days
+
+h|Mean Within Within Lab Conc. Day SD^++*++^ SD^++*++++*++^ h|Mean Within Within Lab Conc. Day SD^++*++^ SD^++*++++*++^
+
+.4+|250/350 |56.2 0.71 1.42 |4969 63.2 126 |2.5 88 22
+
+|78.9 0.61 1.32 |6977 54.0 117 |1.7 88 22
+
+|131.4 1.81 3.11 |11613 159.6 275 |2.4 90 22
+
+|219.3 2.23 3.89 |19387 197.5 344 |1.8 86 22
+
+.4+|5,1 FS^†^ |61.4 1.01 1.40 |5424 89.7 124 |2.3 88 22
+
+|81.6 0.81 1.14 |7209 71.9 101 |1.4 88 22
+
+|146.5 2.50 3.02 |12951 221.1 267 |2.1 88 22
+
+|229.9 2.39 3.19 |20328 211.4 282 |1.4 88 22
+
+.2+|5600^††^ |61.7 0.99 1.39 |5454 87.5 123 |2.3 80 20
+
+|157.5 2.42 3.29 |13923 213.9 291 |2.1 80 20
+|===
+
+^++*++^ Within Day precision was determined using two runs/day
+with two to three replications.
+
+^++*++++*++^ Within Lab precision was determined using a single
+lot of slides and calibrating weekly.
+
+^†^ Performance characteristics for the VITROS 5,1 FS System
+are applicable to the VITROS 4600 System.
+
+^††^ Performance characteristics for the VITROS 5600 System are
+applicable to the VITROS XT 3400 and XT 7600 Systems.
+
+Specificity
+
+Substances that Do Not Interfere
+
+The substances listed in the table were tested with VITROS CREA
+Slides following CLSI Protocol EP07 12,
+24 and found not to interfere,
+bias ++<++0.13 mg/dL (++<++11.5 µmol/L),
+at the interferent concentration shown at a creatinine
+concentration of approximately 1.5 mg/dL.
+
+[cols="<20,>14,>14,<4,<22,>14,>14",width=100%,options=header]
+|===
+|Compound 2+^|Concentration | |Compound 2+^|Concentration
+
+|Acetaminophen |400 μg/mL |2646 μmol/L | |Kan amycin |1.5 mg/dL |31 µmol/L
+
+|Acetoacetate |30 mmol/L |30 mmol/L | |Isoniazid |1.5 mg/dL |109 µmol/L
+
+|Ampicillin |1.5 mg/dL |43 µmol/L | |Limcomycin |1.5 mg/dL |37 µmol/L
+
+|Amikacin |1.5 mg/dL |26 µmol/L | |Methicillin |1.5 mg/dL |37 µmol/L
+
+|Ammonium Chloride |1 mmol/L |1 mmol/L | |6-Mercaptopurine |1.5 mg/dL |99 µmol/L
+
+|Amphotericin B |1.5 mg/dL |16 µmol/L | |Minocycline |1.5 mg/dL |33 µmol/L
+
+|Ascorbic Acid |3 mg/dL |170 µmol/L | |N-Acetylcysteine |15 mg/dL |0.92 mmol/L
+
+|Bacitracin |1.5 mg/dL |11µmol/L | |Nalidixic Acid |1.5 mg/dL |65 µmol/L
+
+|Bicarbonate |40 mmol/L |40 mmol/L | |Nafcillin |1.5 mg/dL |34 µmol/L
+
+|Bilirubin |20 mg/dL |342 µmol/L | |Neomycin |1.5 mg/dL |24 µmol/L
+|===
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-21.png["Picture on page 11",width=122]
+
+References
+
+[cols="<20,>14,>14,<4,<22,>14,>14",width=100%,options=header]
+|===
+|Compound 2+^|Concentration | |Compound 2+^|Concentration
+
+|Bleomycin Sulfate |1.5 mg/dL |11 µmol/L .28+| |Nitrofurantoin |1.5 mg/dL |63 µmol/L
+
+|Carbenicillin |1.5 mg/dL |40 µmol/L |Oxacillin >|1.5 mg/dL |37 µmol/L
+
+|Cefazolin |1.5 mg/dL |33 µmol/L |Oxytetracycline >|1.5 mg/dL |33 µmol/L
+
+|Cephalothin |1.5 mg/dL |38 µmol/L |Penicillin-g >|1.5 mg/dL |45 µmol/L
+
+|Cephaloridine |1.5 mg/dL |36 µmol/L |Phenobarbital >|3 mg/dL |129 µmol/L
+
+|Cephaloglycin |1.5 mg/dL |37 µmol/L |Phenoxymethylpenicillinic acid >|1.5 mg/dL |43 µmol/L
+
+|Cephalexin |1.5 mg/dL |43 µmol/L |pH >|6.8 |6.8
+
+|Cephardine |1.5 mg/dL |43 µmol/L |pH >|8.8 |8.8
+
+|Cleocin |1.5 mg/dL |35 µmol/L |Polymyxin B sulfate >|1.5 mg/dL |13 µmol/L
+
+|Cloxacillin |1.5 mg/dL |34 µmol/L |Polymyxin E >|1.5 mg/dL |13 µmol/L
+
+|Demeclocycline |1.5 mg/dL |32 µmol/L |Potassium >|8 mEq/L |8 mmol/L
+
+|Dextran |1000 mg/dL |250 µmol/L |Rifampicin >|1.5 mg/dL |18 µmol/L
+
+|Dicloxacillin |1.5 mg/dL |32 µmol/L |Spectinomycin >|1.5 mg/dL |45 µmol/L
+
+|Di-cycloserine |1.5 mg/dL |147 µmol/L |Streptomycin sulfate >|1.5 mg/dL |13 µmol/L
+
+|Dilantin |2 mg/dL |79 µmol/L |Sulfachloropyridazine >|1.5 mg/dL |53 µmol/L
+
+|Dipyrone |6 mg/dL |170 µmol/L |Sulfamethoxypyridazine >|1.5 mg/dL |54 µmol/L
+
+|Dobutamine |121 μg/dL |4.01 µmol/L |Sulfamethoxazole >|1.5 mg/dL |59 µmol/L
+
+|Doxycycline |1.5 mg/dL |32 µmol/L |Sulfisoxazole >|1.5 mg/dL |56 µmol/L
+
+|Ethambutol |1.5 mg/dL |73 µmol/L |Sulfadiazine >|1.5 mg/dL |60 µmol/L
+
+|Ethanol |300 mg/dL |65 mmol/L |Sulfathiazole >|6 mg/dL |235 µmol/L
+
+|Furazolidone |1.5 mg/dL |67 µmol/L |Tetracycline >|1.5 mg/dL |34 µmol/L
+
+|5-Flurocytosine |5 mg/dL |387 µmol/L |Ticarcillin >|1.5 mg/dL |39 µmol/L
+
+|Gentamicin |1.5 mg/dL |32 µmol/L |Tolbutamide >|22 mg/dL |814 µmol/L
+
+|Glucose |600 mg/dL |33 mmol/L |Triglycerides >|1500 mg/dL |22.6 mmol/L
+
+|Glutathione |1 mg/dL |33 µmol/L |Vancomycin >|1.5 mg/dL |10 µmol/L
+
+|Hemoglobin |900 mg/dL |9 g/L |Urea Nitrogen >|100 mg/dL |36 mmol/L
+
+|Hypaque |500 mg/dL |8.2 mmol/L .2+|Uric Acid .2+>|15 mg/dL .2+|892 µmol/L
+
+|Intralipid |800 mg/dL |8 g/L
+|===
+
+Urine
+
+The following preservatives have been tested and demonstrated
+an effect of less than 2% on creatinine results:
+
+* Thymol
+* Toluene
+* Boric acid
+* Glacial acetic acid (0.5 to 1.0 v/v)
+* 12N HCl
+* NH4OH
+* Bromide
+* Iodide
+* 5% NaOH
+
+References
+
+. CLSI. Protection of Laboratory Workers from Occupationally Acquired Infections; Approved Guideline - Fourth Edition. CLSI document M29-A4. Wayne, PA: Clinical and Laboratory Standards Institute; 2014.
+. Doumas BT, et al. Differences Between Values for Plasma and Serum in Tests Performed in the Ektachem 700 XR Analyzer, and Evaluation of “Plasma Separator Tubes (PST).”Clin. Chem. 35:151–153; 1989.
+. Calam RR. Specimen Processing Separator Gels: An Update. J Clin Immunoassay. 11:86–90; 1988.
+. CLSI. Collection of Diagnostic Venous Blood Specimens. 7th ed. CLSI standard GP41. Wayne, PA: Clinical and Laboratory Standards Institute; 2017.
+. NCCLS. Procedures and Devices for the Collection of Diagnostic Capillary Blood Specimens; Approved Standard— Fifth Edition. NCCLS document H4-A5 (ISBN 1-56238-538-0). CLSI, 940 West Valley Road, Suite 1400, Wayne, PA 19087-1898 USA, 2004.
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
++
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-22.png["Picture on page 12",width=122]
++
+References
+
+. Clinical Laboratory Handbook for Patient Preparation and Specimen Handling. Fascicle VI: Chemistry/Clinical Microscopy. Northfield, IL: College of American Pathologists; 1992.
+. NCCLS. Urinalysis and Collection, Transportation, and Preservation of Urine Specimens; Approved Guideline. NCCLS Document GP16. CLSI, 940 West Valley Road, Suite 1400, Wayne, PA 19087-1898 USA; 1995.
+. Siekmann L. Measurement of creatinine in human serum by isotope dilution mass spectrometry. J Clin Chem Clin Biochem 23:137–144; 1985.
+. CLSI. Statistical Quality Control for Quantitative Measurements: Principles and Definitions; Approved Guideline – Third Edition. CLSI document C24-A3 (ISBN 1-56238-613-1). CLSI, 940 West Valley Road, Suite 1400, Wayne, PA 19087-1898 USA; 2006.
+. Sena SF, Syed D, Romeo R, Krzymowski GA, McComb RB. Lidocaine Metabolite and Creatinine Measurements in the Ektachem 700: Steps to Minimize its Impact on Patient Care. Clin. Chem. 34:10; 1988.
+. NCCLS. Interference Testing In Clinical Chemistry; Approved Guideline – First Edition. NCCLS document EP7-A (ISBN 1-56238-480-5). NCCLS, 940 West Valley Road, Suite 1400, Wayne, PA 19087-1898 USA; 2002.
+. CLSI. Interference Testing in Clinical Chemistry; Approved Guideline-Second Edition. CLSI document EP07-A2 (ISBN 1-56238-584-4). Clinical and Laboratory Standards Institute, 950 West Valley Road, Suite 2500, Wayne, Pennsylvania 19087 USA, 2005.
+. Bagnoud M-A, Reymond J-Ph. Interference of Metamizol (Dipyrone) on the Determination of Creatinine with the Kodak Dry Chemistry Slide Comparison with the Enzymatic Method from Boehringer. Eur. J. Clin. Chem. Clin. Biochem. 31: 753–757; 1993.
+. CLSI. Supplemental Tables for Interference Testing in Clinical Chemistry; Approved Guideline-First Edition. CLSI document EP37 (ISBN 1-56238-5848-7). Clinical and Laboratory Standards Institute, 950 West Valley Road, Suite 2500, Wayne, Pennsylvania 19087 USA, 2018.
+. Young DS. Effects of Drugs on Clinical Laboratory Tests. ed. 4. Washington D.C.: AACC Press; 1995.
+. Friedman RB, Young DS. Effects of Disease on Clinical Laboratory Tests. Washington, D.C.: AACC Press; 1990.
+. National Kidney Disease Education Program. http://www.nkdep.nih.gov
+. McPherson R, Pincus M (eds.). Henry’s Clinical Diagnostics and Management by Laboratory Methods, 21st edition. Philadelphia: Saunders Elsevier ++[++ISBN-13: 978-1-4160-0287-1; 1410; 2006.
+. CLSI. Evaluation of Detection Capability for Clinical Laboratory Measurement Procedures; Approved Guideline— Second Edition. CLSI document EP17-A2. Wayne, PA: Clinical and Laboratory Standards Institute; 2012.
+. Ambrose RT, Ketchum DF, Smith JW. Creatinine Determined by “High Performance” Liquid Chromatography. Clin. Chem. 29: 256-259; 1983.
+. NCCLS. Method Comparison and Bias Estimation Using Patient Samples; Approved Guideline- Second Edition. NCCLS document EP9-A2 (ISBN 1-56238-472-4). CLSI, 940 West Valley Road, Suite 1400, Wayne, PA 19087-1898 USA; 2002.
+. NCCLS. Evaluation of Precision Performance of Clinical Chemistry Devices; Approved Guideline. NCCLS Document EP5. CLSI, 940 West Valley Road, Suite 1400, Wayne, PA 19087-1898 USA; 1999.
+. NCCLS. Evaluation of Precision Performance of Quantitative Measurement Methods; Approved Guideline – Second Edition. NCCLS document EP5-A2 (ISBN 1-56238-542-9). CLSI, 940 West Valley Road, Suite 1400, Wayne, PA 19087-1898 USA; 2004.
+. NCCLS. Interference Testing in Clinical Chemistry; Proposed Guideline. NCCLS document EP7-P (ISBN 1-56238-020-6). NCCLS, 940 West Valley Road, Wayne, Pennsylvania 19087-1898, 1986.
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-23.png["Picture on page 13",width=122]
+
+Glossary of Symbols
+
+Glossary of Symbols
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-24.png["Picture on page 13",width=624]
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-25.png["Picture on page 14",width=122]
+
+Revision History
+
+Revision History
+
+[cols="<18,<14,<67",width=98%,options=noheader]
+|===
+|Date of Revision |Version |Description of Technical Changes++*++
+
+|2026-02-02
+|14.0
+a|* Added "Intended for Use in the United States"
+* Removed VITROS 5,1 FS Chemistry System:
+* Intended Use
+* Principles of the Procedure
+* Sample Dilution
+* Validity of a Calibration
+* Quality Control Material Selection
+|===
+
+++*++ The change bars indicate the position of a technical
+amendment to the text with respect to the previous version of the document.
+
+When this Instructions For Use is replaced,
+sign and date below and retain as specified by local
+regulations or laboratory policies,
+as appropriate.
+
+Signature Obsolete Date
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-26.png["Picture on page 15",width=122]
+
+Revision History
+
+Ortho-Clinical Diagnostics,
+Inc.
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-27.png["Picture on page 15",width=72]
+
+100 Indigo Creek Drive Rochester,
+NY 14626 USA VITROS is a registered trademark of Ortho Clinical
+Diagnostics. © Ortho Clinical Diagnostics,
+2007–2026
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::ext/vitros-crea-slides-ifu/j27323-en-2026-02-02-image-28.png["Picture on page 15",width=228]

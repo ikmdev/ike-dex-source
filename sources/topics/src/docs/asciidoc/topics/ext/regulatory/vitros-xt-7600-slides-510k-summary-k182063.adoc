@@ -1,0 +1,1022 @@
+// ext-fda-k182063-510k-summary
+// Topic: VITROS XT 7600 Slides 510(k) Summary K182063
+// Type: reference
+// Status: review
+:topic-id: ext-fda-k182063-510k-summary
+:topic-type: reference
+:topic-status: review
+:topic-keywords: 510(k) summary, K182063, clearance letter, Ortho-Clinical Diagnostics, VITROS XT 7600, VITROS CRBM CREA TBIL slides, creatinine, method comparison, precision
+:topic-summary: Reproduces the FDA clearance letter of October 30, 2018, the Indications for Use form and Ortho-Clinical Diagnostics' 510(k) Summary for K182063: VITROS CRBM, CREA and TBIL Slides on the VITROS XT 7600 Integrated System, compared with the VITROS 5600 predicate (K081543), with method comparison, precision, linearity, detection limit and interference studies.
+:topic-notes: Whole-document topic, size bounds exempt as for the dex- and gudid- records: the 17-page PDF (FDA clearance letter, FDA Form 3881 Indications for Use, and Ortho-Clinical Diagnostics' 510(k) Summary) is reproduced as converted. Whole-document handling is a project decision; the standard default for external sources is decomposition. Not a DeX record: page 1 is a clearance letter, not a Decision Summary, and IKE-DEX-INGEST says not to apply the DeX shape to 510(k) summaries; the Decision Summary is the separate topic dex-k182063. Converted with the Docling engine (the layout engine's output had tables with cells beyond their column specification that Asciidoctor dropped); the Docling converter writes no REVIEW or Check comments, so the defects below were found by comparing with the page images. One picture is kept (the FDA and Department of Health and Human Services logos); the signature overlay is not a picture but text ('Kellie B. Kelm -S'). Left as converted by decision, nothing hand-corrected: the Symbol-font characters that render as nothing (the mu in '6 L' and '10 L' sample volumes, the alpha in the LoB statement, and the bullet in 10 list items of the interference section), the three LoQ total-allowable-error comparators read as '<' where the page prints an underlined less-than-or-equal sign, 'GPS' where the page has 'for' before the signatory's name, the Document ID printed as 'Do c ID# 04017 . 03 . 01' in the body, the hyphen lost in '21 CFR 10001050' (page: 1000-1050), the FDA address line and FDA Form 3881 footers and the running page header not reproduced, spaces after line-end hyphens ('CRBM- PP1', '2- (3,5-dimethoxy-4- hydroxyphenyl)'), 'paireddifference', the superscript in 'per cm 2' and nearly all italics lost, 33 level-2 headings of which many are bold labels or form text and some have no content below them, banner rows ('Similarities', 'Differences', 'System Features') turned into header or data rows repeated in every cell, a page-break split of Tables 2 and 4 into header-only tables, the end of the 'Fundamental scientific technology' cell ('(ISE) assays.') placed in the next row's 'Operating principle' cell, a stray asterisk before the MicroSensor note, the DICE@fda.hhs.gov address and web addresses not made links. The letter and the summary assert substantial equivalence to the predicates listed in the summary; the document states no copyright notice and uses VITROS, MicroSlide, MicroTip, MicroWell and MicroSensor trademark names without ownership statements. HAND-CORRECTED by decision, NOT reproducible by re-running the converter, to the characters printed on the pages: the page 7 and page 8 Sample volume cells carry the Symbol-font private-use code U+F06D (renders as nothing, so "6 L" and "10 L") and were set to "6 μL" and "10 μL"; page 15 "i.e. U+F061 = 5%" (Symbol-font alpha, renders as nothing) was set to "i.e. α = 5%"; the three LoQ total-allowable-error comparators "<" (the text layer has "<" with the page underlining it) were set to "≤" (19%, 30%, 0.09 mg/dL); "21 CFR 10001050" (hyphen lost) was set to "21 CFR 1000-1050"; and the private-use bullet character U+F0B7 (renders as nothing, 10 times) was removed from the list items that already carry an AsciiDoc bullet. A re-conversion reintroduces these. Not corrected: the page-2 signature block lacks the word "for" (the text layer holds unmapped codes) and the hidden Doc ID text. The summary part was written by Ortho-Clinical Diagnostics, so reuse beyond FDA's public release may need its permission. Ten index terms.
+:topic-related: gudid-10758750002849, ext-ortho-vitros-crea-slides-ifu-j27323, ext-fda-k063591-510k-summary, ext-fda-k063591-review-memo, dex-k182063
+:topic-provenance: external
+:topic-citation: U.S. Food and Drug Administration, Center for Devices and Radiological Health, and Ortho-Clinical Diagnostics, Inc. 510(k) clearance letter, Indications for Use and 510(k) Summary: K182063, VITROS Chemistry Products CRBM Slides, CREA Slides, TBIL Slides and VITROS XT 7600 Integrated System. Applicant: Ortho-Clinical Diagnostics, Inc. FDA letter dated October 30, 2018 (Doc ID 04017.03.01); Ortho 510(k) Summary, Date of Preparation July 30, 2018 (Traditional 510(k)); 17 pages. Retrieved November 22, 2026. https://www.accessdata.fda.gov/cdrh_docs/pdf18/K182063.pdf
+:topic-license: No copyright notice is stated in the document, and no license or use terms are stated.
+
+[[ext-fda-k182063-510k-summary]]
+= VITROS XT 7600 Slides 510(k) Summary K182063
+
+image::ext/vitros-xt-7600-slides-510k-summary-k182063/k182063-summary-image-01.png["FDA and Department of Health and Human Services logos",width=256]
+
+October 30,
+2018
+
+Ortho-Clinical Diagnostics,
+Inc. Marlene Hanna Director,
+Regulatory Affairs 100 Indigo Creek Drive Rochester,
+NY 14626
+
+Re: K182063
+
+Trade/Device Name:
+VITROS Chemistry Products CRBM Slides
+
+VITROS Chemistry Products CREA Slides
+
+VITROS Chemistry Products TBIL Slides
+
+VITROS XT 7600 Integrated System
+
+Regulation Number:
+21 CFR 862.1225
+
+Regulation Name:
+Creatinine test system
+
+Regulatory Class:
+Class II
+
+Product Code:
+JFY, KLT,
+CIG, JJE
+
+Dated: July 30,
+2018
+
+Received: August 1,
+2018
+
+== Dear Marlene Hanna:
+
+We have reviewed your Section 510(k) premarket notification of
+intent to market the device referenced above and have
+determined the device is substantially equivalent (for the
+indications for use stated in the enclosure) to legally
+marketed predicate devices marketed in interstate commerce
+prior to May 28,
+1976, the enactment date of the Medical Device Amendments,
+or to devices that have been reclassified in accordance with
+the provisions of the Federal Food,
+Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA).
+You may, therefore,
+market the device,
+subject to the general controls provisions of the Act.
+Although this letter refers to your product as a device,
+please be aware that some cleared products may instead be
+combination products.
+The 510(k) Premarket Notification Database located at
+https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm
+identifies combination product submissions.
+The general controls provisions of the Act include requirements
+for annual registration,
+listing of devices,
+good manufacturing practice,
+labeling, and prohibitions against misbranding and adulteration.
+Please note:
+CDRH does not evaluate information related to contract
+liability warranties.
+We remind you,
+however, that device labeling must be truthful and not misleading.
+
+indexterm:[regulatory decision, FDA clearance letter]
+
+If your device is classified (see above) into either class II
+(Special Controls) or class III (PMA),
+it may be subject to additional controls.
+Existing major regulations affecting your device can be found
+in the Code of Federal Regulations,
+Title 21, Parts 800 to 898. In addition,
+FDA may publish further announcements concerning your device in
+the Federal Register.
+
+Do c ID# 04017 . 03 . 01
+
+Please be advised that FDA’s issuance of a substantial
+equivalence determination does not mean that FDA has made a
+determination that your device complies with other requirements
+of the Act or any Federal statutes and regulations administered
+by other Federal agencies.
+You must comply with all the Act’s requirements,
+including,
+but not limited to:
+registration and listing (21 CFR Part 807);
+labeling (21 CFR Part 801 and Part 809);
+medical device reporting (reporting of medical device-related
+adverse events) (21 CFR 803) for devices or postmarketing
+safety reporting (21 CFR 4,
+Subpart B) for combination products (see
+https://www.fda.gov/CombinationProducts/GuidanceRegulatoryInformation/ucm597488.htm);
+good manufacturing practice requirements as set forth in the
+quality systems (QS) regulation (21 CFR Part 820) for devices
+or current good manufacturing practices (21 CFR 4,
+Subpart A) for combination products;
+and, if applicable,
+the electronic product radiation control provisions (Sections
+531-542 of the Act);
+21 CFR 1000-1050.
+
+Also, please note the regulation entitled,
+"`Misbranding by reference to premarket notification`" (21 CFR Part 807.97).
+For questions regarding the reporting of adverse events under
+the MDR regulation (21 CFR Part 803),
+please go to
+http://www.fda.gov/MedicalDevices/Safety/ReportaProblem/default.htm.
+
+For comprehensive regulatory information about medical devices
+and radiation-emitting products,
+including information about labeling regulations,
+please see Device Advice
+
+(https://www.fda.gov/MedicalDevices/DeviceRegulationandGuidance/)
+and CDRH Learn (http://www.fda.gov/Training/CDRHLearn).
+Additionally,
+you may contact the Division of Industry and Consumer Education
+(DICE) to ask a question about a specific regulatory topic.
+See the DICE website (http://www.fda.gov/DICE) for more
+information or contact DICE by email (DICE@fda.hhs.gov) or
+phone (1-800-638-2041 or 301-796-7100).
+
+Sincerely,
+
+== Kellie B. Kelm -S
+
+Courtney H. Lias,
+Ph.D. Director Division of Chemistry and Toxicology Devices
+Office of In Vitro Diagnostics and Radiological Health Center
+for Devices and Radiological Health GPS
+
+Enclosure
+
+== DEPARTMENT OF HEALTH AND HUMAN SERVICES Food and Drug Administration
+
+== Indications for Use
+
+Form Approved:
+OMB No. 0910-0120
+
+Expiration Date:
+06/30/2020
+
+See PRA Statement below.
+
+510(k) Number (if known)
+
+k182063
+
+Device Name
+
+VITROS Chemistry Products CRBM Slides
+
+VITROS Chemistry Products CREA Slides
+
+VITROS Chemistry Products TBIL Slides VITROS XT 7600 Integrated System
+
+Indications for Use (Describe)
+
+[arabic]
+. VITROS Chemistry Products CRBM Slides: Rx Only. For in vitro
+diagnostic use only. VITROS Chemistry Products CRBM Slides
+quantitatively measure carbamazepine (CRBM) concentration in serum and
+plasma using VITROS 250/350/950/5,1 FS and 4600 Chemistry Systems and
+the VITROS 5600/ XT 7600 Integrated System. Measurements obtained are
+used in monitoring levels of carbamazepine to help ensure appropriate
+therapy.
+. VITROS Chemistry Products CREA Slides: Rx Only. For in vitro
+diagnostic use only. VITROS Chemistry Product CREA Slides quantitatively
+measure creatinine (CREA) concentration in serum, plasma, and urine
+using VITROS 250/350/950/5,1 FS and 4600 Chemistry Systems and the
+VITROS 5600/ XT 7600 Integrated System. Creatinine measurements are used
+in the diagnosis and treatment of renal diseases, in monitoring renal
+dialysis, and as a calculation basis for measuring other urine analytes.
+. VITROS Chemistry Products TBIL Slides: Rx Only. For in vitro
+diagnostic use only. VITROS Chemistry Products TBIL Slides
+quantitatively measure total bilirubin (TBIL) concentration in serum and
+plasma using VITROS 250/350/950/5,1 FS and 4600 Chemistry Systems and
+the VITROS 5600/ XT 7600 Integrated System. Measurements of the levels
+of bilirubin are used in the diagnosis and treatment of liver, hemolytic
+hematological and metabolic disorders, including hepatitis and gall
+bladder block.
+. VITROS XT 7600 Integrated System: Rx Only. For in vitro diagnostic use
+only. The VITROS XT 7600 Integrated System is intended for use in the
+measurement of a variety of analytes of clinical interest.
+
+indexterm:[intended use, VITROS CRBM CREA and TBIL slides]
+
+Type of Use (Select one or both,
+as applicable)
+
+* [x] Prescription Use (Part 21 CFR 801 Subpart D)
+* [ ] Over-The-Counter Use (21 CFR 801 Subpart C)
+
+== CONTINUE ON A SEPARATE PAGE IF NEEDED.
+
+This section applies only to requirements of the Paperwork
+Reduction Act of 1995.
+
+== _DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW._
+
+The burden time for this collection of information is estimated
+to average 79 hours per response,
+including the time to review instructions,
+search existing data sources,
+gather and maintain the data needed and complete and review the
+collection of information.
+Send comments regarding this burden estimate or any other
+aspect of this information collection,
+including suggestions for reducing this burden,
+to:
+
+Department of Health and Human Services Food and Drug
+Administration Office of Chief Information Officer Paperwork
+Reduction Act (PRA) Staff PRAStaff@fda.hhs.gov
+
+"`An agency may not conduct or sponsor,
+and a person is not required to respond to,
+a collection of information unless it displays a currently
+valid OMB number.`"
+
+== 5 510(k) Summary Information
+
+This summary of 510(k) safety and effectiveness information is
+being submitted in accordance with the requirements of SMDA
+1990 and 21 CFR 807.92.
+
+indexterm:[510(k) summary, 21 CFR 807.92]
+
+The assigned 510(k) number is:
+k182063
+
+== Submitter’s Information
+
+Ortho-Clinical Diagnostics,
+Inc. 100 Indigo Creek Drive Rochester,
+New York 14626-5101
+
+Phone: (585) 453-4041
+
+Fax: (585) 453-3368
+
+== Contact Person:
+
+Marlene Hanna,
+RAC
+
+Director, Regulatory Affairs
+
+Date of Preparation:
+July 30, 2018
+
+== Device Proprietary Name(s):
+
+VITROS Chemistry Products CRBM Slides
+
+VITROS Chemistry Products CREA Slides VITROS Chemistry Products
+TBIL Slides VITROS XT 7600 Integrated System
+
+== Common Names:
+
+Carbamazepine assay Creatinine assay Total bilirubin assay
+Clinical chemistry analyzer
+
+== Classification Names
+
+[width="100%",cols="9%,12%,7%,56%,16%",options="header",]
+|===
+|VITROS |Product Code |Class |Regulation Section |Panel
+|CRBM |KLT |Class II |21 CFR 862.3645 Neuroleptic drugs radioreceptor
+assay test system. |Clinical Toxicology
+
+|CREA |JFY |Class II |21 CFR 862.1225 creatinine test system |Clinical
+Chemistry
+
+|TBIL |CIG |Class II |21 CFR 862.1110 Bilirubin (total or direct) test
+system. |Clinical Chemistry
+
+|XT 7600 |JJE |Class I |21 CFR 862.2160 Discrete photometric chemistry
+analyzer for clinical use |Clinical Chemistry
+|===
+
+== Predicate Device(s)
+
+[width="100%",cols="8%,31%,31%,30%",options="header",]
+|===
+|No. |New Devices |Predicate Devices |Predicate Device FDA 510(k) Number
+|1 |VITROS Chemistry Products CRBM Slides |VITROS Chemistry Products
+CRBM Slides |k160495
+
+|2 |VITROS Chemistry Products CREA Slides |VITROS Chemistry Products
+CREA Slides |k063591
+
+|3 |VITROS Chemistry Products TBIL Slides |VITROS Chemistry Products
+TBIL Slides |k840880
+
+|4 |VITROS XT 7600 Integrated System |VITROS 5600 Integrated System
+|k081543
+|===
+
+indexterm:[predicate device, VITROS 5600 Integrated System (k081543)]
+
+== Intended Use Statement(s)
+
+== 1. VITROS Chemistry Products CRBM Slides
+
+Rx Only. For in vitro diagnostic use only.
+VITROS Chemistry Products CRBM Slides quantitatively measure
+carbamazepine (CRBM) concentration in serum and plasma using
+VITROS 250/350/950/5,1 FS and 4600 Chemistry Systems and the
+VITROS 5600/ XT 7600 Integrated System.
+Measurements obtained are used in monitoring levels of
+carbamazepine to help ensure appropriate therapy.
+
+== 2. VITROS Chemistry Products CREA Slides
+
+Rx Only. For in vitro diagnostic use only.
+VITROS Chemistry Product CREA Slides quantitatively measure
+creatinine (CREA) concentration in serum,
+plasma, and urine using VITROS 250/350/950/5,1 FS and 4600 Chemistry
+Systems and the VITROS 5600/ XT 7600 Integrated System.
+Creatinine measurements are used in the diagnosis and treatment
+of renal diseases,
+in monitoring renal dialysis,
+and as a calculation basis for measuring other urine analytes.
+
+== 3. VITROS Chemistry Products TBIL Slides
+
+Rx Only. For in vitro diagnostic use only.
+VITROS Chemistry Products TBIL Slides quantitatively measure
+total bilirubin (TBIL) concentration in serum and plasma using
+VITROS 250/350/950/5,1 FS and 4600 Chemistry Systems and the
+VITROS 5600/ XT 7600 Integrated System.
+Measurements of the levels of bilirubin are used in the
+diagnosis and treatment of liver,
+hemolytic hematological and metabolic disorders,
+including hepatitis and gall bladder block.
+
+== 4. VITROS XT 7600 Integrated System
+
+Rx Only. For in vitro diagnostic use only.
+The VITROS XT 7600 Integrated System is intended for use in the
+measurement of a variety of analytes of clinical interest.
+
+== Device Description
+
+The VITROS XT 7600 Integrated System is a fully automated,
+computer controlled,
+clinical chemistry and immunodiagnostic analyzer intended for
+the in vitro determination of a variety of general chemistries,
+therapeutic drugs,
+drugs of abuse,
+proteins, infectious diseases,
+as well as cardiac,
+metabolic,
+thyroid, anemia,
+and oncology markers in biological fluids such as serum,
+plasma, urine and cerebral spinal fluid.
+The System operates in conjunction with reagents,
+calibrators and controls designed for use with the System in
+the MicroSlide,
+MicroTip or MicroWell format.
+
+indexterm:[VITROS XT 7600 Integrated System, device description]
+
+The VITROS Chemistry MicroSlide range of products (in this case
+VITROS Chemistry Products CRBM Slides,
+VITROS Chemistry Products CREA Slides,
+and VITROS Chemistry Products TBIL Slides),
+are combined with the VITROS XT 7600 Integrated System to
+perform the VITROS CRBM,
+CREA, and TBIL assays.
+
+== Comparison to Predicate Devices
+
+The following tables show similarities and differences between
+the new and predicate devices.
+
+Table 1 VITROS Chemistry Products CRBM Slides
+
+[width="100%",cols="14%,68%,18%",options="header",]
+|===
+|Similarities - Device Characteristic |Similarities - Candidate VITROS
+CRBM Slides |Similarities - Predicate Device VITROS CRBM Slides k160495
+|Intended Use |Rx Only. For in vitro diagnostic use only. VITROS
+Chemistry Products CRBM Slides quantitatively measure carbamazepine
+(CRBM) concentration in serum and plasma. |Same
+
+|Basic principle |Multiple-point Immunorate |Same
+
+|Reactive Ingredients per cm 2 |Immobilized mouse monoclonal
+anti-carbamazepine antibody 0.02 mg; carbamazepine- horseradish
+peroxidase conjugate 1.6 ng; and 2-(3,5-dimethoxy-4-
+hydroxyphenyl)-4,5-bis(4- dimethylaminophenyl) imidazole (leuco dye)
+0.02 mg. |Same
+
+|Wavelength |670 nm, 540 nm is also used for wash detection |Same
+
+|Sample type |Serum and plasma |Same
+
+|Sample volume |11 μL |Same
+|===
+
+[width="100%",cols="18%,43%,39%",options="header",]
+|===
+|Differences - Device Characteristic |Differences - Candidate VITROS
+CRBM Slides |Differences - Predicate Device VITROS CRBM Slides k160495
+|Instrumentation |VITROS 250/350/950/5,1 FS and 4600 Chemistry Systems
+and the VITROS 5600/ XT 7600 Integrated System |VITROS 250/350/950/5,1
+FS and 4600 Chemistry Systems and the VITROS 5600 Integrated System
+|===
+
+== Table 2 VITROS Chemistry Products CREA Slides
+
+[width="100%",cols="11%,73%,16%",options="header",]
+|===
+|Similarities - Device Characteristic |Similarities - Candidate VITROS
+CREA Slides |Similarities - Predicate Device VITROS CREA Slides k063591
+|Intended Use |Rx Only. For in vitro diagnostic use only. VITROS
+Chemistry Product CREA Slides quantitatively measure creatinine (CREA)
+concentration in serum, plasma, and urine. |Same
+
+|Basic principle |Two-point rate |Same
+
+|Reactive Ingredients per cm 2 |Creatinine amidohydrolase
+(Flavobacterium sp.) 0.20 U; creatine amidinohydrolase (Alcaligenes sp.)
+3.6 U; sarcosine oxidase (Bacillus sp.) 0.55 U; peroxidase (horseradish
+root) 1.6 U and 2- (3,5-dimethoxy-4- hydroxyphenyl)-4,5-bis(4-
+dimethylaminophenyl) imidazole (leuco dye) 32 µg. |Same
+
+|Wavelength |670 nm |Same
+
+|Sample type |Serum, plasma, urine |Same
+
+|Sample volume |6 μL |Same
+|===
+
+[width="100%",cols="25%,30%,45%",options="header",]
+|===
+|Differences |Differences |Differences
+|Device Characteristic |Candidate VITROS CREA Slides |Predicate Device
+VITROS CREA Slides k063591
+|===
+
+[width="100%",cols="10%,47%,43%",options="header",]
+|===
+|Instrumentation |VITROS 250/350/950/5,1 FS and 4600 Chemistry Systems
+and the VITROS 5600/ XT 7600 Integrated System |VITROS 250/350/950/5,1
+FS and 4600 Chemistry Systems and the VITROS 5600 Integrated System
+|===
+
+== Table 3 VITROS Chemistry Products TBIL Slides
+
+[width="100%",cols="16%,61%,23%",options="header",]
+|===
+|Similarities - Device Characteristic |Similarities - Candidate VITROS
+TBIL Slides |Similarities - Predicate Device VITROS TBIL Slides K840880
+|Intended Use |Rx Only. For in vitro diagnostic use only. VITROS
+Chemistry Products TBIL Slides quantitatively measure total bilirubin
+(TBIL) concentration in serum and plasma. |Same
+
+|Basic principle |Dual wavelength endpoint |Same
+
+|Reactive Ingredients per cm 2 |Dyphylline 0.5 mg and 4-(N-
+carboxymethylaminosulfonyl) benzene diazonium hexafluorophosphate 57 µg.
+|Same
+
+|Wavelength |measured at 2 wavelengths, 460 and 540nm |Same
+
+|Sample type |Serum and plasma |Same
+
+|Sample volume |10 μL |Same
+|===
+
+[width="100%",cols="18%,43%,39%",options="header",]
+|===
+|Differences - Device Characteristic |Differences - Candidate VITROS
+TBIL Slides |Differences - Predicate Device VITROS TBIL Slides k840880
+|Instrumentation |VITROS 250/350/950/5,1 FS and 4600 Chemistry Systems
+and the VITROS 5600/ XT 7600 Integrated System |VITROS 250/350/950/5,1
+FS and 4600 Chemistry Systems and the VITROS 5600 Integrated System
+|===
+
+== Table 4 VITROS XT 7600 Integrated System
+
+[width="100%",cols="24%,32%,44%",options="header",]
+|===
+|Similarities |Similarities |Similarities
+|Device Characteristic |Candidate VITROS XT 7600 System |Predicate
+Device VITROS 5600 System k081543
+|===
+
+[width="100%",cols="9%,80%,11%",options="header",]
+|===
+|Similarities - Device Characteristic |Similarities - Candidate VITROS
+XT 7600 System |Similarities - Predicate Device VITROS 5600 System
+k081543
+|System Features |System Features |System Features
+
+|Intended use |For use in the in vitro quantitative, semi- quantitative,
+and qualitative measurement of a variety of analytes of clinical
+interest, using VITROS Chemistry Products Slides, VITROS Chemistry
+Products MicroTip Reagents and VITROS Immunodiagnostic Products
+Reagents. |No change
+
+|Fundamental scientific technology |MicroSlides - Colorimetric,
+Potentiometric, enzymatic endpoint and Immunorate assays. MicroTip and
+MicroWell reagents The analyzer uses four main detection systems: 1)
+Reflection densitometry for colorimetric and Immunorate VITROS
+MicroSlides. 2) Transmission spectrophotometry for VITROS MicroTip
+assays. 3) Enhanced chemiluminescent detection for VITROS MicroWell
+assays. 4) Electrometer for VITROS MicroSlide ion-selective electrode
+|No change
+
+|Operating principle |(ISE) assays. Sample programming, sampling
+processing, result calculation, result reporting |No change
+
+|Modes of operation |Continuous, Random, STAT |No change
+
+|Throughput |845 tests per hour |No change
+
+|User interface |Touch screen (17 inch monitor), keyboard, ADD |No
+change
+
+|Sample and reagent volume verification |Verification to ensure
+sufficient quantity of sample and reagent to run requested assays |No
+change
+
+|On-Board Dilution Range |Dilution factor of 1: 400 |No change
+
+|Predictive alerts through eConnectivity |The predictive alerts are
+logged and are electronically sent to the equipment service group real
+time for monitoring. |No change
+
+|e-Connectivity |Yes |No change
+|===
+
+[width="99%",cols="30%,42%,28%",options="header",]
+|===
+|Similarities - Device Characteristic |Similarities - Candidate VITROS
+XT 7600 System |Similarities - Predicate Device VITROS 5600 System
+k081543
+|(remote access) | |
+
+|Lab Information System (LIS) |Enabled |No change
+
+|VAS Lab Automation System (LAS) |Enabled |No change
+
+|Specimen Sampling and Handling |Specimen Sampling and Handling
+|Specimen Sampling and Handling
+
+|Specimen type |Serum, Plasma, Urine, CSF, Whole Blood |No change
+
+|Specimen containers |Cups, Primary Sample Collection Tubes |No change
+
+|Identification |Manual entry or Bar Code |No change
+
+|Specimen handling |Universal Sample Tray |No change
+
+|Specimen processing |Auto-dilution, repeat and reflex capabilities |No
+change
+
+|Automation capabilities: 10.25 mm tube for pediatric samples |Supported
+|No change
+
+|Sample Quality Monitoring (hemolysis, icterus and turbidity) |Yes |No
+change
+
+|Calibration |Calibration |Calibration
+
+|Calibrators |MicroSlide and MicroTip: analyte specific and multiple
+analytes MicroWell: analyte specific |No change
+
+|Identification |MicroSlide and MicroWell: Bar Code or manual entry
+MicroTip: Manual entry |No change
+
+|Calibration Programming |Sample tray can contain Calibrators, QC
+samples and/or patient samples |No change
+
+|Frequency |According to the assay Instructions for Use |No change
+
+|Calibration Completion Time Monitoring |Tracking time until calibration
+completion is displayed to the operator. |No change
+
+|Quality Control |Quality Control |Quality Control
+|===
+
+[width="100%",cols="16%,62%,22%",options="header",]
+|===
+|Similarities - Device Characteristic |Similarities - Candidate VITROS
+XT 7600 System |Similarities - Predicate Device VITROS 5600 System
+k081543
+|Controls |MicroSlide and MicroTip: analyte specific and multiple
+analyte performance verifiers MicroWell: analyte specific and multiple
+analyte selling controls and range verifiers |No change
+
+|Review Mode |Review Data by Assay and by Event (scroll through multiple
+assays’ QC results which were run at the same time) |No change
+
+|Identification |Manual entry or Bar Code |No change
+
+|Frequency |According to the assay Instructions for Use. User
+configurable QC expiration interval. |No change
+
+|QC Programming |Programmed by assay |No change
+|===
+
+[width="100%",cols="17%,53%,30%",options="header",]
+|===
+|Differences - Device Characteristic |Differences - Candidate VITROS XT
+7600 System |Differences - Predicate Device VITROS 5600 System K081543
+|The following subsystems of the VITROS 5600 Integrated System will be
+modified |REFL - Reflectometer SLIN - Slide Incubator SLSU - Slide
+Supply SAIN - Sample Integrity SRME - Sample and Reagent Metering SWCT -
+System Control and Sample Processing Software SWIN - Software
+Infrastructure SWUI - Graphical User Interface Software ADDI - Assay
+Data Disk. |All modifications pertain solely to the MicroSlide
+processing center. There are no changes being made to the MicroTip and
+MicroWell processing centers.
+|===
+
+== Method Comparison
+
+Method Comparison testing was designed and conducted in
+accordance with CLSI EP09-A3,
+"`Measurement Procedure Comparison and Bias Estimation Using
+Patient Samples;
+Approved Guideline - Third Edition`" (2013).
+
+Method comparison studies were conducted by testing a minimum
+of 116 human serum samples with analyte concentrations across
+the analytical ranges of carbamazepine,
+creatinine and total bilirubin assays on the VITROS XT 7600
+Integrated System and the VITROS 5600 Integrated System
+(predicate device).
+In addition,
+125 human urine samples were tested for creatinine on the
+candidate and predicate test systems.
+The results of the regression analyses for each of the assays
+are summarized below:
+
+indexterm:[method comparison, CLSI EP09-A3]
+
+[width="100%",cols="21%,4%,20%,8%,11%,12%,24%",options="header",]
+|===
+|VITROS assay |N |Regression Analysis |Slope |Intercept |Test range
+|Claimed Measuring Range
+|CRBM Serum (ug/mL) |118 |Deming |1.00 |0.12 |3.1-17.8 |3.0-20.0
+
+|CREA Serum (mg/dL) |116 |Passing Bablock |0.99 |0.00 |0.25-13.4
+|0.15-14.0
+
+|CREA Urine (mg/dL) |122 |Passing Bablock |0.99 |-0.45 |3.7-331.0
+|3.2-346.5
+
+|TBIL Serum (mg/dL) |125 |Passing Bablok |0.99 |0.01 |0.14-23.65
+|0.10-27.00
+|===
+
+In addition to the above mentioned method comparison studies,
+testing was performed to determine the precision,
+linearity,
+LoB, LoD,
+LoQ, and Interfering substances of the representative VITROS assays
+on the VITROS XT 7600 System.
+
+== Precision
+
+Precision studies were conducted following EP05-A3,
+Evaluation of Precision of Quantitative Measurement Procedures,
+Approved Guidelines - Third Edition (2014).
+The study was performed by testing a minimum of two Quality
+control fluids and three human based precision fluids using the
+Carbamazepine (CRBM),
+Creatinine (CREA),
+and Total Bilirubin (TBIL) assays.
+
+Samples were analyzed using one VITROS XT 7600 Integrated
+System over 20 days,
+with 2 runs per day and 2 replicates per specimen (n=80).
+
+indexterm:[precision, CLSI EP05-A3]
+
+== CRBM Precision Table (Conventional units)
+
+[width="100%",cols="11%,4%,1%,13%,11%,8%,6%,8%,6%,8%,6%,10%,8%",options="header",]
+|===
+|Fluid ID |Mean (ug/mL) |N |Repeatability (Within Run) - SD (ug/mL)
+|Repeatability (Within Run) - %CV |Within Day - SD (ug/mL) |Within Day -
+%CV |Between Day - SD (ug/mL) |Between Day - %CV |Between Cal - SD
+(ug/mL) |Between Cal - %CV |Within Lab (Total) - SD (ug/mL) |Within Lab
+(Total) - %CV
+|CRBM- PP1 |3.9 |80 |0.13 |3.30 |0.13 |3.30 |0.08 |2.08 |0.03 |0.77
+|0.16 |3.98
+
+|CRBM- 6155-1 |4.7 |80 |0.14 |2.97 |0.14 |3.02 |0.00 |0.00 |0.07 |1.40
+|0.16 |3.32
+
+|CRBM- 6156-2 |10.1 |80 |0.24 |2.38 |0.25 |2.46 |0.00 |0.00 |0.13 |1.25
+|0.28 |2.76
+
+|CRBM- PP3 |11.6 |80 |0.30 |2.57 |0.35 |2.98 |0.00 |0.00 |0.18 |1.56
+|0.39 |3.37
+
+|CRBM- 5896-3 |13.1 |80 |0.29 |2.19 |0.35 |2.67 |0.00 |0.00 |0.22 |1.64
+|0.41 |3.14
+
+|CRBM- PP5 |17.6 |80 |0.33 |1.86 |0.37 |2.10 |0.10 |0.57 |0.18 |1.03
+|0.42 |2.41
+|===
+
+== CREA Serum Precision Table (Conventional units)
+
+[width="99%",cols="10%,4%,1%,13%,11%,8%,6%,8%,6%,8%,6%,11%,8%",options="header",]
+|===
+|Fluid ID |Mean (mg/dL) |N |Repeatability (Within Run) - SD (mg/dL)
+|Repeatability (Within Run) - %CV |Within Day - SD (mg/dL) |Within Day -
+%CV |Between Day - SD (mg/dL) |Between Day - %CV |Between Cal - SD
+(mg/dL) |Between Cal - %CV |Within Lab (Total) - SD (mg/dL ) |Within Lab
+(Total) - %CV
+|CREAS- 5903-1 |0.82 |80 |0.006 |0.713 |0.009 |1.050 |0.003 |0.364
+|0.009 |1.121 |0.013 |1.579
+
+|CREAS- PP1 |0.88 |80 |0.006 |0.642 |0.007 |0.743 |0.008 |0.954 |0.012
+|1.400 |0.016 |1.850
+
+|CREAS- SRM |0.99 |80 |0.007 |0.697 |0.008 |0.829 |0.006 |0.568 |0.014
+|1.396 |0.017 |1.720
+
+|CREAS- 5905-2 |5.39 |80 |0.039 |0.716 |0.049 |0.914 |0.058 |1.075
+|0.043 |0.804 |0.088 |1.624
+
+|CREAS- PP2 |9.63 |80 |0.057 |0.594 |0.070 |0.729 |0.049 |0.513 |0.104
+|1.079 |0.135 |1.400
+
+|CREAS- PP5 |12.65 |80 |0.109 |0.865 |0.109 |0.865 |0.071 |0.563 |0.108
+|0.850 |0.169 |1.337
+|===
+
+== CREA Urine Precision Table (Conventional units)
+
+[width="100%",cols="11%,4%,1%,13%,11%,8%,6%,8%,6%,8%,6%,10%,8%",options="header",]
+|===
+|Fluid ID |Mean (mg/dL) |N |Repeatability (Within Run) - SD (mg/dL)
+|Repeatability (Within Run) - %CV |Within Day - SD (mg/dL) |Within Day -
+%CV |Between Day - SD (mg/dL) |Between Day - %CV |Between Cal - SD
+(mg/dL) |Between Cal - %CV |Within Lab (Total) - SD (mg/dL) |Within Lab
+(Total) - %CV
+|CREAU- 66791-1 |55.6 |80 |0.58 |1.05 |0.67 |1.20 |0.43 |0.77 |0.96
+|1.72 |1.24 |2.23
+
+|CREAU-PP1 |78.4 |80 |1.10 |1.40 |1.13 |1.44 |0.35 |0.45 |0.68 |0.86
+|1.36 |1.73
+
+|CREAU-URN |88.0 |80 |0.69 |0.79 |0.98 |1.11 |0.29 |0.33 |0.97 |1.10
+|1.41 |1.60
+
+|CREAU- 66792-2 |131.2 |80 |1.67 |1.27 |1.89 |1.44 |0.76 |0.58 |1.78
+|1.36 |2.71 |2.06
+
+|CREAU-PP4 |251.8 |80 |1.99 |0.79 |2.12 |0.84 |1.01 |0.40 |3.11 |1.24
+|3.90 |1.55
+
+|CREAU-PP5 |320.9 |80 |2.99 |0.93 |3.49 |1.09 |1.49 |0.46 |3.99 |1.24
+|5.51 |1.72
+|===
+
+== TBIL Precision Table (Conventional units)
+
+[width="100%",cols="11%,4%,1%,13%,11%,8%,6%,8%,6%,8%,6%,10%,8%",options="header",]
+|===
+|Fluid ID |Mean (mg/dL) |N |Repeatability (Within Run) - SD (mg/dL)
+|Repeatability (Within Run) - %CV |Within Day - SD (mg/dL) |Within Day -
+%CV |Between Day - SD (mg/dL) |Between Day - %CV |Between Cal - SD
+(mg/dL) |Between Cal - %CV |Within Lab (Total) - SD (mg/dL) |Within Lab
+(Total) - %CV
+|TBIL-PP1 |0.3 |80 |0.01 |4.54 |0.02 |5.20 |0.01 |4.25 |0.00 |0.00 |0.02
+|6.72
+
+|TBIL-5903- 1 |1.6 |80 |0.03 |1.68 |0.04 |2.88 |0.01 |0.51 |0.03 |1.84
+|0.05 |3.45
+
+|TBIL-PP3 |6.5 |80 |0.03 |0.52 |0.06 |0.87 |0.06 |0.88 |0.04 |0.64 |0.09
+|1.40
+
+|TBIL-5905- 2 |15.3 |80 |0.10 |0.67 |0.16 |1.05 |0.10 |0.68 |0.15 |0.99
+|0.24 |1.60
+
+|TBIL-PP5 |21.6 |80 |0.17 |0.77 |0.20 |0.92 |0.28 |1.29 |0.00 |0.00
+|0.34 |1.58
+|===
+
+== Linearity
+
+Linearity studies were performed according to CLSI EP06-A,
+Evaluation of the Linearity of Quantitative Measurement Procedures:
+A Statistical Approach Approved Guideline (2003).
+VITROS CRBM Slides,
+VITROS CREA Slides,
+and VITROS TBIL Slides were tested on the VITROS XT 7600
+Integrated System.
+A series of eleven proportionally related admixtures of low and
+high test fluids were tested to verify linearity;
+each sample was tested in triplicate,
+a minimum of two replicates was acceptable for analysis.
+
+The linearity studies support the claimed measuring ranges for
+the VITROS CRBM,
+VITROS CREA,
+and VITROS TBIL assays.
+
+== Detection Limits
+
+Detection capability studies for each analyte were evaluated
+based upon CLSI EP17-A2,
+Evaluation of Detection Capability for Clinical Laboratory
+Measurements Procedures:
+Approved Guidelines - Second Edition (2012).
+
+Limit of blank (LoB) studies were performed by testing 4 blank samples.
+Samples were tested in replicates of 6 over 3 days,
+using 3 lots of reagents,
+4 samples every day,
+for a total of 216 observations (72 results per reagent lot).
+The LoB value for each assay was defined as the highest value
+achieved using blank samples with the stated probability (i.e. α = 5%).
+Since the data for all assays were non-gaussian,
+a non-parametric approach was applied that estimates the LoB
+using the calculated rank position corresponding to the 95th
+percentile of the distribution of blank values observed.”
+
+Limit of detection (LoD) studies were performed by testing 4
+pools of human samples with analyte concentrations close to the
+expected detection limit for each analyte.
+Samples were tested in replicates of 6 over 3 days,
+using 3 lots of reagents,
+with the 4 human sample pools every day,
+for a total of 216 observations (72 results per reagent lot).
+The data were analyzed according to CLSI EP17-A2,
+using CLSI-approved statistical software Analyse-it version 4.95.4,
+Method Validation Edition (Analyse-it Software Limited,
+Leeds UK).
+The software calculated LoD using a pooled SD from the low
+level fluid results and the input LoB value for the assay,
+determined as described above.
+The LoD value for the assay is the highest resultant value
+achieved among the combinations of reagent lots and human pools evaluated,
+with the stated probability (i.e. β= 5%).
+
+Limit of Quantitation studies were performed using 4 pools of
+low level samples with analyte concentrations close to the
+expected LoQ of the corresponding assay.
+Samples were tested in replicates of 4 over 3 days,
+using 3 lots of reagents,
+4 samples every day,
+for a total of 144 observations (48 results per reagent lot).
+Ortho defines LoQ as the lowest concentration with an
+imprecision of ≤20% and percent total allowable error ≤ 19% for carbamazepine;
+imprecision of ≤20% and percent total allowable error ≤ 30% for
+creatinine in serum and urine,
+and imprecision of ≤25% and total allowable error ≤ 0.09 mg/dL
+for total bilirubin in serum.
+
+indexterm:[detection capability, LoB LoD and LoQ]
+
+The results of the detection capability studies for each assay
+are presented in the table below.
+
+[width="100%",cols="14%,14%,12%,33%,27%",options="header",]
+|===
+| |CARB (µg/mL) |TBIL mg/dL |Creatinine (mg/dL) - Serum/plasma
+|Creatinine (mg/dL) - Urine
+|LoB |0.6108 |0.0378 |0.0933 |1.9973
+
+|LoD |0.6821 |0.0722 |0.0991 |2.1986
+
+|LoQ |2.6860 |0.0616 |0.1119 |2.0060
+
+|Claimed LoQ |3.0 |0.10 |0.15 |3.2
+
+|Assay Range |3.0-20.0 |0.10-27.00 |0.15-14.0 |3.2-346.5
+|===
+
+== Specificity
+
+Interference Testing was performed in accordance with CLSI EP07-A2,
+Interference Testing in Clinical Chemistry,
+Approved Guidance-Second Edition.
+Clinical and Laboratory Standards Institute.
+November 2005,
+using VITROS CRBM,
+VITROS CREA and VITROS TBIL assays.
+
+indexterm:[interference testing, CLSI EP07-A2]
+
+Assays were tested on one VITROS XT 7600 Integrated System
+(’VITROS XT 7600,
+Test System) and one VITROS 5600 Integrated System (VITROS 5600,
+Predicate/Control System).
+Testing on the representative assays included known chemical interferents,
+common chemical substances identified with potential to
+interfere based upon risk assessment,
+as well as several claimed non-interferents.
+If hemoglobin,
+bilirubin,
+and/or intralipid were not previously identified as known
+interferents for the representative assays,
+Hemolysis,
+Icterus and/or Turbidity (HIT) indices,
+respectively,
+were evaluated during testing.
+Testing employed "`paireddifference`" assessment at a minimum
+of two analyte levels,
+as specified by CLSI EP07-A2.
+
+*VITROS Chemistry Products MicroSensor™:
+Sub-system of analyzer that performs automated
+semi-quantitative sample quality index determinations on
+serum/plasma and cerebrospinal fluid samples.
+The sample quality index determinations performed are hemolysis,
+icterus, and turbidity;
+also referred to as '`HIT indices`' or '`sample integrity indices`'.
+
+Results were evaluated as follows:
+
+Known Interferents:
+The observed bias was compared to predetermined acceptance
+criteria (the Maximum Allowable Interference (MAI)) per product design input,
+and the Claimed Bias derived from product claims.
+
+* If the observed bias was within the MAI criteria (either in a
+positive or negative direction) and/or less than the Claimed Bias,
+performance was acceptable.
+* If the observed bias was greater than the Claimed Bias, the bias was
+compared to the 95% Confidence Limit (one-sided) per CLSI EP07-A2. If
+the Claimed Bias fell within the 95% Confidence Limit, performance was
+acceptable.
+
+Potential Interferents and Non-Interfering Substances:
+The observed bias was compared to the Maximum Allowable
+Interference (MAI).
+
+* If the observed bias was within the MAI criteria (either in a
+positive or negative direction), performance was acceptable.
+* If the observed bias was greater than the MAI the bias was compared
+to the 95% Confidence Limit (two-sided) per CLSI EP07-A2. If the Claimed
+Bias fell within the 95% Confidence Limit, performance was acceptable.
+
+Results demonstrate acceptable bias on the VITROS XT 7600
+versus the VITROS 5600 for currently claimed interferents.
+The following previously untested analyte/interferent levels
+yielded new information for currently claimed interferent
+compounds as a result of testing:
+
+* 3.0 ug/mL CRBM/ 20 mg/dL Bilirubin on CRBM MicroSlides
+* 3.0 ug/mL CRBM/ 3.0 mg/dL Ethamsylate on CRBM MicroSlides
+* 3.0 ug/mL CRBM/ 394 mg/dL Ethanol on CRBM MicroSlides
+* 3.0 ug/mL CRBM/ 5.0 mg/dL Gentisic Acid on CRBM MicroSlides
+* 3.0 ug/mL CRBM/ 100 mg/dL N-Acetylcysteine on CRBM MicroSlides
+
+One new interfering substance was identified as a result of testing:
+
+* Tolazamide on CREA(s) MicroSlides
+
+For the above,
+bias profiles on the VITROS XT 7600 demonstrated equivalent
+magnitudes to those using the VITROS 5600,
+using the noted substances.
+The Instructions for Use (IFU) for the VITROS CRBM and CREA
+assays have been updated to claim the additional interfering levels.
+
+== Conclusion
+
+The data presented in this pre-market notification demonstrate
+that the performance of the VITROS XT 7600 Integrated System
+and the VITROS Chemistry Products assays are substantially
+equivalent to the cleared predicate devices.
+The VITROS Chemistry Products CRBM Slides,
+VITROS Chemistry Products CREA slides,
+and VITROS Chemistry Product TBIL Slides analyzed on the VITROS
+XT 7600 Integrated System are substantially equivalent to the
+VITROS Chemistry Products CRBM Slides (k160495),
+VITROS Chemistry Products CREA Slides (k063591),
+and VITROS Chemistry Products TBIL Slides (k840880) analyzed on
+the VITROS 5600 Integrated System.
+
+indexterm:[regulatory decision, substantial equivalence]
+
+Equivalence to predicates was demonstrated using commercially
+available reagents along with human serum,
+plasma, and urine samples.
+
+The data presented in the premarket notification provide a
+reasonable assurance that the VITROS XT 7600 Integrated System
+and the VITROS assays are safe and effective for the stated intended uses.

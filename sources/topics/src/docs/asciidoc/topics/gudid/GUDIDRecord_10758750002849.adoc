@@ -1,0 +1,238 @@
+// gudid-10758750002849
+// Topic: GUDIDRecord_10758750002849
+// Type: reference
+// Status: review
+:topic-id: gudid-10758750002849
+:topic-type: reference
+:topic-status: review
+:topic-keywords: primary DI, GS1, GMDN, JFY, ORTHO-CLINICAL DIAGNOSTICS, VITROS, creatinine, CREA slides, reagent kit, prescription kit, frozen storage
+:topic-summary: Describes the AccessGUDID device record for DI 10758750002849: VITROS (VITROS Chemistry Products CREA Slides) from ORTHO-CLINICAL DIAGNOSTICS, INC., catalog 6802584, a prescription kit under GMDN term 53252 (Creatinine IVD, reagent), product code JFY, stored at exactly -18 degrees Celsius, with a case package DI.
+:topic-notes: GUDID record, whole document, as converted from the PDF, exempt from size bounds as for the 07332940008604 record. The page-1 banner picture (AccessGUDID logo) and the label-discrepancy notice are kept as converted. The record states no copyright for itself; its GMDN trademark notice is quoted in :topic-license:. The record links a 'Terms of Use' for the D-U-N-S number and GMDN terms, but the PDF does not reproduce them. HAND-CORRECTED by decision, NOT reproducible by re-running the converter: the Package DI cell wraps in the PDF ("2075875000284" over "6") and the converter emitted "2075875000284 6"; it was set to the printed package DI 20758750002846. A re-conversion reintroduces the space. Converted with the default engine (reported by the converter as the tagged engine) with OCR on; one picture left as a picture. The converter's own title line was replaced by the topic title. Converter comments left as converted: 1 REVIEW, 0 Check. Eleven index terms.
+:topic-related: ext-ortho-vitros-crea-slides-ifu-j27323, ext-fda-k063591-510k-summary, ext-fda-k063591-review-memo, dex-k182063, ext-fda-k182063-510k-summary
+:topic-provenance: external
+:topic-citation: U.S. Food and Drug Administration and U.S. National Library of Medicine. AccessGUDID, device record for DI 10758750002849: VITROS, ORTHO-CLINICAL DIAGNOSTICS, INC. Public Version Number 5, Public Version Date June 21, 2023, DI Record Publish Date August 10, 2016. Accessed November 2, 2026. https://accessgudid.nlm.nih.gov/devices/10758750002849
+:topic-license: No copyright notice for the record itself is stated. GMDN notice quoted from the record: "GMDN® is a registered trademark of The GMDN Agency. All rights reserved. Used under licence from The GMDN Agency Ltd." The record refers to Terms of Use for the D-U-N-S number and GMDN terms; their text is not in the document, and no other use terms are stated.
+
+[[gudid-10758750002849]]
+= GUDIDRecord_10758750002849
+
+An official website of the United States government Here’s how you know
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::gudid/10758750002849/accessgudid-device-vitros-10758750002849-image-01.png["Picture on page 1",width=200]
+
+== DEVICE: VITROS (10758750002849)
+
+[NOTE,caption="Notice"]
+Any discrepancies with this record compared to the label? If so, send a picture of the label to mailto:GUDIDSupport@fda.hhs.gov[{empty}GUDIDSupport@fda.hhs.gov].
+
+=== DEVICE IDENTIFIER (DI) INFORMATION
+
+indexterm:[device identification, primary DI]
+
+[.underline]##Brand Name:## VITROS
+
+[.underline]##Version or Model:## 6802584
+
+[.underline]##Commercial Distribution Status:## In Commercial Distribution
+
+Catalog Number:
+6802584
+
+Company Name:
+ORTHO-CLINICAL DIAGNOSTICS,
+INC.
+
+[.underline]##Primary DI Number:## 10758750002849
+
+[.underline]##Issuing Agency:## GS1
+
+Commercial Distribution End Date:
+
+[.underline]##Device Count:## 1
+
+{empty}[.underline]##Labeler D-U-N-S® Number++*++:## 623873044
+++*++link:https://accessgudid.nlm.nih.gov/terms[Terms of Use]
+
+Device Description:
+VITROS Chemistry Products CREA Slides
+
+=== DEVICE CHARACTERISTICS
+
+[cols="<61,<39",width=100%,options=noheader]
+|===
+|[.underline]##What MRI safety information does the labeling contain?## |Labeling does not contain MRI Safety Information
+
+|[.underline]##Device required to be labeled as containing natural rubber latex or dry natural rubber (21 CFR 801.437):## |No
+
+|[.underline]##Device labeled as "Not made with natural rubber latex":## |No
+
+|[.underline]##For Single-Use:## |No
+
+|Prescription Use (Rx): |Yes
+
+|Over the Counter (OTC): |No
+
+|[.underline]##Kit:## |Yes
+
+|[.underline]##Combination Product:## |No
+
+|[.underline]##Human Cell, Tissue or Cellular or Tissue-Based Product (HCT/P):## |No
+|===
+
+=== GMDN
+
+indexterm:[device identification, GMDN]
+indexterm:[creatinine assay, GMDN term]
+
+*GMDN©* Term Code,
+Names and Definitions
+(++*++link:https://accessgudid.nlm.nih.gov/terms[Terms of Use]):
+*GMDN®* is a registered trademark of The GMDN Agency.
+All rights reserved.
+Used under licence from The GMDN Agency Ltd.
+
+[cols="<12,<18,<47,<12,<12",width=100%,options=header]
+|===
+|GMDN Term Code |GMDN Term Name |GMDN Term Deﬁnition |GMDN Term Status |Implantable ?
+
+|53252 |Creatinine IVD, reagent |A substance or reactant intended to be used together with other IVDs to perform a specific function in an assay that is used for the qualitative and/or quantitative detection of creatinine in a clinical specimen. |Active |false
+|===
+
+=== FDA PRODUCT CODE
+
+indexterm:[device identification, FDA product code]
+
+[cols="<27,<73",width=64%,options=header]
+|===
+|Product Code |Product Code Name
+
+|JFY |ENZYMATIC METHOD, CREATININE
+|===
+
+=== FDA PREMARKET SUBMISSION
+
+indexterm:[device identification, premarket submission]
+
+[cols="<62,<38",width=64%,options=header]
+|===
+|FDA Premarket Submission Number |Supplement Number
+
+2+|Premarket Submission Number Not Available/Not Released
+|===
+
+[.underline]##Device Exempt from Premarket Submission:## No
+
+=== STERILIZATION
+
+indexterm:[device identification, sterilization]
+
+[.underline]##Device Packaged as Sterile:## No
+
+[.underline]##Requires Sterilization Prior to Use:## No
+
+[cols="<100",width=64%,options=header]
+|===
+|Sterilization Method
+
+|No Sterilization Methods Found
+|===
+
+=== STORAGE AND HANDLING
+
+indexterm:[device identification, storage and handling]
+
+[cols="<100",width=64%,options=header]
+|===
+|Storage and Handling
+
+|Storage Environment Temperature: exactly -18 Degrees Celsius
+|===
+
+=== CLINICALLY RELEVANT SIZE
+
+[cols="<100",width=64%,options=header]
+|===
+|Size Type Text
+
+|No Device Sizes
+|===
+
+=== DEVICE RECORD STATUS
+
+indexterm:[device identification, record status and public version]
+
+[.underline]##Public Device Record Key:##
+fb91c16e-52ec-4744-b20a-18040e6fdb69
+
+[.underline]##Public Version Date:## June 21,
+2023
+
+[.underline]##Public Version Number:## 5
+
+[.underline]##DI Record Publish Date:## August 10,
+2016
+
+=== ALTERNATIVE AND ADDITIONAL IDENTIFIERS ADDITIONAL IDENTIFIERS
+
+=== PACKAGE DI
+
+indexterm:[device identification, package DI]
+
+[cols="<16,<17,<16,<20,<20,<12",width=100%,options=header]
+|===
+|Package DI Number |Quantity per Package |Contains DI Package |Package Discontinue Date |Package Status |Package Type
+
+|20758750002846 |30 |10758750002849 | |In Commercial Distribution |Case
+|===
+
+=== SECONDARY DI
+
+[cols="<42,<58",width=64%,options=header]
+|===
+|Issuing Agency |Secondary DI Number
+
+2+|No Secondary DIs found
+|===
+
+=== UNIT OF USE DI
+
+Unit of Use DI Number:
+No Unit of Use DI Numbers Found
+
+=== DIRECT MARKING (DM)
+
+indexterm:[device identification, direct marking]
+
+Device Subject to Direct Marking (DM),
+but Excepted:
+No
+
+DM DI Different from Primary DI:
+No
+
+DM DI Number:
+None
+
+=== PRODUCTION IDENTIFIER(S) IN UDI
+
+indexterm:[device identification, production identifiers]
+
+Lot or Batch Number:
+Yes
+
+Serial Number:
+No
+
+Expiration Date:
+Yes
+
+Manufacturing Date:
+No
+
+[.underline]##Donation Identiﬁcation Number:## No
+
+=== CUSTOMER CONTACT
+
+No Customer Contact currently defined

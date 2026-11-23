@@ -36,11 +36,15 @@ include::{topics}/topics/dex/510kDecisionSum_K230440.adoc[leveloffset=+2]
 
 include::{topics}/topics/dex/510kDecisionSum_K231481.adoc[leveloffset=+2]
 
+include::{topics}/topics/dex/510kDecisionSum_K182063.adoc[leveloffset=+2]
+
 == GUDID Records
 
 include::{topics}/topics/gudid/GUDIDRecord_07332940008581.adoc[leveloffset=+2]
 
 include::{topics}/topics/gudid/GUDIDRecord_07332940008604.adoc[leveloffset=+2]
+
+include::{topics}/topics/gudid/GUDIDRecord_10758750002849.adoc[leveloffset=+2]
 
 [index]
 == Index
