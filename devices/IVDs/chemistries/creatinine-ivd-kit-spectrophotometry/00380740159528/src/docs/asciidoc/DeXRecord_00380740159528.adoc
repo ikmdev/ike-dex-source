@@ -1,0 +1,1555 @@
+= DeX Record: Creatinine2 4500 Tests (Alinity)
+:toc: left
+:toclevels: 4
+:sectnums:
+:source-highlighter: none
+:record-name: Creatinine2 4500 Tests
+:primary-author: Elizabeth Zarrilli
+:reviewer: Amy Altman, PhD
+:review-date: 11/19/2026
+:src-gudid: GUDIDRecord_00380740159528.adoc
+:src-gudid-id: gudid-00380740159528
+:src-510k: 510kDecisionSum_K210452.adoc
+:src-510k-id: dex-k210452
+
+[abstract]
+DeX record for the Abbott Ireland Alinity Creatinine2 4500 Tests.
+Each table represents a Semantic of the DeX record and lists a data element, its data type, its value in the record for this device, and its source.
+
+[[record-metadata]]
+== Record Metadata
+
+Primary Author::
+{primary-author}
+
+Reviewer::
+{reviewer}
+
+Reviewer Sign-off Date::
+{review-date}
+
+== Record Structure
+
+The record has two scopes:
+
+Device Scope::
+The following Semantics reference the device Concept:
++
+* GUDID Device Concept
+** Description Semantic(s)
+** Identifier Semantic(s)
+** Stated Definition(s)
+* Device Company Semantic
+* Indication for Use Semantic
+* Predicate Device Semantic
+* Regulatory Classification Semantic
+* Test Performed Semantic(s)
+
+Test Performed Scope::
+There is a _Test Performed Semantic_ for each test performed by the device, unique at the Specimen/Analyte level.
+Every Semantic in this scope references a test performed.
+This device has *three* tests performed,
+so it has three Associated Devices Semantics and three Results Description Semantics.
+Each test also has three Limit Metrics Semantics (limit of detection, limit of blank, and limit of quantitation) and one Measuring Range Semantic.
+The serum and plasma tests each have six Population Reference Range Semantics and the urine test has four,
+for a total of nine Limit Metrics Semantics, three Measuring Range Semantics, and sixteen Population Reference Range Semantics.
+The plasma and urine tests each also have one Comment Semantic to note discrepancies found when gathering the device data.
+
+[listing]
+----
+DeX Record: Creatinine2 4500 Tests
+│
+└── DEVICE (Creatinine2 4500 Tests [00380740159528])
+    ├── Description Semantic(s)
+    ├── Identifier Semantic(s)
+    ├── Stated Definition Semantic(s)
+    ├── Device Company Semantic
+    ├── Indication for Use Semantic
+    ├── Predicate Device Semantic
+    ├── Regulatory Classification Semantic
+    ├── Test Performed Semantic 1 (Creatinine / Serum)
+    │   ├── Associated Devices Semantic
+    │   ├── Results Description Semantic
+    │   ├── Limit Metrics Semantic (x3: LoD, LoB, LoQ)
+    │   ├── Measuring Range Semantic
+    │   └── Population Reference Range Semantic (x6)
+    ├── Test Performed Semantic 2 (Creatinine / Plasma)
+    │   ├── Comment Semantic
+    │   ├── Associated Devices Semantic
+    │   ├── Results Description Semantic
+    │   ├── Limit Metrics Semantic (x3: LoD, LoB, LoQ)
+    │   ├── Measuring Range Semantic
+    │   └── Population Reference Range Semantic (x6)
+    └── Test Performed Semantic 3 (Creatinine / Urine)
+        ├── Comment Semantic
+        ├── Associated Devices Semantic
+        ├── Results Description Semantic
+        ├── Limit Metrics Semantic (x3: LoD, LoB, LoQ)
+        ├── Measuring Range Semantic
+        └── Population Reference Range Semantic (x4)
+----
+
+[[sources]]
+== Sources
+
+Each Source cell in the tables below links to the source document,
+transformed into Asciidoc format,
+which is stored in the same folder as this record.
+LOINC and SNOMED CT values are additionally cited by the terminology release listed below.
+
+GUDID::
+U.S. Food and Drug Administration and U.S. National Library of Medicine.
+AccessGUDID, device record for DI 00380740159528: Alinity 04T9120, ABBOTT IRELAND.
+Accessed November 2, 2026.
+https://accessgudid.nlm.nih.gov/devices/00380740159528 +
+Document: xref:{src-gudid}#{src-gudid-id}[{src-gudid}]
+
+510(k) Decision Summary::
+U.S. Food and Drug Administration, Center for Devices and Radiological Health.
+510(k) Substantial Equivalence Determination Decision Summary, Assay Only: K210452, Creatinine2.
+Applicant: Abbott Ireland Diagnostics Division.
+https://www.accessdata.fda.gov/cdrh_docs/reviews/K210452.pdf +
+Document: xref:{src-510k}#{src-510k-id}[{src-510k}]
+
+LOINC::
+Regenstrief Institute.
+LOINC (Logical Observation Identifiers Names and Codes), Version 2.83, released August 19, 2026.
+Accessed November 18, 2026.
+https://loinc.org/downloads/
+
+SNOMED CT::
+SNOMED International.
+SNOMED CT International Edition, October 2026 Release (effective 20261001; package SnomedCT_InternationalRF2_PRODUCTION_20261001T120000Z).
+Accessed November 18, 2026.
+https://www.nlm.nih.gov/healthit/snomedct/international.html
+
+[[device]]
+== Device
+
+[[device-concept]]
+=== GUDID Device Concept
+
+[[description-semantics]]
+==== Description Semantics
+.Description Semantic 1: Fully Qualified Name
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Language for Description
+| Component Display Field
+| k:uuid=02018e5a-46ba-5297-92f1-6931b9f98a12,06d905ea-c647-3af9-bfe5-2514e135b558,45021920-9567-11e5-8994-feff819cdc9f[English]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Description Text
+| String
+| Alinity 04T9120
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Description Case Significance
+| Component Display Field
+| k:uuid=ecea41a2-f596-3d98-99d1-771b667e55b8[Insensitive]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Description Type
+| Component Display Field
+| k:uuid=00791270-77c9-32b6-b34f-d932569bd2bf,5e1fe940-8faf-11db-b606-0800200c9a66[Fully Qualified Name]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+|===
+
+.Description Semantic 2: Regular Name
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Language for Description
+| Component Display Field
+| k:uuid=02018e5a-46ba-5297-92f1-6931b9f98a12,06d905ea-c647-3af9-bfe5-2514e135b558,45021920-9567-11e5-8994-feff819cdc9f[English]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Description Text
+| String
+| Creatinine2 4500 Tests
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Description Case Significance
+| Component Display Field
+| k:uuid=ecea41a2-f596-3d98-99d1-771b667e55b8[Insensitive]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Description Type
+| Component Display Field
+| k:uuid=8bfba944-3965-3946-9bcb-1e80a5da63a2,d6fad981-7df6-3388-94d8-238cc0465a79[Regular Name Description Type]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+|===
+
+[[identifier-semantics]]
+==== Identifier Semantics
+
+.Identifier Semantic 1: GS1 Primary DI
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Identifier Source
+| Component Display Field
+| k:uuid=bd5c11e4-b0eb-4971-b5bf-7d1ccc778a73[GS1]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Identifier Value
+| String
+| 00380740159528
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+|===
+
+.Identifier Semantic 2: FDA Premarket Submission Number
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Identifier Source
+| Component Display Field
+| k:uuid=8c0fd617-7cd8-4498-8aca-428c5361890b[FDA Premarket Submission Number]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| FDA Submission / Clearance Number
+| String
+| K210452
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+[[device-company-semantic]]
+=== Device Company Semantic
+
+.Device Company Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Device Labeler
+| Component Display Field
+| k:uuid=bb2a8964-1f11-4cb8-8f14-bfb282a470b5[ABBOTT IRELAND]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+|===
+
+[[indication-for-use-semantic]]
+=== Indication for Use Semantic
+
+.Indication for Use Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Indication for Use
+| String
+| The Creatinine2 assay is used for the quantitation of creatinine in human serum, plasma, or urine on the ARCHITECT c System.
+The Creatinine2 assay is to be used as an aid in the diagnosis and treatment of renal diseases, in monitoring renal dialysis, and as a calculation basis for measuring other urine analytes.
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+[[predicate-device-semantic]]
+=== Predicate Device Semantic
+
+.Predicate Device Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Predicate Device Name
+| Component ID Display Set
+| k:uuid=45ab7da8-b125-5bc9-a091-1cee9b55d876[Creatinine [00380740005979\]]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+[[regulatory-classification-semantic]]
+=== Regulatory Classification Semantic
+
+.Regulatory Classification Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| CLIA Complexity
+| Component Display Field
+| k:uuid=1f0c761c-ce62-49d2-92d3-36c7ba4d80d2[Moderate Complexity Test]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Prescription Status
+| Component Display Field
+| k:uuid=b424f8ba-81b2-49a4-8907-ddc376d44f29[Prescription Required]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Device Class
+| Component Display Field
+| k:uuid=c6565a03-1223-4f41-902a-837f307c1865[Class II]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+[[tests-performed]]
+== Tests Performed
+
+IMPORTANT: This device has *three* tests performed, one per specimen type (serum, plasma, and urine) for the creatinine analyte.
+Each _Test Performed Semantic_ below is followed by the Semantics that apply to *that* test performed only:
+Comment (plasma and urine tests only), Associated Devices, Results Description, Limit Metrics, Measuring Range, Population Reference Range.
+
+[[test-performed-1]]
+=== Test Performed 1: Creatinine / Serum
+
+[[test-performed-1-specimen]]
+==== Test Performed Semantic
+
+.Test Performed Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Test Performed LOINC Code
+| Component ID Display Set
+| k:uuid=706b83a3-df6d-5a13-9d6d-a26abad8a281[Creatinine [Mass/volume\] in Serum or Plasma [LOINC: 2160-0\]]
+| LOINC Version 2.83
+
+| Analyte
+| Component ID Display Set
+| k:uuid=37899487-d8d0-44bb-ac40-9f4efe16cdb3[Creatinine (Analyte)]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Target
+| Component ID Display Set
+| k:uuid=bbe7285b-bfad-43fc-9315-0659c6c28905[Creatinine (Target)]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Instrument
+| Component ID Display Set
+|
+* k:uuid=8cb8c9cb-b6b6-50b6-865b-aebc478ecc4c[Alinity c Processing Module (00380740137380)]
+* k:uuid=ed25c4ab-02f3-58ab-9835-4089c6c1a02e[Architect c8000 System (00380740023089)]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Specimen
+| Component ID Display Set
+| k:sctid=119364003[Serum specimen (specimen)]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Example UCUM Units
+| Component ID Display Set
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-1-associated-devices]]
+==== Associated Devices Semantic
+
+.Associated Devices Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Associated Devices
+| Component ID Display Set
+| k:uuid=f3a1d94e-bdce-592d-8151-dcea1863af6b[Consolidated Chemistry Calibrator (00380740164980)]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+|===
+
+[[test-performed-1-results-description]]
+==== Allowed Results Semantic
+
+.Allowed Results Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Allowed Results Set
+| Component ID Display Set
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-1-limit-metrics]]
+==== Limit Metrics Semantic
+
+.Limit Metrics Semantic (Limit Metric 1: LoD)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Limit Value
+| Float
+| 0.04
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Limit Metric Type
+| Component Display Field
+| k:uuid=651b040d-0155-4089-9589-e31a831f82c7[LoD]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+.Limit Metrics Semantic (Limit Metric 2: LoB)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Limit Value
+| Float
+| 0.02
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Limit Metric Type
+| Component Display Field
+| k:uuid=43cb7e60-5f9b-4b46-beee-3f38fc45f762[LoB]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+.Limit Metrics Semantic (Limit Metric 3: LoQ)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Limit Value
+| Float
+| 0.09
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Limit Metric Type
+| Component Display Field
+| k:uuid=d0ef707f-79a4-4eaa-a449-5277a46e99be[LoQ]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+[[test-performed-1-measuring-range]]
+==== Measuring Range Semantic
+
+.Measuring Range Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Minimum Value
+| Float
+| 0.09
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Maximum Value
+| Float
+| 37.34
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Minimum Value Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Maximum Value Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-1-population-reference-range]]
+==== Population Reference Range Semantic
+
+.Population Reference Range Semantic 1: Female 18 to <41
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Female 18 to <41
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min
+| Float
+| 0.5
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max
+| Float
+| 1
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+.Population Reference Range Semantic 2: Male 18 to <41
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Male 18 to <41
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min
+| Float
+| 0.6
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max
+| Float
+| 1.2
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+.Population Reference Range Semantic 3: Female 41 to <61
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Female 41 to <61 
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min
+| Float
+| 0.5
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max
+| Float
+| 1.1
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+.Population Reference Range Semantic 4: Male 41 to <61
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Male 41 to <61
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min
+| Float
+| 0.6
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max
+| Float
+| 1.3
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+.Population Reference Range Semantic 5: Female >=61
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Female >=61
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min
+| Float
+| 0.5
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max
+| Float
+| 1.2
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+.Population Reference Range Semantic 6: Male >=61
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Male >=61
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min
+| Float
+| 0.7
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max
+| Float
+| 1.3
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-2]]
+=== Test Performed 2: Creatinine / Plasma
+
+[[test-performed-2-specimen]]
+==== Test Performed Semantic
+
+.Test Performed Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Test Performed LOINC Code
+| Component ID Display Set
+| k:uuid=706b83a3-df6d-5a13-9d6d-a26abad8a281[Creatinine [Mass/volume\] in Serum or Plasma [LOINC: 2160-0\]]
+| LOINC Version 2.83
+
+| Analyte
+| Component ID Display Set
+| k:uuid=37899487-d8d0-44bb-ac40-9f4efe16cdb3[Creatinine (Analyte)]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Target
+| Component ID Display Set
+| k:uuid=bbe7285b-bfad-43fc-9315-0659c6c28905[Creatinine (Target)]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Instrument
+| Component ID Display Set
+|
+* k:uuid=8cb8c9cb-b6b6-50b6-865b-aebc478ecc4c[Alinity c Processing Module (00380740137380)]
+* k:uuid=ed25c4ab-02f3-58ab-9835-4089c6c1a02e[Architect c8000 System (00380740023089)]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Specimen
+| Component ID Display Set
+| k:sctid=119361006[Plasma specimen (specimen)]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Example UCUM Units
+| Component ID Display Set
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-2-comment]]
+==== Comment Semantic
+
+.Comment Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Comment
+| String
+| Values for Limit of Detection, Measuring Range and Reference Ranges were not empirically tested on plasma specimens but are assumed to be equivalent to the serum sample based on Serum/Plasma bridging studies as outlined in 510K summary document.
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+[[test-performed-2-associated-devices]]
+==== Associated Devices Semantic
+
+.Associated Devices Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Associated Devices
+| Component ID Display Set
+| k:uuid=f3a1d94e-bdce-592d-8151-dcea1863af6b[Consolidated Chemistry Calibrator (00380740164980)]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+|===
+
+[[test-performed-2-results-description]]
+==== Allowed Results Semantic
+
+.Allowed Results Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Allowed Results Set
+| Component ID Display Set
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-2-limit-metrics]]
+==== Limit Metrics Semantic
+
+.Limit Metrics Semantic (Limit Metric 1: LoD)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Limit Value
+| Float
+| 0.04
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Limit Metric Type
+| Component Display Field
+| k:uuid=651b040d-0155-4089-9589-e31a831f82c7[LoD]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+.Limit Metrics Semantic (Limit Metric 2: LoB)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Limit Value
+| Float
+| 0.02
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Limit Metric Type
+| Component Display Field
+| k:uuid=43cb7e60-5f9b-4b46-beee-3f38fc45f762[LoB]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+.Limit Metrics Semantic (Limit Metric 3: LoQ)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Limit Value
+| Float
+| 0.09
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Limit Metric Type
+| Component Display Field
+| k:uuid=d0ef707f-79a4-4eaa-a449-5277a46e99be[LoQ]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+[[test-performed-2-measuring-range]]
+==== Measuring Range Semantic
+
+.Measuring Range Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Minimum Value
+| Float
+| 0.09
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Maximum Value
+| Float
+| 37.34
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Minimum Value Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Maximum Value Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-2-population-reference-range]]
+==== Population Reference Range Semantic
+
+.Population Reference Range Semantic 1: Female 18 to <41
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Female 18 to <41
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min
+| Float
+| 0.5
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max
+| Float
+| 1
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+.Population Reference Range Semantic 2: Male 18 to <41
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Male 18 to <41
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min
+| Float
+| 0.6
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max
+| Float
+| 1.2
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+.Population Reference Range Semantic 3: Female 41 to <61
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Female 41 to <61
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min
+| Float
+| 0.5
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max
+| Float
+| 1.1
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+.Population Reference Range Semantic 4: Male 41 to <61
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Male 41 to <61
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min
+| Float
+| 0.6
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max
+| Float
+| 1.3
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+.Population Reference Range Semantic 5: Female >=61
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Female >=61
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min
+| Float
+| 0.5
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max
+| Float
+| 1.2
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+.Population Reference Range Semantic 6: Male >=61
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Male >=61
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min
+| Float
+| 0.7
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max
+| Float
+| 1.3
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-3]]
+=== Test Performed 3: Creatinine / Urine
+
+[[test-performed-3-specimen]]
+==== Test Performed Semantic
+
+.Test Performed Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Test Performed LOINC Code
+| Component ID Display Set
+| k:uuid=eec72386-2f61-5e56-84dc-e59275d7367c[Creatinine [Mass/volume\] in Urine [LOINC: 2161-8\]]
+| LOINC Version 2.83
+
+| Analyte
+| Component ID Display Set
+| k:uuid=37899487-d8d0-44bb-ac40-9f4efe16cdb3[Creatinine (Analyte)]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Target
+| Component ID Display Set
+| k:uuid=bbe7285b-bfad-43fc-9315-0659c6c28905[Creatinine (Target)]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Instrument
+| Component ID Display Set
+|
+* k:uuid=8cb8c9cb-b6b6-50b6-865b-aebc478ecc4c[Alinity c Processing Module (00380740137380)]
+* k:uuid=ed25c4ab-02f3-58ab-9835-4089c6c1a02e[Architect c8000 System (00380740023089)]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Specimen
+| Component ID Display Set
+| k:sctid=122575003[Urine specimen (specimen)]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Example UCUM Units
+| Component ID Display Set
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-3-comment]]
+==== Comment Semantic
+
+.Comment Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Comment
+| String
+| There is a data discrepancy between the FDA decision summary document and the manufacturer's summary document for K210452. The values for LoD, LoB and LoQ for Urine specimen type do not match. The values from the manufacturer's summary are used herein.
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+[[test-performed-3-associated-devices]]
+==== Associated Devices Semantic
+
+.Associated Devices Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Associated Devices
+| Component ID Display Set
+| k:uuid=f3a1d94e-bdce-592d-8151-dcea1863af6b[Consolidated Chemistry Calibrator (00380740164980)]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+|===
+
+[[test-performed-3-results-description]]
+==== Allowed Results Semantic
+
+.Allowed Results Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Allowed Results Set
+| Component ID Display Set
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-3-limit-metrics]]
+==== Limit Metrics Semantic
+
+.Limit Metrics Semantic (Limit Metric 1: LoD)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Limit Value
+| Float
+| 1.05
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Limit Metric Type
+| Component Display Field
+| k:uuid=651b040d-0155-4089-9589-e31a831f82c7[LoD]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+.Limit Metrics Semantic (Limit Metric 2: LoB)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Limit Value
+| Float
+| 0.7
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Limit Metric Type
+| Component Display Field
+| k:uuid=43cb7e60-5f9b-4b46-beee-3f38fc45f762[LoB]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+.Limit Metrics Semantic (Limit Metric 3: LoQ)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Limit Value
+| Float
+| 2.3
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Limit Metric Type
+| Component Display Field
+| k:uuid=d0ef707f-79a4-4eaa-a449-5277a46e99be[LoQ]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+[[test-performed-3-measuring-range]]
+==== Measuring Range Semantic
+
+.Measuring Range Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Minimum Value
+| Float
+| 2.54
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Maximum Value
+| Float
+| 740
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Minimum Value Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Maximum Value Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-3-population-reference-range]]
+==== Population Reference Range Semantic
+
+.Population Reference Range Semantic 1: Male <40
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Male <40 
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min
+| Float
+| 24
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max
+| Float
+| 392
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+.Population Reference Range Semantic 2: Male >=40
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Male >=40
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min
+| Float
+| 22
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max
+| Float
+| 328
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+.Population Reference Range Semantic 3: Female <40
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Female <40 
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min
+| Float
+| 16
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max
+| Float
+| 327
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+.Population Reference Range Semantic 4: Female >=40
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Female >=40
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min
+| Float
+| 15
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max
+| Float
+| 278
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===

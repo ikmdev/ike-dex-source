@@ -88,6 +88,7 @@
         <subproject>IVDs/infectious-disease/sars-cov-2-nucleic-acid-ivd-kit-nucleic-acid-technique-nat/07332940008581</subproject>
         <subproject>IVDs/infectious-disease/multiple-type-respiratory-pathogen-nucleic-acid-ivd-kit-nucleic-acid-technique-nat/07332940008604</subproject>
         <subproject>IVDs/chemistries/creatinine-ivd-reagent/10758750002849</subproject>
+        <subproject>IVDs/chemistries/creatinine-ivd-kit-spectrophotometry/00380740159528</subproject>
         <!-- EVERY NEW DEVICE MUST BE ADDED HERE, by its path from this file, for example:
              <subproject>IVDs/chemistries/troponin-i-ivd-reagent/10054749000187</subproject>
              No pom is needed at the category or GMDN levels. A device missing from this list is
