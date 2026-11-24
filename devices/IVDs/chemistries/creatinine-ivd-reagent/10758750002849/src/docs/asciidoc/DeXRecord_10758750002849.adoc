@@ -1,0 +1,1093 @@
+= DeX Record: VITROS Chemistry Products CREA Slides (VITROS)
+:toc: left
+:toclevels: 4
+:sectnums:
+:source-highlighter: none
+:record-name: VITROS Chemistry Products CREA Slides
+:primary-author: Elizabeth Zarrilli
+:reviewer: Amy Altman, PhD
+:review-date: 11/19/2026
+:src-gudid: GUDIDRecord_10758750002849.adoc
+:src-gudid-id: gudid-10758750002849
+:src-510k: 510kDecisionSum_K182063.adoc
+:src-510k-id: dex-k182063
+:src-ifu: vitros-crea-slides/vitros-crea-slides-ifu.adoc
+
+[abstract]
+DeX record for the Ortho-Clinical Diagnostics VITROS Chemistry Products CREA Slides.
+Each table represents a Semantic of the DeX record and lists a data element, its data type, its value in the record for this device, and its source.
+
+[[record-metadata]]
+== Record Metadata
+
+Primary Author::
+{primary-author}
+
+Reviewer::
+{reviewer}
+
+Reviewer Sign-off Date::
+{review-date}
+
+== Record Structure
+
+The record has two scopes:
+
+Device Scope::
+The following Semantics reference the device Concept:
++
+* GUDID Device Concept
+** Description Semantic(s)
+** Identifier Semantic(s)
+** Stated Definition(s)
+* Device Company Semantic
+* Indication for Use Semantic
+* Predicate Device Semantic
+* Regulatory Classification Semantic
+* Test Performed Semantic(s)
+
+Test Performed Scope::
+There is a _Test Performed Semantic_ for each test performed by the device, unique at the Specimen/Analyte level.
+Every Semantic in this scope references a test performed, therefore there will be one of each Semantic per test performed by the device as they are dependent on the test performed.
+This device has *three* tests performed,
+so it has three Results Description Semantics, three Measuring Range Semantics, and so on.
+Two Semantics can repeat within a test performed:
+each test has three Limit Metrics Semantics (limit of detection, limit of blank, and limit of quantitation)
+and two Population Reference Range Semantics for each test performed,
+for a total of nine Limit Metrics Semantics and six Population Reference Range Semantics.
+This device has no Device Performance Semantics.
+
+[listing]
+----
+DeX Record: VITROS Chemistry Products CREA Slides
+│
+└── DEVICE (VITROS Chemistry Products CREA Slides [10758750002849])
+    ├── Description Semantic(s)
+    ├── Identifier Semantic(s) (GS1 Primary DI, two FDA Premarket Submission Numbers)
+    ├── Stated Definition Semantic(s)
+    ├── Device Company Semantic
+    ├── Indication for Use Semantic
+    ├── Predicate Device Semantic
+    ├── Regulatory Classification Semantic
+    ├── Test Performed Semantic 1 (Creatinine / Serum)
+    │   ├── Results Description Semantic
+    │   ├── Limit Metrics Semantic (x3: LoD, LoB, LoQ)
+    │   ├── Measuring Range Semantic
+    │   └── Population Reference Range Semantic (x2)
+    ├── Test Performed Semantic 2 (Creatinine / Plasma)
+    │   ├── Results Description Semantic
+    │   ├── Limit Metrics Semantic (x3: LoD, LoB, LoQ)
+    │   ├── Measuring Range Semantic
+    │   └── Population Reference Range Semantic (x2)
+    └── Test Performed Semantic 3 (Creatinine / Urine)
+        ├── Results Description Semantic
+        ├── Limit Metrics Semantic (x3: LoD, LoB, LoQ)
+        ├── Measuring Range Semantic
+        └── Population Reference Range Semantic (x2)
+----
+
+[[sources]]
+== Sources
+
+Each Source cell in the tables below links to the source document,
+transformed into Asciidoc format,
+which is stored in the same folder as this record.
+LOINC and SNOMED CT values are additionally cited by the terminology release listed below.
+
+GUDID::
+U.S. Food and Drug Administration and U.S. National Library of Medicine.
+AccessGUDID, device record for DI 10758750002849: VITROS 6802584, ORTHO-CLINICAL DIAGNOSTICS, INC.
+Accessed November 2, 2026.
+https://accessgudid.nlm.nih.gov/devices/10758750002849 +
+Document: xref:{src-gudid}#{src-gudid-id}[{src-gudid}]
+
+510(k) Decision Summary::
+U.S. Food and Drug Administration, Center for Devices and Radiological Health.
+510(k) Substantial Equivalence Determination Decision Summary, Assay and Instrument Combination: K182063, VITROS Chemistry Products CREA Slides.
+Applicant: Ortho-Clinical Diagnostics, Inc.
+https://www.accessdata.fda.gov/cdrh_docs/reviews/K182063.pdf +
+Document: xref:{src-510k}#{src-510k-id}[{src-510k}]
+
+Package Insert (IFU)::
+Ortho-Clinical Diagnostics, Inc.
+VITROS Chemistry Products CREA Slides Instructions for Use (Package Insert), Pub. No. J27323_US_EN, Version 14.0, February 2026. +
+Document: xref:{src-ifu}[{src-ifu}]
+
+LOINC::
+Regenstrief Institute.
+LOINC (Logical Observation Identifiers Names and Codes), Version 2.83, released August 19, 2026.
+Accessed November 11, 2026.
+https://loinc.org/downloads/
+
+SNOMED CT::
+SNOMED International.
+SNOMED CT International Edition, October 2026 Release (effective 20261001; package SnomedCT_InternationalRF2_PRODUCTION_20261001T120000Z).
+Accessed November 11, 2026.
+https://www.nlm.nih.gov/healthit/snomedct/international.html
+
+[[device]]
+== Device
+
+[[device-concept]]
+=== GUDID Device Concept
+
+[[description-semantics]]
+==== Description Semantics
+.Description Semantic 1: Fully Qualified Name
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Language for Description
+| Component Display Field
+| k:uuid=02018e5a-46ba-5297-92f1-6931b9f98a12,06d905ea-c647-3af9-bfe5-2514e135b558,45021920-9567-11e5-8994-feff819cdc9f[English]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Description Text
+| String
+| VITROS 6802584
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Description Case Significance
+| Component Display Field
+| k:uuid=ecea41a2-f596-3d98-99d1-771b667e55b8[Insensitive]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Description Type
+| Component Display Field
+| k:uuid=00791270-77c9-32b6-b34f-d932569bd2bf,5e1fe940-8faf-11db-b606-0800200c9a66[Fully Qualified Name]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+|===
+
+.Description Semantic 2: Regular Name
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Language for Description
+| Component Display Field
+| k:uuid=02018e5a-46ba-5297-92f1-6931b9f98a12,06d905ea-c647-3af9-bfe5-2514e135b558,45021920-9567-11e5-8994-feff819cdc9f[English]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Description Text
+| String
+| VITROS Chemistry Products CREA Slides
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Description Case Significance
+| Component Display Field
+| k:uuid=ecea41a2-f596-3d98-99d1-771b667e55b8[Insensitive]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Description Type
+| Component Display Field
+| k:uuid=8bfba944-3965-3946-9bcb-1e80a5da63a2,d6fad981-7df6-3388-94d8-238cc0465a79[Regular Name Description Type]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+|===
+
+[[identifier-semantics]]
+==== Identifier Semantics
+
+.Identifier Semantic 1: GS1 Primary DI
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Identifier Source
+| Component Display Field
+| k:uuid=bd5c11e4-b0eb-4971-b5bf-7d1ccc778a73[GS1]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Identifier Value
+| String
+| 10758750002849
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+|===
+
+.Identifier Semantic 2: FDA Premarket Submission Number (K063591)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Identifier Source
+| Component Display Field
+| k:uuid=8c0fd617-7cd8-4498-8aca-428c5361890b[FDA Premarket Submission Number]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| FDA Submission / Clearance Number
+| String
+| K063591
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+.Identifier Semantic 3: FDA Premarket Submission Number (K182063)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Identifier Source
+| Component Display Field
+| k:uuid=8c0fd617-7cd8-4498-8aca-428c5361890b[FDA Premarket Submission Number]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| FDA Submission / Clearance Number
+| String
+| K182063
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+[[device-company-semantic]]
+=== Device Company Semantic
+
+.Device Company Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Device Labeler
+| Component Display Field
+| k:uuid=725ba917-e9a2-4bdd-920a-ab95ebd3d411[ORTHO-CLINICAL DIAGNOSTICS, INC.]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+|===
+
+[[indication-for-use-semantic]]
+=== Indication for Use Semantic
+
+.Indication for Use Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Indication for Use
+| String
+| For in vitro diagnostic use only.
+VITROS CREA Slides quantitatively measure creatinine (CREA) concentration in serum, plasma, and urine.
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+[[predicate-device-semantic]]
+=== Predicate Device Semantic
+
+.Predicate Device Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Predicate Device Name
+| Component ID Display Set
+| k:uuid=fec1bdcf-1486-4d8d-becb-e71d486438d4[VITROS CHEMISTRY PRODUCTS CREA SLIDE (LEGACY)]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+[[regulatory-classification-semantic]]
+=== Regulatory Classification Semantic
+
+.Regulatory Classification Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| CLIA Complexity
+| Component Display Field
+| k:uuid=1f0c761c-ce62-49d2-92d3-36c7ba4d80d2[Moderate Complexity Test]
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Prescription Status
+| Component Display Field
+| k:uuid=b424f8ba-81b2-49a4-8907-ddc376d44f29[Prescription Required]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Device Class
+| Component Display Field
+| k:uuid=c6565a03-1223-4f41-902a-837f307c1865[Class II]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+[[tests-performed]]
+== Tests Performed
+
+IMPORTANT: This device has *three* tests performed, one per specimen type (serum, plasma, and urine) for the creatinine (CREA) analyte.
+Each _Test Performed Semantic_ below is followed by the Semantics that apply to *that* test performed only:
+Associated Devices, Results Description, Limit Metrics, Measuring Range, Population Reference Range.
+Each test has three Limit Metrics Semantics (LoD, LoB, LoQ) and two Population Reference Range Semantics.
+
+[[test-performed-1]]
+=== Test Performed 1: Creatinine (CREA) / Serum
+
+[[test-performed-1-specimen]]
+==== Test Performed Semantic
+
+.Test Performed Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Test Performed LOINC Code
+| Component ID Display Set
+| k:uuid=706b83a3-df6d-5a13-9d6d-a26abad8a281[Creatinine [Mass/volume\] in Serum or Plasma [LOINC: 2160-0\]]
+| LOINC Version 2.83
+
+| Analyte
+| Component ID Display Set
+| k:uuid=37899487-d8d0-44bb-ac40-9f4efe16cdb3[Creatinine (Analyte)]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Target
+| Component ID Display Set
+| k:uuid=bbe7285b-bfad-43fc-9315-0659c6c28905[Creatinine (Target)]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Instrument
+| Component ID Display Set
+|
+* k:uuid=abae8975-6862-582e-9d37-3acb88e51a5f[VITROS 250 Chemistry System (refurbished) (10758750001330)]
+* k:uuid=45daa223-7bb5-5574-8958-ef1c50292a9a[VITROS 350 Chemistry System (10758750002054)]
+* k:uuid=f0305398-79fe-43ed-8b32-edcdf6b524f3[VITROS 950 Chemistry System]
+* k:uuid=6ae0abe2-7bc1-4cf9-8c0b-c00a906f3a88[VITROS 5.1FS (module integrated into other lab automaton systems, not a stand alone analyser)]
+* k:uuid=92c3206d-785b-5197-848f-45052c8d3cc4[VITROS 4600 Chemistry System (10758750012343)]
+* k:uuid=ac397310-d697-59bf-bdc5-5b5f81fe5134[VITROS 5600 Chemistry System (10758750002740)]
+* k:uuid=4639ef5d-ae7f-5395-8470-7ef602b03b09[VITROS XT 7600 Integrated System (10758750031610)]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Specimen
+| Component ID Display Set
+| k:sctid=119364003[Serum specimen (specimen)]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Example UCUM Units
+| Component ID Display Set
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-1-results-description]]
+==== Allowed Results Semantic
+
+.Allowed Results Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Allowed Results Set
+| Component ID Display Set
+| k:sctid=258797006[mg/dL]
+| xref:{src-ifu}[Package Insert (IFU)] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-1-limit-metrics]]
+==== Limit Metrics Semantic
+
+.Limit Metrics Semantic (Limit Metric 1: LoD)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Limit Value
+| Float
+| 0.0991
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Limit Metric Type
+| Component Display Field
+| k:uuid=651b040d-0155-4089-9589-e31a831f82c7[LoD]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+.Limit Metrics Semantic (Limit Metric 2: LoB)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Limit Value
+| Float
+| 0.0933
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Limit Metric Type
+| Component Display Field
+| k:uuid=43cb7e60-5f9b-4b46-beee-3f38fc45f762[LoB]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+.Limit Metrics Semantic (Limit Metric 3: LoQ)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Limit Value
+| Float
+| 0.1119
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Limit Metric Type
+| Component Display Field
+| k:uuid=d0ef707f-79a4-4eaa-a449-5277a46e99be[LoQ]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+[[test-performed-1-measuring-range]]
+==== Measuring Range Semantic
+
+.Measuring Range Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Minimum Value
+| Float
+| 0.15
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Maximum Value
+| Float
+| 14
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Minimum Value Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Maximum Value Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-ifu}[Package Insert (IFU)] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-1-population-reference-range]]
+==== Population Reference Range Semantic
+
+.Population Reference Range Semantic 1: Male
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Male
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Min
+| Float
+| 0.66
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Max
+| Float
+| 1.25
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-ifu}[Package Insert (IFU)] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-ifu}[Package Insert (IFU)] +
+SNOMED CT International Edition, October 2026
+|===
+
+.Population Reference Range Semantic 2: Female
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Female
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Min
+| Float
+| 0.52
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Max
+| Float
+| 1.04
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-ifu}[Package Insert (IFU)] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-ifu}[Package Insert (IFU)] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-2]]
+=== Test Performed 2: Creatinine (CREA) / Plasma
+
+[[test-performed-2-specimen]]
+==== Test Performed Semantic
+
+.Test Performed Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Test Performed LOINC Code
+| Component ID Display Set
+| k:uuid=706b83a3-df6d-5a13-9d6d-a26abad8a281[Creatinine [Mass/volume\] in Serum or Plasma [LOINC: 2160-0\]]
+| LOINC Version 2.83
+
+| Analyte
+| Component ID Display Set
+| k:uuid=37899487-d8d0-44bb-ac40-9f4efe16cdb3[Creatinine (Analyte)]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Target
+| Component ID Display Set
+| k:uuid=bbe7285b-bfad-43fc-9315-0659c6c28905[Creatinine (Target)]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Instrument
+| Component ID Display Set
+|
+* k:uuid=abae8975-6862-582e-9d37-3acb88e51a5f[VITROS 250 Chemistry System (refurbished) (10758750001330)]
+* k:uuid=45daa223-7bb5-5574-8958-ef1c50292a9a[VITROS 350 Chemistry System (10758750002054)]
+* k:uuid=f0305398-79fe-43ed-8b32-edcdf6b524f3[VITROS 950 Chemistry System]
+* k:uuid=6ae0abe2-7bc1-4cf9-8c0b-c00a906f3a88[VITROS 5.1FS (module integrated into other lab automaton systems, not a stand alone analyser)]
+* k:uuid=92c3206d-785b-5197-848f-45052c8d3cc4[VITROS 4600 Chemistry System (10758750012343)]
+* k:uuid=ac397310-d697-59bf-bdc5-5b5f81fe5134[VITROS 5600 Chemistry System (10758750002740)]
+* k:uuid=4639ef5d-ae7f-5395-8470-7ef602b03b09[VITROS XT 7600 Integrated System (10758750031610)]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Specimen
+| Component ID Display Set
+| k:sctid=119361006[Plasma specimen (specimen)]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Example UCUM Units
+| Component ID Display Set
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-2-results-description]]
+==== Allowed Results Semantic
+
+.Allowed Results Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Allowed Results Set
+| Component ID Display Set
+| k:sctid=258797006[mg/dL]
+| xref:{src-ifu}[Package Insert (IFU)] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-2-limit-metrics]]
+==== Limit Metrics Semantic
+
+.Limit Metrics Semantic (Limit Metric 1: LoD)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Limit Value
+| Float
+| 0.0991
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Limit Metric Type
+| Component Display Field
+| k:uuid=651b040d-0155-4089-9589-e31a831f82c7[LoD]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+.Limit Metrics Semantic (Limit Metric 2: LoB)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Limit Value
+| Float
+| 0.0933
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Limit Metric Type
+| Component Display Field
+| k:uuid=43cb7e60-5f9b-4b46-beee-3f38fc45f762[LoB]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+.Limit Metrics Semantic (Limit Metric 3: LoQ)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Limit Value
+| Float
+| 0.1119
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Limit Metric Type
+| Component Display Field
+| k:uuid=d0ef707f-79a4-4eaa-a449-5277a46e99be[LoQ]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+[[test-performed-2-measuring-range]]
+==== Measuring Range Semantic
+
+.Measuring Range Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Minimum Value
+| Float
+| 0.15
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Maximum Value
+| Float
+| 14
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Minimum Value Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Maximum Value Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-ifu}[Package Insert (IFU)] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-2-population-reference-range]]
+==== Population Reference Range Semantic
+
+.Population Reference Range Semantic 1: Male
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Male
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Min
+| Float
+| 0.66
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Max
+| Float
+| 1.25
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-ifu}[Package Insert (IFU)] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-ifu}[Package Insert (IFU)] +
+SNOMED CT International Edition, October 2026
+|===
+
+.Population Reference Range Semantic 2: Female
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Female
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Min
+| Float
+| 0.52
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Max
+| Float
+| 1.04
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-ifu}[Package Insert (IFU)] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-ifu}[Package Insert (IFU)] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-3]]
+=== Test Performed 3: Creatinine (CREA) / Urine
+
+[[test-performed-3-specimen]]
+==== Test Performed Semantic
+
+.Test Performed Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Test Performed LOINC Code
+| Component ID Display Set
+|
+* k:uuid=718fe9ce-2e2d-5e29-9942-746cc7ed6621[Creatinine [Mass/volume\] in 24 hour Urine [LOINC: 20624-3\]]
+* k:uuid=eec72386-2f61-5e56-84dc-e59275d7367c[Creatinine [Mass/volume\] in Urine [LOINC: 2161-8\]]
+| LOINC Version 2.83
+
+| Analyte
+| Component ID Display Set
+| k:uuid=37899487-d8d0-44bb-ac40-9f4efe16cdb3[Creatinine (Analyte)]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Target
+| Component ID Display Set
+| k:uuid=bbe7285b-bfad-43fc-9315-0659c6c28905[Creatinine (Target)]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Instrument
+| Component ID Display Set
+|
+* k:uuid=abae8975-6862-582e-9d37-3acb88e51a5f[VITROS 250 Chemistry System (refurbished) (10758750001330)]
+* k:uuid=45daa223-7bb5-5574-8958-ef1c50292a9a[VITROS 350 Chemistry System (10758750002054)]
+* k:uuid=f0305398-79fe-43ed-8b32-edcdf6b524f3[VITROS 950 Chemistry System]
+* k:uuid=6ae0abe2-7bc1-4cf9-8c0b-c00a906f3a88[VITROS 5.1FS (module integrated into other lab automaton systems, not a stand alone analyser)]
+* k:uuid=92c3206d-785b-5197-848f-45052c8d3cc4[VITROS 4600 Chemistry System (10758750012343)]
+* k:uuid=ac397310-d697-59bf-bdc5-5b5f81fe5134[VITROS 5600 Chemistry System (10758750002740)]
+* k:uuid=4639ef5d-ae7f-5395-8470-7ef602b03b09[VITROS XT 7600 Integrated System (10758750031610)]
+| xref:{src-gudid}#{src-gudid-id}[GUDID]
+
+| Specimen
+| Component ID Display Set
+| k:sctid=122575003[Urine specimen (specimen)]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Example UCUM Units
+| Component ID Display Set
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-3-results-description]]
+==== Allowed Results Semantic
+
+.Allowed Results Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Allowed Results Set
+| Component ID Display Set
+|
+* k:sctid=258797006[mg/dL]
+* k:sctid=258835005[mg/day]
+| xref:{src-ifu}[Package Insert (IFU)] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-3-limit-metrics]]
+==== Limit Metrics Semantic
+
+.Limit Metrics Semantic (Limit Metric 1: LoD)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Limit Value
+| Float
+| 2.1986
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Limit Metric Type
+| Component Display Field
+| k:uuid=651b040d-0155-4089-9589-e31a831f82c7[LoD]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+.Limit Metrics Semantic (Limit Metric 2: LoB)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Limit Value
+| Float
+| 1.9973
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Limit Metric Type
+| Component Display Field
+| k:uuid=43cb7e60-5f9b-4b46-beee-3f38fc45f762[LoB]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+.Limit Metrics Semantic (Limit Metric 3: LoQ)
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Limit Value
+| Float
+| 2.006
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary] +
+SNOMED CT International Edition, October 2026
+
+| Limit Metric Type
+| Component Display Field
+| k:uuid=d0ef707f-79a4-4eaa-a449-5277a46e99be[LoQ]
+| xref:{src-510k}#{src-510k-id}[510(k) Decision Summary]
+|===
+
+[[test-performed-3-measuring-range]]
+==== Measuring Range Semantic
+
+.Measuring Range Semantic
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Minimum Value
+| Float
+| 3.2
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Maximum Value
+| Float
+| 346.5
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Minimum Value Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Maximum Value Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258797006[mg/dL]
+| xref:{src-ifu}[Package Insert (IFU)] +
+SNOMED CT International Edition, October 2026
+|===
+
+[[test-performed-3-population-reference-range]]
+==== Population Reference Range Semantic
+
+.Population Reference Range Semantic 1: Male
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Male
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Min
+| Float
+| 1000
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Max
+| Float
+| 2000
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258835005[mg/day]
+| xref:{src-ifu}[Package Insert (IFU)] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-ifu}[Package Insert (IFU)] +
+SNOMED CT International Edition, October 2026
+|===
+
+.Population Reference Range Semantic 2: Female
+[cols="2,2,5a,2",options="header"]
+|===
+| Data Element | Data Type | Value | Source
+
+| Population
+| String
+| Female
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Min
+| Float
+| 800
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Max
+| Float
+| 1800
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Min Operator
+| Component Display Field
+| k:uuid=c1baba19-e918-5d2c-8fa4-b0ad93e03186[greater than or equal to]
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Reference Range Max Operator
+| Component Display Field
+| k:uuid=6dfacbd5-8344-5794-9fda-bec95b2aa6c9[less than or equal to]
+| xref:{src-ifu}[Package Insert (IFU)]
+
+| Example UCUM Units
+| Component Display Field
+| k:sctid=258835005[mg/day]
+| xref:{src-ifu}[Package Insert (IFU)] +
+SNOMED CT International Edition, October 2026
+
+| Interpretation
+| Component ID Display Set
+| k:sctid=280413001[Normal result]
+| xref:{src-ifu}[Package Insert (IFU)] +
+SNOMED CT International Edition, October 2026
+|===
