@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.1.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.1.0
+         http://maven.apache.org/xsd/maven-4.1.0.xsd">
+    <modelVersion>4.1.0</modelVersion>
+
+    <parent>
+        <relativePath>../../../../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>00380740159528</artifactId>
+    <packaging>pom</packaging>
+
+    <name>00380740159528: Alinity Creatinine2 4500 Tests</name>
+    <description>Source documents for Abbott Ireland Alinity Creatinine2 4500 Tests (GUDID, 510(k) K210452 decision summary and 510(k) summary), rebuilt from the topic library.</description>
+
+    <properties>
+        <pdf.source.document>DeXRecord_00380740159528</pdf.source.document>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>topics</artifactId>
+            <version>${project.version}</version>
+            <classifier>adoc</classifier>
+            <type>zip</type>
+        </dependency>
+    </dependencies>
+</project>

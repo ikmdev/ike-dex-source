@@ -38,6 +38,8 @@ include::{topics}/topics/dex/510kDecisionSum_K231481.adoc[leveloffset=+2]
 
 include::{topics}/topics/dex/510kDecisionSum_K182063.adoc[leveloffset=+2]
 
+include::{topics}/topics/dex/510kDecisionSum_K210452.adoc[leveloffset=+2]
+
 == GUDID Records
 
 include::{topics}/topics/gudid/GUDIDRecord_07332940008581.adoc[leveloffset=+2]
@@ -45,6 +47,8 @@ include::{topics}/topics/gudid/GUDIDRecord_07332940008581.adoc[leveloffset=+2]
 include::{topics}/topics/gudid/GUDIDRecord_07332940008604.adoc[leveloffset=+2]
 
 include::{topics}/topics/gudid/GUDIDRecord_10758750002849.adoc[leveloffset=+2]
+
+include::{topics}/topics/gudid/GUDIDRecord_00380740159528.adoc[leveloffset=+2]
 
 [index]
 == Index

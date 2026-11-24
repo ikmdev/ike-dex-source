@@ -1,0 +1,1001 @@
+// ext-fda-k210452-510k-summary
+// Topic: Creatinine2 510(k) Summary K210452
+// Type: reference
+// Status: review
+:topic-id: ext-fda-k210452-510k-summary
+:topic-type: reference
+:topic-status: review
+:topic-keywords: 510(k) summary, K210452, clearance letter, Abbott Ireland Diagnostics Division, Creatinine2, creatinine, ARCHITECT c System, CGX, predicate k083809, precision, method comparison, interference
+:topic-summary: Reproduces the FDA clearance letter of March 22, 2022, the Indications for Use form (FDA 3881) and Abbott Ireland Diagnostics Division's 510(k) Summary for K210452: the Creatinine2 assay (List No. 04S95), a kinetic alkaline picrate test for creatinine in serum, plasma and urine on the ARCHITECT c System, compared with the predicate Creatinine (k083809), with reportable interval, precision, accuracy, detection limit, linearity, interference, method comparison and tube type studies.
+:topic-notes: Whole-document topic, size bounds exempt as for the dex- and gudid- records: the 22-page PDF (FDA clearance letter, FDA Form 3881 Indications for Use, and Abbott's 510(k) Summary, Section 5) is reproduced as converted. Whole-document handling is a project decision; the standard default for external sources is decomposition. Not a DeX record: page 1 is a clearance letter, not a Decision Summary, and IKE-DEX-INGEST says not to apply the DeX shape to 510(k) summaries; the Decision Summary is the separate topic dex-k210452. Converted with the Docling engine by decision: the tagged engine (the default) garbled the Within-Laboratory SD and %CV columns of both precision tables on pages 11 and 12, and the layout engine gave the same result. Docling reads text by OCR or a layout model, so every number, unit and comparator was checked token by token against the PDF text layer and the page images: no clinical number is wrong. The converter's comment block (its text-unverified and replacement-character checks) was removed after the decisions below; the converter's own title was replaced by the topic title, and the picture alt text 'Image 1' was replaced by a description (the picture is the FDA logo from page 1). HAND-CORRECTED by decision, NOT reproducible by re-running the converter: (1) page 3 Form FDA 3881 type-of-use line, which the converter emitted as '* [ ] U+FFFD Prescription Use ... D Over-The-Counter Use', was set to '[x] Prescription Use' and '[ ] Over-The-Counter Use' as the page marks them; (2) page 2 hyphens lost at line breaks were restored in four fda.gov URLs (postmarketing-safety-reporting-combination-products, medical-device-reporting-mdr-how-report-medical-device-problems, medical-devices/device-advice-comprehensive-regulatory-assistance, regulatory-assistance/contact-us-division-industry-and-consumer-education-dice) from the PDF hyperlink targets, and 'Sections 531542' was set to 'Sections 531-542'; (3) page 3 OCR misreads were set to the printed text: '0MB' to 'OMB' (twice), '51 0(k) Number' to '510(k) Number' and 'PRAStaff@fda.hhS.(JOV' to 'PRAStaff@fda.hhs.gov'. A re-conversion reintroduces all of these. Left as converted by decision, nothing hand-corrected: all 42 headings are level 2 (roman-numeral sections, lettered subsections and sub-labels such as Serum/Plasma and Urine at one level, and a 'Reagents' sub-label); footnote lines that start with an asterisk are read as list bullets; the signature and Re: blocks run together; multi-line table cells are flattened; the method-comparison banner text is repeated in each header cell and the precision tables carry flattened spanning headers; dashes shown as hyphens; the hidden text 'Doc ID# 04017.04.32' is left garbled in the body (Do c ID# 04017 . 04 . 32); bold, italic and the Federal Register and Section 5-VII links are lost; the Form 3881 footer lines were not reproduced. The letter and the summary assert substantial equivalence to the predicate; the document states no copyright notice and names ARCHITECT, Creatinine2 and CLSI without ownership statements. The summary part was written by Abbott, so reuse beyond FDA's public release may need its permission. The instrument named is the ARCHITECT c System, whereas the GUDID record gudid-00380740159528 describes the Alinity catalog 04T9120 and states no premarket submission number. Ten index terms.
+:topic-related: gudid-00380740159528, dex-k210452
+:topic-provenance: external
+:topic-citation: U.S. Food and Drug Administration, Center for Devices and Radiological Health, and Abbott Ireland Diagnostics Division. 510(k) clearance letter, Indications for Use and 510(k) Summary: K210452, Creatinine2. Applicant: Abbott Ireland Diagnostics Division. FDA letter dated March 22, 2022 (Doc ID 04017.04.32; Dated December 6, 2021, Received December 8, 2021); Abbott 510(k) Summary, Date Summary Prepared December 6, 2021 (Section 5, Attachment 2); 22 pages. Retrieved November 24, 2026. https://www.accessdata.fda.gov/cdrh_docs/pdf21/K210452.pdf
+:topic-license: No copyright notice is stated in the document, and no license or use terms are stated.
+
+[[ext-fda-k210452-510k-summary]]
+= Creatinine2 510(k) Summary K210452
+
+image::ext/creatinine2-510k-summary-k210452/k210452-summary-image-01.png["U.S. Food and Drug Administration logo",width=256]
+
+March 22, 2022
+
+Abbott Ireland Diagnostics Division Magdalena Suszko Associate
+Director Regulatory Affairs Lisnamuck,
+Longford Ireland
+
+Re: K210452
+
+Trade/Device Name:
+Creatinine2
+
+Regulation Number:
+21 CFR 862.1225
+
+Regulation Name:
+Creatinine Test System
+
+Regulatory Class:
+Class II
+
+Product Code:
+CGX
+
+Dated: December 6,
+2021
+
+Received: December 8,
+2021
+
+== Dear Magdalena Suszko:
+
+indexterm:[clearance letter, substantial equivalence determination]
+
+We have reviewed your Section 510(k) premarket notification of
+intent to market the device referenced above and have
+determined the device is substantially equivalent (for the
+indications for use stated in the enclosure) to legally
+marketed predicate devices marketed in interstate commerce
+prior to May 28,
+1976, the enactment date of the Medical Device Amendments,
+or to devices that have been reclassified in accordance with
+the provisions of the Federal Food,
+Drug, and Cosmetic Act (Act) that do not require approval of a
+premarket approval application (PMA).
+You may, therefore,
+market the device,
+subject to the general controls provisions of the Act.
+Although this letter refers to your product as a device,
+please be aware that some cleared products may instead be
+combination products.
+The 510(k) Premarket Notification Database located at
+https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm
+identifies combination product submissions.
+The general controls provisions of the Act include requirements
+for annual registration,
+listing of devices,
+good manufacturing practice,
+labeling, and prohibitions against misbranding and adulteration.
+Please note:
+CDRH does not evaluate information related to contract
+liability warranties.
+We remind you,
+however, that device labeling must be truthful and not misleading.
+
+If your device is classified (see above) into either class II
+(Special Controls) or class III (PMA),
+it may be subject to additional controls.
+Existing major regulations affecting your device can be found
+in the Code of Federal Regulations,
+Title 21, Parts 800 to 898. In addition,
+FDA may publish further announcements concerning your device in
+the Federal Register.
+
+Do c ID# 04017 . 04 . 32
+
+Please be advised that FDA’s issuance of a substantial
+equivalence determination does not mean that FDA has made a
+determination that your device complies with other requirements
+of the Act or any Federal statutes and regulations administered
+by other Federal agencies.
+You must comply with all the Act’s requirements,
+including,
+but not limited to:
+registration and listing (21 CFR Part 807);
+labeling (21 CFR Part 801 and Part 809);
+medical device reporting (reporting of medical device-related
+adverse events) (21 CFR 803) for devices or postmarketing
+safety reporting (21 CFR 4,
+Subpart B) for combination products (see
+https://www.fda.gov/combination-products/guidance-regulatory-information/postmarketing-safety-reporting-combination-products);
+good manufacturing practice requirements as set forth in the
+quality systems (QS) regulation (21 CFR Part 820) for devices
+or current good manufacturing practices (21 CFR 4,
+Subpart A) for combination products;
+and, if applicable,
+the electronic product radiation control provisions (Sections
+531-542 of the Act);
+21 CFR 1000-1050.
+
+Also, please note the regulation entitled,
+"`Misbranding by reference to premarket notification`" (21 CFR Part 807.97).
+For questions regarding the reporting of adverse events under
+the MDR regulation (21 CFR Part 803),
+please go to
+https://www.fda.gov/medical-devices/medical-device-safety/medical-device-reporting-mdr-how-report-medical-device-problems.
+
+For comprehensive regulatory information about medical devices
+and radiation-emitting products,
+including information about labeling regulations,
+please see Device Advice
+(https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatory-assistance)
+and CDRH Learn
+(https://www.fda.gov/training-and-continuing-education/cdrh-learn).
+Additionally,
+you may contact the Division of Industry and Consumer Education
+(DICE) to ask a question about a specific regulatory topic.
+See the DICE website
+(https://www.fda.gov/medical-devices/device-advice-comprehensive-regulatory-assistance/contact-us-division-industry-and-consumer-education-dice)
+for more information or contact DICE by email
+(DICE@fda.hhs.gov) or phone (1-800-638-2041 or 301-796-7100).
+
+Sincerely,
+
+Marianela Perez-Torres,
+Ph.D. Deputy Director Division of Chemistry and Toxicology
+Devices OHT7: Office of In Vitro Diagnostics and Radiological
+Health Office of Product Evaluation and Quality Center for
+Devices and Radiological Health
+
+Enclosure
+
+== DEPARTMENT OF HEALTH AND HUMAN SERVICES
+
+Food and Drug Administration
+
+== Indications for Use
+
+indexterm:[indications for use, creatinine in serum plasma and urine]
+
+Form Approved:
+OMB No. 0910-0120 Expiration Date:
+06/30/2023 See PRA Statement below.
+
+510(k) Number (if known)
+
+k210452
+
+Device Name Creatinine2
+
+Indications for Use (Describe)
+
+The Creatinine2 assay is used for the quantitation of
+creatinine in human serum,
+plasma, or urine on the ARCHITECT c System.
+
+The Creatinine2 assay is to be used as an aid in the diagnosis
+and treatment of renal diseases,
+in monitoring renal dialysis,
+and as a calculation basis for measuring other urine analytes.
+
+Type of Use (Select one or both,
+as applicable)
+
+* [x] Prescription Use (Part 21 CFR 801 Subpart D)
+* [ ] Over-The-Counter Use (21 CFR 801 Subpart C)
+
+== CONTINUE ON A SEPARATE PAGE IF NEEDED.
+
+This section applies only to requirements of the Paperwork
+Reduction Act of 1995.
+
+_DO NOT SEND YOUR COMPLETED FORM TO THE PRA STAFF EMAIL ADDRESS BELOW._
+
+The burden time for this collection of information is estimated
+to average 79 hours per response,
+including the time to review instructions,
+search existing data sources,
+gather and maintain the data needed and complete and review the
+collection of information.
+Send comments regarding this burden estimate or any other
+aspect of this information collection,
+including suggestions for reducing this burden,
+to:
+
+Department of Health and Human Services Food and Drug
+Administration Office of Chief Information Officer Paperwork
+Reduction Act (PRA) Staff PRAStaff@fda.hhs.gov
+
+"`An agency may not conduct or sponsor,
+and a person is not required to respond to,
+a collection of information unless it displays a currently
+valid OMB number.`"
+
+== Section 5: 510(k) Summary (Summary of Safety and Effectiveness)
+
+This summary of the 510(k) safety and effectiveness information
+is being submitted in accordance with the requirements of SMDA
+1990 and 21 CFR 807.92.
+
+== I. 510(k) Number
+
+k210452
+
+== II. Applicant Name
+
+Abbott Ireland Diagnostics Division Lisnamuck,
+Longford Longford,
+IE
+
+Primary contact person for all communications:
+
+Magdalena Suszko,
+Manager, Regulatory Affairs Abbott Diagnostics Division Phone (224) 667-9025
+
+Fax (224) 667-4836
+
+Secondary contact person for all communications:
+
+Suzanne Cheang,
+Manager, Regulatory Affairs Abbott Diagnostics Division Phone (972)
+518-6617 Fax (972) 518-7498
+
+Date Summary Prepared:
+December 6,
+2021
+
+== III. Device Name
+
+Creatinine2
+
+== Reagents
+
+Trade Name:
+Creatinine2
+
+Device Classification:
+Class II
+
+Classification Name:
+Creatinine test system
+
+Governing Regulation Number:
+21 CFR 862.1225
+
+Product Code:
+CGX
+
+== IV. Predicate Device
+
+indexterm:[predicate device, k083809]
+
+Creatinine (k083809)
+
+== V. Description of Device
+
+== A. Principles of the Procedure
+
+indexterm:[principle of operation, kinetic alkaline picrate]
+
+The Creatinine2 assay is an automated clinical chemistry assay.
+At an alkaline pH,
+creatinine in the sample reacts with picric acid to form a
+creatinine-picrate complex that absorbs at 500 nm.
+The rate of increase in absorbance is directly proportional to
+the concentration of creatinine in the sample.
+
+Methodology:
+Kinetic Alkaline Picrate
+
+== B. Reagents
+
+The configuration of the Creatinine2 reagent kit is described below.
+
+Reagent 2 Active ingredient:
+picric acid 5.500 g/L.
+
+[cols=",",options="header",]
+|===
+| |List Number 04S9520
+|Tests per cartridge set |450
+|Number of cartridge sets per kit |8
+|Tests per kit |3600
+|Reagent 1 (R1) |53.9 mL
+|Reagent 2 (R2) |21.4 mL
+|===
+
+== VI. Intended Use of the Device
+
+The Creatinine2 assay is used for the quantitation of
+creatinine in human serum,
+plasma, or urine on the ARCHITECT c System.
+
+The Creatinine2 assay is to be used as an aid in the diagnosis
+and treatment of renal diseases,
+in monitoring renal dialysis,
+and as a calculation basis for measuring other urine analytes.
+
+== VII. Comparison of Technological Characteristics
+
+indexterm:[predicate comparison, technological characteristics]
+
+The Creatinine2 assay (subject device) is an automated clinical
+chemistry assay for the quantitation of creatinine in human serum,
+plasma, or urine on the ARCHITECT c System.
+
+The similarities and differences between the subject device and
+the predicate device are presented in the following table.
+
+== Comparison of Subject Device (Creatinine2) to Predicate Device (Creatinine)
+
+[width="100%",cols="7%,51%,42%",options="header",]
+|===
+|Characteristics |Subject Device Creatinine2 (List No. 04S95) |Predicate
+Device Creatinine (k083809; List No. 3L81)
+|Platform |ARCHITECT c System |Same
+
+|Intended Use and Indications for Use |The Creatinine2 assay is used for
+the quantitation of creatinine in human serum, plasma, or urine on the
+ARCHITECT c System. The Creatinine2 assay is to be used as an aid in the
+diagnosis and treatment of renal diseases, in monitoring renal dialysis,
+and as a calculation basis for measuring other urine analytes. |The
+Creatinine assay is used for the quantitation of creatinine in human
+serum, plasma, or urine.
+
+|Methodology |Kinetic Alkaline Picrate |Same
+
+|Specimen Type |Human serum, plasma, urine |Same
+
+|Assay Principle / Principle of Procedure |The Creatinine2 assay is an
+automated clinical chemistry assay. At an alkaline pH, creatinine in the
+sample reacts with picric acid to form a creatinine-picrate complex that
+absorbs at 500 nm. The rate of increase in absorbance is directly
+proportional to the concentration of creatinine in the sample. |At an
+alkaline pH, creatinine in the sample reacts with picrate to form a
+creatinine-picrate complex. The rate of increase in absorbance at 500 nm
+due to the formation of this complex is directly proportional to the
+concentration of creatinine in the sample.
+
+|Standardization |NIST SRM 967 for serum/plasma NIST SRM 914 for urine
+|Same
+
+|Use of Calibrators |Yes |Same
+
+|Use of Controls |Yes |Same
+|===
+
+NIST - National Institute of Standards and Technology
+
+SRM - Standard Reference Materials
+
+== Comparison of Subject Device (Creatinine2) to Predicate Device (Creatinine) (Continued)
+
+[width="100%",cols="5%,55%,40%",options="header",]
+|===
+|Characteristics |Subject Device Creatinine2 (List No. 04S95) |Predicate
+Device Creatinine (k083809; List No. 3L81)
+|Assay Range |Serum/Plasma: Analytical Measuring Interval: 0.09 - 37.34
+mg/dL Reportable Interval: 0.04 - 37.34 mg/dL Urine: Analytical
+Measuring Interval: 2.54 - 740 mg/dL Reportable Interval: 1.24 - 740
+mg/dL |Serum/Plasma: Creatinine serum is linear from 0.20 to 37.00
+mg/dL. Urine: Creatinine urine is linear from 5.00 to 740.00 mg/dL.
+
+|Precision |Serum/Plasma: Samples with creatinine concentrations between
+0.25 and 36.36 mg/dL were evaluated. The samples demonstrated %
+coefficients of variation (%CV) ≤ 3.5% and standard deviations (SD) ≤
+0.011 mg/dL. Urine: Samples with creatinine concentrations between 5.25
+and 701.12 mg/dL were evaluated. The samples demonstrated %CV ≤ 2.4% and
+SD ≤ 0.294 mg/dL. |Serum/Plasma: Samples with creatinine concentrations
+between 1.20 and 4.66 mg/dL demonstrated %CV values ranging from 3.18 to
+4.95%. Urine: Samples with creatinine concentrations between 61.95 and
+145.48 mg/dL demonstrated %CV values ranging from 1.27 to 1.34%.
+
+|Lower Limits of Measurement |Serum/Plasma: Limit of Blank: 0.02 mg/dL
+Limit of Detection: 0.04 mg/dL Limit of Quantitation: 0.09 mg/dL Urine:
+Limit of Blank: 0.93 mg/dL Limit of Detection: 1.24 mg/dL Limit of
+Quantitation: 2.54 mg/dL |Serum/Plasma: Limit of Detection: 0.05 mg/dL
+Limit of Quantitation: 0.10 mg/dL Urine: Limit of Detection: 4.00 mg/dL
+Limit of Quantitation: 5.00 mg/dL
+|===
+
+== Comparison of Subject Device (Creatinine2) to Predicate Device (Creatinine) (Continued)
+
+[width="100%",cols="6%,41%,53%",options="header",]
+|===
+|Characteristics |Subject Device Creatinine2 (List No. 04S95) |Predicate
+Device Creatinine (k083809; List No. 3L81)
+|Tube Types |Serum: - Serum tubes - Serum separator tubes Plasma: -
+Dipotassium EDTA tubes - Lithium heparin tubes - Lithium heparin
+separator tubes - Sodium heparin tubes |Serum: - Glass or plastic tubes
+with or without gel barrier Plasma: - Glass or plastic lithium heparin
+tubes (with or without gel barrier) - Glass or plastic EDTA tubes -
+Glass or plastic sodium heparin tubes
+|===
+
+== VIII. Summary of Nonclinical Performance
+
+== A. Reportable Interval
+
+indexterm:[analytical performance, reportable interval]
+
+Based on the limit of detection (LoD),
+limit of quantitation (LoQ),
+precision,
+and linearity,
+the ranges over which results can be reported are provided
+below according to the definitions from CLSI EP34,
+1 st ed. *
+
+== Serum/Plasma
+
+[cols=",",options="header",]
+|===
+| |mg/dL
+|Analytical Measuring Interval (AMI) a |0.09 - 37.34
+|Reportable Interval b |0.04 - 37.34
+|===
+
+a AMI: The AMI extends from the LoQ to the upper limit of quantitation (ULoQ).
+This is determined by the range of values in mg/dL that
+demonstrated acceptable performance for linearity,
+imprecision,
+and bias.
+
+b The reportable interval extends from the LoD to the upper
+limit of the AMI.
+
+NOTE: The default Low Linearity value of the assay file corresponds to
+the lower limit of the analytical measuring interval. Samples with a
+creatinine value below LoQ are reported as "`<0.09 mg/dL`"
+("`<8.0 µmol/L`").
+
+== Urine
+
+[cols=",",options="header",]
+|===
+| |mg/dL
+|Analytical Measuring Interval (AMI) a |2.54 - 740
+|Reportable Interval b |1.24 - 740
+|===
+
+a AMI: The AMI extends from the LoQ to the upper limit of quantitation (ULoQ).
+This is determined by the range of values in mg/dL that
+demonstrated acceptable performance for linearity,
+imprecision,
+and bias.
+
+b The reportable interval extends from the LoD to the upper
+limit of the AMI.
+
+NOTE: The default Low Linearity value of the assay file corresponds to
+the lower limit of the analytical measuring interval. Samples with a
+creatinine value below LoQ are reported as "`<2.54 mg/dL`"
+("`<0.225 mmol/L`").
+
+* Clinical and Laboratory Standards Institute (CLSI). Establishing and
+Verifying an Extended Measuring Interval Through Specimen Dilution and
+Spiking. 1st ed. CLSI Document EP34. Wayne, PA: CLSI; 2018.
+
+== B. Within-Laboratory Precision
+
+indexterm:[analytical performance, precision]
+
+== Serum/Plasma
+
+A study was performed based on guidance from CLSI EP05-A3. †
+Testing was conducted using 3 lots of the Creatinine2 reagent,
+3 lots of the Consolidated Chemistry Calibrator,
+1 lot of commercially available controls,
+and 3 instruments.
+Two controls and 3 human serum panels were tested in duplicate,
+twice per day on 20 days on 3 reagent lot/calibrator
+lot/instrument combinations,
+where a unique reagent lot and a unique calibrator lot is
+paired with 1 instrument.
+The performance from a representative combination is shown in
+the following table.
+
+[width="99%",cols="12%,2%,8%,18%,19%,20%,21%",options="header",]
+|===
+|Sample |n |Mean (mg/dL) |Within-Run (Repeatability) - SD |Within-Run
+(Repeatability) - %CV |Within-Laboratory a - SD (Range b )
+|Within-Laboratory a - %CV (Range b )
+|Control Level 1 |80 |1.42 |0.015 |1.0 |0.050 (0.016 - 0.050) |3.5 (1.1
+- 3.5)
+
+|Control Level 2 |80 |5.91 |0.035 |0.6 |0.147 (0.047 - 0.147) |2.5 (0.8
+- 2.5)
+
+|Panel A |80 |0.25 |0.008 |3.1 |0.011 (0.010 - 0.011) |4.5 (3.9 - 4.5)
+
+|Panel B |80 |26.00 |0.121 |0.5 |0.588 (0.185 - 0.588) |2.3 (0.7 - 2.3)
+
+|Panel C |80 |36.36 |0.130 |0.4 |0.777 (0.260 - 0.777) |2.1 (0.7 - 2.1)
+|===
+
+a Includes within-run,
+between-run,
+and between-day variability.
+
+b Minimum and maximum SD or %CV across all reagent lot and
+instrument combinations.
+
+† Clinical and Laboratory Standards Institute (CLSI).
+Evaluation of Precision of Quantitative Measurement Procedures;
+Approved Guideline-Third Edition.
+CLSI Document EP05-A3. Wayne,
+PA: CLSI;
+2014.
+
+== Urine
+
+A study was performed based on guidance from CLSI EP05-A3. ‡
+Testing was conducted using 3 lots of the Creatinine2 reagent,
+3 lots of the Consolidated Chemistry Calibrator,
+1 lot of commercially available controls,
+and 3 instruments.
+Two controls and 3 human urine panels were tested in duplicate,
+twice per day on 20 days on 3 reagent lot/calibrator
+lot/instrument combinations,
+where a unique reagent lot and a unique calibrator lot is
+paired with 1 instrument.
+The performance from a representative combination is shown in
+the following table.
+
+[width="99%",cols="12%,2%,8%,18%,19%,20%,21%",options="header",]
+|===
+|Sample |n |Mean (mg/dL) |Within-Run (Repeatability) - SD |Within-Run
+(Repeatability) - %CV |Within-Laboratory a - SD (Range b )
+|Within-Laboratory a - %CV (Range b )
+|Control Level 1 |80 |57.77 |0.491 |0.9 |1.194 (0.781 - 1.194) |2.1 (1.4
+- 2.1)
+
+|Control Level 2 |80 |132.61 |1.165 |0.9 |3.158 (1.860 - 3.158) |2.4
+(1.4 - 2.4)
+
+|Panel A |80 |5.37 |0.233 |4.3 |0.294 (0.221 - 0.294) |5.5 (4.2 - 5.5)
+
+|Panel B |80 |278.12 |1.958 |0.7 |5.003 (2.671 - 5.003) |1.8 (1.0 - 1.8)
+
+|Panel C |80 |701.12 |3.303 |0.5 |12.844 (7.631 - 12.844) |1.8 (1.1 -
+1.8)
+|===
+
+a Includes within-run,
+between-run,
+and between-day variability.
+
+b Minimum and maximum SD or %CV across all reagent lot and
+instrument combinations.
+
+‡ Clinical and Laboratory Standards Institute (CLSI).
+Evaluation of Precision of Quantitative Measurement Procedures;
+Approved Guideline-Third Edition.
+CLSI Document EP05-A3. Wayne,
+PA: CLSI;
+2014.
+
+== C. Accuracy
+
+== Serum/Plasma
+
+A study was performed to estimate the bias of the Creatinine2
+assay relative to material standardized to the Certified
+Reference Material NIST SRM 967a.
+
+Testing was conducted using 3 lots of the Creatinine2 reagent,
+2 lots of the Consolidated Chemistry Calibrator,
+and 1 instrument.
+The bias ranged from -4.1% to 0.4% across all instruments,
+calibrator and reagent lots.
+
+== Urine
+
+A study was performed to estimate the bias of the Creatinine2
+assay relative to material standardized to the Certified
+Reference Material NIST SRM 914a.
+
+Testing was conducted using 3 concentrations of standard across
+3 lots of the Creatinine2 reagent,
+2 lots of the Consolidated Chemistry Calibrator,
+and 1 instrument.
+The bias ranged from -4.8% to 3.3% across all concentrations of standard,
+instruments,
+calibrator and reagent lots.
+
+== D. Lower Limits of Measurement
+
+indexterm:[analytical performance, limits of blank detection and quantitation]
+
+A study was performed based on guidance from CLSI EP17-A2. §
+Testing was conducted using 3 lots of the Creatinine2 reagent
+kit on each of 2 instruments over a minimum of 3 days.
+The maximum observed limit of blank (LoB),
+limit of detection (LoD),
+and limit of quantitation (LoQ) values are summarized below.
+
+== Serum/Plasma
+
+[cols=",",options="header",]
+|===
+| |mg/dL
+|LoB a |0.02
+|LoD b |0.04
+|LoQ c |0.09
+|===
+
+== Urine
+
+mg/dL
+
+LoB a
+
+0.93
+
+LoD b
+
+1.24
+
+LoQ c
+
+2.54
+
+a The LoB represents the 95th percentile from n ≥ 60 replicates
+of zero-analyte samples.
+
+b The LoD represents the lowest concentration at which the
+analyte can be detected with 95% probability based on n ≥ 60
+replicates of low-analyte level samples.
+
+c The LoQ is defined as the lowest concentration at which a
+maximum allowable precision of 20% CV was met and was
+determined from n ≥ 60 replicates of low-analyte level samples.
+
+== E. Linearity
+
+A study was performed based on guidance from CLSI EP06-A. **
+This assay demonstrated linearity across the analytical
+measuring interval of 0.09 to 37.34 mg/dL for the serum application,
+and 2.54 to 740 mg/dL for the urine application.
+
+§ Clinical and Laboratory Standards Institute (CLSI).
+Evaluation of Detection Capability for Clinical Laboratory
+Measurement Procedures;
+Approved Guideline-Second Edition.
+CLSI Document EP17-A2. Wayne,
+PA: CLSI;
+2012.
+
+** Clinical and Laboratory Standards Institute (CLSI). Evaluation of
+the Linearity of Quantitative Measurement Procedures: A Statistical
+Approach; Approved Guideline. CLSI Document EP06-A. Wayne, PA: CLSI;
+2003.
+
+== F. Potentially Interfering Endogenous and Exogenous Substances
+
+indexterm:[analytical performance, interference]
+
+Serum/Plasma - Potentially Interfering Endogenous Substances
+
+A study was performed based on guidance from CLSI EP07,
+3rd ed. †† Each substance was tested at 2 levels of the analyte
+(approximately 0.6 mg/dL and 2.0 mg/dL).
+
+No significant interference (interference within ± 10%) was
+observed at the following concentrations.
+
+[width="100%",cols="41%,37%,22%",options="header",]
+|===
+|Potentially Interfering Substance |Interferent Level |Analyte Level
+|Acetoacetate |20 mg/dL |0.6 mg/dL 2.0 mg/dL
+
+|Bilirubin - conjugated |20 mg/dL 40 mg/dL |0.6 mg/dL 2.0 mg/dL
+
+|Bilirubin - unconjugated |8 mg/dL 40 mg/dL |0.6 mg/dL 2.0 mg/dL
+
+|Glucose |250 mg/dL 750 mg/dL |0.6 mg/dL 2.0 mg/dL
+
+|Hemoglobin |1000 mg/dL |0.6 mg/dL 2.0 mg/dL
+
+|Triglycerides |750 mg/dL 1500 mg/dL |0.6 mg/dL 2.0 mg/dL
+
+|Total protein |5.4 g/dL to 8.4 g/dL\* 11.0 g/dL\*\* |0.6 mg/dL 2.0
+mg/dL
+|===
+
+* Interference relative to a reference protein sample at 7.0 g/dL.
+
+** Interference relative to a reference protein sample at 5.7 g/dL.
+
+†† Clinical and Laboratory Standards Institute (CLSI).
+Interference Testing in Clinical Chemistry. 3rd ed. CLSI
+Guideline EP07. Wayne,
+PA: CLSI;
+2018.
+
+Interference beyond ± 10% [based on 95% Confidence Interval
+(CI)] was observed at the concentrations shown below for the
+following substances.
+
+[width="100%",cols="26%,22%,20%,32%",options="header",]
+|===
+|Potentially Interfering Substance |Interferent Level |Analyte Level |%
+Interference (95% CI)
+|Bilirubin - conjugated |40 mg/dL |0.6 mg/dL |-14% (-16%, -13%)
+
+|Bilirubin - unconjugated |10 mg/dL |0.6 mg/dL |-11% (-12%, -9%)
+
+|Glucose |1000 mg/dL |0.6 mg/dL |42% (41%, 44%)
+
+|Glucose |1000 mg/dL |2.0 mg/dL |13% (13%, 14%)
+
+|Total protein |6.8 g/dL |0.6 mg/dL |17% (15%, 18%)
+
+|Triglycerides |1000 mg/dL |0.6 mg/dL |11% (9%, 12%)
+
+|Total protein |5.0 g/dL\* 9.1 g/dL\* 15.3 g/dL\*\* |0.6 mg/dL
+0.6 mg/dL 2.0 mg/dL |-14% (-15%, -14%) 12% (11%, 12%) 20% (19%, 21%)
+|===
+
+* Interference relative to a reference protein sample at 7.0 g/dL.
+
+** Interference relative to a reference protein sample at 5.7 g/dL.
+
+== Serum/Plasma - Potentially Interfering Exogenous Substances
+
+A study was performed based on guidance from CLSI EP07,
+3rd ed. ‡‡ Each substance was tested at 2 levels of the analyte
+(approximately 0.6 mg/dL and 2.0 mg/dL).
+
+No significant interference (interference within ± 10%) was
+observed at the following concentrations.
+
+[cols=",",options="header",]
+|===
+|Potentially Interfering Substance |Interferent Level
+|Acetaminophen |160 mg/L
+|Acetohexamide |0.5 mg/dL
+|Acetylcysteine |150 mg/L
+|Acetylsalicylic acid |30 mg/L
+|Ampicillin-Na |80 mg/L
+|Ascorbic acid |60 mg/L
+|Azlocillin |7 g/L
+|Biotin |4250 ng/mL
+|Ca-dobesilate |60 mg/L
+|Cefotaxime |53 mg/dL
+|Cefoxitin |47 mg/L
+|Cephalothin |11 mg/dL
+|Cyclosporine |2 mg/L
+|Doxycycline |20 mg/L
+|Eltrombopag |10 mg/L
+|Hydroxocobalamin (Cyanokit) |187 mg/L
+|===
+
+[cols=",",options="header",]
+|===
+|Potentially Interfering Substance |Interferent Level
+|Ibuprofen |220 mg/L
+|Levodopa |8 mg/L
+|Methyldopa |100 mg/L
+|Metronidazole |130 mg/L
+|Nitrofurantoin |0.3 mg/dL
+|Nitroglycerin |0.015 mg/L
+|Norfenefrine |4 mg/L
+|Phenylbutazone |330 mg/L
+|Rifampicin |50 mg/L
+|Sodium heparin |4 U/mL
+|Sulbactam |240 mg/L
+|Sulfamethoxazole |40 mg/dL
+|Sulfapyridine |30 mg/dL
+|Sulfasalazine |500 mg/L
+|Theophylline (1.3- dimethylxanthine) |60 mg/L
+|Trimethoprim |5 mg/dL
+|===
+
+‡‡ Clinical and Laboratory Standards Institute (CLSI).
+Interference Testing in Clinical Chemistry. 3rd ed. CLSI
+Guideline EP07. Wayne,
+PA: CLSI;
+2018.
+
+Interference beyond ± 10% [based on 95% Confidence Interval
+(CI)] was observed at the concentrations shown below for the
+following substances.
+
+[width="100%",cols="38%,20%,16%,26%",options="header",]
+|===
+|Potentially Interfering Substance |Interferent Level |Analyte Level |%
+Interference (95% CI)
+|Acetohexamide |1.5 mg/dL |0.6 mg/dL |18% (16%, 20%)
+
+|Acetohexamide |2 mg/dL |2.0 mg/dL |10% (10%, 11%)
+
+|Cefoxitin |71 mg/L |0.6 mg/dL |14% (12%, 16%)
+
+|Cefoxitin |119 mg/L |2.0 mg/dL |13% (12%, 14%)
+
+|Cephalothin |180 mg/dL |0.6 mg/dL |193% (190%, 196%)
+
+|Cephalothin |180 mg/dL |2.0 mg/dL |56% (55%, 57%)
+
+|Eltrombopag |300 mg/L |0.6 mg/dL |53% (51%, 55%)
+
+|Eltrombopag |25 mg/L |2.0 mg/dL |-12% (-12%, -11%)
+
+|Hydroxocobalamin (Cyanokit) |375 mg/L |0.6 mg/dL |16% (14%, 18%)
+
+|Hydroxocobalamin (Cyanokit) |2259 mg/L |2.0 mg/dL |19% (19%, 20%)
+
+|Methyldopa |200 mg/L |0.6 mg/dL |-17% (-18%, -15%)
+|===
+
+== Urine - Potentially Interfering Endogenous Substances
+
+A study was performed based on guidance from CLSI EP07,
+3rd ed §§ / CLSI EP37,
+1st ed. *** Each substance was tested at 2 levels of the
+analyte (approximately 15 mg/dL and 400 mg/dL).
+
+No significant interference (interference within ± 10%) was
+observed at the following concentrations.
+
+[cols=",",options="header",]
+|===
+|Potentially Interfering Substance |Interferent Level
+|Acetoacetate |480 mg/dL
+|Ascorbate |220 mg/dL
+|Glucose |1000 mg/dL
+|Protein |50 mg/dL
+|Urobilinogen |40 mg/dL
+|===
+
+§§ Clinical and Laboratory Standards Institute (CLSI).
+Interference Testing in Clinical Chemistry. 3rd ed. CLSI
+Guideline EP07. Wayne,
+PA: CLSI;
+2018.
+
+*** Clinical and Laboratory Standards Institute (CLSI). Supplemental
+Tables for Interference Testing in Clinical Chemistry. 1st ed. CLSI
+supplement EP37. Wayne, PA: CLSI; 2018.
+
+== Urine - Potentially Interfering Exogenous Substances
+
+A study was performed based on guidance from CLSI EP07,
+3rd ed ††† / CLSI EP37,
+1st ed. ‡‡‡ Each substance was tested at 2 levels of the
+analyte (approximately 15 mg/dL and 400 mg/dL).
+
+No significant interference (interference within ± 10%) was
+observed at the following concentrations.
+
+[cols=",",options="header",]
+|===
+|Potentially Interfering Substance |Interferent Level
+|Acetaminophen |16 mg/dL
+|Acetic acid (8.5N) |6.25 mL/dL
+|Acetylcysteine |15 mg/dL
+|Biotin |4250 ng/mL
+|Boric acid |250 mg/dL
+|Cefoxitin |100 mg/dL
+|Cephalothin |180 mg/dL
+|Homogentisic acid |3.5 g/L
+|Hydrochloric acid (6N) |2.5 mL/dL
+|Hydroxocobalamin (Cyanokit) |180 mg/L
+|===
+
+[cols=",",options="header",]
+|===
+|Potentially Interfering Substance |Interferent Level
+|Ibuprofen |22 mg/dL
+|Levodopa |700 mg/L
+|Methyldopa |20 mg/L
+|Nitric acid (6N) |5.0 mL/dL
+|Nitrofurantoin |150 mg/L
+|Nitrofurazone |3 mg/L
+|Sodium carbonate |1.25 g/dL
+|Sodium fluoride |400 mg/dL
+|Sodium oxalate |60 mg/dL
+|===
+
+Interference beyond ± 10% [based on 95% Confidence Interval
+(CI)] was observed at the concentrations shown below for the
+following substances.
+
+[width="100%",cols="38%,20%,16%,26%",options="header",]
+|===
+|Potentially Interfering Substance |Interferent Level |Analyte Level |%
+Interference (95% CI)
+|Cefoxitin |400 mg/dL |15 mg/dL |26% (24%, 27%)
+
+|Levodopa |1000 mg/dL |15 mg/dL |15% (13%, 16%)
+|===
+
+Interferences from medication or endogenous substances may
+affect results. §§§
+
+††† Clinical and Laboratory Standards Institute (CLSI).
+Interference Testing in Clinical Chemistry. 3rd ed. CLSI
+Guideline EP07. Wayne,
+PA: CLSI;
+2018.
+
+‡‡‡ Clinical and Laboratory Standards Institute (CLSI).
+Supplemental Tables for Interference Testing in Clinical
+Chemistry. 1st ed. CLSI supplement EP37. Wayne,
+PA: CLSI;
+2018.
+
+§§§ Young DS.
+Effects of Drugs on Clinical Laboratory Tests. 5th
+ed. Washington,
+DC: AACC Press;
+2000:182-206
+
+== G. Method Comparison
+
+indexterm:[method comparison, creatinine]
+
+A study was performed based on guidance from CLSI EP09-A3 ****
+using the Passing-Bablok regression method.
+The study compared the Creatinine2 assay to the Creatinine
+assay (List Number 3L81).
+
+[width="100%",cols="15%,12%,13%,17%,14%,13%,16%",options="header",]
+|===
+|Creatinine2 vs Creatinine on the ARCHITECT c System |Creatinine2 vs
+Creatinine on the ARCHITECT c System - n |Creatinine2 vs Creatinine on
+the ARCHITECT c System - Units |Creatinine2 vs Creatinine on the
+ARCHITECT c System - Correlation Coefficient |Creatinine2 vs Creatinine
+on the ARCHITECT c System - Intercept |Creatinine2 vs Creatinine on the
+ARCHITECT c System - Slope |Creatinine2 vs Creatinine on the ARCHITECT c
+System - Concentration Range
+|Serum |128 |mg/dL |1.00 |-0.01 |0.96 |0.47 - 35.72
+
+|Urine |129 |mg/dL |1.00 |-1.23 |1.01 |6.65 - 727.61
+|===
+
+== H. Tube Type
+
+A study was performed to evaluate the suitability of specific
+blood collection tube types for use with the Creatinine2 assay.
+Samples were collected from a minimum of 40 donors and
+evaluated across tube types.
+The following blood collection tube types were determined to be
+acceptable for use with the Creatinine2 assay:
+
+== Serum
+
+* Serum tubes
+* Serum separator tubes
+
+== Plasma
+
+* Dipotassium EDTA tubes
+* Lithium heparin tubes
+* Lithium heparin separator tubes
+* Sodium heparin tubes
+
+**** Clinical and Laboratory Standards Institute (CLSI). Measurement
+Procedure Comparison and Bias Estimation Using Patient Samples; Approved
+Guideline-Third Edition. CLSI Document EP09-A3. Wayne, PA: CLSI; 2013.
+
+== IX. Summary of Clinical Performance
+
+This section does not apply.
+
+== X. Conclusion Drawn from Nonclinical Laboratory Studies
+
+The results presented in this 510(k) premarket notification
+demonstrate that the performance of the subject device,
+Creatinine2 (List No. 04S95),
+is substantially equivalent to the predicate device,
+Creatinine (List No. 3L81,
+k083809).
+
+The similarities and differences between the subject device and
+predicate device are presented in Section 5-VII.
+
+There is no known potential adverse effect to the operator when
+using this in vitro device according to the Creatinine2 reagent
+package insert instructions.

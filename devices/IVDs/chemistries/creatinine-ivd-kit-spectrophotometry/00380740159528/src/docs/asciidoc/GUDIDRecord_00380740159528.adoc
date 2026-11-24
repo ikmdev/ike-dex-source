@@ -1,0 +1,22 @@
+= GUDID Device Record: Alinity Creatinine2 4500 Tests (00380740159528)
+:doctype: article
+:toc: left
+:toclevels: 3
+:source-highlighter: rouge
+:icons: font
+:author: IKE Network
+:device-primary-di: 00380740159528
+:device-name: Alinity Creatinine2 4500 Tests
+:device-labeler: ABBOTT IRELAND
+:device-gmdn-term: Creatinine IVD, kit, spectrophotometry
+:document-type: GUDID
+:source-topic: gudid-00380740159528
+:topics: {generated}/topics-asciidoc
+:imagesdir: {topics}/images
+
+// Reconstruction assembly of one ingested source document (IKE-ASSEMBLY).
+// Name the DeX record's :src-*: attribute for this document to match this file name.
+// The topic carries its own numbering, so :sectnums: is deliberately not set.
+// No copyright notice for the record itself is stated; the GMDN trademark notice is quoted in the topic's :topic-license:.
+
+include::{topics}/topics/gudid/GUDIDRecord_00380740159528.adoc[leveloffset=+1]

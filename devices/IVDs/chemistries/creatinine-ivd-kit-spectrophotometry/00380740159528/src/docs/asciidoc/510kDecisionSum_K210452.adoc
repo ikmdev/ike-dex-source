@@ -1,0 +1,25 @@
+= 510(k) Decision Summary K210452: Creatinine2
+:doctype: article
+:toc: left
+:toclevels: 3
+:source-highlighter: rouge
+:icons: font
+:author: IKE Network
+:table-caption!:
+:figure-caption!:
+:device-primary-di: 00380740159528
+:device-name: Alinity Creatinine2 4500 Tests
+:device-labeler: ABBOTT IRELAND
+:device-gmdn-term: Creatinine IVD, kit, spectrophotometry
+:document-type: 510(k) Decision Summary
+:source-topic: dex-k210452
+:topics: {generated}/topics-asciidoc
+:imagesdir: {topics}/images
+
+// Reconstruction assembly of one ingested source document (IKE-ASSEMBLY).
+// Name the DeX record's :src-*: attribute for this document to match this file name.
+// The topic carries its own numbering, so :sectnums: is deliberately not set.
+// :table-caption! and :figure-caption! stay here because the converted block titles already read "Table N."
+// No copyright notice is stated in the document. The topic carries one hand correction (page 6 Acetylcysteine cell), recorded in its :topic-notes:.
+
+include::{topics}/topics/dex/510kDecisionSum_K210452.adoc[leveloffset=+1]

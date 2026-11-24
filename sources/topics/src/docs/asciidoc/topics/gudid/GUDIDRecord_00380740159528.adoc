@@ -1,0 +1,238 @@
+// gudid-00380740159528
+// Topic: GUDIDRecord_00380740159528
+// Type: reference
+// Status: review
+:topic-id: gudid-00380740159528
+:topic-type: reference
+:topic-status: review
+:topic-keywords: primary DI, GS1, GMDN, CGX, ABBOTT IRELAND, Alinity, Creatinine2, creatinine, reagent kit, prescription kit, catalog 04T9120
+:topic-summary: Describes the AccessGUDID device record for DI 00380740159528: Alinity (Creatinine2 4500 Tests) from ABBOTT IRELAND, catalog and model 04T9120, a prescription kit under GMDN term 53251 (Creatinine IVD, kit, spectrophotometry), product code CGX, stored between 15 and 30 degrees Celsius, with no premarket submission number released and no package DI.
+:topic-notes: GUDID record, whole document, as converted from the PDF, exempt from size bounds as for the other GUDID records. The page-1 banner picture (AccessGUDID logo) and the label-discrepancy notice are kept as converted. The record states no copyright for itself; its GMDN trademark notice is quoted in :topic-license:. The record links a 'Terms of Use' for the D-U-N-S number and GMDN terms, but the PDF does not reproduce them. The record's FDA Premarket Submission section reads 'Premarket Submission Number Not Available/Not Released', so the record does not itself name K210452; the 510(k) decision summary and 510(k) summary for K210452 describe Creatinine2 (List No. 04S95) on the ARCHITECT c System, whereas this record is the Alinity catalog 04T9120, so the link between them is by device name, creatinine reagent and product code CGX and is not asserted by the record. The PDF is a browser print dated 11/2/26, which is the retrieval date. Converted with the tagged engine (the converter's own title line was replaced by the topic title); the converter's one REVIEW comment (the logo picture) was left as converted; 0 Check comments. Ligature characters in 'Deﬁnition' and 'Identiﬁcation' are left as converted. Ten index terms.
+:topic-related: dex-k210452, ext-fda-k210452-510k-summary
+:topic-provenance: external
+:topic-citation: U.S. Food and Drug Administration and U.S. National Library of Medicine. AccessGUDID, device record for DI 00380740159528: Alinity, ABBOTT IRELAND. Public Version Number 2, Public Version Date October 25, 2024, DI Record Publish Date August 15, 2024. Accessed November 2, 2026. https://accessgudid.nlm.nih.gov/devices/00380740159528
+:topic-license: No copyright notice for the record itself is stated. GMDN notice quoted from the record: "GMDN® is a registered trademark of The GMDN Agency. All rights reserved. Used under licence from The GMDN Agency Ltd." The record refers to Terms of Use for the D-U-N-S number and GMDN terms; their text is not in the document, and no other use terms are stated.
+
+[[gudid-00380740159528]]
+= GUDIDRecord_00380740159528
+
+An official website of the United States government Here’s how you know
+
+// REVIEW: picture in the PDF. Text inside it is not in the text layer, so it cannot be
+// checked automatically; transcribe it as an AsciiDoc table or verify the image.
+image::gudid/00380740159528/accessgudid-device-alinity-00380740159528-image-01.png["Picture on page 1",width=200]
+
+== DEVICE: Alinity (00380740159528)
+
+[NOTE,caption="Notice"]
+Any discrepancies with this record compared to the label? If so, send a picture of the label to mailto:GUDIDSupport@fda.hhs.gov[{empty}GUDIDSupport@fda.hhs.gov].
+
+=== DEVICE IDENTIFIER (DI) INFORMATION
+
+indexterm:[device identification, primary DI]
+
+[.underline]##Brand Name:## Alinity
+
+[.underline]##Version or Model:## 04T9120
+
+[.underline]##Commercial Distribution Status:## In Commercial Distribution
+
+Catalog Number:
+04T9120
+
+Company Name:
+ABBOTT IRELAND
+
+[.underline]##Primary DI Number:## 00380740159528
+
+[.underline]##Issuing Agency:## GS1
+
+Commercial Distribution End Date:
+
+[.underline]##Device Count:## 1
+
+{empty}[.underline]##Labeler D-U-N-S® Number++*++:## 989964119
+++*++link:https://accessgudid.nlm.nih.gov/terms[Terms of Use]
+
+Device Description:
+Creatinine2 4500 Tests
+
+=== DEVICE CHARACTERISTICS
+
+[cols="<61,<39",width=100%,options=noheader]
+|===
+|[.underline]##What MRI safety information does the labeling contain?## |Labeling does not contain MRI Safety Information
+
+|[.underline]##Device required to be labeled as containing natural rubber latex or dry natural rubber (21 CFR 801.437):## |No
+
+|[.underline]##Device labeled as "Not made with natural rubber latex":## |No
+
+|[.underline]##For Single-Use:## |No
+
+|Prescription Use (Rx): |Yes
+
+|Over the Counter (OTC): |No
+
+|[.underline]##Kit:## |Yes
+
+|[.underline]##Combination Product:## |No
+
+|[.underline]##Human Cell, Tissue or Cellular or Tissue-Based Product (HCT/P):## |No
+|===
+
+=== GMDN
+
+indexterm:[device identification, GMDN]
+
+*GMDN©* Term Code,
+Names and Definitions
+(++*++link:https://accessgudid.nlm.nih.gov/terms[Terms of Use]):
+*GMDN®* is a registered trademark of The GMDN Agency.
+All rights reserved.
+Used under licence from The GMDN Agency Ltd.
+
+[cols="<12,<18,<47,<12,<12",width=100%,options=header]
+|===
+|GMDN Term Code |GMDN Term Name |GMDN Term Deﬁnition |GMDN Term Status |Implantable ?
+
+|53251 |Creatinine IVD, kit, spectrophotometry |A collection of reagents and other associated materials intended to be used for the qualitative and/or quantitative detection of creatinine in a clinical specimen, using a spectrophotometry method. |Active |false
+|===
+
+=== FDA PRODUCT CODE
+
+indexterm:[device identification, FDA product code]
+
+[cols="<21,<79",width=64%,options=header]
+|===
+|Product Code |Product Code Name
+
+|CGX |ALKALINE PICRATE, COLORIMETRY, CREATININE
+|===
+
+=== FDA PREMARKET SUBMISSION
+
+indexterm:[device identification, premarket submission]
+
+[cols="<62,<38",width=64%,options=header]
+|===
+|FDA Premarket Submission Number |Supplement Number
+
+2+|Premarket Submission Number Not Available/Not Released
+|===
+
+[.underline]##Device Exempt from Premarket Submission:## No
+
+=== STERILIZATION
+
+indexterm:[device identification, sterilization]
+
+[.underline]##Device Packaged as Sterile:## No
+
+[.underline]##Requires Sterilization Prior to Use:## No
+
+[cols="<100",width=64%,options=header]
+|===
+|Sterilization Method
+
+|No Sterilization Methods Found
+|===
+
+=== STORAGE AND HANDLING
+
+indexterm:[device identification, storage and handling]
+
+[cols="<100",width=64%,options=header]
+|===
+|Storage and Handling
+
+|Storage Environment Temperature: between 15 and 30 Degrees Celsius
+|===
+
+=== CLINICALLY RELEVANT SIZE
+
+[cols="<100",width=64%,options=header]
+|===
+|Size Type Text
+
+|No Device Sizes
+|===
+
+=== DEVICE RECORD STATUS
+
+indexterm:[device identification, record status and public version]
+
+[.underline]##Public Device Record Key:##
+cc840516-df47-44f7-be77-a02235ecd133
+
+[.underline]##Public Version Date:## October 25,
+2024
+
+[.underline]##Public Version Number:## 2
+
+[.underline]##DI Record Publish Date:## August 15,
+2024
+
+=== ALTERNATIVE AND ADDITIONAL IDENTIFIERS ADDITIONAL IDENTIFIERS
+
+=== PACKAGE DI
+
+indexterm:[device identification, package DI]
+
+[cols="<17,<18,<18,<22,<14,<12",width=100%,options=header]
+|===
+|Package DI Number |Quantity per Package |Contains DI Package |Package Discontinue Date |Package Status |Package Type
+
+6+|No Package DIs found
+|===
+
+=== SECONDARY DI
+
+[cols="<42,<58",width=64%,options=header]
+|===
+|Issuing Agency |Secondary DI Number
+
+2+|No Secondary DIs found
+|===
+
+=== UNIT OF USE DI
+
+Unit of Use DI Number:
+No Unit of Use DI Numbers Found
+
+=== DIRECT MARKING (DM)
+
+indexterm:[device identification, direct marking]
+
+Device Subject to Direct Marking (DM),
+but Excepted:
+No
+
+DM DI Different from Primary DI:
+No
+
+DM DI Number:
+None
+
+=== PRODUCTION IDENTIFIER(S) IN UDI
+
+indexterm:[device identification, production identifiers]
+
+Lot or Batch Number:
+Yes
+
+Serial Number:
+No
+
+Expiration Date:
+Yes
+
+Manufacturing Date:
+No
+
+[.underline]##Donation Identiﬁcation Number:## No
+
+=== CUSTOMER CONTACT
+
+Phone: +1(877)422-2688
+
+Email: xx@xx.xx

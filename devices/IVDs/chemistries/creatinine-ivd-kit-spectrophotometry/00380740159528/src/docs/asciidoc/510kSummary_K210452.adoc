@@ -1,0 +1,25 @@
+= 510(k) Summary K210452: Creatinine2
+:doctype: article
+:toc: left
+:toclevels: 3
+:source-highlighter: rouge
+:icons: font
+:author: IKE Network
+:table-caption!:
+:figure-caption!:
+:device-primary-di: 00380740159528
+:device-name: Alinity Creatinine2 4500 Tests
+:device-labeler: ABBOTT IRELAND
+:device-gmdn-term: Creatinine IVD, kit, spectrophotometry
+:document-type: 510(k) Summary
+:source-topic: ext-fda-k210452-510k-summary
+:topics: {generated}/topics-asciidoc
+:imagesdir: {topics}/images
+
+// Reconstruction assembly of one ingested source document (IKE-ASSEMBLY).
+// Name the DeX record's :src-*: attribute for this document to match this file name.
+// The topic carries its own numbering, so :sectnums: is deliberately not set.
+// ext/ topic: allowed here because device assemblies are reconstructions. FDA clearance letter, Indications for Use form and
+// Abbott's 510(k) Summary; no copyright notice is stated in the document.
+
+include::{topics}/topics/ext/regulatory/creatinine2-510k-summary-k210452.adoc[leveloffset=+1]
