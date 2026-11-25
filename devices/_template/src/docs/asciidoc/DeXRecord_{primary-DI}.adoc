@@ -9,7 +9,7 @@
 :review-date: {date}
 :src-gudid: GUDIDRecord_{primary-DI}.adoc
 :src-510k: 510kDecisionSum_{K-number}.adoc
-:src-ifu: {slug}/{slug}-ifu.adoc
+:src-ifu: {slug}-ifu.adoc
 
 // TEMPLATE. Authored by hand; NOT a topic, never ingested into sources/topics. Keep this file name
 // (DeXRecord_{primary-DI}.adoc). Each :src-*: file is a reconstruction assembly in this same folder

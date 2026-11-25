@@ -22,7 +22,7 @@ devices/
                     ├── DeXRecord_{primary-DI}.adoc          authored DeX record, never a topic
                     ├── GUDIDRecord_{primary-DI}.adoc        reconstruction of the GUDID topic
                     ├── 510kDecisionSum_{K-number}.adoc      reconstruction of the 510(k) topic
-                    └── {slug}/{slug}-ifu.adoc               reconstruction of the IFU topic
+                    └── {slug}-ifu.adoc                      reconstruction of the IFU topic
 ```
 
 The worked example is
@@ -44,8 +44,8 @@ aggregator lists devices by their full path. Find a device by DI:
 
 Each ingested source document gets a thin assembly file in the device's `src/docs/asciidoc/`: a title, the
 device metadata, and one `include::{topics}/topics/{domain}/{slug}.adoc[leveloffset=+1]`. Its **name must be the
-name the DeX record uses** in its `:src-gudid:`, `:src-510k:` and `:src-ifu:` attributes (a subfolder is
-fine), so the record's `xref:` links resolve in the HTML output unchanged. Metadata attributes
+name the DeX record uses** in its `:src-gudid:`, `:src-510k:` and `:src-ifu:` attributes (assemblies sit
+directly in `src/docs/asciidoc/`, with no subfolders), so the record's `xref:` links resolve in the HTML output unchanged. Metadata attributes
 (`:device-primary-di:`, `:device-name:`, `:device-labeler:`, `:device-gmdn-term:`, `:document-type:`,
 `:source-topic:`) identify the device and the topic it rebuilds. The topic's own numbering is kept, so
 `:sectnums:` is not set.
@@ -55,8 +55,8 @@ reconstruction. The pom depends on `topics:adoc:zip` and has `devices/pom.xml` a
 `<relativePath>../../../../pom.xml</relativePath>` (exactly four levels down). `pdf.source.document` names
 the DeX record, since a device module holds several documents.
 
-`devices/pom.xml` sets the asciidoctor plugin's `preserveDirectories`, so the IFU stays in its subfolder in
-the HTML. The single-file HTML (`html-single/{primary-DI}.html`) is the DeX record with its images embedded;
+`devices/pom.xml` sets the asciidoctor plugin's `preserveDirectories`, so a document placed in a subfolder would keep
+it in the HTML. Assemblies currently sit flat, so nothing relies on it. The single-file HTML (`html-single/{primary-DI}.html`) is the DeX record with its images embedded;
 its links to the other documents need the multi-file `html` output.
 
 ## DeX records

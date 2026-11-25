@@ -11,7 +11,7 @@
 :src-gudid-id: gudid-10758750002849
 :src-510k: 510kDecisionSum_K182063.adoc
 :src-510k-id: dex-k182063
-:src-ifu: vitros-crea-slides/vitros-crea-slides-ifu.adoc
+:src-ifu: vitros-crea-slides-ifu.adoc
 
 [abstract]
 DeX record for the Ortho-Clinical Diagnostics VITROS Chemistry Products CREA Slides.

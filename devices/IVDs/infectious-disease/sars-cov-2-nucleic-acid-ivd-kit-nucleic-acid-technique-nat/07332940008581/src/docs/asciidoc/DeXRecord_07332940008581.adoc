@@ -11,7 +11,7 @@
 :review-date: 10/30/2026
 :src-gudid: GUDIDRecord_07332940008581.adoc
 :src-510k: 510kDecisionSum_K230440.adoc
-:src-ifu: xpert-xpress-cov-2-plus/xpert-xpress-cov-2-plus-ifu.adoc
+:src-ifu: xpert-xpress-cov-2-plus-ifu.adoc
 
 [abstract]
 DeX record for the Cepheid GeneXpert Xpert Xpress CoV-2 plus test.

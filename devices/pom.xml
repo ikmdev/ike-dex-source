@@ -75,8 +75,8 @@
                     <groupId>org.asciidoctor</groupId>
                     <artifactId>asciidoctor-maven-plugin</artifactId>
                     <configuration>
-                        <!-- A device holds several documents, some in subfolders (the IFU). Keep that layout in the
-                             HTML output so the DeX record's links to them resolve. -->
+                        <!-- Assemblies currently sit directly in src/docs/asciidoc/. Should a document ever sit in a
+                             subfolder, keep that layout in the HTML output so the DeX record's links to it resolve. -->
                         <preserveDirectories>true</preserveDirectories>
                     </configuration>
                 </plugin>

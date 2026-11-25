@@ -27,7 +27,7 @@ Reviewer Sign-off Date::
 == Record Identifiers
 
 Each Semantic in the record has its own identifier.
-UUIDs are taken from the change set exported from Komet (10-29-2026-DeXRecord-XpertXpressCov2Plus-07332940008581).
+UUIDs are taken from the change set exported from Komet (XpertXpressCov2Plus-07332940008581-DeXRecord-ike-cs.zip, exported 10-29-2026).
 The record contains {semantic-count} Semantics:
 eight at the device scope, and five for each of the two tests performed.
 

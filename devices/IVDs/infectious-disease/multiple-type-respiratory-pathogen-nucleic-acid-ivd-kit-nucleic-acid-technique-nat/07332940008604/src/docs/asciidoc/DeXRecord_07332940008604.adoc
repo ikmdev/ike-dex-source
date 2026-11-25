@@ -11,7 +11,7 @@
 :src-gudid-id: gudid-07332940008604
 :src-510k: 510kDecisionSum_K231481.adoc
 :src-510k-id: dex-k231481
-:src-ifu: xpert-xpress-cov-2-flu-rsv-plus/xpert-xpress-cov-2-flu-rsv-plus-ifu.adoc
+:src-ifu: xpert-xpress-cov-2-flu-rsv-plus-ifu.adoc
 
 [abstract]
 DeX record for the Cepheid GeneXpert Xpert Xpress CoV-2/Flu/RSV plus test.

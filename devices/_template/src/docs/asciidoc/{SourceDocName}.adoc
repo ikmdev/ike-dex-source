@@ -15,8 +15,8 @@
 :imagesdir: {topics}/images
 
 // TEMPLATE: one reconstruction assembly per ingested source document (IKE-ASSEMBLY). Copy it once per document.
-// Name the file exactly as the DeX record's :src-*: attribute does (a subfolder is fine, for example
-// {slug}/{slug}-ifu.adoc) so the record's links resolve.
+// Name the file exactly as the DeX record's :src-*: attribute does (for example {slug}-ifu.adoc) so the
+// record's links resolve. Keep every assembly directly in src/docs/asciidoc/, with no subfolders.
 // The topic carries its own numbering and lettering: do not set :sectnums:.
 // ext/ topics may be included here because this is a reconstruction (IKE-ASSEMBLY forbids it elsewhere).
 
